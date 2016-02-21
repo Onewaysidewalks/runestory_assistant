@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://shironeko.me/character_list" />
+<meta property="og:title" content="白猫プロジェクト攻略wiki | 究極攻略DB" />
+<meta property="og:description" content="" />
+<title>白猫プロジェクト攻略wiki | 究極攻略DB</title>
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/common.css?ver=79" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://shironeko.me/rss" />
+<link rel="shortcut icon" type="images/ico" href="http://s.shironeko.me/img/favicon.ico" />
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/js/common.js?ver=3" type="text/javascript"></script>
+<script src="/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="/js/jquery.accordion.js?ver=3" type="text/javascript"></script>
+<script type="text/javascript">
+var is_android = 0;var is_ios = 0;</script>
+
+<style>
+table{width:100%;}
+td{text-align:left!important;}
+.character:hover{cursor:pointer;}
+.hint{line-height:1.2;margin-top:4px;}
+.fs14{line-height:1.2;}
+.sort_button{width:100%!important;}
+.sort_button li {width:auto!important;min-width:60px;}
+.sort_button a{color:black!important;padding-left:8px;padding-right:8px;}
+</style>
+
+<meta name="google-translate-customization" content="f12a92544323a1a3-b16ebba3885ba050-g749a0d0732180d21-c"></meta>
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div id="container">
+
+		<!-- header -->
+		<div id="header">
+			<div>
+				<div style="float:right;margin-top:8px;">
+					<div id="google_translate_element"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage: 'ja', includedLanguages: 'en,ja,ko,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-49507446-3'}, 'google_translate_element');}</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+				<a href="/">
+					<img src="http://s.shironeko.me/img/shironeko_icon.png" alt="白猫プロジェクト 究極攻略DB" />
+									<span>白猫プロジェクト 究極攻略DB</span>
+								</a>
+			</div>
+		</div>
+
+		<!-- contents -->
+		<div id="contents">
+					<div id="right">
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3859050685269056";
+/* p_shironekodb_160x600_right1st_11224 */
+google_ad_slot = "3433725794";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+	</div>
+
+
+			<!-- main -->
+			<div id="main">
+			 				<div id="main2">
+					
+<div style="margin-top:-10px;">
+<ul class="social_button">
+	<!-- FB -->
+	<li style="width:105px;height:25px;">
+		<div class="fb-like" data-href="http://shironeko.me/character_list" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+	</li>
+	<!-- Twitter -->
+	<li>
+		<a class="tweet" href="http://twitter.com/share?text=白猫プロジェクト攻略wiki | 究極攻略DB&url=http://shironeko.me/character_list&hashtags=白猫,白猫プロジェクト" onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow">ツイート</a>
+	</li>
+</ul>
+</div>
+<h1>キャラクター図鑑</h1>
+<form action="character_list" id="search_form">
+	<input type="hidden" name="sort" value="rare" />
+	<input type="hidden" name="disp" value="" />
+	<input type="hidden" name="id" value="" />
+	<ul class="sort_button mt5 mb15">
+			<li><a href="character_list?id=0">すべて</a></li>
+			<li><a href="character_list?id=1">剣士</a></li>
+			<li><a href="character_list?id=4">武闘家</a></li>
+			<li><a href="character_list?id=3">ウォリアー</a></li>
+			<li><a href="character_list?id=2">ランサー</a></li>
+			<li><a href="character_list?id=5">アーチャー</a></li>
+			<li><a href="character_list?id=6">魔道士</a></li>
+			<li><a href="character_list?id=7">クロスセイバー</a></li>
+			<li><a href="character_list?id=8">ドラゴンライダー</a></li>
+		</ul>
+	<table>
+		<tr>
+			<th>レア度</th>
+			<td>
+				<input type="hidden" name="rare" value="" />
+				<ul class="rare_list">
+														<li class="" data-value="4">★4</li>
+														<li class="" data-value="3">★3</li>
+														<li class="" data-value="2">★2</li>
+														<li class="" data-value="1">★1</li>
+								</ul>
+			</td>
+		</tr>
+		<tr>
+			<th>タイプ</th>
+			<td>
+				<select name="type">
+					<option value="">すべて</option>
+								</select>
+			</td>
+		</tr>
+		<tr>
+			<th>その他</th>
+			<td>
+				<input type="hidden" name="other" value="" />
+				<ul class="other_list">
+					<li class="" data-value="is_real_gacha">ガチャで入手可</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<input type="button" value="検索" id="search" />
+</form>
+
+<div>
+	<div>検索結果：件</div>
+	<div class="search_result_header" style="width:100%;">
+		<ul class="disp_select">
+			<li data-disp="" class="selected">Lv100</li>
+			<li data-disp="limit" >限界4凸</li>
+			<li data-disp="leader" >リーダーS</li>
+			<li data-disp="action" >アクションS</li>
+		</ul>
+		<div class="disp_order">
+			表示順：
+			<select class="sort_select">
+				<option data-href="rare" >レア度順</option>
+				<option data-href="new" >新着順</option>
+				<option data-href="hp" >HP順</option>
+				<option data-href="sp" >SP順</option>
+				<option data-href="attack" >攻撃順</option>
+				<option data-href="defense" >防御順</option>
+				<option data-href="critical" >会心順</option>
+			</select>
+		</div>
+	</div>
+</div>
+<div>
+	<table>
+		<tr>
+			<th></th>
+			<th class="p0"></th>
+			<th>名前</th>
+			<th>HP</th>
+			<th>SP</th>
+			<th>攻撃</th>
+			<th>防御</th>
+			<th>会心</th>
+			<th>オートスキル</th>
+		</tr>
+	</table>
+	<div class="hint mb2" style="margin-top:8px;">
+		<span>※<div class="gacha"></div>は現在のガチャで入手可能なキャラクター</span><br />
+		<span class="auto_skill_status">※橙文字はオートスキルの効果を加算した値</span><br />
+	</div>
+		<br />
+</div>
+
+				</div>
+			</div>
+
+			<!-- menu -->
+			<div id="menu">
+				<div class="title acButton open" data-id="m0">おすすめ情報<img src="http://s.shironeko.me/img/minus_w.png"></div>
+				<ul class="type-a acContents" >
+									<li><a href="/article?id=22224">イベントルーン必要数まとめ</a></li>
+									<li><a href="/chara_gacha">ガチャシミュレーター(黒猫キャラ追加！)</a></li>
+									<li><a href="/resemara">最新リセマラランキング</a></li>
+									<li><a href="/article?id=10589">今後のスケジュール(2/10更新)</a></li>
+								</ul>
+				<div class="title acButton open" data-id="m1">開催中のイベント<img src="http://s.shironeko.me/img/minus_w.png"></div>
+				<ul class="image_list acContents" >
+												<li>
+						<a href="/quest?id=115" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/43" alt="黒猫×プロジェクト" />
+							<div class="center">
+								<div class="main">黒猫×プロジェクト</div>
+								<div class="sub">2016/03/22 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=115">攻略まとめ</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=302" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/227" alt="[協力]輝け、あまふわラヴリーハート" />
+							<div class="center">
+								<div class="main">[協力]輝け、あまふわラヴリーハート</div>
+								<div class="sub">2016/03/22 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=302">攻略まとめ</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=144" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/72" alt="白黒フェスティバル" />
+							<div class="center">
+								<div class="main">白黒フェスティバル</div>
+								<div class="sub">2016/03/22 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=144">攻略</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=157" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/85" alt="チョコレート・パニック!?" />
+							<div class="center">
+								<div class="main">チョコレート・パニック!?</div>
+								<div class="sub">2016/03/02 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=157">攻略</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=301" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/226" alt="[協力]チョコレートパニック！？" />
+							<div class="center">
+								<div class="main">[協力]チョコレートパニック！？</div>
+								<div class="sub">2016/03/02 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=301">攻略＆報酬一覧</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=174" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/105" alt="マッハスピードレコーダーズ！" />
+							<div class="center">
+								<div class="main">マッハスピードレコーダーズ！</div>
+								<div class="sub">2016/02/24 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=174">攻略</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=300" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/225" alt="[呪槍]The Shining Shadow ～叛逆の槍を弾く鏡～" />
+							<div class="center">
+								<div class="main">[呪槍]The Shining Shadow ～叛逆の槍を弾く鏡～</div>
+								<div class="sub">2016/02/29 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=300">攻略</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=299" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/224" alt="[協力]届け、ときめきスイートハート" />
+							<div class="center">
+								<div class="main">[協力]届け、ときめきスイートハート</div>
+								<div class="sub">2016/03/22 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=299">攻略まとめ</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=298" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/223" alt="ハッピースイーツフェスティバル！" />
+							<div class="center">
+								<div class="main">ハッピースイーツフェスティバル！</div>
+								<div class="sub">2016/03/22 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=298">白猫ｘ黒猫ｘグリコ</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=219" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/143" alt="[協力]全員出席！茶熊学園" />
+							<div class="center">
+								<div class="main">[協力]全員出席！茶熊学園</div>
+								<div class="sub">2016/03/31 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=219">攻略</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=202" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/129" alt="[外伝]私立茶熊学園2015" />
+							<div class="center">
+								<div class="main">[外伝]私立茶熊学園2015</div>
+								<div class="sub">2016/03/31 15:59まで</div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=202">攻略</a>
+													</div>
+					</li>
+									<li>
+						<a href="/quest?id=231" class="chapter">
+							<img src="http://s.shironeko.me/img/chapter/thumb/154" alt="記念クエスト/キャンペーン" />
+							<div class="center">
+								<div class="main">記念クエスト/キャンペーン</div>
+								<div class="sub"></div>
+							</div>
+													</a>
+						<div class="quest_list">
+															<a href="/quest?id=231">報酬まとめ</a>
+													</div>
+					</li>
+												<li style="background:url(http://s.shironeko.me/img/navi.gif) no-repeat 18px 7px!important;"><a href="/event_list" style="padding:3px 5px 2px 30px;">過去のイベントを見る</a></li>
+				</ul>
+				<div class="title acButton open" data-id="m3">掲示板/グループ<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+									<li><a href="bbs_invitation">協力バトル募集板</a></li>
+									<li><a href="group_list">白猫グループ</a></li>
+									<li><a href="/bbs?id=1">雑談板 (312509)</a></li>
+									<li><a href="/bbs?id=4">質問板 (75617)</a></li>
+									<li><a href="/bbs?id=6">愚痴板 (206972)</a></li>
+									<li><a href="/bbs?id=7">感想板 (17775)</a></li>
+									<li><a href="/bbs?id=9">相互フォロー板 (3029760)</a></li>
+									<li><a href="/bbs?id=14">相互フォロー板 URLなし (147077)</a></li>
+									<li><a href="/bbs?id=10">相互フォロー板 固定メンバー (244552)</a></li>
+									<li><a href="/bbs?id=15">メンバー募集板 (31894)</a></li>
+									<li><a href="/bbs?id=11">ガチャ報告板 (7258)</a></li>
+									<li><a href="/bbs?id=13">イラスト板 (4149)</a></li>
+								</ul>
+				<div class="title acButton open" data-id="m4">キャラクター<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+					<li><a href="/character_ranking?id=0">★4キャラ評価ランキング</a></li>
+									<li><a href="/character_list?id=1">剣士</a></li>
+									<li><a href="/character_list?id=4">武闘家</a></li>
+									<li><a href="/character_list?id=3">ウォリアー</a></li>
+									<li><a href="/character_list?id=2">ランサー</a></li>
+									<li><a href="/character_list?id=5">アーチャー</a></li>
+									<li><a href="/character_list?id=6">魔道士</a></li>
+									<li><a href="/character_list?id=7">クロスセイバー</a></li>
+									<li><a href="/character_list?id=8">ドラゴンライダー</a></li>
+								</ul>
+				<div class="title acButton open" data-id="m5">武器<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+					<li><a href="/weapon_skill_list?id=1">武器スキル一覧</a></li>
+									<li><a href="/weapon_list?id=1">剣：剣士</a></li>
+									<li><a href="/weapon_list?id=4">拳：武闘家</a></li>
+									<li><a href="/weapon_list?id=3">斧：ウォリアー</a></li>
+									<li><a href="/weapon_list?id=2">槍：ランサー</a></li>
+									<li><a href="/weapon_list?id=5">弓：アーチャー</a></li>
+									<li><a href="/weapon_list?id=6">杖：魔道士</a></li>
+									<li><a href="/weapon_list?id=7">双剣：クロスセイバー</a></li>
+									<li><a href="/weapon_list?id=8">竜：ドラゴンライダー</a></li>
+								</ul>
+												<div class="title acButton open" data-id="m6_0">アクセサリー・オファー<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+										<li><a href="/article?id=14096">アクセサリ一覧</a></li>
+										<li><a href="/article?id=14097">ギルドオファー一覧</a></li>
+									</ul>
+															<div class="title acButton open" data-id="m6_1">育成・周回<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+										<li><a href="/article?id=18">おすすめのルーン集め</a></li>
+										<li><a href="/article?id=15509">おすすめの武器ルーン集め</a></li>
+										<li><a href="/article?id=4812">おすすめの親密度/経験値稼ぎ</a></li>
+										<li><a href="/article?id=89">おすすめのソウル・ゴールド稼ぎ</a></li>
+										<li><a href="/article?id=112">協力バトルの報酬一覧</a></li>
+									</ul>
+															<div class="title acButton open" data-id="m6_2">モンスター<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+										<li><a href="/article?id=19491">ザコモンスター</a></li>
+										<li><a href="/article?id=84">ボスモンスター</a></li>
+										<li><a href="/article?id=82">特攻スキル一覧</a></li>
+									</ul>
+															<div class="title acButton open" data-id="m6_3">タウン<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+										<li><a href="/article?id=48">タウン建物</a></li>
+										<li><a href="/article?id=66">タウンミッション</a></li>
+										<li><a href="/article?id=50">タウンMAXでの上昇値（2/19更新）</a></li>
+									</ul>
+															<div class="title acButton open" data-id="m6_4">基本情報<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-a acContents" >
+										<li><a href="/article?id=9296">剣士の固有アクション</a></li>
+										<li><a href="/article?id=25540">ランサーの固有アクション</a></li>
+										<li><a href="/article?id=15300">SP回復量(SPR)について</a></li>
+										<li><a href="/article?id=11173">シンフォニーパワーの効果</a></li>
+										<li><a href="/article?id=7782">状態異常</a></li>
+										<li><a href="/article?id=157">ダメージ計算</a></li>
+										<li><a href="/article?id=5">友情覚醒と限界突破</a></li>
+										<li><a href="/article?id=90">島コンプリート報酬</a></li>
+										<li><a href="/article?id=55">ヌルサク端末一覧と改善対策</a></li>
+										<li><a href="/article?id=32">豆知識</a></li>
+										<li><a href="/article?id=54">よくある質問</a></li>
+									</ul>
+									<div class="title acButton open" data-id="m7">クエスト<img src="http://s.shironeko.me/img/minus_w.png" style="float:right;"></div>
+				<ul class="type-b acContents" >
+									<li class="title acButton " data-id="m7_2">島クエスト</li>
+					<li class="acContents close">
+						<ul class="image_list">
+													<li>
+								<a href="/quest?id=248" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/171" alt="第9章ジモ島" />
+									<div class="center">
+																				<div class="main">第9章ジモ島</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=248">攻略</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=169" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/100" alt="第8章スキエンティア" />
+									<div class="center">
+																				<div class="main">第8章スキエンティア</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=169">攻略</a>
+																</div>
+							</li>
+												</ul>
+					</li>
+									<li class="title acButton " data-id="m7_5">協力バトル</li>
+					<li class="acContents close">
+						<ul class="image_list">
+													<li>
+								<a href="" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/10" alt="協力バトル" />
+									<div class="center">
+																				<div class="main">協力バトル</div>
+																			</div>
+																	<div class="right">
+										<span>10</span>
+									</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=271">★11攻略</a>
+																	<a href="/quest?id=254">★10攻略</a>
+																	<a href="/quest?id=205">★10：溟海より来襲せし変異種</a>
+																	<a href="/quest?id=185">★10：虚無の遺跡を蝕む慟哭の攻略</a>
+																	<a href="/quest?id=206">★3～9：タイムチャレンジ</a>
+																	<a href="/quest?id=73">★9攻略</a>
+																	<a href="/quest?id=72">★8攻略</a>
+																	<a href="/quest?id=118">★7攻略</a>
+																	<a href="/quest?id=117">★6攻略</a>
+																	<a href="/quest?id=141">★5攻略</a>
+																</div>
+							</li>
+													<li>
+								<a href="" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/35" alt="[2人]激闘クエスト" />
+									<div class="center">
+																				<div class="main">[2人]激闘クエスト</div>
+																			</div>
+																	<div class="right">
+										<span>6</span>
+									</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=238">★10：君とあなたの大大ダイナミック！/狂想サティスファクション！</a>
+																	<a href="/quest?id=106">★9：熱き絆のレボリューション！/不朽不滅のフレンドシップ！/友情のブレイクスルー！</a>
+																	<a href="/quest?id=100">★8：青天井のラビリントス/貴き怒号のコンツェルト</a>
+																	<a href="/quest?id=176">★7：響け世界樹ハーモニー！</a>
+																	<a href="/quest?id=175">★6：強行奮闘マリンウォーズ！</a>
+																	<a href="/quest?id=155">★5：二人のスタンドアップ！</a>
+																</div>
+							</li>
+												</ul>
+					</li>
+									<li class="title acButton " data-id="m7_1">曜日クエスト</li>
+					<li class="acContents close">
+						<ul class="image_list">
+													<li>
+								<a href="/quest?id=77" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/17" alt="月曜の紫水晶" />
+									<div class="center">
+																				<div class="main">月曜の紫水晶</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=77">絶級～破滅級</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=26" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/16" alt="火曜の赤き煉獄" />
+									<div class="center">
+																				<div class="main">火曜の赤き煉獄</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=26">絶級～破滅級</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=80" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/15" alt="水曜の青き滝" />
+									<div class="center">
+																				<div class="main">水曜の青き滝</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=80">絶級～破滅級</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=82" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/14" alt="木曜の緑突風" />
+									<div class="center">
+																				<div class="main">木曜の緑突風</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=82">絶級～破滅級</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=84" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/13" alt="金曜の黄迷宮" />
+									<div class="center">
+																				<div class="main">金曜の黄迷宮</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=84">絶級～破滅級</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=86" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/12" alt="土曜の橙山岳" />
+									<div class="center">
+																				<div class="main">土曜の橙山岳</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=86">絶級～破滅級</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=88" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/11" alt="日曜のハッピーサンデー" />
+									<div class="center">
+																				<div class="main">日曜のハッピーサンデー</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=88">攻略</a>
+																</div>
+							</li>
+													<li>
+								<a href="/quest?id=93" class="chapter">
+									<img src="http://s.shironeko.me/img/chapter/thumb/9" alt="特別訓練ソウルラッシュ" />
+									<div class="center">
+																				<div class="main">特別訓練ソウルラッシュ</div>
+																			</div>
+																</a>
+								<div class="quest_list">
+																	<a href="/quest?id=93">絶級：もっと！ソウルラッシュ！！</a>
+																</div>
+							</li>
+												</ul>
+					</li>
+								</ul>
+				<div class="title acButton open" data-id="m8">リンク<img src="http://s.shironeko.me/img/minus_w.png"></div>
+				<ul class="type-a acContents" >
+					<li><a href="http://www.dopr.net/shironekoproinfo/" target="_blank">無課金＆リセマラなし 白猫プロジェクト攻略</a></li>
+					<li><a href="http://shironekoproject.gamerch.com/" target="_blank">白猫プロジェクトwiki</a></li>
+				</ul>
+			</div>
+			<br style="clear:both;" />
+<div style="text-align:center;margin:0px auto;padding:10px;" class="clearfix" id="ads2">
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3859050685269056";
+/* p_shironekodb_300x250_footer1_11224 */
+google_ad_slot = "7863849434";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-3859050685269056";
+/* p_shironekodb_300x250_footer2_11224 */
+google_ad_slot = "9340557314";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+		</div>
+		<div id="footer">
+			<div class="footer_menu">
+				<div class="game_menu">
+					<div class="title"><a href="http://9db.jp/">究極攻略DB</a></div>
+					<ul>
+						<li>
+							<a href="/">白猫プロジェクト</a>
+													</li>
+											<li>
+							<a href="http://9db.jp/mh-xr/">モンスターハンター エクスプロア</a>
+													</li>
+											<li>
+							<a href="http://9db.jp/デレステ/">デレステ</a>
+													</li>
+										</ul>
+				</div>
+				<div class="other_menu">
+					<a href="/rule">利用規約</a> | <a href="/support">お問い合わせ</a>
+				</div>
+			</div>
+			<div class="copyright">
+				(c) 08 LLC All Rights Reserved.
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript">
+$(function() {
+	// 検索
+	$("#search_form li").on("click",function(){
+		$(this).toggleClass("selected");
+	});
+	$(document).on("change","#search_form select",function(event){
+		if($(this).val() != ""){
+			$(this).addClass("selected");
+		}else{
+			$(this).removeClass("selected");
+		}
+
+	});
+	$("#search").on("click",function() {
+		$.each($(".rare_list li.selected"), function(i, v) {
+			if (i == 0) {
+				$("[name=rare]").val($(this).attr("data-value"));
+			} else {
+				tmp = $("[name=rare]").val() + ',' + $(this).attr("data-value");
+				$("[name=rare]").val(tmp);
+			}
+		});
+		$.each($(".other_list li.selected"), function(i, v) {
+			if (i == 0) {
+				$("[name=other]").val($(this).attr("data-value"));
+			} else {
+				tmp = $("[name=rare]").val() + ',' + $(this).attr("data-value");
+				$("[name=rare]").val(tmp);
+			}
+		});
+		$("#search_form").submit();
+	});
+	$(".disp_select li").on("click",function(){
+		$("[name=disp]").val($(this).attr("data-disp"));
+		$("#search").trigger("click");
+	});
+	// 表示順
+	$(".sort_select").on("change",function(){
+		$("[name=sort]").val($(".sort_select option:selected").attr("data-href"));
+		$("#search").trigger("click");
+	});
+	// キャラ選択
+	$(".character").on("click", function() {
+		if ($(this).find("a")) {
+			location.href = $(this).find("a").attr("href");
+		}
+	});
+});
+</script>
+
+	<script type="text/javascript">
+		$(function() {
+			$('#menu .chapter').on('click',function(event){
+				event.preventDefault();
+				var quest = $(this).next();
+				if(quest.children("a").size() == 1){
+					location.href = quest.children("a").attr('href');
+				}else{
+					quest.toggle();
+				}
+			});
+		});
+	</script>
+
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-49507446-3', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</body>
+</html>
