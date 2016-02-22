@@ -1,0 +1,5 @@
+# NOTE: Example Entry for an override.
+Characters:
+  Fencer:
+    '314':
+      RawName: 'アルカ・アトレイア'

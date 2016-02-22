@@ -27,6 +27,7 @@ The purpose of this piece of the assistant is to fix and/or correct any data pro
 The overrides are done using basic yaml file merging, and taking precedence to the override.yaml. Note: the merging is done in a strictly add/replace manner, so nothing can be removed with the override file.
 
 Tech used for this:
+
 1. Python - again, one of my first python forays, so be gentle!
 2. Pyyaml - seems to be a pretty standard way of manipulating yaml files in pythong
 

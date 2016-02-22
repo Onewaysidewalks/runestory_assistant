@@ -41,7 +41,6 @@ def getCharacters():
                         characters.append(character)
                     else:
                         break #if there are no character rows, break the iteration early
-
     return characters
 
 def saveCharactersToFile(location, characters):
@@ -49,13 +48,15 @@ def saveCharactersToFile(location, characters):
     #we must group together each character by its class
 
     characterFileData = dict()
+    characterFileData['Characters'] = dict() #root level for character data
 
     #initialize the data with empty lists for each class
     for classId in CHARACTER_CLASSES:
-        characterFileData[models.getClassFromId(classId)] = []
+        characterFileData['Characters'][models.getClassFromId(classId)] = dict()
 
     for character in characters:
-        characterFileData[models.getClassFromId(character.ClassId)].append(character)
+        if hasattr(character, 'Name'):
+            characterFileData['Characters'][character.Class]['%s' % (character.Id)] = character
 
     #Now write the file in all its yamlly glory (first creating the directory if necessary)
     if not os.path.exists(os.path.dirname(location)):
@@ -65,7 +66,7 @@ def saveCharactersToFile(location, characters):
             if exc.errno != errno.EEXIST:
                 raise
     with open(location, 'w') as yaml_file: #We use safe_dump, to remove the !!python declarations from the file
-        yaml_file.write(yaml.dump(characterFileData, default_flow_style=False, encoding=('utf-8'), allow_unicode=True))
+        yaml_file.write(yaml.dump(characterFileData, encoding='utf-8', default_flow_style=False, allow_unicode=True))
 
 
 def translateCharacters(characters, language):
@@ -77,6 +78,9 @@ def translateCharacters(characters, language):
     service = build('translate', 'v2', developerKey=apiKey)
 
     for character in characters:
+
+        print 'performing translations for character id:%s' % character.Id
+
         #Format is name##passive##passive##passive...
         rawPayload = '%s##' % character.RawName
         for passive in character.Passives:

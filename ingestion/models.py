@@ -82,7 +82,7 @@ class Character(object):
                     for span in tableCell.find_all('span'):
                         passive = span.string
                         if passive: #This will be empty if a character has less than three passives
-                            self.Passives.append(passive.encode('utf-8'))
+                            self.Passives.append(passive.encode('utf-8').strip())
             except:
                 print "Offending Html Element %s" % htmlElement
                 print "Offending tableCell %s" % tableCell
