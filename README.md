@@ -55,6 +55,7 @@ To run the ingestion piece:
 TODO
 
 ### Website
-To deploy the website:
+To deploy the website a few scripts have been provided for convenience:
 
-  ```git push heroku master (and heroku ps:scale web=1 ONLY on first time)```
+1. To deploy: `./deploy.sh`
+2. To teardown: `./teardown.sh`
