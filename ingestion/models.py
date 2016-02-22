@@ -2,11 +2,11 @@ def getClassFromId(id):
     if id is 1:
         return "Fencer"
     if id is 2:
-        return "Brawler"
+        return "Lancer"
     if id is 3:
         return "Warrior"
     if id is 4:
-        return "Lancer"
+        return "Brawler"
     if id is 5:
         return "Sniper"
     if id is 6:
