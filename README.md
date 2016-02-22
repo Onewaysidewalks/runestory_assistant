@@ -50,3 +50,11 @@ To run the ingestion piece:
   - this MUST be done in order to get translations to work for ingestion
 3. `python -u ingestion/shironeko_scraper.py`
   - Once properly configured, this will run and output a file to `build/basedata.yaml`. This file will be the fully translated raw baseline data
+
+### Overrides
+TODO
+
+### Website
+To deploy the website:
+
+  ```git push heroku master (and heroku ps:scale web=1 ONLY on first time)```

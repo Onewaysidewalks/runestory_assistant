@@ -1,0 +1,7210 @@
+Characters:
+  Brawler:
+    '104': !!python/object:models.Character
+      Attack: '365'
+      Class: Brawler
+      ClassId: 2
+      Crit: '74'
+      Defense: '207'
+      HP: '519'
+      IconUrl: http://s.shironeko.me/img/character/s/104
+      Id: '104'
+      IngestionUrl: /character?id=104
+      Name: Maurizio
+      Passives:
+      - instant death avoided
+      - attack +20%
+      - in the attack +15%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'マウリツィオ'
+      SP: '118'
+      Type: Balance
+      TypeId: 5
+    '114': !!python/object:models.Character
+      Attack: '342'
+      Class: Brawler
+      ClassId: 2
+      Crit: '73'
+      Defense: '185'
+      HP: '499'
+      IconUrl: http://s.shironeko.me/img/character/s/114
+      Id: '114'
+      IngestionUrl: /character?id=114
+      Name: Anna (Xmas)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アンナ(Xmas)'
+      SP: '140'
+      Type: Skill
+      TypeId: 6
+    '119': !!python/object:models.Character
+      Attack: '281'
+      Class: Brawler
+      ClassId: 2
+      Crit: '74'
+      Defense: '198'
+      HP: '468'
+      IconUrl: http://s.shironeko.me/img/character/s/119
+      Id: '119'
+      IngestionUrl: /character?id=119
+      Name: Isabella
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'イザベラ'
+      SP: '162'
+      Type: Skill
+      TypeId: 6
+    '126': !!python/object:models.Character
+      Attack: '331'
+      Class: Brawler
+      ClassId: 2
+      Crit: '76'
+      Defense: '181'
+      HP: '502'
+      IconUrl: http://s.shironeko.me/img/character/s/126
+      Id: '126'
+      IngestionUrl: /character?id=126
+      Name: Iria (New Year)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'イリア(正月)'
+      SP: '138'
+      Type: Attacker
+      TypeId: 7
+    '135': !!python/object:models.Character
+      Attack: '318'
+      Class: Brawler
+      ClassId: 2
+      Crit: '77'
+      Defense: '186'
+      HP: '560'
+      IconUrl: http://s.shironeko.me/img/character/s/135
+      Id: '135'
+      IngestionUrl: /character?id=135
+      Name: Eshiria
+      Passives:
+      - SP + 15%
+      - HP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'エシリア'
+      SP: '155'
+      Type: Support
+      TypeId: 3
+    '139': !!python/object:models.Character
+      Attack: '375'
+      Class: Brawler
+      ClassId: 2
+      Crit: '69'
+      Defense: '183'
+      HP: '500'
+      IconUrl: http://s.shironeko.me/img/character/s/139
+      Id: '139'
+      IngestionUrl: /character?id=139
+      Name: Riveta
+      Passives:
+      - attack +15%
+      - attack +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'リヴェータ'
+      SP: '131'
+      Type: Attacker
+      TypeId: 7
+    '147': !!python/object:models.Character
+      Attack: '301'
+      Class: Brawler
+      ClassId: 2
+      Crit: '70'
+      Defense: '203'
+      HP: '577'
+      IconUrl: http://s.shironeko.me/img/character/s/147
+      Id: '147'
+      IngestionUrl: /character?id=147
+      Name: Andrew
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - flame attribute damage +50%
+      Rarity: '4'
+      RawName: !!python/str 'アンドリュー'
+      SP: '149'
+      Type: Technical
+      TypeId: 4
+    '154': !!python/object:models.Character
+      Attack: '349'
+      Class: Brawler
+      ClassId: 2
+      Crit: '67'
+      Defense: '242'
+      HP: '494'
+      IconUrl: http://s.shironeko.me/img/character/s/154
+      Id: '154'
+      IngestionUrl: /character?id=154
+      Name: Galea
+      Passives:
+      - SP + 15%
+      - defense +15% +20%
+      - attack
+      Rarity: '4'
+      RawName: !!python/str 'ガレア'
+      SP: '161'
+      Type: Balance
+      TypeId: 5
+    '160': !!python/object:models.Character
+      Attack: '331'
+      Class: Brawler
+      ClassId: 2
+      Crit: '64'
+      Defense: '205'
+      HP: '587'
+      IconUrl: http://s.shironeko.me/img/character/s/160
+      Id: '160'
+      IngestionUrl: /character?id=160
+      Name: Shura
+      Passives:
+      - HP + 15%
+      - '%'
+      - +15 attack the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'シュラ'
+      SP: '127'
+      Type: Technical
+      TypeId: 4
+    '162': !!python/object:models.Character
+      Attack: '223'
+      Class: Brawler
+      ClassId: 2
+      Crit: '61'
+      Defense: '148'
+      HP: '418'
+      IconUrl: http://s.shironeko.me/img/character/s/162
+      Id: '162'
+      IngestionUrl: /character?id=162
+      Name: Lute
+      Passives:
+      - SP consumption -15%
+      - SP consumption -15%
+      Rarity: '1'
+      RawName: !!python/str 'リュート'
+      SP: '92'
+      Type: Skill
+      TypeId: 6
+    '168': !!python/object:models.Character
+      Attack: '386'
+      Class: Brawler
+      ClassId: 2
+      Crit: '85'
+      Defense: '241'
+      HP: '713'
+      IconUrl: http://s.shironeko.me/img/character/s/168
+      Id: '168'
+      IngestionUrl: /character?id=168
+      Name: Anna (Shinki released)
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アンナ(神気解放)'
+      SP: '127'
+      Type: Balance
+      TypeId: 5
+    '173': !!python/object:models.Character
+      Attack: '298'
+      Class: Brawler
+      ClassId: 2
+      Crit: '57'
+      Defense: '262'
+      HP: '476'
+      IconUrl: http://s.shironeko.me/img/character/s/173
+      Id: '173'
+      IngestionUrl: /character?id=173
+      Name: Furoria
+      Passives:
+      - defense +15%
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'フローリア'
+      SP: '142'
+      Type: Defense
+      TypeId: 2
+    '182': !!python/object:models.Character
+      Attack: '354'
+      Class: Brawler
+      ClassId: 2
+      Crit: '59'
+      Defense: '208'
+      HP: '522'
+      IconUrl: http://s.shironeko.me/img/character/s/182
+      Id: '182'
+      IngestionUrl: /character?id=182
+      Name: ChibiFutoshi
+      Passives:
+      - attack +15%
+      - the damage -15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ちび太'
+      SP: '133'
+      Type: Technical
+      TypeId: 4
+    '190': !!python/object:models.Character
+      Attack: '313'
+      Class: Brawler
+      ClassId: 2
+      Crit: '59'
+      Defense: '150'
+      HP: '512'
+      IconUrl: http://s.shironeko.me/img/character/s/190
+      Id: '190'
+      IngestionUrl: /character?id=190
+      Name: Yui
+      Passives:
+      - attack +15%
+      - SP consumption -15%
+      - !!python/str 'the number of skill type party × SP defense 8% strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'ユイ'
+      SP: '138'
+      Type: Skill
+      TypeId: 6
+    '199': !!python/object:models.Character
+      Attack: '298'
+      Class: Brawler
+      ClassId: 2
+      Crit: '67'
+      Defense: '170'
+      HP: '450'
+      IconUrl: http://s.shironeko.me/img/character/s/199
+      Id: '199'
+      IngestionUrl: /character?id=199
+      Name: Sophie (brown bear) Strengthening attack defense satisfaction 50%
+      Passives:
+      - HP70% more than
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ソフィ(茶熊)'
+      SP: '165'
+      Type: Support
+      TypeId: 3
+    '205': !!python/object:models.Character
+      Attack: '334'
+      Class: Brawler
+      ClassId: 2
+      Crit: '84'
+      Defense: '276'
+      HP: '704'
+      IconUrl: http://s.shironeko.me/img/character/s/205
+      Id: '205'
+      IngestionUrl: /character?id=205
+      Name: Chitcho (Shinki release)
+      Passives:
+      - HP + 15%
+      - '%'
+      - +15 defense the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'チッチョ(神気解放)'
+      SP: '127'
+      Type: Defense
+      TypeId: 2
+    '210': !!python/object:models.Character
+      Attack: '310'
+      Class: Brawler
+      ClassId: 2
+      Crit: '65'
+      Defense: '209'
+      HP: '509'
+      IconUrl: http://s.shironeko.me/img/character/s/210
+      Id: '210'
+      IngestionUrl: /character?id=210
+      Name: Risuri
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP + 15%
+      - lightning damage +50%
+      Rarity: '4'
+      RawName: !!python/str 'リスリー'
+      SP: '154'
+      Type: Technical
+      TypeId: 4
+    '219': !!python/object:models.Character
+      Attack: '345'
+      Class: Brawler
+      ClassId: 2
+      Crit: '55'
+      Defense: '249'
+      HP: '517'
+      IconUrl: http://s.shironeko.me/img/character/s/219
+      Id: '219'
+      IngestionUrl: /character?id=219
+      Name: Inherumina (Summer)
+      Passives:
+      - the damage -15%
+      - attack +15% +20%
+      - defense
+      Rarity: '4'
+      RawName: !!python/str 'インヘルミナ(サマー)'
+      SP: '138'
+      Type: Defense
+      TypeId: 2
+    '229': !!python/object:models.Character
+      Attack: '333'
+      Class: Brawler
+      ClassId: 2
+      Crit: '57'
+      Defense: '220'
+      HP: '503'
+      IconUrl: http://s.shironeko.me/img/character/s/229
+      Id: '229'
+      IngestionUrl: /character?id=229
+      Name: Eberhard
+      Passives:
+      - shield during SP recovery amount + 2
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'エーベルハルト'
+      SP: '141'
+      Type: Balance
+      TypeId: 5
+    '239': !!python/object:models.Character
+      Attack: '373'
+      Class: Brawler
+      ClassId: 2
+      Crit: '83'
+      Defense: '203'
+      HP: '489'
+      IconUrl: http://s.shironeko.me/img/character/s/239
+      Id: '239'
+      IngestionUrl: /character?id=239
+      Name: King
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - strengthening skills extension +10 seconds
+      Rarity: '4'
+      RawName: !!python/str 'キング'
+      SP: '147'
+      Type: Attacker
+      TypeId: 7
+    '248': !!python/object:models.Character
+      Attack: '352'
+      Class: Brawler
+      ClassId: 2
+      Crit: '81'
+      Defense: '270'
+      HP: '628'
+      IconUrl: http://s.shironeko.me/img/character/s/248
+      Id: '248'
+      IngestionUrl: /character?id=248
+      Name: Leonardo (Shinki release)
+      Passives:
+      - SP + 15%
+      - defense +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'レオナルド(神気解放)'
+      SP: '158'
+      Type: Balance
+      TypeId: 5
+    '261': !!python/object:models.Character
+      Attack: '273'
+      Class: Brawler
+      ClassId: 2
+      Crit: '79'
+      Defense: '202'
+      HP: '542'
+      IconUrl: http://s.shironeko.me/img/character/s/261
+      Id: '261'
+      IngestionUrl: /character?id=261
+      Name: Hina
+      Passives:
+      - SP consumption -15%
+      - SP + 15%
+      - operating system action skill damage +50%
+      Rarity: '4'
+      RawName: !!python/str 'ヒナ'
+      SP: '166'
+      Type: Technical
+      TypeId: 4
+    '266': !!python/object:models.Character
+      Attack: '309'
+      Class: Brawler
+      ClassId: 2
+      Crit: '61'
+      Defense: '214'
+      HP: '538'
+      IconUrl: http://s.shironeko.me/img/character/s/266
+      Id: '266'
+      IngestionUrl: /character?id=266
+      Name: Serra
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP consumption -15%
+      - back attack when the damage +200%
+      Rarity: '4'
+      RawName: !!python/str 'セラ'
+      SP: '140'
+      Type: Skill
+      TypeId: 6
+    '27': !!python/object:models.Character
+      Attack: '210'
+      Class: Brawler
+      ClassId: 2
+      Crit: '64'
+      Defense: '150'
+      HP: '440'
+      IconUrl: http://s.shironeko.me/img/character/s/27
+      Id: '27'
+      IngestionUrl: /character?id=27
+      Name: Dante
+      Passives:
+      - the damage -10%
+      - HP + 10%
+      Rarity: '1'
+      RawName: !!python/str 'ダンテ'
+      SP: '86'
+      Type: Defense
+      TypeId: 2
+    '276': !!python/object:models.Character
+      Attack: '351'
+      Class: Brawler
+      ClassId: 2
+      Crit: '87'
+      Defense: '264'
+      HP: '761'
+      IconUrl: http://s.shironeko.me/img/character/s/276
+      Id: '276'
+      IngestionUrl: /character?id=276
+      Name: Chelsea (Shinki release)
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'チェルシー(神気解放)'
+      SP: '156'
+      Type: Defense
+      TypeId: 2
+    '285': !!python/object:models.Character
+      Attack: '284'
+      Class: Brawler
+      ClassId: 2
+      Crit: '59'
+      Defense: '212'
+      HP: '530'
+      IconUrl: http://s.shironeko.me/img/character/s/285
+      Id: '285'
+      IngestionUrl: /character?id=285
+      Name: Aruzan (Revenge)
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アルザーン(リベンジ)'
+      SP: '184'
+      Type: Skill
+      TypeId: 6
+    '29': !!python/object:models.Character
+      Attack: '179'
+      Class: Brawler
+      ClassId: 2
+      Crit: '59'
+      Defense: '125'
+      HP: '351'
+      IconUrl: http://s.shironeko.me/img/character/s/29
+      Id: '29'
+      IngestionUrl: /character?id=29
+      Name: Ryokugyoku soldier
+      Passives:
+      - the damage -5%
+      Rarity: '2'
+      RawName: !!python/str '緑玉兵士'
+      SP: '73'
+      Type: Defense
+      TypeId: 2
+    '295': !!python/object:models.Character
+      Attack: '368'
+      Class: Brawler
+      ClassId: 2
+      Crit: '60'
+      Defense: '204'
+      HP: '533'
+      IconUrl: http://s.shironeko.me/img/character/s/295
+      Id: '295'
+      IngestionUrl: /character?id=295
+      Name: Kisaragi (hot spring)
+      Passives:
+      - SP + 15%
+      - attack consumption SP-30%
+      - at +15%
+      - HP50% or more
+      Rarity: '4'
+      RawName: !!python/str 'キサラギ(温泉)'
+      SP: '164'
+      Type: Skill
+      TypeId: 6
+    '300': !!python/object:models.Character
+      Attack: '437'
+      Class: Brawler
+      ClassId: 2
+      Crit: '81'
+      Defense: '250'
+      HP: '643'
+      IconUrl: http://s.shironeko.me/img/character/s/300
+      Id: '300'
+      IngestionUrl: /character?id=300
+      Name: Iria (Shinki released)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'イリア(神気解放)'
+      SP: '178'
+      Type: Attacker
+      TypeId: 7
+    '306': !!python/object:models.Character
+      Attack: '324'
+      Class: Brawler
+      ClassId: 2
+      Crit: '58'
+      Defense: '216'
+      HP: '555'
+      IconUrl: http://s.shironeko.me/img/character/s/306
+      Id: '306'
+      IngestionUrl: /character?id=306
+      Name: Merukurio (Xmas) Empower +100% of the enemy of the
+      Passives:
+      - combustion state
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'メルクリオ(Xmas)'
+      SP: '141'
+      Type: Attacker
+      TypeId: 7
+    '31': !!python/object:models.Character
+      Attack: '174'
+      Class: Brawler
+      ClassId: 2
+      Crit: '57'
+      Defense: '121'
+      HP: '341'
+      IconUrl: http://s.shironeko.me/img/character/s/31
+      Id: '31'
+      IngestionUrl: /character?id=31
+      Name: Seroshia
+      Passives:
+      - SP + 6%
+      Rarity: '2'
+      RawName: !!python/str 'セロシア'
+      SP: '75'
+      Type: Skill
+      TypeId: 6
+    '324': !!python/object:models.Character
+      Attack: '303'
+      Class: Brawler
+      ClassId: 2
+      Crit: '63'
+      Defense: '210'
+      HP: '525'
+      IconUrl: http://s.shironeko.me/img/character/s/324
+      Id: '324'
+      IngestionUrl: /character?id=324
+      Name: Coppelia
+      Passives:
+      - recovery Skills Enhancement +30%
+      - !!python/str 'the number of skill type party × consumption SP-5% / Skills
+        Enhancement +5%'
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'コッペリア'
+      SP: '151'
+      Type: Skill
+      TypeId: 6
+    '327': !!python/object:models.Character
+      Attack: '342'
+      Class: Brawler
+      ClassId: 2
+      Crit: '73'
+      Defense: '185'
+      HP: '626'
+      IconUrl: http://s.shironeko.me/img/character/s/327
+      Id: '327'
+      IngestionUrl: /character?id=327
+      Name: Anna (Xmas) (Shinki open)
+      Passives:
+      - attack +15%
+      - Normal SP recovery amount at the time of attack + 3
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アンナ(Xmas)(神気開放)'
+      SP: '169'
+      Type: Skill
+      TypeId: 6
+    '33': !!python/object:models.Character
+      Attack: '181'
+      Class: Brawler
+      ClassId: 2
+      Crit: '60'
+      Defense: '126'
+      HP: '375'
+      IconUrl: http://s.shironeko.me/img/character/s/33
+      Id: '33'
+      IngestionUrl: /character?id=33
+      Name: Fly height
+      Passives:
+      - HP + 6%
+      Rarity: '2'
+      RawName: !!python/str 'フライハイト'
+      SP: '74'
+      Type: Defense
+      TypeId: 2
+    '335': !!python/object:models.Character
+      Attack: '327'
+      Class: Brawler
+      ClassId: 2
+      Crit: '57'
+      Defense: '199'
+      HP: '548'
+      IconUrl: http://s.shironeko.me/img/character/s/335
+      Id: '335'
+      IngestionUrl: /character?id=335
+      Name: Dine (New Year)
+      Passives:
+      - SP consumption -15%
+      - movement speed and attack speed +30% in the HP50% more than
+      - water attribute damage +100%
+      Rarity: '4'
+      RawName: !!python/str 'ディーネ(正月)'
+      SP: '149'
+      Type: Skill
+      TypeId: 6
+    '339': !!python/object:models.Character
+      Attack: '455'
+      Class: Brawler
+      ClassId: 2
+      Crit: '88'
+      Defense: '223'
+      HP: '659'
+      IconUrl: http://s.shironeko.me/img/character/s/339
+      Id: '339'
+      IngestionUrl: /character?id=339
+      Name: Iria (New Year) (Shinki released)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'イリア(正月)(神気解放)'
+      SP: '185'
+      Type: Attacker
+      TypeId: 7
+    '35': !!python/object:models.Character
+      Attack: '214'
+      Class: Brawler
+      ClassId: 2
+      Crit: '65'
+      Defense: '153'
+      HP: '408'
+      IconUrl: http://s.shironeko.me/img/character/s/35
+      Id: '35'
+      IngestionUrl: /character?id=35
+      Name: Celestia
+      Passives:
+      - SP + 10%
+      - the damage -10%
+      Rarity: '3'
+      RawName: !!python/str 'セレスティア'
+      SP: '96'
+      Type: Balance
+      TypeId: 5
+    '352': !!python/object:models.Character
+      Attack: '399'
+      Class: Brawler
+      ClassId: 2
+      Crit: '92'
+      Defense: '225'
+      HP: '617'
+      IconUrl: http://s.shironeko.me/img/character/s/352
+      Id: '352'
+      IngestionUrl: /character?id=352
+      Name: Sophie (brown bear) (Shinki open) strengthening attack defense satisfaction
+        50%
+      Passives:
+      - HP70% more than
+      - usually SP recovery amount at the time of attack + 3
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ソフィ(茶熊)(神気開放)'
+      SP: '200'
+      Type: Support
+      TypeId: 3
+    '353': !!python/object:models.Character
+      Attack: '320'
+      Class: Brawler
+      ClassId: 2
+      Crit: '81'
+      Defense: '220'
+      HP: '525'
+      IconUrl: http://s.shironeko.me/img/character/s/353
+      Id: '353'
+      IngestionUrl: /character?id=353
+      Name: Almond peak
+      Passives:
+      - movement speed + 50% in the damage -15%
+      - just guard success when HP15% recovery
+      - HP50% or more, attack speed and defense +30%
+      Rarity: '4'
+      RawName: !!python/str 'アーモンドピーク'
+      SP: '170'
+      Type: Skill
+      TypeId: 6
+    '360': !!python/object:models.Character
+      Attack: '517'
+      Class: Brawler
+      ClassId: 2
+      Crit: '97'
+      Defense: '252'
+      HP: '680'
+      IconUrl: http://s.shironeko.me/img/character/s/360
+      Id: '360'
+      IngestionUrl: /character?id=360
+      Name: None
+      Passives:
+      - attack +15%
+      - guard charge during the attack speed + 50%, Action Skills Enhancement +50%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: None
+      SP: '180'
+      Type: Attacker
+      TypeId: 7
+    '364': !!python/object:models.Character
+      Attack: '333'
+      Class: Brawler
+      ClassId: 2
+      Crit: '60'
+      Defense: '218'
+      HP: '547'
+      IconUrl: http://s.shironeko.me/img/character/s/364
+      Id: '364'
+      IngestionUrl: /character?id=364
+      Name: None
+      Passives:
+      - action Skills Enhancement +15%
+      - in the guard charge movement speed, attack speed action Skills Enhancement
+        +30%
+      - attack speed +50%
+      Rarity: '4'
+      RawName: None
+      SP: '142'
+      Type: Attacker
+      TypeId: 7
+    '38': !!python/object:models.Character
+      Attack: '218'
+      Class: Brawler
+      ClassId: 2
+      Crit: '67'
+      Defense: '156'
+      HP: '457'
+      IconUrl: http://s.shironeko.me/img/character/s/38
+      Id: '38'
+      IngestionUrl: /character?id=38
+      Name: Makoto
+      Passives:
+      - HP + 10%
+      - the damage -10%
+      Rarity: '3'
+      RawName: !!python/str 'マコト'
+      SP: '90'
+      Type: Defense
+      TypeId: 2
+    '40': !!python/object:models.Character
+      Attack: '221'
+      Class: Brawler
+      ClassId: 2
+      Crit: '67'
+      Defense: '158'
+      HP: '462'
+      IconUrl: http://s.shironeko.me/img/character/s/40
+      Id: '40'
+      IngestionUrl: /character?id=40
+      Name: Wheat
+      Passives:
+      - HP + 10%
+      - SP consumption -15%
+      Rarity: '3'
+      RawName: !!python/str 'コムギ'
+      SP: '91'
+      Type: Balance
+      TypeId: 5
+    '43': !!python/object:models.Character
+      Attack: '212'
+      Class: Brawler
+      ClassId: 2
+      Crit: '65'
+      Defense: '152'
+      HP: '404'
+      IconUrl: http://s.shironeko.me/img/character/s/43
+      Id: '43'
+      IngestionUrl: /character?id=43
+      Name: Voruwagu
+      Passives:
+      - SP + 10%
+      - Action Skills Enhancement +10%
+      Rarity: '3'
+      RawName: !!python/str 'ヴォルワーグ'
+      SP: '96'
+      Type: Balance
+      TypeId: 5
+    '45': !!python/object:models.Character
+      Attack: '289'
+      Class: Brawler
+      ClassId: 2
+      Crit: '74'
+      Defense: '189'
+      HP: '543'
+      IconUrl: http://s.shironeko.me/img/character/s/45
+      Id: '45'
+      IngestionUrl: /character?id=45
+      Name: Anna
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アンナ'
+      SP: '105'
+      Type: Balance
+      TypeId: 5
+    '48': !!python/object:models.Character
+      Attack: '250'
+      Class: Brawler
+      ClassId: 2
+      Crit: '73'
+      Defense: '215'
+      HP: '538'
+      IconUrl: http://s.shironeko.me/img/character/s/48
+      Id: '48'
+      IngestionUrl: /character?id=48
+      Name: Chitcho
+      Passives:
+      - HP + 15%
+      - '%'
+      - +15 defense the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'チッチョ'
+      SP: '104'
+      Type: Defense
+      TypeId: 2
+    '68': !!python/object:models.Character
+      Attack: '263'
+      Class: Brawler
+      ClassId: 2
+      Crit: '70'
+      Defense: '207'
+      HP: '459'
+      IconUrl: http://s.shironeko.me/img/character/s/68
+      Id: '68'
+      IngestionUrl: /character?id=68
+      Name: Leonardo
+      Passives:
+      - SP + 15%
+      - defense +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'レオナルド'
+      SP: '125'
+      Type: Balance
+      TypeId: 5
+    '76': !!python/object:models.Character
+      Attack: '258'
+      Class: Brawler
+      ClassId: 2
+      Crit: '75'
+      Defense: '196'
+      HP: '580'
+      IconUrl: http://s.shironeko.me/img/character/s/76
+      Id: '76'
+      IngestionUrl: /character?id=76
+      Name: Chelsea
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'チェルシー'
+      SP: '123'
+      Type: Defense
+      TypeId: 2
+    '82': !!python/object:models.Character
+      Attack: '320'
+      Class: Brawler
+      ClassId: 2
+      Crit: '70'
+      Defense: '186'
+      HP: '490'
+      IconUrl: http://s.shironeko.me/img/character/s/82
+      Id: '82'
+      IngestionUrl: /character?id=82
+      Name: Iria
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'イリア'
+      SP: '135'
+      Type: Attacker
+      TypeId: 7
+    '87': !!python/object:models.Character
+      Attack: '255'
+      Class: Brawler
+      ClassId: 2
+      Crit: '71'
+      Defense: '221'
+      HP: '479'
+      IconUrl: http://s.shironeko.me/img/character/s/87
+      Id: '87'
+      IngestionUrl: /character?id=87
+      Name: Roberto
+      Passives:
+      - defense +15%
+      - SP + 15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'ロベルト'
+      SP: '139'
+      Type: Support
+      TypeId: 3
+    '96': !!python/object:models.Character
+      Attack: '330'
+      Class: Brawler
+      ClassId: 2
+      Crit: '72'
+      Defense: '199'
+      HP: '477'
+      IconUrl: http://s.shironeko.me/img/character/s/96
+      Id: '96'
+      IngestionUrl: /character?id=96
+      Name: Julia
+      Passives:
+      - killed instantly avoided by attack +15%
+      - HP10% more than
+      - action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ジュリア'
+      SP: '122'
+      Type: Defense
+      TypeId: 2
+  Dragon Rider:
+    '225': !!python/object:models.Character
+      Attack: '431'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '28'
+      Defense: '145'
+      HP: '630'
+      IconUrl: http://s.shironeko.me/img/character/s/225
+      Id: '225'
+      IngestionUrl: /character?id=225
+      Name: Georg
+      Passives:
+      - flame attribute damage +50% +15%
+      - attack
+      - enemy attack force + 7% at the time of defeat (up to 140%)
+      Rarity: '4'
+      RawName: !!python/str 'ゲオルグ'
+      SP: '150'
+      Type: Attacker
+      TypeId: 7
+    '226': !!python/object:models.Character
+      Attack: '396'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '32'
+      Defense: '175'
+      HP: '570'
+      IconUrl: http://s.shironeko.me/img/character/s/226
+      Id: '226'
+      IngestionUrl: /character?id=226
+      Name: Ekuseria
+      Passives:
+      - attack +15%
+      - SP consumption -15%
+      - enemy attack speed + 7% at the time of defeat (up to 140%)
+      Rarity: '4'
+      RawName: !!python/str 'エクセリア'
+      SP: '160'
+      Type: Support
+      TypeId: 3
+    '262': !!python/object:models.Character
+      Attack: '351'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '30'
+      Defense: '156'
+      HP: '590'
+      IconUrl: http://s.shironeko.me/img/character/s/262
+      Id: '262'
+      IngestionUrl: /character?id=262
+      Name: Tetra (Douglas 2)
+      Passives:
+      - SP consumption -15%
+      - Action Skills Enhancement +15%
+      - enemy fire attribute strengthening + 100% at the time of defeat (maximum +2000%)
+      Rarity: '4'
+      RawName: !!python/str 'テトラ(ダグラス2)'
+      SP: '154'
+      Type: Skill
+      TypeId: 6
+    '286': !!python/object:models.Character
+      Attack: '364'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '31'
+      Defense: '136'
+      HP: '588'
+      IconUrl: http://s.shironeko.me/img/character/s/286
+      Id: '286'
+      IngestionUrl: /character?id=286
+      Name: Ajirusu
+      Passives:
+      - SP consumption -15%
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'アジルス'
+      SP: '156'
+      Type: Attacker
+      TypeId: 7
+    '287': !!python/object:models.Character
+      Attack: '342'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '29'
+      Defense: '177'
+      HP: '614'
+      IconUrl: http://s.shironeko.me/img/character/s/287
+      Id: '287'
+      IngestionUrl: /character?id=287
+      Name: Serge
+      Passives:
+      - water attribute damage +50%
+      - the damage -15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'セルジュ'
+      SP: '151'
+      Type: Balance
+      TypeId: 5
+    '288': !!python/object:models.Character
+      Attack: '350'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '77'
+      Defense: '149'
+      HP: '577'
+      IconUrl: http://s.shironeko.me/img/character/s/288
+      Id: '288'
+      IngestionUrl: /character?id=288
+      Name: Mar (hot spring)
+      Passives:
+      - SP consumption -15%
+      - attack on the HP50% or more, the attack rate of 30% Enhanced
+      - enemy action Skills Enhancement + 10% at the time of defeat (up to 20 bodies)
+      Rarity: '4'
+      RawName: !!python/str 'マール(温泉)'
+      SP: '153'
+      Type: Support
+      TypeId: 3
+    '296': !!python/object:models.Character
+      Attack: '324'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '27'
+      Defense: '141'
+      HP: '560'
+      IconUrl: http://s.shironeko.me/img/character/s/296
+      Id: '296'
+      IngestionUrl: /character?id=296
+      Name: Back folding
+      Passives:
+      - enemy lightning strengthening + 50% at the time of defeat (upper limit 10
+        bodies)
+      - enemy attack speed + 6% at the time of defeat (upper limit 10 bodies)
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'セオリ'
+      SP: '144'
+      Type: Hero
+      TypeId: 1
+    '310': !!python/object:models.Character
+      Attack: '344'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '32'
+      Defense: '152'
+      HP: '547'
+      IconUrl: http://s.shironeko.me/img/character/s/310
+      Id: '310'
+      IngestionUrl: /character?id=310
+      Name: Shizuku (Xmas)
+      Passives:
+      - attack speed +30%
+      - attack power 100% at the time of counterattack to state strengthening
+      - enemy water attribute strengthening + 100% at the time of defeat (up to 20
+        bodies)
+      Rarity: '4'
+      RawName: !!python/str 'シズク(Xmas)'
+      SP: '160'
+      Type: Technical
+      TypeId: 4
+    '317': !!python/object:models.Character
+      Attack: '412'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '33'
+      Defense: '133'
+      HP: '580'
+      IconUrl: http://s.shironeko.me/img/character/s/317
+      Id: '317'
+      IngestionUrl: /character?id=317
+      Name: Les Arts
+      Passives:
+      - attack +15%
+      - gift SP25%
+      - !!python/str '-party technical type number × SP10% strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'レザール'
+      SP: '170'
+      Type: Technical
+      TypeId: 4
+    '331': !!python/object:models.Character
+      Attack: '354'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '35'
+      Defense: '148'
+      HP: '560'
+      IconUrl: http://s.shironeko.me/img/character/s/331
+      Id: '331'
+      IngestionUrl: /character?id=331
+      Name: Charlotte (New Year) consumption SP-30% in the
+      Passives:
+      - HP70% more than
+      - remaining HP amount is large enough action skill damage up (up to 100%)
+      - 'enemy defeated at the time of attack, attack speed + 10% (upper limit of
+        10 bodies) # #'
+      Rarity: '4'
+      RawName: !!python/str 'シャルロット(正月)'
+      SP: '158'
+      Type: Attacker
+      TypeId: 7
+    '368': !!python/object:models.Character
+      Attack: '339'
+      Class: Dragon Rider
+      ClassId: 8
+      Crit: '43'
+      Defense: '163'
+      HP: '585'
+      IconUrl: http://s.shironeko.me/img/character/s/368
+      Id: '368'
+      IngestionUrl: /character?id=368
+      Name: None
+      Passives:
+      - attack speed +30%
+      - enemy the damage -4% Action Skills Enhancement + 10% at the time of defeat
+        (upper limit 10 bodies)
+      - !!python/str 'enemy defeated in every five bodies HP20% · SP20 recovery'
+      Rarity: '4'
+      RawName: None
+      SP: '159'
+      Type: Support
+      TypeId: 3
+  Dual Saber:
+    '143': !!python/object:models.Character
+      Attack: '201'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '69'
+      Defense: '102'
+      HP: '430'
+      IconUrl: http://s.shironeko.me/img/character/s/143
+      Id: '143'
+      IngestionUrl: /character?id=143
+      Name: Zach
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ザック'
+      SP: '100'
+      Type: Attacker
+      TypeId: 7
+    '144': !!python/object:models.Character
+      Attack: '165'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '67'
+      Defense: '135'
+      HP: '386'
+      IconUrl: http://s.shironeko.me/img/character/s/144
+      Id: '144'
+      IngestionUrl: /character?id=144
+      Name: Fran
+      Passives:
+      - SP + 15%
+      - defense +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'フラン'
+      SP: '126'
+      Type: Skill
+      TypeId: 6
+    '161': !!python/object:models.Character
+      Attack: '202'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '70'
+      Defense: '112'
+      HP: '367'
+      IconUrl: http://s.shironeko.me/img/character/s/161
+      Id: '161'
+      IngestionUrl: /character?id=161
+      Name: Gabry
+      Passives:
+      - SP consumption -15%
+      - SP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'ガブリー'
+      SP: '123'
+      Type: Balance
+      TypeId: 5
+    '177': !!python/object:models.Character
+      Attack: '206'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '72'
+      Defense: '116'
+      HP: '437'
+      IconUrl: http://s.shironeko.me/img/character/s/177
+      Id: '177'
+      IngestionUrl: /character?id=177
+      Name: Takopasu
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'タコパス'
+      SP: '138'
+      Type: Technical
+      TypeId: 4
+    '180': !!python/object:models.Character
+      Attack: '230'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '80'
+      Defense: '124'
+      HP: '377'
+      IconUrl: http://s.shironeko.me/img/character/s/180
+      Id: '180'
+      IngestionUrl: /character?id=180
+      Name: Astriclypeus Manni Man
+      Passives:
+      - SP + 15%
+      - attack +15% +20%
+      - attack
+      Rarity: '4'
+      RawName: !!python/str 'スカシカシパンマン'
+      SP: '135'
+      Type: Attacker
+      TypeId: 7
+    '188': !!python/object:models.Character
+      Attack: '188'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '74'
+      Defense: '129'
+      HP: '360'
+      IconUrl: http://s.shironeko.me/img/character/s/188
+      Id: '188'
+      IngestionUrl: /character?id=188
+      Name: Shizuku
+      Passives:
+      - SP consumption -15%
+      - attack +15%
+      - !!python/str '-party attacker type × number of attacks 10 percent strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'シズク'
+      SP: '140'
+      Type: Attacker
+      TypeId: 7
+    '195': !!python/object:models.Character
+      Attack: '201'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '73'
+      Defense: '110'
+      HP: '364'
+      IconUrl: http://s.shironeko.me/img/character/s/195
+      Id: '195'
+      IngestionUrl: /character?id=195
+      Name: Renfa
+      Passives:
+      - Action Skills Enhancement +15%
+      - attack +15%
+      - strengthening skills extension +10 seconds
+      Rarity: '4'
+      RawName: !!python/str 'レンファ'
+      SP: '133'
+      Type: Support
+      TypeId: 3
+    '196': !!python/object:models.Character
+      Attack: '134'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '68'
+      Defense: '89'
+      HP: '331'
+      IconUrl: http://s.shironeko.me/img/character/s/196
+      Id: '196'
+      IngestionUrl: /character?id=196
+      Name: SOMA
+      Passives:
+      - the damage -15%
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ソウマ'
+      SP: '92'
+      Type: Hero
+      TypeId: 1
+    '203': !!python/object:models.Character
+      Attack: '260'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '54'
+      Defense: '117'
+      HP: '400'
+      IconUrl: http://s.shironeko.me/img/character/s/203
+      Id: '203'
+      IngestionUrl: /character?id=203
+      Name: Wilfried (brown bear)
+      Passives:
+      - attack +15%
+      - attack +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ヴィルフリート(茶熊)'
+      SP: '107'
+      Type: Attacker
+      TypeId: 7
+    '215': !!python/object:models.Character
+      Attack: '212'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '72'
+      Defense: '120'
+      HP: '374'
+      IconUrl: http://s.shironeko.me/img/character/s/215
+      Id: '215'
+      IngestionUrl: /character?id=215
+      Name: Dirge
+      Passives:
+      - movement speed +50%
+      - target distance extension
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'ダージ'
+      SP: '123'
+      Type: Technical
+      TypeId: 4
+    '223': !!python/object:models.Character
+      Attack: '224'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '68'
+      Defense: '70'
+      HP: '342'
+      IconUrl: http://s.shironeko.me/img/character/s/223
+      Id: '223'
+      IngestionUrl: /character?id=223
+      Name: Serina (Summer)
+      Passives:
+      - SP + 15%
+      - attack +15%
+      - SP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'セリナ(サマー)'
+      SP: '163'
+      Type: Skill
+      TypeId: 6
+    '224': !!python/object:models.Character
+      Attack: '107'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '77'
+      Defense: '97'
+      HP: '317'
+      IconUrl: http://s.shironeko.me/img/character/s/224
+      Id: '224'
+      IngestionUrl: /character?id=224
+      Name: Summer Seoul
+      Passives:
+      - instant death avoided
+      - the damage twice
+      - parties in one case the attack power +300%
+      - HP90% or more
+      Rarity: '4'
+      RawName: !!python/str 'サマーソウル'
+      SP: '117'
+      Type: Hero
+      TypeId: 1
+    '227': !!python/object:models.Character
+      Attack: '130'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '67'
+      Defense: '90'
+      HP: '321'
+      IconUrl: http://s.shironeko.me/img/character/s/227
+      Id: '227'
+      IngestionUrl: /character?id=227
+      Name: Kagura
+      Passives:
+      - SP + 10%
+      - Empower +50%
+      - of the enemy of the combustion state
+      Rarity: '3'
+      RawName: !!python/str 'カグラ'
+      SP: '104'
+      Type: Balance
+      TypeId: 5
+    '228': !!python/object:models.Character
+      Attack: '122'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '70'
+      Defense: '108'
+      HP: '335'
+      IconUrl: http://s.shironeko.me/img/character/s/228
+      Id: '228'
+      IngestionUrl: /character?id=228
+      Name: Nappuru
+      Passives:
+      - defense +10%
+      - attack speed +20%
+      Rarity: '3'
+      RawName: !!python/str 'ナップル'
+      SP: '90'
+      Type: Defense
+      TypeId: 2
+    '232': !!python/object:models.Character
+      Attack: '190'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '66'
+      Defense: '124'
+      HP: '352'
+      IconUrl: http://s.shironeko.me/img/character/s/232
+      Id: '232'
+      IngestionUrl: /character?id=232
+      Name: 'Lai Lai # # counter edge hit during the SP recovery amount + 2'
+      Passives:
+      - SP + 15%
+      - SP100% in Action Skills Enhancement +100%
+      Rarity: '4'
+      RawName: !!python/str 'ライライ'
+      SP: '132'
+      Type: Skill
+      TypeId: 6
+    '236': !!python/object:models.Character
+      Attack: '232'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '76'
+      Defense: '118'
+      HP: '397'
+      IconUrl: http://s.shironeko.me/img/character/s/236
+      Id: '236'
+      IngestionUrl: /character?id=236
+      Name: Meriodasu
+      Passives:
+      - attack +15%
+      - attack speed +30%
+      - !!python/str '-party technical type × number of attacks 10 percent strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'メリオダス'
+      SP: '140'
+      Type: Technical
+      TypeId: 4
+    '256': !!python/object:models.Character
+      Attack: '202'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '78'
+      Defense: '110'
+      HP: '360'
+      IconUrl: http://s.shironeko.me/img/character/s/256
+      Id: '256'
+      IngestionUrl: /character?id=256
+      Name: Decora and Bokora
+      Passives:
+      - Empower +50%
+      - to the damage -15%
+      - attack +15%
+      - of the unconscious enemy
+      Rarity: '4'
+      RawName: !!python/str 'デコラとボコラ'
+      SP: '119'
+      Type: Technical
+      TypeId: 4
+    '263': !!python/object:models.Character
+      Attack: '244'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '70'
+      Defense: '119'
+      HP: '378'
+      IconUrl: http://s.shironeko.me/img/character/s/263
+      Id: '263'
+      IngestionUrl: /character?id=263
+      Name: Viper
+      Passives:
+      - movement speed +30%
+      - attack speed +30%
+      - Damage +150%
+      - to give usual attack
+      Rarity: '4'
+      RawName: !!python/str 'バイパー'
+      SP: '129'
+      Type: Technical
+      TypeId: 4
+    '279': !!python/object:models.Character
+      Attack: '390'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '79'
+      Defense: '120'
+      HP: '270'
+      IconUrl: http://s.shironeko.me/img/character/s/279
+      Id: '279'
+      IngestionUrl: /character?id=279
+      Name: Taj
+      Passives:
+      - attack +15% +15%
+      - attack
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'タージ'
+      SP: '116'
+      Type: Attacker
+      TypeId: 7
+    '294': !!python/object:models.Character
+      Attack: '272'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '74'
+      Defense: '128'
+      HP: '396'
+      IconUrl: http://s.shironeko.me/img/character/s/294
+      Id: '294'
+      IngestionUrl: /character?id=294
+      Name: Carolyn (hot spring)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - counter edge success at the next action skills of damage up
+      Rarity: '4'
+      RawName: !!python/str 'キャロ(温泉)'
+      SP: '151'
+      Type: Technical
+      TypeId: 4
+    '309': !!python/object:models.Character
+      Attack: '218'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '77'
+      Defense: '122'
+      HP: '372'
+      IconUrl: http://s.shironeko.me/img/character/s/309
+      Id: '309'
+      IngestionUrl: /character?id=309
+      Name: Eshiria (Xmas)
+      Passives:
+      - SP consumption -15%
+      - grant a lightning weapon counter edge success at the next fixed time
+      - lightning damage +100%
+      Rarity: '4'
+      RawName: !!python/str 'エシリア(Xmas)'
+      SP: '141'
+      Type: Skill
+      TypeId: 6
+    '316': !!python/object:models.Character
+      Attack: '201'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '110'
+      Defense: '129'
+      HP: '364'
+      IconUrl: http://s.shironeko.me/img/character/s/316
+      Id: '316'
+      IngestionUrl: /character?id=316
+      Name: Ashley
+      Passives:
+      - killed instantly in the HP10% or more avoidance
+      - +30% attack and movement speed in the summons
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'アシュレイ'
+      SP: '142'
+      Type: Balance
+      TypeId: 5
+    '318': !!python/object:models.Character
+      Attack: '249'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '56'
+      Defense: '137'
+      HP: '271'
+      IconUrl: http://s.shironeko.me/img/character/s/318
+      Id: '318'
+      IngestionUrl: /character?id=318
+      Name: Esmeralda
+      Passives:
+      - counter timing strengthening
+      - !!python/str '-party technical type number × consumption SP-5% Skills Enhancement
+        +5%'
+      - counter edge success at the next fixed time attack speed, movement speed up
+      Rarity: '4'
+      RawName: !!python/str 'エスメラルダ'
+      SP: '141'
+      Type: Technical
+      TypeId: 4
+    '332': !!python/object:models.Character
+      Attack: '222'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '72'
+      Defense: '130'
+      HP: '399'
+      IconUrl: http://s.shironeko.me/img/character/s/332
+      Id: '332'
+      IngestionUrl: /character?id=332
+      Name: Yui (New Year)
+      Passives:
+      - movement speed +30%
+      - SP + 15%
+      - during the state that are not targeted by enemy action Skills Enhancement
+        +100%
+      Rarity: '4'
+      RawName: !!python/str 'ユイ(正月)'
+      SP: '157'
+      Type: Support
+      TypeId: 3
+    '347': !!python/object:models.Character
+      Attack: '311'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '83'
+      Defense: '161'
+      HP: '542'
+      IconUrl: http://s.shironeko.me/img/character/s/347
+      Id: '347'
+      IngestionUrl: /character?id=347
+      Name: Wilfried (brown bear) (Shinki released)
+      Passives:
+      - attack +15%
+      - enemy attack at the time of defeat force + 5% (upper limit of 10 bodies)
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ヴィルフリート(茶熊)(神気解放)'
+      SP: '149'
+      Type: Attacker
+      TypeId: 7
+    '351': !!python/object:models.Character
+      Attack: '236'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '95'
+      Defense: '137'
+      HP: '473'
+      IconUrl: http://s.shironeko.me/img/character/s/351
+      Id: '351'
+      IngestionUrl: /character?id=351
+      Name: SOMA (Shinki released)
+      Passives:
+      - the damage -20%
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ソウマ(神気解放)'
+      SP: '129'
+      Type: Hero
+      TypeId: 1
+    '369': !!python/object:models.Character
+      Attack: '221'
+      Class: Dual Saber
+      ClassId: 7
+      Crit: '76'
+      Defense: '132'
+      HP: '387'
+      IconUrl: http://s.shironeko.me/img/character/s/369
+      Id: '369'
+      IngestionUrl: /character?id=369
+      Name: None
+      Passives:
+      - movement speed +50%
+      - HP99% less than +150% damage HP is giving gradually the recovery
+      - usually attack at
+      Rarity: '4'
+      RawName: None
+      SP: '135'
+      Type: Balance
+      TypeId: 5
+  Fencer:
+    '1': !!python/object:models.Character
+      Attack: '157'
+      Class: Fencer
+      ClassId: 1
+      Crit: '69'
+      Defense: '112'
+      HP: '295'
+      IconUrl: http://s.shironeko.me/img/character/s/1
+      Id: '1'
+      IngestionUrl: /character?id=1
+      Name: Hero
+      Passives:
+      - attack +10%
+      - Action Skills Enhancement +10%
+      Rarity: '1'
+      RawName: !!python/str '主人公'
+      SP: '78'
+      Type: Hero
+      TypeId: 1
+    '102': !!python/object:models.Character
+      Attack: '209'
+      Class: Fencer
+      ClassId: 1
+      Crit: '100'
+      Defense: '160'
+      HP: '428'
+      IconUrl: http://s.shironeko.me/img/character/s/102
+      Id: '102'
+      IngestionUrl: /character?id=102
+      Name: Pastel
+      Passives:
+      - satisfaction +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'パステル'
+      SP: '134'
+      Type: Skill
+      TypeId: 6
+    '108': !!python/object:models.Character
+      Attack: '170'
+      Class: Fencer
+      ClassId: 1
+      Crit: '79'
+      Defense: '134'
+      HP: '423'
+      IconUrl: http://s.shironeko.me/img/character/s/108
+      Id: '108'
+      IngestionUrl: /character?id=108
+      Name: Funyasshi
+      Passives:
+      - HP + 15%
+      - SP consumption -15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'ふにゃっしー'
+      SP: '100'
+      Type: Hero
+      TypeId: 1
+    '112': !!python/object:models.Character
+      Attack: '225'
+      Class: Fencer
+      ClassId: 1
+      Crit: '72'
+      Defense: '175'
+      HP: '401'
+      IconUrl: http://s.shironeko.me/img/character/s/112
+      Id: '112'
+      IngestionUrl: /character?id=112
+      Name: Clive (Xmas)
+      Passives:
+      - defense +15%
+      - the damage -10%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'クライヴ(Xmas)'
+      SP: '134'
+      Type: Defense
+      TypeId: 2
+    '117': !!python/object:models.Character
+      Attack: '208'
+      Class: Fencer
+      ClassId: 1
+      Crit: '71'
+      Defense: '142'
+      HP: '450'
+      IconUrl: http://s.shironeko.me/img/character/s/117
+      Id: '117'
+      IngestionUrl: /character?id=117
+      Name: Sophie
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ソフィ'
+      SP: '144'
+      Type: Support
+      TypeId: 3
+    '12': !!python/object:models.Character
+      Attack: '135'
+      Class: Fencer
+      ClassId: 1
+      Crit: '68'
+      Defense: '110'
+      HP: '281'
+      IconUrl: http://s.shironeko.me/img/character/s/12
+      Id: '12'
+      IngestionUrl: /character?id=12
+      Name: Chankusu
+      Passives:
+      - defense +6%
+      Rarity: '2'
+      RawName: !!python/str 'チャンクス'
+      SP: '73'
+      Type: Defense
+      TypeId: 2
+    '123': !!python/object:models.Character
+      Attack: '247'
+      Class: Fencer
+      ClassId: 1
+      Crit: '79'
+      Defense: '158'
+      HP: '421'
+      IconUrl: http://s.shironeko.me/img/character/s/123
+      Id: '123'
+      IngestionUrl: /character?id=123
+      Name: Garnet (New Year)
+      Passives:
+      - attack +15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ガーネット(正月)'
+      SP: '131'
+      Type: Attacker
+      TypeId: 7
+    '131': !!python/object:models.Character
+      Attack: '230'
+      Class: Fencer
+      ClassId: 1
+      Crit: '69'
+      Defense: '181'
+      HP: '478'
+      IconUrl: http://s.shironeko.me/img/character/s/131
+      Id: '131'
+      IngestionUrl: /character?id=131
+      Name: Dionis
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'ディオニス'
+      SP: '126'
+      Type: Defense
+      TypeId: 2
+    '137': !!python/object:models.Character
+      Attack: '242'
+      Class: Fencer
+      ClassId: 1
+      Crit: '70'
+      Defense: '161'
+      HP: '414'
+      IconUrl: http://s.shironeko.me/img/character/s/137
+      Id: '137'
+      IngestionUrl: /character?id=137
+      Name: Michaela
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'ミカエラ'
+      SP: '147'
+      Type: Attacker
+      TypeId: 7
+    '145': !!python/object:models.Character
+      Attack: '207'
+      Class: Fencer
+      ClassId: 1
+      Crit: '77'
+      Defense: '161'
+      HP: '411'
+      IconUrl: http://s.shironeko.me/img/character/s/145
+      Id: '145'
+      IngestionUrl: /character?id=145
+      Name: Colin
+      Passives:
+      - SP + 15%
+      - the damage -15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'コリン'
+      SP: '150'
+      Type: Skill
+      TypeId: 6
+    '15': !!python/object:models.Character
+      Attack: '181'
+      Class: Fencer
+      ClassId: 1
+      Crit: '77'
+      Defense: '131'
+      HP: '336'
+      IconUrl: http://s.shironeko.me/img/character/s/15
+      Id: '15'
+      IngestionUrl: /character?id=15
+      Name: Sharon
+      Passives:
+      - attack +10%
+      - SP consumption -15%
+      Rarity: '3'
+      RawName: !!python/str 'シャロン'
+      SP: '91'
+      Type: Balance
+      TypeId: 5
+    '152': !!python/object:models.Character
+      Attack: '178'
+      Class: Fencer
+      ClassId: 1
+      Crit: '55'
+      Defense: '172'
+      HP: '416'
+      IconUrl: http://s.shironeko.me/img/character/s/152
+      Id: '152'
+      IngestionUrl: /character?id=152
+      Name: Chocolat
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - SP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'ショコラ'
+      SP: '198'
+      Type: Support
+      TypeId: 3
+    '156': !!python/object:models.Character
+      Attack: '251'
+      Class: Fencer
+      ClassId: 1
+      Crit: '80'
+      Defense: '160'
+      HP: '495'
+      IconUrl: http://s.shironeko.me/img/character/s/156
+      Id: '156'
+      IngestionUrl: /character?id=156
+      Name: Liam
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'リアム'
+      SP: '118'
+      Type: Attacker
+      TypeId: 7
+    '163': !!python/object:models.Character
+      Attack: '242'
+      Class: Fencer
+      ClassId: 1
+      Crit: '85'
+      Defense: '158'
+      HP: '420'
+      IconUrl: http://s.shironeko.me/img/character/s/163
+      Id: '163'
+      IngestionUrl: /character?id=163
+      Name: (With spoilers)
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      Rarity: '1'
+      RawName: !!python/str '(ネタバレあり)'
+      SP: '135'
+      Type: Hero
+      TypeId: 1
+    '166': !!python/object:models.Character
+      Attack: '278'
+      Class: Fencer
+      ClassId: 1
+      Crit: '96'
+      Defense: '208'
+      HP: '480'
+      IconUrl: http://s.shironeko.me/img/character/s/166
+      Id: '166'
+      IngestionUrl: /character?id=166
+      Name: Garnet (Shinki released)
+      Passives:
+      - attack +15% +15%
+      - defense
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ガーネット(神気解放)'
+      SP: '126'
+      Type: Balance
+      TypeId: 5
+    '17': !!python/object:models.Character
+      Attack: '164'
+      Class: Fencer
+      ClassId: 1
+      Crit: '76'
+      Defense: '143'
+      HP: '333'
+      IconUrl: http://s.shironeko.me/img/character/s/17
+      Id: '17'
+      IngestionUrl: /character?id=17
+      Name: Yoshio
+      Passives:
+      - defense +10%
+      - the damage -10%
+      Rarity: '3'
+      RawName: !!python/str 'ヨシオ'
+      SP: '90'
+      Type: Defense
+      TypeId: 2
+    '171': !!python/object:models.Character
+      Attack: '253'
+      Class: Fencer
+      ClassId: 1
+      Crit: '82'
+      Defense: '175'
+      HP: '388'
+      IconUrl: http://s.shironeko.me/img/character/s/171
+      Id: '171'
+      IngestionUrl: /character?id=171
+      Name: Killala
+      Passives:
+      - SP consumption -15%
+      - SP consumption -15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'キララ'
+      SP: '139'
+      Type: Attacker
+      TypeId: 7
+    '184': !!python/object:models.Character
+      Attack: '253'
+      Class: Fencer
+      ClassId: 1
+      Crit: '68'
+      Defense: '173'
+      HP: '371'
+      IconUrl: http://s.shironeko.me/img/character/s/184
+      Id: '184'
+      IngestionUrl: /character?id=184
+      Name: Cocktail
+      Passives:
+      - attack +15%
+      - the damage -15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カクテル'
+      SP: '140'
+      Type: Balance
+      TypeId: 5
+    '189': !!python/object:models.Character
+      Attack: '331'
+      Class: Fencer
+      ClassId: 1
+      Crit: '70'
+      Defense: '100'
+      HP: '388'
+      IconUrl: http://s.shironeko.me/img/character/s/189
+      Id: '189'
+      IngestionUrl: /character?id=189
+      Name: Rinpui
+      Passives:
+      - attack +15%
+      - attack +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'リンプイ'
+      SP: '129'
+      Type: Technical
+      TypeId: 4
+    '2': !!python/object:models.Character
+      Attack: '143'
+      Class: Fencer
+      ClassId: 1
+      Crit: '68'
+      Defense: '104'
+      HP: '281'
+      IconUrl: http://s.shironeko.me/img/character/s/2
+      Id: '2'
+      IngestionUrl: /character?id=2
+      Name: Bronze soldier
+      Passives:
+      - attack +6%
+      Rarity: '2'
+      RawName: !!python/str '青銅兵士'
+      SP: '73'
+      Type: Attacker
+      TypeId: 7
+    '20': !!python/object:models.Character
+      Attack: '174'
+      Class: Fencer
+      ClassId: 1
+      Crit: '74'
+      Defense: '126'
+      HP: '322'
+      IconUrl: http://s.shironeko.me/img/character/s/20
+      Id: '20'
+      IngestionUrl: /character?id=20
+      Name: Tatsunoshin
+      Passives:
+      - attack attack defense satisfaction 10% strengthening in the
+      - +10%
+      - HP80% or more
+      Rarity: '3'
+      RawName: !!python/str 'タツノシン'
+      SP: '88'
+      Type: Technical
+      TypeId: 4
+    '202': !!python/object:models.Character
+      Attack: '206'
+      Class: Fencer
+      ClassId: 1
+      Crit: '67'
+      Defense: '145'
+      HP: '369'
+      IconUrl: http://s.shironeko.me/img/character/s/202
+      Id: '202'
+      IngestionUrl: /character?id=202
+      Name: Mira (brown bear) instant death avoided
+      Passives:
+      - SP + 15%
+      - HP10% more than
+      - HP absorption +1%
+      Rarity: '4'
+      RawName: !!python/str 'ミラ(茶熊)'
+      SP: '161'
+      Type: Technical
+      TypeId: 4
+    '204': !!python/object:models.Character
+      Attack: '273'
+      Class: Fencer
+      ClassId: 1
+      Crit: '98'
+      Defense: '188'
+      HP: '547'
+      IconUrl: http://s.shironeko.me/img/character/s/204
+      Id: '204'
+      IngestionUrl: /character?id=204
+      Name: Hao (Shinki release)
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ハオ(神気解放)'
+      SP: '149'
+      Type: Technical
+      TypeId: 4
+    '211': !!python/object:models.Character
+      Attack: '263'
+      Class: Fencer
+      ClassId: 1
+      Crit: '71'
+      Defense: '160'
+      HP: '412'
+      IconUrl: http://s.shironeko.me/img/character/s/211
+      Id: '211'
+      IngestionUrl: /character?id=211
+      Name: Dine
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ディーネ'
+      SP: '152'
+      Type: Skill
+      TypeId: 6
+    '217': !!python/object:models.Character
+      Attack: '287'
+      Class: Fencer
+      ClassId: 1
+      Crit: '66'
+      Defense: '179'
+      HP: '430'
+      IconUrl: http://s.shironeko.me/img/character/s/217
+      Id: '217'
+      IngestionUrl: /character?id=217
+      Name: Raven (Summer)
+      Passives:
+      - attack +15% +15%
+      - attack
+      - enemy defeated during SP5% recovery
+      Rarity: '4'
+      RawName: !!python/str 'レイヴン(サマー)'
+      SP: '131'
+      Type: Attacker
+      TypeId: 7
+    '22': !!python/object:models.Character
+      Attack: '161'
+      Class: Fencer
+      ClassId: 1
+      Crit: '75'
+      Defense: '128'
+      HP: '326'
+      IconUrl: http://s.shironeko.me/img/character/s/22
+      Id: '22'
+      IngestionUrl: /character?id=22
+      Name: Iris
+      Passives:
+      - SP + 10%
+      - Action Skills Enhancement +10%
+      Rarity: '3'
+      RawName: !!python/str 'アヤメ'
+      SP: '96'
+      Type: Balance
+      TypeId: 5
+    '23': !!python/object:models.Character
+      Attack: '187'
+      Class: Fencer
+      ClassId: 1
+      Crit: '83'
+      Defense: '146'
+      HP: '430'
+      IconUrl: http://s.shironeko.me/img/character/s/23
+      Id: '23'
+      IngestionUrl: /character?id=23
+      Name: Hao
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ハオ'
+      SP: '119'
+      Type: Technical
+      TypeId: 4
+    '233': !!python/object:models.Character
+      Attack: '270'
+      Class: Fencer
+      ClassId: 1
+      Crit: '90'
+      Defense: '152'
+      HP: '403'
+      IconUrl: http://s.shironeko.me/img/character/s/233
+      Id: '233'
+      IngestionUrl: /character?id=233
+      Name: Merukurio
+      Passives:
+      - attack +15%
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'メルクリオ'
+      SP: '143'
+      Type: Attacker
+      TypeId: 7
+    '240': !!python/object:models.Character
+      Attack: '257'
+      Class: Fencer
+      ClassId: 1
+      Crit: '119'
+      Defense: '170'
+      HP: '423'
+      IconUrl: http://s.shironeko.me/img/character/s/240
+      Id: '240'
+      IngestionUrl: /character?id=240
+      Name: Gil Thunder
+      Passives:
+      - lightning damage +50%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ギルサンダー'
+      SP: '146'
+      Type: Balance
+      TypeId: 5
+    '243': !!python/object:models.Character
+      Attack: '343'
+      Class: Fencer
+      ClassId: 1
+      Crit: '94'
+      Defense: '203'
+      HP: '553'
+      IconUrl: http://s.shironeko.me/img/character/s/243
+      Id: '243'
+      IngestionUrl: /character?id=243
+      Name: Clive (Shinki released)
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'クライヴ(神気解放)'
+      SP: '130'
+      Type: Balance
+      TypeId: 5
+    '251': !!python/object:models.Character
+      Attack: '254'
+      Class: Fencer
+      ClassId: 1
+      Crit: '92'
+      Defense: '172'
+      HP: '449'
+      IconUrl: http://s.shironeko.me/img/character/s/251
+      Id: '251'
+      IngestionUrl: /character?id=251
+      Name: Sharon (Shinki released)
+      Passives:
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '3'
+      RawName: !!python/str 'シャロン(神気解放)'
+      SP: '118'
+      Type: Balance
+      TypeId: 5
+    '253': !!python/object:models.Character
+      Attack: '260'
+      Class: Fencer
+      ClassId: 1
+      Crit: '88'
+      Defense: '175'
+      HP: '410'
+      IconUrl: http://s.shironeko.me/img/character/s/253
+      Id: '253'
+      IngestionUrl: /character?id=253
+      Name: Charlotte
+      Passives:
+      - movement speed +50%
+      - SP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'シャルロット'
+      SP: '170'
+      Type: Technical
+      TypeId: 4
+    '255': !!python/object:models.Character
+      Attack: '258'
+      Class: Fencer
+      ClassId: 1
+      Crit: '86'
+      Defense: '162'
+      HP: '410'
+      IconUrl: http://s.shironeko.me/img/character/s/255
+      Id: '255'
+      IngestionUrl: /character?id=255
+      Name: Al tulle
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'アルチュール'
+      SP: '145'
+      Type: Technical
+      TypeId: 4
+    '269': !!python/object:models.Character
+      Attack: '221'
+      Class: Fencer
+      ClassId: 1
+      Crit: '79'
+      Defense: '190'
+      HP: '419'
+      IconUrl: http://s.shironeko.me/img/character/s/269
+      Id: '269'
+      IngestionUrl: /character?id=269
+      Name: Joshua
+      Passives:
+      - SP + 15%
+      - the damage -15%
+      - charge during the action Skills Enhancement +200%
+      Rarity: '4'
+      RawName: !!python/str 'ヨシュア'
+      SP: '149'
+      Type: Technical
+      TypeId: 4
+    '270': !!python/object:models.Character
+      Attack: '309'
+      Class: Fencer
+      ClassId: 1
+      Crit: '92'
+      Defense: '205'
+      HP: '519'
+      IconUrl: http://s.shironeko.me/img/character/s/270
+      Id: '270'
+      IngestionUrl: /character?id=270
+      Name: Douglas (Shinki release)
+      Passives:
+      - SP + 15%
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ダグラス(神気解放)'
+      SP: '163'
+      Type: Hero
+      TypeId: 1
+    '275': !!python/object:models.Character
+      Attack: '287'
+      Class: Fencer
+      ClassId: 1
+      Crit: '101'
+      Defense: '192'
+      HP: '623'
+      IconUrl: http://s.shironeko.me/img/character/s/275
+      Id: '275'
+      IngestionUrl: /character?id=275
+      Name: Cardinal (Shinki release)
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カルディナ(神気解放)'
+      SP: '169'
+      Type: Skill
+      TypeId: 6
+    '281': !!python/object:models.Character
+      Attack: '236'
+      Class: Fencer
+      ClassId: 1
+      Crit: '89'
+      Defense: '180'
+      HP: '420'
+      IconUrl: http://s.shironeko.me/img/character/s/281
+      Id: '281'
+      IngestionUrl: /character?id=281
+      Name: Another (Revenge)
+      Passives:
+      - Action Skills Enhancement instant death avoided
+      - HP90% or more in the defense 100% strengthening in the
+      - +15%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'アナザー(リベンジ)'
+      SP: '143'
+      Type: Defense
+      TypeId: 2
+    '293': !!python/object:models.Character
+      Attack: '277'
+      Class: Fencer
+      ClassId: 1
+      Crit: '90'
+      Defense: '179'
+      HP: '513'
+      IconUrl: http://s.shironeko.me/img/character/s/293
+      Id: '293'
+      IngestionUrl: /character?id=293
+      Name: Shanaou (hot spring)
+      Passives:
+      - attack +15%
+      - enemy defeated during HP5% recovery
+      - HP80% or more in the attack defense attack rate of 30% Enhanced
+      Rarity: '4'
+      RawName: !!python/str 'シャナオウ(温泉)'
+      SP: '142'
+      Type: Attacker
+      TypeId: 7
+    '298': !!python/object:models.Character
+      Attack: '323'
+      Class: Fencer
+      ClassId: 1
+      Crit: '92'
+      Defense: '211'
+      HP: '660'
+      IconUrl: http://s.shironeko.me/img/character/s/298
+      Id: '298'
+      IngestionUrl: /character?id=298
+      Name: Mai (Shinki release)
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'マイ(神気解放)'
+      SP: '158'
+      Type: Support
+      TypeId: 3
+    '3': !!python/object:models.Character
+      Attack: '209'
+      Class: Fencer
+      ClassId: 1
+      Crit: '81'
+      Defense: '162'
+      HP: '364'
+      IconUrl: http://s.shironeko.me/img/character/s/3
+      Id: '3'
+      IngestionUrl: /character?id=3
+      Name: Garnet
+      Passives:
+      - attack +15% +15%
+      - defense
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ガーネット'
+      SP: '101'
+      Type: Balance
+      TypeId: 5
+    '303': !!python/object:models.Character
+      Attack: '357'
+      Class: Fencer
+      ClassId: 1
+      Crit: '87'
+      Defense: '124'
+      HP: '399'
+      IconUrl: http://s.shironeko.me/img/character/s/303
+      Id: '303'
+      IngestionUrl: /character?id=303
+      Name: Shaofu (Xmas)
+      Passives:
+      - attack +15%
+      - attack +15%
+      - basic strengthening effect number x50% attack strengthening
+      Rarity: '4'
+      RawName: !!python/str 'シャオフー(Xmas)'
+      SP: '147'
+      Type: Attacker
+      TypeId: 7
+    '312': !!python/object:models.Character
+      Attack: '151'
+      Class: Fencer
+      ClassId: 1
+      Crit: '64'
+      Defense: '152'
+      HP: '371'
+      IconUrl: http://s.shironeko.me/img/character/s/312
+      Id: '312'
+      IngestionUrl: /character?id=312
+      Name: Strengthening Arca
+      Passives:
+      - charge during the action skill +100%
+      - attack speed +30%
+      - !!python/str 'party of the hero type × number of attacks 15% strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'アルカ'
+      SP: '119'
+      Type: Hero
+      TypeId: 1
+    '314': !!python/object:models.Character
+      Attack: '185'
+      Class: Fencer
+      ClassId: 1
+      Crit: '76'
+      Defense: '183'
+      HP: '430'
+      IconUrl: http://s.shironeko.me/img/character/s/314
+      Id: '314'
+      IngestionUrl: /character?id=314
+      Name: Alka-Atoreia
+      Passives:
+      - charge during action Skills Enhancement +100%
+      - attack speed +30%
+      - !!python/str '-party hero type number × attack 15% strengthening'
+      Rarity: '4'
+      RawName: アルカ・アトレイア
+      SP: '137'
+      Type: Hero
+      TypeId: 1
+    '321': !!python/object:models.Character
+      Attack: '264'
+      Class: Fencer
+      ClassId: 1
+      Crit: '86'
+      Defense: '183'
+      HP: '430'
+      IconUrl: http://s.shironeko.me/img/character/s/321
+      Id: '321'
+      IngestionUrl: /character?id=321
+      Name: Tomoe
+      Passives:
+      - movement speed +50%
+      - !!python/str 'party of skill type number × consumption SP-8% reduce'
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'トモエ'
+      SP: '153'
+      Type: Skill
+      TypeId: 6
+    '326': !!python/object:models.Character
+      Attack: '334'
+      Class: Fencer
+      ClassId: 1
+      Crit: '86'
+      Defense: '236'
+      HP: '553'
+      IconUrl: http://s.shironeko.me/img/character/s/326
+      Id: '326'
+      IngestionUrl: /character?id=326
+      Name: Clive (Xmas) (Shinki released)
+      Passives:
+      - defense +15%
+      - the damage -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'クライヴ(Xmas)(神気解放)'
+      SP: '168'
+      Type: Defense
+      TypeId: 2
+    '338': !!python/object:models.Character
+      Attack: '240'
+      Class: Fencer
+      ClassId: 1
+      Crit: '91'
+      Defense: '175'
+      HP: '418'
+      IconUrl: http://s.shironeko.me/img/character/s/338
+      Id: '338'
+      IngestionUrl: /character?id=338
+      Name: Telese (New Year)
+      Passives:
+      - SP consumption -15%
+      - Empower 100%
+      - !!python/str 'to the party of the technical type number × SP attack 6% strengthening'
+      - abnormal state of enemy
+      Rarity: '4'
+      RawName: !!python/str 'テレーゼ(正月)'
+      SP: '150'
+      Type: Technical
+      TypeId: 4
+    '340': !!python/object:models.Character
+      Attack: '370'
+      Class: Fencer
+      ClassId: 1
+      Crit: '94'
+      Defense: '186'
+      HP: '585'
+      IconUrl: http://s.shironeko.me/img/character/s/340
+      Id: '340'
+      IngestionUrl: /character?id=340
+      Name: Garnet (New Year) (Shinki open)
+      Passives:
+      - attack +15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ガーネット(正月)(神気開放)'
+      SP: '163'
+      Type: Attacker
+      TypeId: 7
+    '348': !!python/object:models.Character
+      Attack: '306'
+      Class: Fencer
+      ClassId: 1
+      Crit: '79'
+      Defense: '196'
+      HP: '534'
+      IconUrl: http://s.shironeko.me/img/character/s/348
+      Id: '348'
+      IngestionUrl: /character?id=348
+      Name: Mira (brown bear) (Shinki open) instant death in
+      Passives:
+      - charge during the action Skills Enhancement +100%
+      - HP10% or more avoidance
+      - HP absorption +1%
+      Rarity: '4'
+      RawName: !!python/str 'ミラ(茶熊)(神気開放)'
+      SP: '192'
+      Type: Technical
+      TypeId: 4
+    '354': !!python/object:models.Character
+      Attack: '255'
+      Class: Fencer
+      ClassId: 1
+      Crit: '126'
+      Defense: '110'
+      HP: '430'
+      IconUrl: http://s.shironeko.me/img/character/s/354
+      Id: '354'
+      IngestionUrl: /character?id=354
+      Name: Almond Premio
+      Passives:
+      - charge time -50%
+      - charge during action Skills Enhancement +100%
+      - movement speed and attack speed +50%
+      - in the HP50% or more
+      Rarity: '4'
+      RawName: !!python/str 'アーモンドプレミオ'
+      SP: '187'
+      Type: Technical
+      TypeId: 4
+    '356': !!python/object:models.Character
+      Attack: '432'
+      Class: Fencer
+      ClassId: 1
+      Crit: '89'
+      Defense: '210'
+      HP: '580'
+      IconUrl: http://s.shironeko.me/img/character/s/356
+      Id: '356'
+      IngestionUrl: /character?id=356
+      Name: None
+      Passives:
+      - action Skills Enhancement +15%
+      - counter slash success when +50% following actions skill damage
+      - attack +20%
+      Rarity: '4'
+      RawName: None
+      SP: '168'
+      Type: Attacker
+      TypeId: 7
+    '363': !!python/object:models.Character
+      Attack: '282'
+      Class: Fencer
+      ClassId: 1
+      Crit: '89'
+      Defense: '172'
+      HP: '428'
+      IconUrl: http://s.shironeko.me/img/character/s/363
+      Id: '363'
+      IngestionUrl: /character?id=363
+      Name: None
+      Passives:
+      - attack +15%
+      - enemy fire, water attribute strengthening + 100% at the time of defeat (upper
+        limit 10 bodies)
+      - counter slash success during a certain period of time attack speed and movement
+        speed up (30 seconds)
+      Rarity: '4'
+      RawName: None
+      SP: '141'
+      Type: Balance
+      TypeId: 5
+    '370': !!python/object:models.Character
+      Attack: '281'
+      Class: Fencer
+      ClassId: 1
+      Crit: '77'
+      Defense: '209'
+      HP: '531'
+      IconUrl: http://s.shironeko.me/img/character/s/370
+      Id: '370'
+      IngestionUrl: /character?id=370
+      Name: None
+      Passives:
+      - SP + 15%
+      - Normal SP recovery amount at the time of attack + 3
+      - attack speed +50%
+      Rarity: '4'
+      RawName: None
+      SP: '261'
+      Type: Support
+      TypeId: 3
+    '65': !!python/object:models.Character
+      Attack: '232'
+      Class: Fencer
+      ClassId: 1
+      Crit: '79'
+      Defense: '155'
+      HP: '412'
+      IconUrl: http://s.shironeko.me/img/character/s/65
+      Id: '65'
+      IngestionUrl: /character?id=65
+      Name: Clive
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'クライヴ'
+      SP: '100'
+      Type: Balance
+      TypeId: 5
+    '75': !!python/object:models.Character
+      Attack: '193'
+      Class: Fencer
+      ClassId: 1
+      Crit: '85'
+      Defense: '150'
+      HP: '464'
+      IconUrl: http://s.shironeko.me/img/character/s/75
+      Id: '75'
+      IngestionUrl: /character?id=75
+      Name: Caldina
+      Passives:
+      - SP + 15%
+      - HP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カルディナ'
+      SP: '128'
+      Type: Skill
+      TypeId: 6
+    '83': !!python/object:models.Character
+      Attack: '217'
+      Class: Fencer
+      ClassId: 1
+      Crit: '77'
+      Defense: '165'
+      HP: '487'
+      IconUrl: http://s.shironeko.me/img/character/s/83
+      Id: '83'
+      IngestionUrl: /character?id=83
+      Name: My
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'マイ'
+      SP: '106'
+      Type: Support
+      TypeId: 3
+    '85': !!python/object:models.Character
+      Attack: '195'
+      Class: Fencer
+      ClassId: 1
+      Crit: '69'
+      Defense: '132'
+      HP: '591'
+      IconUrl: http://s.shironeko.me/img/character/s/85
+      Id: '85'
+      IngestionUrl: /character?id=85
+      Name: Kamui
+      Passives:
+      - HP + 15%
+      - HP + 15%
+      - HP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'カムイ'
+      SP: '120'
+      Type: Defense
+      TypeId: 2
+    '9': !!python/object:models.Character
+      Attack: '131'
+      Class: Fencer
+      ClassId: 1
+      Crit: '66'
+      Defense: '101'
+      HP: '273'
+      IconUrl: http://s.shironeko.me/img/character/s/9
+      Id: '9'
+      IngestionUrl: /character?id=9
+      Name: Dahlia
+      Passives:
+      - HP30% or less in the attack defense satisfaction 15% strengthening
+      Rarity: '2'
+      RawName: !!python/str 'ダリア'
+      SP: '71'
+      Type: Technical
+      TypeId: 4
+    '91': !!python/object:models.Character
+      Attack: '220'
+      Class: Fencer
+      ClassId: 1
+      Crit: '77'
+      Defense: '159'
+      HP: '408'
+      IconUrl: http://s.shironeko.me/img/character/s/91
+      Id: '91'
+      IngestionUrl: /character?id=91
+      Name: Douglas
+      Passives:
+      - SP + 15%
+      - SP consumption -15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ダグラス'
+      SP: '131'
+      Type: Hero
+      TypeId: 1
+    '95': !!python/object:models.Character
+      Attack: '242'
+      Class: Fencer
+      ClassId: 1
+      Crit: '41'
+      Defense: '162'
+      HP: '515'
+      IconUrl: http://s.shironeko.me/img/character/s/95
+      Id: '95'
+      IngestionUrl: /character?id=95
+      Name: Edgardo
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'エドガルド'
+      SP: '116'
+      Type: Attacker
+      TypeId: 7
+    '99': !!python/object:models.Character
+      Attack: '187'
+      Class: Fencer
+      ClassId: 1
+      Crit: '85'
+      Defense: '138'
+      HP: '349'
+      IconUrl: http://s.shironeko.me/img/character/s/99
+      Id: '99'
+      IngestionUrl: /character?id=99
+      Name: Kojiro
+      Passives:
+      - satisfaction +10% +10%
+      - attack
+      Rarity: '1'
+      RawName: !!python/str 'コジロー'
+      SP: '73'
+      Type: Attacker
+      TypeId: 7
+  Lancer:
+    '10': !!python/object:models.Character
+      Attack: '120'
+      Class: Lancer
+      ClassId: 4
+      Crit: '134'
+      Defense: '99'
+      HP: '361'
+      IconUrl: http://s.shironeko.me/img/character/s/10
+      Id: '10'
+      IngestionUrl: /character?id=10
+      Name: Tin Soldier
+      Passives:
+      - satisfaction +6%
+      Rarity: '2'
+      RawName: !!python/str 'ブリキ兵士'
+      SP: '80'
+      Type: Technical
+      TypeId: 4
+    '101': !!python/object:models.Character
+      Attack: '228'
+      Class: Lancer
+      ClassId: 4
+      Crit: '144'
+      Defense: '130'
+      HP: '571'
+      IconUrl: http://s.shironeko.me/img/character/s/101
+      Id: '101'
+      IngestionUrl: /character?id=101
+      Name: Funassyi
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ふなっしー'
+      SP: '124'
+      Type: Attacker
+      TypeId: 7
+    '111': !!python/object:models.Character
+      Attack: '182'
+      Class: Lancer
+      ClassId: 4
+      Crit: '149'
+      Defense: '133'
+      HP: '577'
+      IconUrl: http://s.shironeko.me/img/character/s/111
+      Id: '111'
+      IngestionUrl: /character?id=111
+      Name: Oranges (Xmas)
+      Passives:
+      - HP + 15%
+      - '%'
+      - +15 attack the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'ミカン(Xmas)'
+      SP: '135'
+      Type: Defense
+      TypeId: 2
+    '116': !!python/object:models.Character
+      Attack: '297'
+      Class: Lancer
+      ClassId: 4
+      Crit: '132'
+      Defense: '60'
+      HP: '511'
+      IconUrl: http://s.shironeko.me/img/character/s/116
+      Id: '116'
+      IngestionUrl: /character?id=116
+      Name: Liese Lotte
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'リーゼロッテ'
+      SP: '121'
+      Type: Technical
+      TypeId: 4
+    '127': !!python/object:models.Character
+      Attack: '190'
+      Class: Lancer
+      ClassId: 4
+      Crit: '103'
+      Defense: '158'
+      HP: '564'
+      IconUrl: http://s.shironeko.me/img/character/s/127
+      Id: '127'
+      IngestionUrl: /character?id=127
+      Name: Mio (New Year)
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ミオ(正月)'
+      SP: '157'
+      Type: Skill
+      TypeId: 6
+    '133': !!python/object:models.Character
+      Attack: '213'
+      Class: Lancer
+      ClassId: 4
+      Crit: '141'
+      Defense: '132'
+      HP: '500'
+      IconUrl: http://s.shironeko.me/img/character/s/133
+      Id: '133'
+      IngestionUrl: /character?id=133
+      Name: Miki
+      Passives:
+      - SP + 15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ミキ'
+      SP: '144'
+      Type: Support
+      TypeId: 3
+    '136': !!python/object:models.Character
+      Attack: '201'
+      Class: Lancer
+      ClassId: 4
+      Crit: '137'
+      Defense: '139'
+      HP: '487'
+      IconUrl: http://s.shironeko.me/img/character/s/136
+      Id: '136'
+      IngestionUrl: /character?id=136
+      Name: Lease
+      Passives:
+      - SP consumption -15%
+      - Action Skills Enhancement +15%
+      - SP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'リース'
+      SP: '166'
+      Type: Support
+      TypeId: 3
+    '149': !!python/object:models.Character
+      Attack: '239'
+      Class: Lancer
+      ClassId: 4
+      Crit: '142'
+      Defense: '140'
+      HP: '521'
+      IconUrl: http://s.shironeko.me/img/character/s/149
+      Id: '149'
+      IngestionUrl: /character?id=149
+      Name: Calendar
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'コヨミ'
+      SP: '136'
+      Type: Balance
+      TypeId: 5
+    '158': !!python/object:models.Character
+      Attack: '203'
+      Class: Lancer
+      ClassId: 4
+      Crit: '124'
+      Defense: '155'
+      HP: '512'
+      IconUrl: http://s.shironeko.me/img/character/s/158
+      Id: '158'
+      IngestionUrl: /character?id=158
+      Name: Fiora
+      Passives:
+      - SP consumption -15%
+      - the damage -15%
+      - SP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'フィオーラ'
+      SP: '154'
+      Type: Defense
+      TypeId: 2
+    '167': !!python/object:models.Character
+      Attack: '250'
+      Class: Lancer
+      ClassId: 4
+      Crit: '177'
+      Defense: '172'
+      HP: '635'
+      IconUrl: http://s.shironeko.me/img/character/s/167
+      Id: '167'
+      IngestionUrl: /character?id=167
+      Name: Oranges (Shinki released)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ミカン(神気解放)'
+      SP: '155'
+      Type: Balance
+      TypeId: 5
+    '170': !!python/object:models.Character
+      Attack: '242'
+      Class: Lancer
+      ClassId: 4
+      Crit: '130'
+      Defense: '131'
+      HP: '536'
+      IconUrl: http://s.shironeko.me/img/character/s/170
+      Id: '170'
+      IngestionUrl: /character?id=170
+      Name: Vivi
+      Passives:
+      - SP + 15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ヴィヴィ'
+      SP: '161'
+      Type: Skill
+      TypeId: 6
+    '172': !!python/object:models.Character
+      Attack: '198'
+      Class: Lancer
+      ClassId: 4
+      Crit: '116'
+      Defense: '141'
+      HP: '633'
+      IconUrl: http://s.shironeko.me/img/character/s/172
+      Id: '172'
+      IngestionUrl: /character?id=172
+      Name: Lucy
+      Passives:
+      - damage + 50% to the Asmodian system
+      - HP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ルーシー'
+      SP: '136'
+      Type: Technical
+      TypeId: 4
+    '183': !!python/object:models.Character
+      Attack: '205'
+      Class: Lancer
+      ClassId: 4
+      Crit: '128'
+      Defense: '142'
+      HP: '503'
+      IconUrl: http://s.shironeko.me/img/character/s/183
+      Id: '183'
+      IngestionUrl: /character?id=183
+      Name: Chocolat
+      Passives:
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ショコラ'
+      SP: '141'
+      Type: Skill
+      TypeId: 6
+    '186': !!python/object:models.Character
+      Attack: '147'
+      Class: Lancer
+      ClassId: 4
+      Crit: '99'
+      Defense: '136'
+      HP: '429'
+      IconUrl: http://s.shironeko.me/img/character/s/186
+      Id: '186'
+      IngestionUrl: /character?id=186
+      Name: Melodiya
+      Passives:
+      - defense +15%
+      - SP + 15%
+      - hero type of party number x5% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'メロディア'
+      SP: '115'
+      Type: Hero
+      TypeId: 1
+    '191': !!python/object:models.Character
+      Attack: '286'
+      Class: Lancer
+      ClassId: 4
+      Crit: '60'
+      Defense: '145'
+      HP: '600'
+      IconUrl: http://s.shironeko.me/img/character/s/191
+      Id: '191'
+      IngestionUrl: /character?id=191
+      Name: Pinnata
+      Passives:
+      - Action Skills Enhancement +15% +15%
+      - attack
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'ベンケイ'
+      SP: '126'
+      Type: Attacker
+      TypeId: 7
+    '201': !!python/object:models.Character
+      Attack: '248'
+      Class: Lancer
+      ClassId: 4
+      Crit: '87'
+      Defense: '186'
+      HP: '576'
+      IconUrl: http://s.shironeko.me/img/character/s/201
+      Id: '201'
+      IngestionUrl: /character?id=201
+      Name: Clive (brown bear)
+      Passives:
+      - defense +15%
+      - the damage -15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'クライヴ(茶熊)'
+      SP: '121'
+      Type: Defense
+      TypeId: 2
+    '206': !!python/object:models.Character
+      Attack: '227'
+      Class: Lancer
+      ClassId: 4
+      Crit: '197'
+      Defense: '160'
+      HP: '556'
+      IconUrl: http://s.shironeko.me/img/character/s/206
+      Id: '206'
+      IngestionUrl: /character?id=206
+      Name: Corn Pop (Shinki released)
+      Passives:
+      - satisfaction +15% +15%
+      - attack
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'コーン・ポップ(神気解放)'
+      SP: '131'
+      Type: Balance
+      TypeId: 5
+    '214': !!python/object:models.Character
+      Attack: '247'
+      Class: Lancer
+      ClassId: 4
+      Crit: '135'
+      Defense: '140'
+      HP: '521'
+      IconUrl: http://s.shironeko.me/img/character/s/214
+      Id: '214'
+      IngestionUrl: /character?id=214
+      Name: Shanaou
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - enemy defeated during HP5% recovery
+      Rarity: '4'
+      RawName: !!python/str 'シャナオウ'
+      SP: '152'
+      Type: Balance
+      TypeId: 5
+    '218': !!python/object:models.Character
+      Attack: '223'
+      Class: Lancer
+      ClassId: 4
+      Crit: '121'
+      Defense: '138'
+      HP: '519'
+      IconUrl: http://s.shironeko.me/img/character/s/218
+      Id: '218'
+      IngestionUrl: /character?id=218
+      Name: Kasumi (Summer)
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP + 15%
+      - !!python/str '-party balance type × number of attacks 10 percent strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'カスミ(サマー)'
+      SP: '163'
+      Type: Balance
+      TypeId: 5
+    '234': !!python/object:models.Character
+      Attack: '203'
+      Class: Lancer
+      ClassId: 4
+      Crit: '127'
+      Defense: '137'
+      HP: '490'
+      IconUrl: http://s.shironeko.me/img/character/s/234
+      Id: '234'
+      IngestionUrl: /character?id=234
+      Name: Paruvane
+      Passives:
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      - recovery Skills Enhancement +50%
+      Rarity: '4'
+      RawName: !!python/str 'パルヴァネ'
+      SP: '158'
+      Type: Support
+      TypeId: 3
+    '241': !!python/object:models.Character
+      Attack: '287'
+      Class: Lancer
+      ClassId: 4
+      Crit: '119'
+      Defense: '122'
+      HP: '681'
+      IconUrl: http://s.shironeko.me/img/character/s/241
+      Id: '241'
+      IngestionUrl: /character?id=241
+      Name: Van
+      Passives:
+      - attack +15%
+      - attack +15%
+      - HP50% or less in the HP is gradually recovering
+      Rarity: '4'
+      RawName: !!python/str 'バン'
+      SP: '134'
+      Type: Attacker
+      TypeId: 7
+    '244': !!python/object:models.Character
+      Attack: '234'
+      Class: Lancer
+      ClassId: 4
+      Crit: '216'
+      Defense: '200'
+      HP: '667'
+      IconUrl: http://s.shironeko.me/img/character/s/244
+      Id: '244'
+      IngestionUrl: /character?id=244
+      Name: Dewey (Shinki released)
+      Passives:
+      - defense +15% +15% satisfaction
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'デューイ(神気解放)'
+      SP: '144'
+      Type: Defense
+      TypeId: 2
+    '257': !!python/object:models.Character
+      Attack: '243'
+      Class: Lancer
+      ClassId: 4
+      Crit: '110'
+      Defense: '142'
+      HP: '501'
+      IconUrl: http://s.shironeko.me/img/character/s/257
+      Id: '257'
+      IngestionUrl: /character?id=257
+      Name: Daryl
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'ダリル'
+      SP: '175'
+      Type: Technical
+      TypeId: 4
+    '268': !!python/object:models.Character
+      Attack: '216'
+      Class: Lancer
+      ClassId: 4
+      Crit: '122'
+      Defense: '131'
+      HP: '555'
+      IconUrl: http://s.shironeko.me/img/character/s/268
+      Id: '268'
+      IngestionUrl: /character?id=268
+      Name: Ozma
+      Passives:
+      - Empower +100% of the enemy of the shock state
+      - movement speed +50%
+      - SP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'オズマ'
+      SP: '156'
+      Type: Technical
+      TypeId: 4
+    '273': !!python/object:models.Character
+      Attack: '278'
+      Class: Lancer
+      ClassId: 4
+      Crit: '184'
+      Defense: '174'
+      HP: '748'
+      IconUrl: http://s.shironeko.me/img/character/s/273
+      Id: '273'
+      IngestionUrl: /character?id=273
+      Name: Mio (Shinki release)
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ミオ(神気解放)'
+      SP: '150'
+      Type: Balance
+      TypeId: 5
+    '277': !!python/object:models.Character
+      Attack: '285'
+      Class: Lancer
+      ClassId: 4
+      Crit: '100'
+      Defense: '134'
+      HP: '523'
+      IconUrl: http://s.shironeko.me/img/character/s/277
+      Id: '277'
+      IngestionUrl: /character?id=277
+      Name: Amata
+      Passives:
+      - action skill consumption SP-30% in the strengthening +15%
+      - HP80% more than
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'アマタ'
+      SP: '136'
+      Type: Attacker
+      TypeId: 7
+    '283': !!python/object:models.Character
+      Attack: '214'
+      Class: Lancer
+      ClassId: 4
+      Crit: '130'
+      Defense: '130'
+      HP: '548'
+      IconUrl: http://s.shironeko.me/img/character/s/283
+      Id: '283'
+      IngestionUrl: /character?id=283
+      Name: Mai (Revenge)
+      Passives:
+      - SP + 15%
+      - strengthening skills extension +7 seconds
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'マイ(リベンジ)'
+      SP: '157'
+      Type: Support
+      TypeId: 3
+    '291': !!python/object:models.Character
+      Attack: '219'
+      Class: Lancer
+      ClassId: 4
+      Crit: '126'
+      Defense: '129'
+      HP: '512'
+      IconUrl: http://s.shironeko.me/img/character/s/291
+      Id: '291'
+      IngestionUrl: /character?id=291
+      Name: Zerokisu (hot spring)
+      Passives:
+      - killed instantly around
+      - SP + 20%
+      - in the attack speed +30%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'ゼロキス(温泉)'
+      SP: '166'
+      Type: Skill
+      TypeId: 6
+    '301': !!python/object:models.Character
+      Attack: '235'
+      Class: Lancer
+      ClassId: 4
+      Crit: '168'
+      Defense: '162'
+      HP: '677'
+      IconUrl: http://s.shironeko.me/img/character/s/301
+      Id: '301'
+      IngestionUrl: /character?id=301
+      Name: Aruzan (Shinki release)
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'アルザーン(神気解放)'
+      SP: '188'
+      Type: Skill
+      TypeId: 6
+    '304': !!python/object:models.Character
+      Attack: '216'
+      Class: Lancer
+      ClassId: 4
+      Crit: '111'
+      Defense: '137'
+      HP: '529'
+      IconUrl: http://s.shironeko.me/img/character/s/304
+      Id: '304'
+      IngestionUrl: /character?id=304
+      Name: Fran (Xmas)
+      Passives:
+      - movement speed +50%
+      - SP consumption -15%
+      - attack speed +50%
+      Rarity: '4'
+      RawName: !!python/str 'フラン(Xmas)'
+      SP: '141'
+      Type: Support
+      TypeId: 3
+    '315': !!python/object:models.Character
+      Attack: '207'
+      Class: Lancer
+      ClassId: 4
+      Crit: '152'
+      Defense: '124'
+      HP: '491'
+      IconUrl: http://s.shironeko.me/img/character/s/315
+      Id: '315'
+      IngestionUrl: /character?id=315
+      Name: Ruushe
+      Passives:
+      - movement speed +50%
+      - the damage -15%
+      - attack defense satisfaction +50%
+      - in the summons
+      Rarity: '4'
+      RawName: !!python/str 'ルウシェ'
+      SP: '145'
+      Type: Balance
+      TypeId: 5
+    '322': !!python/object:models.Character
+      Attack: '200'
+      Class: Lancer
+      ClassId: 4
+      Crit: '140'
+      Defense: '138'
+      HP: '525'
+      IconUrl: http://s.shironeko.me/img/character/s/322
+      Id: '322'
+      IngestionUrl: /character?id=322
+      Name: Chappie
+      Passives:
+      - Empower +200%
+      - to the SP consumption -15%
+      - !!python/str 'skill type number × SP8% of party strengthening'
+      - of unconscious enemy
+      Rarity: '4'
+      RawName: !!python/str 'チャッピー'
+      SP: '151'
+      Type: Skill
+      TypeId: 6
+    '329': !!python/object:models.Character
+      Attack: '253'
+      Class: Lancer
+      ClassId: 4
+      Crit: '175'
+      Defense: '165'
+      HP: '656'
+      IconUrl: http://s.shironeko.me/img/character/s/329
+      Id: '329'
+      IngestionUrl: /character?id=329
+      Name: Oranges (Xmas) (Shinki open)
+      Passives:
+      - the damage -15%
+      - attack +15%
+      - attack speed +50%
+      Rarity: '4'
+      RawName: !!python/str 'ミカン(Xmas)(神気開放)'
+      SP: '161'
+      Type: Defense
+      TypeId: 2
+    '337': !!python/object:models.Character
+      Attack: '212'
+      Class: Lancer
+      ClassId: 4
+      Crit: '143'
+      Defense: '144'
+      HP: '501'
+      IconUrl: http://s.shironeko.me/img/character/s/337
+      Id: '337'
+      IngestionUrl: /character?id=337
+      Name: Colin (New Year)
+      Passives:
+      - SP + 15%
+      - Action Skills Enhancement +50 percent in the SP70% more than
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'コリン(正月)'
+      SP: '164'
+      Type: Skill
+      TypeId: 6
+    '343': !!python/object:models.Character
+      Attack: '224'
+      Class: Lancer
+      ClassId: 4
+      Crit: '121'
+      Defense: '204'
+      HP: '681'
+      IconUrl: http://s.shironeko.me/img/character/s/343
+      Id: '343'
+      IngestionUrl: /character?id=343
+      Name: Mio (New Year) (Shinki open)
+      Passives:
+      - movement speed +50%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ミオ(正月)(神気開放)'
+      SP: '185'
+      Type: Skill
+      TypeId: 6
+    '350': !!python/object:models.Character
+      Attack: '336'
+      Class: Lancer
+      ClassId: 4
+      Crit: '120'
+      Defense: '206'
+      HP: '754'
+      IconUrl: http://s.shironeko.me/img/character/s/350
+      Id: '350'
+      IngestionUrl: /character?id=350
+      Name: Clive (brown bear) (Shinki open)
+      Passives:
+      - attack speed and movement speed +20%
+      - the damage -15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'クライヴ(茶熊)(神気開放)'
+      SP: '149'
+      Type: Defense
+      TypeId: 2
+    '357': !!python/object:models.Character
+      Attack: '274'
+      Class: Lancer
+      ClassId: 4
+      Crit: '170'
+      Defense: '176'
+      HP: '651'
+      IconUrl: http://s.shironeko.me/img/character/s/357
+      Id: '357'
+      IngestionUrl: /character?id=357
+      Name: None
+      Passives:
+      - SP consumption -15%
+      - Action Skills Enhancement consumption SP-50%
+      - at +15%
+      - HP50% or more
+      Rarity: '4'
+      RawName: None
+      SP: '164'
+      Type: Support
+      TypeId: 3
+    '362': !!python/object:models.Character
+      Attack: '215'
+      Class: Lancer
+      ClassId: 4
+      Crit: '127'
+      Defense: '147'
+      HP: '531'
+      IconUrl: http://s.shironeko.me/img/character/s/362
+      Id: '362'
+      IngestionUrl: /character?id=362
+      Name: None
+      Passives:
+      - Audeamusu&#39;re the instant death around
+      - attack speed and movement speed +30%
+      - in the attack +100%
+      - HP10% or more
+      Rarity: '4'
+      RawName: None
+      SP: '135'
+      Type: Balance
+      TypeId: 5
+    '46': !!python/object:models.Character
+      Attack: '187'
+      Class: Lancer
+      ClassId: 4
+      Crit: '153'
+      Defense: '138'
+      HP: '487'
+      IconUrl: http://s.shironeko.me/img/character/s/46
+      Id: '46'
+      IngestionUrl: /character?id=46
+      Name: Oranges
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ミカン'
+      SP: '128'
+      Type: Balance
+      TypeId: 5
+    '47': !!python/object:models.Character
+      Attack: '186'
+      Class: Lancer
+      ClassId: 4
+      Crit: '174'
+      Defense: '136'
+      HP: '484'
+      IconUrl: http://s.shironeko.me/img/character/s/47
+      Id: '47'
+      IngestionUrl: /character?id=47
+      Name: Corn pop
+      Passives:
+      - satisfaction +15% +15%
+      - attack
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'コーン・ポップ'
+      SP: '111'
+      Type: Balance
+      TypeId: 5
+    '49': !!python/object:models.Character
+      Attack: '161'
+      Class: Lancer
+      ClassId: 4
+      Crit: '144'
+      Defense: '126'
+      HP: '436'
+      IconUrl: http://s.shironeko.me/img/character/s/49
+      Id: '49'
+      IngestionUrl: /character?id=49
+      Name: Halim
+      Passives:
+      - attack +10%
+      - the damage -10%
+      Rarity: '3'
+      RawName: !!python/str 'ハリム'
+      SP: '100'
+      Type: Balance
+      TypeId: 5
+    '50': !!python/object:models.Character
+      Attack: '146'
+      Class: Lancer
+      ClassId: 4
+      Crit: '143'
+      Defense: '125'
+      HP: '476'
+      IconUrl: http://s.shironeko.me/img/character/s/50
+      Id: '50'
+      IngestionUrl: /character?id=50
+      Name: William
+      Passives:
+      - HP + 10%
+      - HP80% or more in the attack defense satisfaction 10% strengthening
+      Rarity: '3'
+      RawName: !!python/str 'ウィリアム'
+      SP: '99'
+      Type: Technical
+      TypeId: 4
+    '52': !!python/object:models.Character
+      Attack: '155'
+      Class: Lancer
+      ClassId: 4
+      Crit: '139'
+      Defense: '121'
+      HP: '423'
+      IconUrl: http://s.shironeko.me/img/character/s/52
+      Id: '52'
+      IngestionUrl: /character?id=52
+      Name: Hyuga
+      Passives:
+      - attack +10%
+      - Action Skills Enhancement +10%
+      Rarity: '3'
+      RawName: !!python/str 'ヒュウガ'
+      SP: '96'
+      Type: Attacker
+      TypeId: 7
+    '54': !!python/object:models.Character
+      Attack: '161'
+      Class: Lancer
+      ClassId: 4
+      Crit: '75'
+      Defense: '128'
+      HP: '426'
+      IconUrl: http://s.shironeko.me/img/character/s/54
+      Id: '54'
+      IngestionUrl: /character?id=54
+      Name: Razuiya
+      Passives:
+      - SP + 10%
+      - SP consumption -15%
+      Rarity: '3'
+      RawName: !!python/str 'ラズィーヤ'
+      SP: '96'
+      Type: Skill
+      TypeId: 6
+    '55': !!python/object:models.Character
+      Attack: '122'
+      Class: Lancer
+      ClassId: 4
+      Crit: '123'
+      Defense: '96'
+      HP: '353'
+      IconUrl: http://s.shironeko.me/img/character/s/55
+      Id: '55'
+      IngestionUrl: /character?id=55
+      Name: Freesia
+      Passives:
+      - attack +6%
+      Rarity: '2'
+      RawName: !!python/str 'フリージア'
+      SP: '78'
+      Type: Attacker
+      TypeId: 7
+    '57': !!python/object:models.Character
+      Attack: '115'
+      Class: Lancer
+      ClassId: 4
+      Crit: '128'
+      Defense: '100'
+      HP: '364'
+      IconUrl: http://s.shironeko.me/img/character/s/57
+      Id: '57'
+      IngestionUrl: /character?id=57
+      Name: Tittsuano
+      Passives:
+      - SP + 6%
+      Rarity: '2'
+      RawName: !!python/str 'ティッツァーノ'
+      SP: '85'
+      Type: Skill
+      TypeId: 6
+    '66': !!python/object:models.Character
+      Attack: '179'
+      Class: Lancer
+      ClassId: 4
+      Crit: '147'
+      Defense: '151'
+      HP: '491'
+      IconUrl: http://s.shironeko.me/img/character/s/66
+      Id: '66'
+      IngestionUrl: /character?id=66
+      Name: Dewey
+      Passives:
+      - defense +15% +15%
+      - attack
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'デューイ'
+      SP: '118'
+      Type: Defense
+      TypeId: 2
+    '71': !!python/object:models.Character
+      Attack: '152'
+      Class: Lancer
+      ClassId: 4
+      Crit: '125'
+      Defense: '132'
+      HP: '466'
+      IconUrl: http://s.shironeko.me/img/character/s/71
+      Id: '71'
+      IngestionUrl: /character?id=71
+      Name: Taby
+      Passives:
+      - HP + 10%
+      - defense +10%
+      Rarity: '1'
+      RawName: !!python/str 'タビィ'
+      SP: '102'
+      Type: Skill
+      TypeId: 6
+    '74': !!python/object:models.Character
+      Attack: '201'
+      Class: Lancer
+      ClassId: 4
+      Crit: '157'
+      Defense: '140'
+      HP: '573'
+      IconUrl: http://s.shironeko.me/img/character/s/74
+      Id: '74'
+      IngestionUrl: /character?id=74
+      Name: Mio
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ミオ'
+      SP: '120'
+      Type: Balance
+      TypeId: 5
+    '80': !!python/object:models.Character
+      Attack: '170'
+      Class: Lancer
+      ClassId: 4
+      Crit: '143'
+      Defense: '130'
+      HP: '519'
+      IconUrl: http://s.shironeko.me/img/character/s/80
+      Id: '80'
+      IngestionUrl: /character?id=80
+      Name: Aruzan
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'アルザーン'
+      SP: '145'
+      Type: Skill
+      TypeId: 6
+    '90': !!python/object:models.Character
+      Attack: '197'
+      Class: Lancer
+      ClassId: 4
+      Crit: '154'
+      Defense: '147'
+      HP: '530'
+      IconUrl: http://s.shironeko.me/img/character/s/90
+      Id: '90'
+      IngestionUrl: /character?id=90
+      Name: Rugu
+      Passives:
+      - attack +15% +15%
+      - defense
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ルーグ'
+      SP: '107'
+      Type: Attacker
+      TypeId: 7
+    '94': !!python/object:models.Character
+      Attack: '217'
+      Class: Lancer
+      ClassId: 4
+      Crit: '149'
+      Defense: '131'
+      HP: '509'
+      IconUrl: http://s.shironeko.me/img/character/s/94
+      Id: '94'
+      IngestionUrl: /character?id=94
+      Name: Chunmei
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'チュンメイ'
+      SP: '146'
+      Type: Support
+      TypeId: 3
+  Mage:
+    '106': !!python/object:models.Character
+      Attack: '218'
+      Class: Mage
+      ClassId: 6
+      Crit: '76'
+      Defense: '87'
+      HP: '302'
+      IconUrl: http://s.shironeko.me/img/character/s/106
+      Id: '106'
+      IngestionUrl: /character?id=106
+      Name: Beat
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'ビート'
+      SP: '190'
+      Type: Technical
+      TypeId: 4
+    '107': !!python/object:models.Character
+      Attack: '187'
+      Class: Mage
+      ClassId: 6
+      Crit: '69'
+      Defense: '93'
+      HP: '266'
+      IconUrl: http://s.shironeko.me/img/character/s/107
+      Id: '107'
+      IngestionUrl: /character?id=107
+      Name: With
+      Passives:
+      - SP + 15%
+      - defense +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ウィズ'
+      SP: '159'
+      Type: Hero
+      TypeId: 1
+    '109': !!python/object:models.Character
+      Attack: '249'
+      Class: Mage
+      ClassId: 6
+      Crit: '68'
+      Defense: '81'
+      HP: '290'
+      IconUrl: http://s.shironeko.me/img/character/s/109
+      Id: '109'
+      IngestionUrl: /character?id=109
+      Name: Mira (Xmas) instant death around
+      Passives:
+      - in the
+      - Action Skills Enhancement +15%
+      - attack +15%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'ミラ(Xmas)'
+      SP: '179'
+      Type: Technical
+      TypeId: 4
+    '11': !!python/object:models.Character
+      Attack: '232'
+      Class: Mage
+      ClassId: 6
+      Crit: '71'
+      Defense: '86'
+      HP: '273'
+      IconUrl: http://s.shironeko.me/img/character/s/11
+      Id: '11'
+      IngestionUrl: /character?id=11
+      Name: Instant death avoided
+      Passives:
+      - in Mira
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'ミラ'
+      SP: '152'
+      Type: Defense
+      TypeId: 2
+    '120': !!python/object:models.Character
+      Attack: '214'
+      Class: Mage
+      ClassId: 6
+      Crit: '65'
+      Defense: '111'
+      HP: '321'
+      IconUrl: http://s.shironeko.me/img/character/s/120
+      Id: '120'
+      IngestionUrl: /character?id=120
+      Name: Michel
+      Passives:
+      - SP consumption -15%
+      - defense +15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'ミシェル'
+      SP: '167'
+      Type: Defense
+      TypeId: 2
+    '122': !!python/object:models.Character
+      Attack: '242'
+      Class: Mage
+      ClassId: 6
+      Crit: '66'
+      Defense: '80'
+      HP: '326'
+      IconUrl: http://s.shironeko.me/img/character/s/122
+      Id: '122'
+      IngestionUrl: /character?id=122
+      Name: Haruka (New Year)
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ハルカ(正月)'
+      SP: '173'
+      Type: Support
+      TypeId: 3
+    '129': !!python/object:models.Character
+      Attack: '192'
+      Class: Mage
+      ClassId: 6
+      Crit: '70'
+      Defense: '83'
+      HP: '270'
+      IconUrl: http://s.shironeko.me/img/character/s/129
+      Id: '129'
+      IngestionUrl: /character?id=129
+      Name: Umarusu
+      Passives:
+      - Action Skills Enhancement +10%
+      - SP + 10%
+      Rarity: '1'
+      RawName: !!python/str 'ウマルス'
+      SP: '163'
+      Type: Support
+      TypeId: 3
+    '13': !!python/object:models.Character
+      Attack: '239'
+      Class: Mage
+      ClassId: 6
+      Crit: '73'
+      Defense: '88'
+      HP: '281'
+      IconUrl: http://s.shironeko.me/img/character/s/13
+      Id: '13'
+      IngestionUrl: /character?id=13
+      Name: Yunron
+      Passives:
+      - SP + 15%
+      - the damage -15%
+      - attack +15%
+      Rarity: '4'
+      RawName: !!python/str 'ユンロン'
+      SP: '179'
+      Type: Balance
+      TypeId: 5
+    '130': !!python/object:models.Character
+      Attack: '228'
+      Class: Mage
+      ClassId: 6
+      Crit: '63'
+      Defense: '89'
+      HP: '285'
+      IconUrl: http://s.shironeko.me/img/character/s/130
+      Id: '130'
+      IngestionUrl: /character?id=130
+      Name: Kisaragi
+      Passives:
+      - SP consumption -15%
+      - SP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'キサラギ'
+      SP: '194'
+      Type: Skill
+      TypeId: 6
+    '138': !!python/object:models.Character
+      Attack: '234'
+      Class: Mage
+      ClassId: 6
+      Crit: '61'
+      Defense: '60'
+      HP: '277'
+      IconUrl: http://s.shironeko.me/img/character/s/138
+      Id: '138'
+      IngestionUrl: /character?id=138
+      Name: Pham
+      Passives:
+      - killed instantly avoided by attack +15%
+      - HP10% more than
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ファム'
+      SP: '208'
+      Type: Balance
+      TypeId: 5
+    '14': !!python/object:models.Character
+      Attack: '194'
+      Class: Mage
+      ClassId: 6
+      Crit: '65'
+      Defense: '76'
+      HP: '242'
+      IconUrl: http://s.shironeko.me/img/character/s/14
+      Id: '14'
+      IngestionUrl: /character?id=14
+      Name: Aceto
+      Passives:
+      - attack attack defense satisfaction 10% strengthening in the
+      - +10%
+      - HP80% or more
+      Rarity: '3'
+      RawName: !!python/str 'アセト'
+      SP: '131'
+      Type: Technical
+      TypeId: 4
+    '150': !!python/object:models.Character
+      Attack: '213'
+      Class: Mage
+      ClassId: 6
+      Crit: '66'
+      Defense: '100'
+      HP: '342'
+      IconUrl: http://s.shironeko.me/img/character/s/150
+      Id: '150'
+      IngestionUrl: /character?id=150
+      Name: Inherumina
+      Passives:
+      - HP + 15%
+      - the damage -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'インヘルミナ'
+      SP: '181'
+      Type: Defense
+      TypeId: 2
+    '153': !!python/object:models.Character
+      Attack: '202'
+      Class: Mage
+      ClassId: 6
+      Crit: '63'
+      Defense: '77'
+      HP: '200'
+      IconUrl: http://s.shironeko.me/img/character/s/153
+      Id: '153'
+      IngestionUrl: /character?id=153
+      Name: Mar
+      Passives:
+      - killed instantly in the HP10% or more avoidance
+      - Action Skills Enhancement +15%
+      - in the HP70% or more attack-proof, meeting 70% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'マール'
+      SP: '195'
+      Type: Technical
+      TypeId: 4
+    '155': !!python/object:models.Character
+      Attack: '197'
+      Class: Mage
+      ClassId: 6
+      Crit: '63'
+      Defense: '82'
+      HP: '326'
+      IconUrl: http://s.shironeko.me/img/character/s/155
+      Id: '155'
+      IngestionUrl: /character?id=155
+      Name: Primula
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'プリムラ'
+      SP: '195'
+      Type: Support
+      TypeId: 3
+    '16': !!python/object:models.Character
+      Attack: '196'
+      Class: Mage
+      ClassId: 6
+      Crit: '65'
+      Defense: '77'
+      HP: '245'
+      IconUrl: http://s.shironeko.me/img/character/s/16
+      Id: '16'
+      IngestionUrl: /character?id=16
+      Name: Peach
+      Passives:
+      - attack +10%
+      - Action Skills Enhancement +10%
+      Rarity: '3'
+      RawName: !!python/str 'モモ'
+      SP: '133'
+      Type: Support
+      TypeId: 3
+    '165': !!python/object:models.Character
+      Attack: '294'
+      Class: Mage
+      ClassId: 6
+      Crit: '82'
+      Defense: '114'
+      HP: '347'
+      IconUrl: http://s.shironeko.me/img/character/s/165
+      Id: '165'
+      IngestionUrl: /character?id=165
+      Name: Mira (Shinki released) killed instantly in the attack
+      Passives:
+      - +15%
+      - HP10% or more avoidance
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ミラ(神気解放)'
+      SP: '183'
+      Type: Defense
+      TypeId: 2
+    '176': !!python/object:models.Character
+      Attack: '231'
+      Class: Mage
+      ClassId: 6
+      Crit: '66'
+      Defense: '80'
+      HP: '330'
+      IconUrl: http://s.shironeko.me/img/character/s/176
+      Id: '176'
+      IngestionUrl: /character?id=176
+      Name: Lee Spur
+      Passives:
+      - attack +15%
+      - killed instantly avoided by HP10% more than
+      - enhanced skills extension +10 seconds
+      Rarity: '4'
+      RawName: !!python/str 'イシュプール'
+      SP: '177'
+      Type: Technical
+      TypeId: 4
+    '178': !!python/object:models.Character
+      Attack: '183'
+      Class: Mage
+      ClassId: 6
+      Crit: '66'
+      Defense: '85'
+      HP: '270'
+      IconUrl: http://s.shironeko.me/img/character/s/178
+      Id: '178'
+      IngestionUrl: /character?id=178
+      Name: Shokotan
+      Passives:
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'しょこたん'
+      SP: '161'
+      Type: Hero
+      TypeId: 1
+    '18': !!python/object:models.Character
+      Attack: '184'
+      Class: Mage
+      ClassId: 6
+      Crit: '67'
+      Defense: '79'
+      HP: '252'
+      IconUrl: http://s.shironeko.me/img/character/s/18
+      Id: '18'
+      IngestionUrl: /character?id=18
+      Name: Pan
+      Passives:
+      - SP + 10%
+      - SP consumption -15%
+      Rarity: '3'
+      RawName: !!python/str 'パン'
+      SP: '150'
+      Type: Support
+      TypeId: 3
+    '181': !!python/object:models.Character
+      Attack: '200'
+      Class: Mage
+      ClassId: 6
+      Crit: '59'
+      Defense: '99'
+      HP: '318'
+      IconUrl: http://s.shironeko.me/img/character/s/181
+      Id: '181'
+      IngestionUrl: /character?id=181
+      Name: Jupiter
+      Passives:
+      - killed instantly avoided by action Skills Enhancement +15%
+      - HP10% more than
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ユピテル'
+      SP: '193'
+      Type: Support
+      TypeId: 3
+    '19': !!python/object:models.Character
+      Attack: '182'
+      Class: Mage
+      ClassId: 6
+      Crit: '67'
+      Defense: '78'
+      HP: '250'
+      IconUrl: http://s.shironeko.me/img/character/s/19
+      Id: '19'
+      IngestionUrl: /character?id=19
+      Name: Philip
+      Passives:
+      - killed instantly avoided by HP15% more than
+      - SP + 10%
+      Rarity: '3'
+      RawName: !!python/str 'フィリップ'
+      SP: '148'
+      Type: Balance
+      TypeId: 5
+    '194': !!python/object:models.Character
+      Attack: '206'
+      Class: Mage
+      ClassId: 6
+      Crit: '58'
+      Defense: '82'
+      HP: '321'
+      IconUrl: http://s.shironeko.me/img/character/s/194
+      Id: '194'
+      IngestionUrl: /character?id=194
+      Name: Pong
+      Passives:
+      - SP killed instantly avoided by consumption -15%
+      - HP10% more than
+      - recovery Skills Enhancement +50%
+      Rarity: '4'
+      RawName: !!python/str 'ポン'
+      SP: '190'
+      Type: Support
+      TypeId: 3
+    '197': !!python/object:models.Character
+      Attack: '210'
+      Class: Mage
+      ClassId: 6
+      Crit: '80'
+      Defense: '97'
+      HP: '328'
+      IconUrl: http://s.shironeko.me/img/character/s/197
+      Id: '197'
+      IngestionUrl: /character?id=197
+      Name: Fran (brown bear) instant death in
+      Passives:
+      - SP consumption -15%
+      - HP10% or more avoidance
+      - attack speed +50%
+      Rarity: '4'
+      RawName: !!python/str 'フラン(茶熊)'
+      SP: '188'
+      Type: Support
+      TypeId: 3
+    '209': !!python/object:models.Character
+      Attack: '303'
+      Class: Mage
+      ClassId: 6
+      Crit: '85'
+      Defense: '118'
+      HP: '360'
+      IconUrl: http://s.shironeko.me/img/character/s/209
+      Id: '209'
+      IngestionUrl: /character?id=209
+      Name: Yunron (Shinki release)
+      Passives:
+      - SP + 15%
+      - '%'
+      - +15 attack the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'ユンロン(神気解放)'
+      SP: '216'
+      Type: Balance
+      TypeId: 5
+    '21': !!python/object:models.Character
+      Attack: '145'
+      Class: Mage
+      ClassId: 6
+      Crit: '57'
+      Defense: '45'
+      HP: '205'
+      IconUrl: http://s.shironeko.me/img/character/s/21
+      Id: '21'
+      IngestionUrl: /character?id=21
+      Name: Lupine
+      Passives:
+      - SP consumption -10%
+      Rarity: '2'
+      RawName: !!python/str 'ルピナス'
+      SP: '106'
+      Type: Skill
+      TypeId: 6
+    '213': !!python/object:models.Character
+      Attack: '213'
+      Class: Mage
+      ClassId: 6
+      Crit: '62'
+      Defense: '94'
+      HP: '311'
+      IconUrl: http://s.shironeko.me/img/character/s/213
+      Id: '213'
+      IngestionUrl: /character?id=213
+      Name: Tsuyuha
+      Passives:
+      - killed instantly avoided by HP10% more than
+      - attack +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ツユハ'
+      SP: '189'
+      Type: Skill
+      TypeId: 6
+    '222': !!python/object:models.Character
+      Attack: '253'
+      Class: Mage
+      ClassId: 6
+      Crit: '65'
+      Defense: '98'
+      HP: '315'
+      IconUrl: http://s.shironeko.me/img/character/s/222
+      Id: '222'
+      IngestionUrl: /character?id=222
+      Name: Calendar (Summer)
+      Passives:
+      - Action Skills Enhancement +15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'コヨミ(サマー)'
+      SP: '190'
+      Type: Balance
+      TypeId: 5
+    '231': !!python/object:models.Character
+      Attack: '205'
+      Class: Mage
+      ClassId: 6
+      Crit: '73'
+      Defense: '95'
+      HP: '320'
+      IconUrl: http://s.shironeko.me/img/character/s/231
+      Id: '231'
+      IngestionUrl: /character?id=231
+      Name: Rico
+      Passives:
+      - SP instant death avoided
+      - party of different weapon types x attack 10% strengthening in the
+      - consumption -15%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'リコ'
+      SP: '187'
+      Type: Support
+      TypeId: 3
+    '237': !!python/object:models.Character
+      Attack: '198'
+      Class: Mage
+      ClassId: 6
+      Crit: '70'
+      Defense: '104'
+      HP: '304'
+      IconUrl: http://s.shironeko.me/img/character/s/237
+      Id: '237'
+      IngestionUrl: /character?id=237
+      Name: Merlin attack 50% strengthening in the
+      Passives:
+      - HP70% more than
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'マーリン'
+      SP: '195'
+      Type: Support
+      TypeId: 3
+    '24': !!python/object:models.Character
+      Attack: '142'
+      Class: Mage
+      ClassId: 6
+      Crit: '60'
+      Defense: '47'
+      HP: '213'
+      IconUrl: http://s.shironeko.me/img/character/s/24
+      Id: '24'
+      IngestionUrl: /character?id=24
+      Name: Tomuboi
+      Passives:
+      - Action Skills Enhancement +5%
+      Rarity: '2'
+      RawName: !!python/str 'トムボイ'
+      SP: '110'
+      Type: Attacker
+      TypeId: 7
+    '245': !!python/object:models.Character
+      Attack: '251'
+      Class: Mage
+      ClassId: 6
+      Crit: '98'
+      Defense: '122'
+      HP: '431'
+      IconUrl: http://s.shironeko.me/img/character/s/245
+      Id: '245'
+      IngestionUrl: /character?id=245
+      Name: Suzune (Shinki release)
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - attack on the HP80% or more defense satisfaction attack rate of 25% Enhanced
+      Rarity: '4'
+      RawName: !!python/str 'スズネ(神気解放)'
+      SP: '221'
+      Type: Technical
+      TypeId: 4
+    '25': !!python/object:models.Character
+      Attack: '150'
+      Class: Mage
+      ClassId: 6
+      Crit: '59'
+      Defense: '47'
+      HP: '223'
+      IconUrl: http://s.shironeko.me/img/character/s/25
+      Id: '25'
+      IngestionUrl: /character?id=25
+      Name: Akaishi soldier
+      Passives:
+      - HP + 6%
+      Rarity: '2'
+      RawName: !!python/str '赤石兵士'
+      SP: '109'
+      Type: Defense
+      TypeId: 2
+    '252': !!python/object:models.Character
+      Attack: '234'
+      Class: Mage
+      ClassId: 6
+      Crit: '78'
+      Defense: '106'
+      HP: '322'
+      IconUrl: http://s.shironeko.me/img/character/s/252
+      Id: '252'
+      IngestionUrl: /character?id=252
+      Name: Pan (Shinki release)
+      Passives:
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '3'
+      RawName: !!python/str 'パン(神気解放)'
+      SP: '189'
+      Type: Support
+      TypeId: 3
+    '258': !!python/object:models.Character
+      Attack: '203'
+      Class: Mage
+      ClassId: 6
+      Crit: '73'
+      Defense: '101'
+      HP: '299'
+      IconUrl: http://s.shironeko.me/img/character/s/258
+      Id: '258'
+      IngestionUrl: /character?id=258
+      Name: Rinberu
+      Passives:
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'リンベル'
+      SP: '196'
+      Type: Technical
+      TypeId: 4
+    '26': !!python/object:models.Character
+      Attack: '159'
+      Class: Mage
+      ClassId: 6
+      Crit: '60'
+      Defense: '60'
+      HP: '221'
+      IconUrl: http://s.shironeko.me/img/character/s/26
+      Id: '26'
+      IngestionUrl: /character?id=26
+      Name: Iris
+      Passives:
+      - SP consumption -15%
+      - SP + 10%
+      Rarity: '1'
+      RawName: !!python/str 'アイリス'
+      SP: '128'
+      Type: Hero
+      TypeId: 1
+    '264': !!python/object:models.Character
+      Attack: '221'
+      Class: Mage
+      ClassId: 6
+      Crit: '61'
+      Defense: '89'
+      HP: '254'
+      IconUrl: http://s.shironeko.me/img/character/s/264
+      Id: '264'
+      IngestionUrl: /character?id=264
+      Name: Mireille
+      Passives:
+      - SP + 15%
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ミレイユ'
+      SP: '216'
+      Type: Support
+      TypeId: 3
+    '272': !!python/object:models.Character
+      Attack: '303'
+      Class: Mage
+      ClassId: 6
+      Crit: '88'
+      Defense: '141'
+      HP: '457'
+      IconUrl: http://s.shironeko.me/img/character/s/272
+      Id: '272'
+      IngestionUrl: /character?id=272
+      Name: Giovanni (Shinki released)
+      Passives:
+      - defense +15%
+      - SP + 15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'ジョバンニ(神気解放)'
+      SP: '232'
+      Type: Defense
+      TypeId: 2
+    '278': !!python/object:models.Character
+      Attack: '277'
+      Class: Mage
+      ClassId: 6
+      Crit: '68'
+      Defense: '100'
+      HP: '283'
+      IconUrl: http://s.shironeko.me/img/character/s/278
+      Id: '278'
+      IngestionUrl: /character?id=278
+      Name: Attack in the Tsukimi
+      Passives:
+      - HP70% or more, instant death avoided
+      - SP consumption -20%
+      - in the mobile speed of 50% Enhanced
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'ツキミ'
+      SP: '193'
+      Type: Attacker
+      TypeId: 7
+    '280': !!python/object:models.Character
+      Attack: '258'
+      Class: Mage
+      ClassId: 6
+      Crit: '90'
+      Defense: '101'
+      HP: '301'
+      IconUrl: http://s.shironeko.me/img/character/s/280
+      Id: '280'
+      IngestionUrl: /character?id=280
+      Name: Amarie (Revenge)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アマーリエ(リベンジ)'
+      SP: '218'
+      Type: Balance
+      TypeId: 5
+    '292': !!python/object:models.Character
+      Attack: '232'
+      Class: Mage
+      ClassId: 6
+      Crit: '63'
+      Defense: '87'
+      HP: '308'
+      IconUrl: http://s.shironeko.me/img/character/s/292
+      Id: '292'
+      IngestionUrl: /character?id=292
+      Name: Kurusha (hot spring) instant death in
+      Passives:
+      - HP10% or more avoidance
+      - attack speed +30%
+      - spirit unity during action skill 200% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'クルーシャ(温泉)'
+      SP: '193'
+      Type: Attacker
+      TypeId: 7
+    '297': !!python/object:models.Character
+      Attack: '355'
+      Class: Mage
+      ClassId: 6
+      Crit: '92'
+      Defense: '113'
+      HP: '482'
+      IconUrl: http://s.shironeko.me/img/character/s/297
+      Id: '297'
+      IngestionUrl: /character?id=297
+      Name: Haruka (Shinki released) consumption SP-20% in the
+      Passives:
+      - HP90% more than
+      - attack +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ハルカ(神気解放)'
+      SP: '209'
+      Type: Support
+      TypeId: 3
+    '308': !!python/object:models.Character
+      Attack: '247'
+      Class: Mage
+      ClassId: 6
+      Crit: '77'
+      Defense: '108'
+      HP: '302'
+      IconUrl: http://s.shironeko.me/img/character/s/308
+      Id: '308'
+      IngestionUrl: /character?id=308
+      Name: Renfa (Xmas)
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - strengthening skills extension +10 seconds
+      Rarity: '4'
+      RawName: !!python/str 'レンファ(Xmas)'
+      SP: '190'
+      Type: Support
+      TypeId: 3
+    '311': !!python/object:models.Character
+      Attack: '160'
+      Class: Mage
+      ClassId: 6
+      Crit: '52'
+      Defense: '82'
+      HP: '284'
+      IconUrl: http://s.shironeko.me/img/character/s/311
+      Id: '311'
+      IngestionUrl: /character?id=311
+      Name: Nancy
+      Passives:
+      - spirit unity during action Skills Enhancement +100%
+      - attack speed +30%
+      - !!python/str 'party of the hero type × number of attacks 15% strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'ナンシー'
+      SP: '167'
+      Type: Hero
+      TypeId: 1
+    '313': !!python/object:models.Character
+      Attack: '187'
+      Class: Mage
+      ClassId: 6
+      Crit: '61'
+      Defense: '101'
+      HP: '340'
+      IconUrl: http://s.shironeko.me/img/character/s/313
+      Id: '313'
+      IngestionUrl: /character?id=313
+      Name: Nancy Nasheru
+      Passives:
+      - spirit unified action during the Skills Enhancement +100%
+      - attack speed +30%
+      - !!python/str 'party of the hero type × number of attacks 15% strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'ナンシー・ナーシェル'
+      SP: '186'
+      Type: Hero
+      TypeId: 1
+    '319': !!python/object:models.Character
+      Attack: '272'
+      Class: Mage
+      ClassId: 6
+      Crit: '85'
+      Defense: '94'
+      HP: '296'
+      IconUrl: http://s.shironeko.me/img/character/s/319
+      Id: '319'
+      IngestionUrl: /character?id=319
+      Name: Miss Monochrome
+      Passives:
+      - attack +15%
+      - SP consumption -15%
+      - !!python/str '-party technical type number × Osamusoku &amp; move +10%'
+      Rarity: '4'
+      RawName: !!python/str 'ミス・モノクローム'
+      SP: '201'
+      Type: Technical
+      TypeId: 4
+    '330': !!python/object:models.Character
+      Attack: '377'
+      Class: Mage
+      ClassId: 6
+      Crit: '92'
+      Defense: '105'
+      HP: '418'
+      IconUrl: http://s.shironeko.me/img/character/s/330
+      Id: '330'
+      IngestionUrl: /character?id=330
+      Name: Mira (Xmas) (Shinki released) killed instantly in the attack
+      Passives:
+      - +15%
+      - HP10% or more avoidance
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ミラ(Xmas)(神気解放)'
+      SP: '223'
+      Type: Technical
+      TypeId: 4
+    '333': !!python/object:models.Character
+      Attack: '211'
+      Class: Mage
+      ClassId: 6
+      Crit: '51'
+      Defense: '110'
+      HP: '360'
+      IconUrl: http://s.shironeko.me/img/character/s/333
+      Id: '333'
+      IngestionUrl: /character?id=333
+      Name: Ekuseria (New Year)
+      Passives:
+      - SP + 15%
+      - Fille&#39;re the attack and movement speed +30%
+      - attack speed +50%
+      Rarity: '4'
+      RawName: !!python/str 'エクセリア(正月)'
+      SP: '224'
+      Type: Balance
+      TypeId: 5
+    '341': !!python/object:models.Character
+      Attack: '314'
+      Class: Mage
+      ClassId: 6
+      Crit: '78'
+      Defense: '107'
+      HP: '562'
+      IconUrl: http://s.shironeko.me/img/character/s/341
+      Id: '341'
+      IngestionUrl: /character?id=341
+      Name: Haruka (New Year) (Shinki release)
+      Passives:
+      - HP + 15%
+      - action skill attack speed in strengthening +15%
+      - HP80% or more, the moving rate of 30% Enhanced
+      Rarity: '4'
+      RawName: !!python/str 'ハルカ(正月)(神気解放)'
+      SP: '214'
+      Type: Support
+      TypeId: 3
+    '346': !!python/object:models.Character
+      Attack: '317'
+      Class: Mage
+      ClassId: 6
+      Crit: '113'
+      Defense: '126'
+      HP: '458'
+      IconUrl: http://s.shironeko.me/img/character/s/346
+      Id: '346'
+      IngestionUrl: /character?id=346
+      Name: Fran (brown bear) (Shinki released) instant death in
+      Passives:
+      - SP consumption -15%
+      - HP10% or more avoidance
+      - attack speed +50%
+      Rarity: '4'
+      RawName: !!python/str 'フラン(茶熊)(神気解放)'
+      SP: '220'
+      Type: Support
+      TypeId: 3
+    '355': !!python/object:models.Character
+      Attack: '310'
+      Class: Mage
+      ClassId: 6
+      Crit: '88'
+      Defense: '97'
+      HP: '421'
+      IconUrl: http://s.shironeko.me/img/character/s/355
+      Id: '355'
+      IngestionUrl: /character?id=355
+      Name: None instantly killed in the mobile speed and attack speed +30%
+      Passives:
+      - HP10% or more in
+      - HP50% or more avoidance
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: None
+      SP: '251'
+      Type: Balance
+      TypeId: 5
+    '361': !!python/object:models.Character
+      Attack: '294'
+      Class: Mage
+      ClassId: 6
+      Crit: '83'
+      Defense: '108'
+      HP: '421'
+      IconUrl: http://s.shironeko.me/img/character/s/361
+      Id: '361'
+      IngestionUrl: /character?id=361
+      Name: None
+      Passives:
+      - SP + 15%
+      - the damage -15%
+      - remaining SP amount is large enough action skill damage up
+      Rarity: '4'
+      RawName: None
+      SP: '208'
+      Type: Hero
+      TypeId: 1
+    '366': !!python/object:models.Character
+      Attack: '282'
+      Class: Mage
+      ClassId: 6
+      Crit: '73'
+      Defense: '91'
+      HP: '277'
+      IconUrl: http://s.shironeko.me/img/character/s/366
+      Id: '366'
+      IngestionUrl: /character?id=366
+      Name: None
+      Passives:
+      - usually instant death avoided
+      - spirit unified action during the Skills Enhancement +200%
+      - in the attack combo strengthening during the movement speed and attack speed
+        +50%
+      - HP10% or more
+      Rarity: '4'
+      RawName: None
+      SP: '192'
+      Type: Attacker
+      TypeId: 7
+    '70': !!python/object:models.Character
+      Attack: '198'
+      Class: Mage
+      ClassId: 6
+      Crit: '70'
+      Defense: '91'
+      HP: '323'
+      IconUrl: http://s.shironeko.me/img/character/s/70
+      Id: '70'
+      IngestionUrl: /character?id=70
+      Name: Suzune
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - HP80% or more in the attack defense satisfaction 15% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'スズネ'
+      SP: '185'
+      Type: Technical
+      TypeId: 4
+    '72': !!python/object:models.Character
+      Attack: '218'
+      Class: Mage
+      ClassId: 6
+      Crit: '75'
+      Defense: '105'
+      HP: '303'
+      IconUrl: http://s.shironeko.me/img/character/s/72
+      Id: '72'
+      IngestionUrl: /character?id=72
+      Name: Giovanni
+      Passives:
+      - SP + 15%
+      - '%'
+      - +15 defense the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'ジョバンニ'
+      SP: '188'
+      Type: Defense
+      TypeId: 2
+    '78': !!python/object:models.Character
+      Attack: '235'
+      Class: Mage
+      ClassId: 6
+      Crit: '68'
+      Defense: '84'
+      HP: '331'
+      IconUrl: http://s.shironeko.me/img/character/s/78
+      Id: '78'
+      IngestionUrl: /character?id=78
+      Name: Haruka
+      Passives:
+      - HP + 15%
+      - attack +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ハルカ'
+      SP: '171'
+      Type: Support
+      TypeId: 3
+    '86': !!python/object:models.Character
+      Attack: '221'
+      Class: Mage
+      ClassId: 6
+      Crit: '72'
+      Defense: '104'
+      HP: '297'
+      IconUrl: http://s.shironeko.me/img/character/s/86
+      Id: '86'
+      IngestionUrl: /character?id=86
+      Name: Mizerikorude
+      Passives:
+      - attack +15% +15%
+      - defense
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'ミゼリコルデ'
+      SP: '167'
+      Type: Defense
+      TypeId: 2
+    '92': !!python/object:models.Character
+      Attack: '240'
+      Class: Mage
+      ClassId: 6
+      Crit: '77'
+      Defense: '82'
+      HP: '300'
+      IconUrl: http://s.shironeko.me/img/character/s/92
+      Id: '92'
+      IngestionUrl: /character?id=92
+      Name: Benjamin
+      Passives:
+      - killed instantly avoided by attack +15%
+      - HP10% more than
+      - action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ベンジャミン'
+      SP: '164'
+      Type: Attacker
+      TypeId: 7
+    '98': !!python/object:models.Character
+      Attack: '240'
+      Class: Mage
+      ClassId: 6
+      Crit: '72'
+      Defense: '59'
+      HP: '293'
+      IconUrl: http://s.shironeko.me/img/character/s/98
+      Id: '98'
+      IngestionUrl: /character?id=98
+      Name: Serina instant death avoided
+      Passives:
+      - SP + 15%
+      - HP10% more than
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'セリナ'
+      SP: '202'
+      Type: Skill
+      TypeId: 6
+  Sniper:
+    '100': !!python/object:models.Character
+      Attack: '200'
+      Class: Sniper
+      ClassId: 5
+      Crit: '122'
+      Defense: '101'
+      HP: '350'
+      IconUrl: http://s.shironeko.me/img/character/s/100
+      Id: '100'
+      IngestionUrl: /character?id=100
+      Name: Meyrin
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'メイリン'
+      SP: '162'
+      Type: Skill
+      TypeId: 6
+    '105': !!python/object:models.Character
+      Attack: '244'
+      Class: Sniper
+      ClassId: 5
+      Crit: '163'
+      Defense: '99'
+      HP: '334'
+      IconUrl: http://s.shironeko.me/img/character/s/105
+      Id: '105'
+      IngestionUrl: /character?id=105
+      Name: Rika
+      Passives:
+      - attack +15%
+      - attack +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'リカ'
+      SP: '139'
+      Type: Attacker
+      TypeId: 7
+    '110': !!python/object:models.Character
+      Attack: '201'
+      Class: Sniper
+      ClassId: 5
+      Crit: '142'
+      Defense: '91'
+      HP: '329'
+      IconUrl: http://s.shironeko.me/img/character/s/110
+      Id: '110'
+      IngestionUrl: /character?id=110
+      Name: Spica (Xmas)
+      Passives:
+      - SP + 15%
+      - SP consumption -15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'スピカ(Xmas)'
+      SP: '170'
+      Type: Skill
+      TypeId: 6
+    '115': !!python/object:models.Character
+      Attack: '71'
+      Class: Sniper
+      ClassId: 5
+      Crit: '58'
+      Defense: '50'
+      HP: '231'
+      IconUrl: http://s.shironeko.me/img/character/s/115
+      Id: '115'
+      IngestionUrl: /character?id=115
+      Name: Rocca
+      Passives:
+      - Action Skills Enhancement +10%
+      - frozen disabled
+      - HP100% in the attack defense satisfaction 2.5 times
+      Rarity: '4'
+      RawName: !!python/str 'ロッカ'
+      SP: '115'
+      Type: Hero
+      TypeId: 1
+    '118': !!python/object:models.Character
+      Attack: '225'
+      Class: Sniper
+      ClassId: 5
+      Crit: '140'
+      Defense: '102'
+      HP: '322'
+      IconUrl: http://s.shironeko.me/img/character/s/118
+      Id: '118'
+      IngestionUrl: /character?id=118
+      Name: Apyuto
+      Passives:
+      - instant death avoided
+      - SP + 20%
+      - in the attack +15%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'アピュト'
+      SP: '159'
+      Type: Defense
+      TypeId: 2
+    '124': !!python/object:models.Character
+      Attack: '240'
+      Class: Sniper
+      ClassId: 5
+      Crit: '133'
+      Defense: '99'
+      HP: '298'
+      IconUrl: http://s.shironeko.me/img/character/s/124
+      Id: '124'
+      IngestionUrl: /character?id=124
+      Name: Amarie (New Year)
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +10%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アマーリエ(正月)'
+      SP: '137'
+      Type: Support
+      TypeId: 3
+    '132': !!python/object:models.Character
+      Attack: '268'
+      Class: Sniper
+      ClassId: 5
+      Crit: '125'
+      Defense: '111'
+      HP: '326'
+      IconUrl: http://s.shironeko.me/img/character/s/132
+      Id: '132'
+      IngestionUrl: /character?id=132
+      Name: Raven
+      Passives:
+      - attack +15%
+      - SP consumption -15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'レイヴン'
+      SP: '126'
+      Type: Attacker
+      TypeId: 7
+    '140': !!python/object:models.Character
+      Attack: '198'
+      Class: Sniper
+      ClassId: 5
+      Crit: '154'
+      Defense: '99'
+      HP: '317'
+      IconUrl: http://s.shironeko.me/img/character/s/140
+      Id: '140'
+      IngestionUrl: /character?id=140
+      Name: Pinot
+      Passives:
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ピノ'
+      SP: '172'
+      Type: Support
+      TypeId: 3
+    '146': !!python/object:models.Character
+      Attack: '205'
+      Class: Sniper
+      ClassId: 5
+      Crit: '135'
+      Defense: '92'
+      HP: '287'
+      IconUrl: http://s.shironeko.me/img/character/s/146
+      Id: '146'
+      IngestionUrl: /character?id=146
+      Name: Katya
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'カティア'
+      SP: '182'
+      Type: Skill
+      TypeId: 6
+    '157': !!python/object:models.Character
+      Attack: '232'
+      Class: Sniper
+      ClassId: 5
+      Crit: '123'
+      Defense: '89'
+      HP: '301'
+      IconUrl: http://s.shironeko.me/img/character/s/157
+      Id: '157'
+      IngestionUrl: /character?id=157
+      Name: Piresuta
+      Passives:
+      - Action Skills Enhancement +15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ピレスタ'
+      SP: '135'
+      Type: Technical
+      TypeId: 4
+    '164': !!python/object:models.Character
+      Attack: '251'
+      Class: Sniper
+      ClassId: 5
+      Crit: '146'
+      Defense: '139'
+      HP: '462'
+      IconUrl: http://s.shironeko.me/img/character/s/164
+      Id: '164'
+      IngestionUrl: /character?id=164
+      Name: Aliena (Shinki release)
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - HP80% or more in the attack defense satisfaction 30% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'エリーナ(神気解放)'
+      SP: '178'
+      Type: Technical
+      TypeId: 4
+    '175': !!python/object:models.Character
+      Attack: '242'
+      Class: Sniper
+      ClassId: 5
+      Crit: '142'
+      Defense: '64'
+      HP: '327'
+      IconUrl: http://s.shironeko.me/img/character/s/175
+      Id: '175'
+      IngestionUrl: /character?id=175
+      Name: Kasumi
+      Passives:
+      - SP consumption -15%
+      - attack +15%
+      - SP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'カスミ'
+      SP: '177'
+      Type: Skill
+      TypeId: 6
+    '185': !!python/object:models.Character
+      Attack: '203'
+      Class: Sniper
+      ClassId: 5
+      Crit: '131'
+      Defense: '118'
+      HP: '332'
+      IconUrl: http://s.shironeko.me/img/character/s/185
+      Id: '185'
+      IngestionUrl: /character?id=185
+      Name: Castiglione
+      Passives:
+      - SP + 15%
+      - killed instantly avoided by HP10% more than
+      - action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'リオーネ'
+      SP: '166'
+      Type: Defense
+      TypeId: 2
+    '187': !!python/object:models.Character
+      Attack: '265'
+      Class: Sniper
+      ClassId: 5
+      Crit: '128'
+      Defense: '102'
+      HP: '363'
+      IconUrl: http://s.shironeko.me/img/character/s/187
+      Id: '187'
+      IngestionUrl: /character?id=187
+      Name: Isami
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'イサミ'
+      SP: '162'
+      Type: Attacker
+      TypeId: 7
+    '193': !!python/object:models.Character
+      Attack: '190'
+      Class: Sniper
+      ClassId: 5
+      Crit: '108'
+      Defense: '110'
+      HP: '358'
+      IconUrl: http://s.shironeko.me/img/character/s/193
+      Id: '193'
+      IngestionUrl: /character?id=193
+      Name: Zerokisu
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ゼロキス'
+      SP: '171'
+      Type: Technical
+      TypeId: 4
+    '198': !!python/object:models.Character
+      Attack: '256'
+      Class: Sniper
+      ClassId: 5
+      Crit: '104'
+      Defense: '120'
+      HP: '344'
+      IconUrl: http://s.shironeko.me/img/character/s/198
+      Id: '198'
+      IngestionUrl: /character?id=198
+      Name: Gull (brown bear)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カモメ(茶熊)'
+      SP: '174'
+      Type: Skill
+      TypeId: 6
+    '207': !!python/object:models.Character
+      Attack: '282'
+      Class: Sniper
+      ClassId: 5
+      Crit: '170'
+      Defense: '141'
+      HP: '406'
+      IconUrl: http://s.shironeko.me/img/character/s/207
+      Id: '207'
+      IngestionUrl: /character?id=207
+      Name: Hayat (Shinki released) instant death in
+      Passives:
+      - satisfaction +15%
+      - HP10% or more avoidance
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'ハヤト(神気解放)'
+      SP: '157'
+      Type: Defense
+      TypeId: 2
+    '212': !!python/object:models.Character
+      Attack: '232'
+      Class: Sniper
+      ClassId: 5
+      Crit: '133'
+      Defense: '113'
+      HP: '335'
+      IconUrl: http://s.shironeko.me/img/character/s/212
+      Id: '212'
+      IngestionUrl: /character?id=212
+      Name: Empower to Ravi
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP consumption -15%
+      - slow state of enemy +150%
+      Rarity: '4'
+      RawName: !!python/str 'ラヴィ'
+      SP: '156'
+      Type: Balance
+      TypeId: 5
+    '220': !!python/object:models.Character
+      Attack: '211'
+      Class: Sniper
+      ClassId: 5
+      Crit: '95'
+      Defense: '100'
+      HP: '365'
+      IconUrl: http://s.shironeko.me/img/character/s/220
+      Id: '220'
+      IngestionUrl: /character?id=220
+      Name: Edgardo (Summer)
+      Passives:
+      - attack +15%
+      - attack in the immediate death avoided
+      - HP70% or more in the HP10% or more, attack speed, defense 30% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'エドガルド(サマー)'
+      SP: '145'
+      Type: Attacker
+      TypeId: 7
+    '230': !!python/object:models.Character
+      Attack: '240'
+      Class: Sniper
+      ClassId: 5
+      Crit: '110'
+      Defense: '80'
+      HP: '321'
+      IconUrl: http://s.shironeko.me/img/character/s/230
+      Id: '230'
+      IngestionUrl: /character?id=230
+      Name: Sue
+      Passives:
+      - movement speed +50%
+      - target distance extension
+      - consumption SP-50%
+      - in the HP70% or more
+      Rarity: '4'
+      RawName: !!python/str 'スー'
+      SP: '136'
+      Type: Technical
+      TypeId: 4
+    '238': !!python/object:models.Character
+      Attack: '216'
+      Class: Sniper
+      ClassId: 5
+      Crit: '121'
+      Defense: '101'
+      HP: '298'
+      IconUrl: http://s.shironeko.me/img/character/s/238
+      Id: '238'
+      IngestionUrl: /character?id=238
+      Name: Gouseru
+      Passives:
+      - SP consumption -15%
+      - Action Skills Enhancement +15%
+      - Empower 100%
+      - to the abnormal state of enemy
+      Rarity: '4'
+      RawName: !!python/str 'ゴウセル'
+      SP: '165'
+      Type: Technical
+      TypeId: 4
+    '247': !!python/object:models.Character
+      Attack: '339'
+      Class: Sniper
+      ClassId: 5
+      Crit: '201'
+      Defense: '137'
+      HP: '390'
+      IconUrl: http://s.shironeko.me/img/character/s/247
+      Id: '247'
+      IngestionUrl: /character?id=247
+      Name: Amarie (Shinki released)
+      Passives:
+      - attack +15%
+      - satisfaction +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アマーリエ(神気解放)'
+      SP: '154'
+      Type: Balance
+      TypeId: 5
+    '249': !!python/object:models.Character
+      Attack: '239'
+      Class: Sniper
+      ClassId: 5
+      Crit: '117'
+      Defense: '135'
+      HP: '390'
+      IconUrl: http://s.shironeko.me/img/character/s/249
+      Id: '249'
+      IngestionUrl: /character?id=249
+      Name: Groza
+      Passives:
+      - Action Skills Enhancement +15%
+      - the damage -20%
+      Rarity: '1'
+      RawName: !!python/str 'グローザ'
+      SP: '152'
+      Type: Defense
+      TypeId: 2
+    '250': !!python/object:models.Character
+      Attack: '229'
+      Class: Sniper
+      ClassId: 5
+      Crit: '133'
+      Defense: '85'
+      HP: '305'
+      IconUrl: http://s.shironeko.me/img/character/s/250
+      Id: '250'
+      IngestionUrl: /character?id=250
+      Name: Ignition (Shinki released)
+      Passives:
+      - attack +20%
+      Rarity: '2'
+      RawName: !!python/str 'イグニ(神気解放)'
+      SP: '110'
+      Type: Attacker
+      TypeId: 7
+    '260': !!python/object:models.Character
+      Attack: '235'
+      Class: Sniper
+      ClassId: 5
+      Crit: '100'
+      Defense: '103'
+      HP: '340'
+      IconUrl: http://s.shironeko.me/img/character/s/260
+      Id: '260'
+      IngestionUrl: /character?id=260
+      Name: Telese
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP consumption -15%
+      - !!python/str '-party technical type number × SP attack 8% strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'テレーゼ'
+      SP: '150'
+      Type: Technical
+      TypeId: 4
+    '265': !!python/object:models.Character
+      Attack: '225'
+      Class: Sniper
+      ClassId: 5
+      Crit: '128'
+      Defense: '109'
+      HP: '302'
+      IconUrl: http://s.shironeko.me/img/character/s/265
+      Id: '265'
+      IngestionUrl: /character?id=265
+      Name: Katya (Douglas 2) attack-defense-satisfaction 70% strengthening in the
+        time of
+      Passives:
+      - poison
+      - SP + 15%
+      - enemy defeated at the time of HP10% recovery
+      Rarity: '4'
+      RawName: !!python/str 'カティア(ダグラス2)'
+      SP: '178'
+      Type: Skill
+      TypeId: 6
+    '274': !!python/object:models.Character
+      Attack: '275'
+      Class: Sniper
+      ClassId: 5
+      Crit: '189'
+      Defense: '144'
+      HP: '424'
+      IconUrl: http://s.shironeko.me/img/character/s/274
+      Id: '274'
+      IngestionUrl: /character?id=274
+      Name: Jegaru (Shinki released)
+      Passives:
+      - satisfaction +15%
+      - SP + 15%
+      - attack on the HP80% or more defense satisfaction attack rate of 25% Enhanced
+      Rarity: '4'
+      RawName: !!python/str 'ジェガル(神気解放)'
+      SP: '193'
+      Type: Technical
+      TypeId: 4
+    '28': !!python/object:models.Character
+      Attack: '187'
+      Class: Sniper
+      ClassId: 5
+      Crit: '125'
+      Defense: '104'
+      HP: '358'
+      IconUrl: http://s.shironeko.me/img/character/s/28
+      Id: '28'
+      IngestionUrl: /character?id=28
+      Name: Aliena
+      Passives:
+      - HP + 15%
+      - SP + 15%
+      - HP80% or more in the attack defense satisfaction 15% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'エリーナ'
+      SP: '143'
+      Type: Technical
+      TypeId: 4
+    '282': !!python/object:models.Character
+      Attack: '235'
+      Class: Sniper
+      ClassId: 5
+      Crit: '100'
+      Defense: '103'
+      HP: '308'
+      IconUrl: http://s.shironeko.me/img/character/s/282
+      Id: '282'
+      IngestionUrl: /character?id=282
+      Name: Mira (Revenge)
+      Passives:
+      - SP + 15%
+      - instant death avoided
+      - charge during the action Skills Enhancement +200%
+      - in the HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'ミラ(リベンジ)'
+      SP: '175'
+      Type: Defense
+      TypeId: 2
+    '289': !!python/object:models.Character
+      Attack: '231'
+      Class: Sniper
+      ClassId: 5
+      Crit: '135'
+      Defense: '119'
+      HP: '347'
+      IconUrl: http://s.shironeko.me/img/character/s/289
+      Id: '289'
+      IngestionUrl: /character?id=289
+      Name: Furoria (hot spring) instant death in
+      Passives:
+      - action Skills Enhancement +15%
+      - HP10% or more to avoid the damage
+      - -20%
+      Rarity: '4'
+      RawName: !!python/str 'フローリア(温泉)'
+      SP: '160'
+      Type: Defense
+      TypeId: 2
+    '299': !!python/object:models.Character
+      Attack: '312'
+      Class: Sniper
+      ClassId: 5
+      Crit: '186'
+      Defense: '149'
+      HP: '410'
+      IconUrl: http://s.shironeko.me/img/character/s/299
+      Id: '299'
+      IngestionUrl: /character?id=299
+      Name: Spica (Shinki released)
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'スピカ(神気解放)'
+      SP: '177'
+      Type: Balance
+      TypeId: 5
+    '30': !!python/object:models.Character
+      Attack: '189'
+      Class: Sniper
+      ClassId: 5
+      Crit: '144'
+      Defense: '105'
+      HP: '315'
+      IconUrl: http://s.shironeko.me/img/character/s/30
+      Id: '30'
+      IngestionUrl: /character?id=30
+      Name: Hayato instant death avoided
+      Passives:
+      - satisfaction +15%
+      - HP10% more than
+      - action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ハヤト'
+      SP: '126'
+      Type: Defense
+      TypeId: 2
+    '307': !!python/object:models.Character
+      Attack: '247'
+      Class: Sniper
+      ClassId: 5
+      Crit: '90'
+      Defense: '141'
+      HP: '401'
+      IconUrl: http://s.shironeko.me/img/character/s/307
+      Id: '307'
+      IngestionUrl: /character?id=307
+      Name: Dionis (Xmas)
+      Passives:
+      - the damage -15%
+      - attack +15%
+      - party of defense type number x offense and defense 8% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'ディオニス(Xmas)'
+      SP: '151'
+      Type: Defense
+      TypeId: 2
+    '32': !!python/object:models.Character
+      Attack: '165'
+      Class: Sniper
+      ClassId: 5
+      Crit: '127'
+      Defense: '95'
+      HP: '280'
+      IconUrl: http://s.shironeko.me/img/character/s/32
+      Id: '32'
+      IngestionUrl: /character?id=32
+      Name: Christopher
+      Passives:
+      - satisfaction instant death avoided
+      - at +10%
+      - HP15% or more
+      Rarity: '3'
+      RawName: !!python/str 'クリストファー'
+      SP: '109'
+      Type: Balance
+      TypeId: 5
+    '320': !!python/object:models.Character
+      Attack: '247'
+      Class: Sniper
+      ClassId: 5
+      Crit: '116'
+      Defense: '93'
+      HP: '295'
+      IconUrl: http://s.shironeko.me/img/character/s/320
+      Id: '320'
+      IngestionUrl: /character?id=320
+      Name: Oswald
+      Passives:
+      - attack +15%
+      - !!python/str 'skill type number × action skill 8% of the party strengthened'
+      - 'charge time -50% # #'
+      Rarity: '4'
+      RawName: !!python/str 'オズワルド'
+      SP: '169'
+      Type: Skill
+      TypeId: 6
+    '328': !!python/object:models.Character
+      Attack: '283'
+      Class: Sniper
+      ClassId: 5
+      Crit: '177'
+      Defense: '129'
+      HP: '451'
+      IconUrl: http://s.shironeko.me/img/character/s/328
+      Id: '328'
+      IngestionUrl: /character?id=328
+      Name: Spica (Xmas) (Shinki released)
+      Passives:
+      - Normal SP recovery amount at the time of attack + 1
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'スピカ(Xmas)(神気解放)'
+      SP: '200'
+      Type: Skill
+      TypeId: 6
+    '334': !!python/object:models.Character
+      Attack: '203'
+      Class: Sniper
+      ClassId: 5
+      Crit: '129'
+      Defense: '110'
+      HP: '396'
+      IconUrl: http://s.shironeko.me/img/character/s/334
+      Id: '334'
+      IngestionUrl: /character?id=334
+      Name: Lee Spur (New Year)
+      Passives:
+      - killed instantly around
+      - strengthening skills extension +10
+      - seconds in the attack speed +30%
+      - HP10% or more
+      Rarity: '4'
+      RawName: !!python/str 'イシュプール(正月)'
+      SP: '163'
+      Type: Technical
+      TypeId: 4
+    '34': !!python/object:models.Character
+      Attack: '161'
+      Class: Sniper
+      ClassId: 5
+      Crit: '112'
+      Defense: '92'
+      HP: '272'
+      IconUrl: http://s.shironeko.me/img/character/s/34
+      Id: '34'
+      IngestionUrl: /character?id=34
+      Name: Jenny
+      Passives:
+      - SP + 10%
+      - SP consumption -15%
+      Rarity: '3'
+      RawName: !!python/str 'ジェニー'
+      SP: '116'
+      Type: Skill
+      TypeId: 6
+    '342': !!python/object:models.Character
+      Attack: '348'
+      Class: Sniper
+      ClassId: 5
+      Crit: '158'
+      Defense: '140'
+      HP: '426'
+      IconUrl: http://s.shironeko.me/img/character/s/342
+      Id: '342'
+      IngestionUrl: /character?id=342
+      Name: Amarie (New Year) (Shinki released)
+      Passives:
+      - attack +15%
+      - Empower +50% of the enemy of the extreme frozen state
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アマーリエ(正月)(神気解放)'
+      SP: '182'
+      Type: Support
+      TypeId: 3
+    '349': !!python/object:models.Character
+      Attack: '348'
+      Class: Sniper
+      ClassId: 5
+      Crit: '135'
+      Defense: '167'
+      HP: '472'
+      IconUrl: http://s.shironeko.me/img/character/s/349
+      Id: '349'
+      IngestionUrl: /character?id=349
+      Name: Gull (brown bear) (Shinki released)
+      Passives:
+      - charge during action Skills Enhancement +100%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カモメ(茶熊)(神気解放)'
+      SP: '220'
+      Type: Skill
+      TypeId: 6
+    '359': !!python/object:models.Character
+      Attack: '279'
+      Class: Sniper
+      ClassId: 5
+      Crit: '169'
+      Defense: '141'
+      HP: '440'
+      IconUrl: http://s.shironeko.me/img/character/s/359
+      Id: '359'
+      IngestionUrl: /character?id=359
+      Name: None instant death in
+      Passives:
+      - HP10% or more avoidance
+      - Action Skills Enhancement +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: None
+      SP: '201'
+      Type: Support
+      TypeId: 3
+    '36': !!python/object:models.Character
+      Attack: '180'
+      Class: Sniper
+      ClassId: 5
+      Crit: '114'
+      Defense: '94'
+      HP: '277'
+      IconUrl: http://s.shironeko.me/img/character/s/36
+      Id: '36'
+      IngestionUrl: /character?id=36
+      Name: Myinya
+      Passives:
+      - attack attack defense satisfaction 10% strengthening in the
+      - +10%
+      - HP80% or more
+      Rarity: '3'
+      RawName: !!python/str 'ミィニャ'
+      SP: '108'
+      Type: Technical
+      TypeId: 4
+    '367': !!python/object:models.Character
+      Attack: '221'
+      Class: Sniper
+      ClassId: 5
+      Crit: '132'
+      Defense: '121'
+      HP: '371'
+      IconUrl: http://s.shironeko.me/img/character/s/367
+      Id: '367'
+      IngestionUrl: /character?id=367
+      Name: None
+      Passives:
+      - killed instantly in the Empower +100%
+      - HP10% or more of the enemy of the state electric shock avoidance
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: None
+      SP: '159'
+      Type: Skill
+      TypeId: 6
+    '37': !!python/object:models.Character
+      Attack: '159'
+      Class: Sniper
+      ClassId: 5
+      Crit: '111'
+      Defense: '91'
+      HP: '269'
+      IconUrl: http://s.shironeko.me/img/character/s/37
+      Id: '37'
+      IngestionUrl: /character?id=37
+      Name: Weathering
+      Passives:
+      - SP + 10%
+      - Action Skills Enhancement +10%
+      Rarity: '3'
+      RawName: !!python/str 'フウカ'
+      SP: '115'
+      Type: Balance
+      TypeId: 5
+    '39': !!python/object:models.Character
+      Attack: '131'
+      Class: Sniper
+      ClassId: 5
+      Crit: '103'
+      Defense: '61'
+      HP: '227'
+      IconUrl: http://s.shironeko.me/img/character/s/39
+      Id: '39'
+      IngestionUrl: /character?id=39
+      Name: Poplar
+      Passives:
+      - satisfaction +6%
+      Rarity: '2'
+      RawName: !!python/str 'ポプラ'
+      SP: '85'
+      Type: Technical
+      TypeId: 4
+    '41': !!python/object:models.Character
+      Attack: '144'
+      Class: Sniper
+      ClassId: 5
+      Crit: '102'
+      Defense: '63'
+      HP: '236'
+      IconUrl: http://s.shironeko.me/img/character/s/41
+      Id: '41'
+      IngestionUrl: /character?id=41
+      Name: Ignition
+      Passives:
+      - attack +6%
+      Rarity: '2'
+      RawName: !!python/str 'イグニ'
+      SP: '88'
+      Type: Attacker
+      TypeId: 7
+    '42': !!python/object:models.Character
+      Attack: '135'
+      Class: Sniper
+      ClassId: 5
+      Crit: '101'
+      Defense: '62'
+      HP: '234'
+      IconUrl: http://s.shironeko.me/img/character/s/42
+      Id: '42'
+      IngestionUrl: /character?id=42
+      Name: White Tetsuheishi
+      Passives:
+      - SP + 6%
+      Rarity: '2'
+      RawName: !!python/str '白鉄兵士'
+      SP: '92'
+      Type: Skill
+      TypeId: 6
+    '44': !!python/object:models.Character
+      Attack: '172'
+      Class: Sniper
+      ClassId: 5
+      Crit: '121'
+      Defense: '90'
+      HP: '266'
+      IconUrl: http://s.shironeko.me/img/character/s/44
+      Id: '44'
+      IngestionUrl: /character?id=44
+      Name: Eresaru
+      Passives:
+      - attack +10% +10% satisfaction
+      Rarity: '1'
+      RawName: !!python/str 'エレサール'
+      SP: '104'
+      Type: Technical
+      TypeId: 4
+    '69': !!python/object:models.Character
+      Attack: '232'
+      Class: Sniper
+      ClassId: 5
+      Crit: '155'
+      Defense: '101'
+      HP: '301'
+      IconUrl: http://s.shironeko.me/img/character/s/69
+      Id: '69'
+      IngestionUrl: /character?id=69
+      Name: Amarie
+      Passives:
+      - attack +15%
+      - satisfaction +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'アマーリエ'
+      SP: '123'
+      Type: Balance
+      TypeId: 5
+    '73': !!python/object:models.Character
+      Attack: '198'
+      Class: Sniper
+      ClassId: 5
+      Crit: '159'
+      Defense: '108'
+      HP: '324'
+      IconUrl: http://s.shironeko.me/img/character/s/73
+      Id: '73'
+      IngestionUrl: /character?id=73
+      Name: Jegaru
+      Passives:
+      - satisfaction +15%
+      - SP + 15%
+      - HP80% or more in the attack defense satisfaction 15% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'ジェガル'
+      SP: '156'
+      Type: Technical
+      TypeId: 4
+    '79': !!python/object:models.Character
+      Attack: '223'
+      Class: Sniper
+      ClassId: 5
+      Crit: '172'
+      Defense: '105'
+      HP: '300'
+      IconUrl: http://s.shironeko.me/img/character/s/79
+      Id: '79'
+      IngestionUrl: /character?id=79
+      Name: Spica
+      Passives:
+      - attack +15% +15% satisfaction
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'スピカ'
+      SP: '139'
+      Type: Balance
+      TypeId: 5
+    '88': !!python/object:models.Character
+      Attack: '218'
+      Class: Sniper
+      ClassId: 5
+      Crit: '156'
+      Defense: '100'
+      HP: '289'
+      IconUrl: http://s.shironeko.me/img/character/s/88
+      Id: '88'
+      IngestionUrl: /character?id=88
+      Name: Kagetsu
+      Passives:
+      - SP + 15%
+      - killed instantly avoided by HP10% more than
+      - action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'カゲツ'
+      SP: '164'
+      Type: Technical
+      TypeId: 4
+    '93': !!python/object:models.Character
+      Attack: '232'
+      Class: Sniper
+      ClassId: 5
+      Crit: '141'
+      Defense: '105'
+      HP: '354'
+      IconUrl: http://s.shironeko.me/img/character/s/93
+      Id: '93'
+      IngestionUrl: /character?id=93
+      Name: Apple
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'リンゴ'
+      SP: '135'
+      Type: Balance
+      TypeId: 5
+  Warrior:
+    '103': !!python/object:models.Character
+      Attack: '475'
+      Class: Warrior
+      ClassId: 3
+      Crit: '66'
+      Defense: '100'
+      HP: '606'
+      IconUrl: http://s.shironeko.me/img/character/s/103
+      Id: '103'
+      IngestionUrl: /character?id=103
+      Name: Shaofu
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'シャオフー'
+      SP: '107'
+      Type: Attacker
+      TypeId: 7
+    '113': !!python/object:models.Character
+      Attack: '414'
+      Class: Warrior
+      ClassId: 3
+      Crit: '47'
+      Defense: '193'
+      HP: '567'
+      IconUrl: http://s.shironeko.me/img/character/s/113
+      Id: '113'
+      IngestionUrl: /character?id=113
+      Name: Tetra (Xmas)
+      Passives:
+      - defense +15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'テトラ(Xmas)'
+      SP: '103'
+      Type: Support
+      TypeId: 3
+    '121': !!python/object:models.Character
+      Attack: '520'
+      Class: Warrior
+      ClassId: 3
+      Crit: '62'
+      Defense: '179'
+      HP: '591'
+      IconUrl: http://s.shironeko.me/img/character/s/121
+      Id: '121'
+      IngestionUrl: /character?id=121
+      Name: Wilfried
+      Passives:
+      - attack +15%
+      - attack +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'ヴィルフリート'
+      SP: '119'
+      Type: Attacker
+      TypeId: 7
+    '125': !!python/object:models.Character
+      Attack: '432'
+      Class: Warrior
+      ClassId: 3
+      Crit: '53'
+      Defense: '153'
+      HP: '578'
+      IconUrl: http://s.shironeko.me/img/character/s/125
+      Id: '125'
+      IngestionUrl: /character?id=125
+      Name: Gull (New Year)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カモメ(正月)'
+      SP: '151'
+      Type: Skill
+      TypeId: 6
+    '128': !!python/object:models.Character
+      Attack: '445'
+      Class: Warrior
+      ClassId: 3
+      Crit: '67'
+      Defense: '140'
+      HP: '549'
+      IconUrl: http://s.shironeko.me/img/character/s/128
+      Id: '128'
+      IngestionUrl: /character?id=128
+      Name: Nemu
+      Passives:
+      - killed instantly in the attack around
+      - +15%
+      - SP + 15%
+      - HP5% or more
+      Rarity: '4'
+      RawName: !!python/str 'ネム'
+      SP: '146'
+      Type: Technical
+      TypeId: 4
+    '134': !!python/object:models.Character
+      Attack: '408'
+      Class: Warrior
+      ClassId: 3
+      Crit: '54'
+      Defense: '160'
+      HP: '521'
+      IconUrl: http://s.shironeko.me/img/character/s/134
+      Id: '134'
+      IngestionUrl: /character?id=134
+      Name: Ririeru
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'リリエル'
+      SP: '144'
+      Type: Technical
+      TypeId: 4
+    '141': !!python/object:models.Character
+      Attack: '474'
+      Class: Warrior
+      ClassId: 3
+      Crit: '63'
+      Defense: '169'
+      HP: '502'
+      IconUrl: http://s.shironeko.me/img/character/s/141
+      Id: '141'
+      IngestionUrl: /character?id=141
+      Name: Frey
+      Passives:
+      - Action Skills Enhancement +15%
+      - SP consumption -15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'フレイ'
+      SP: '137'
+      Type: Attacker
+      TypeId: 7
+    '148': !!python/object:models.Character
+      Attack: '481'
+      Class: Warrior
+      ClassId: 3
+      Crit: '61'
+      Defense: '158'
+      HP: '556'
+      IconUrl: http://s.shironeko.me/img/character/s/148
+      Id: '148'
+      IngestionUrl: /character?id=148
+      Name: Claw
+      Passives:
+      - attack +15%
+      - Action Skills Enhancement +15%
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'クロー'
+      SP: '131'
+      Type: Technical
+      TypeId: 4
+    '159': !!python/object:models.Character
+      Attack: '398'
+      Class: Warrior
+      ClassId: 3
+      Crit: '58'
+      Defense: '166'
+      HP: '511'
+      IconUrl: http://s.shironeko.me/img/character/s/159
+      Id: '159'
+      IngestionUrl: /character?id=159
+      Name: Blanche
+      Passives:
+      - SP + 15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'ブランシュ'
+      SP: '174'
+      Type: Skill
+      TypeId: 6
+    '169': !!python/object:models.Character
+      Attack: '494'
+      Class: Warrior
+      ClassId: 3
+      Crit: '73'
+      Defense: '192'
+      HP: '765'
+      IconUrl: http://s.shironeko.me/img/character/s/169
+      Id: '169'
+      IngestionUrl: /character?id=169
+      Name: RZ-XV (Shinki released)
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'RZ-XV(神気解放)'
+      SP: '128'
+      Type: Attacker
+      TypeId: 7
+    '174': !!python/object:models.Character
+      Attack: '391'
+      Class: Warrior
+      ClassId: 3
+      Crit: '59'
+      Defense: '170'
+      HP: '521'
+      IconUrl: http://s.shironeko.me/img/character/s/174
+      Id: '174'
+      IngestionUrl: /character?id=174
+      Name: Rahway
+      Passives:
+      - +70% attack Bow Board at the time of combustion
+      - Action Skills Enhancement +15%
+      - SP + 20%
+      Rarity: '4'
+      RawName: !!python/str 'ラーウェイ'
+      SP: '152'
+      Type: Technical
+      TypeId: 4
+    '179': !!python/object:models.Character
+      Attack: '405'
+      Class: Warrior
+      ClassId: 3
+      Crit: '60'
+      Defense: '200'
+      HP: '517'
+      IconUrl: http://s.shironeko.me/img/character/s/179
+      Id: '179'
+      IngestionUrl: /character?id=179
+      Name: Champignon
+      Passives:
+      - defense +15%
+      - SP + 15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'シャンピニオン'
+      SP: '156'
+      Type: Defense
+      TypeId: 2
+    '192': !!python/object:models.Character
+      Attack: '501'
+      Class: Warrior
+      ClassId: 3
+      Crit: '61'
+      Defense: '160'
+      HP: '558'
+      IconUrl: http://s.shironeko.me/img/character/s/192
+      Id: '192'
+      IngestionUrl: /character?id=192
+      Name: Carolyn
+      Passives:
+      - attack +15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'キャロ'
+      SP: '140'
+      Type: Skill
+      TypeId: 6
+    '200': !!python/object:models.Character
+      Attack: '506'
+      Class: Warrior
+      ClassId: 3
+      Crit: '77'
+      Defense: '169'
+      HP: '664'
+      IconUrl: http://s.shironeko.me/img/character/s/200
+      Id: '200'
+      IngestionUrl: /character?id=200
+      Name: Zach (brown bear)
+      Passives:
+      - HP + 15%
+      - Action Skills Enhancement +15% +20%
+      - attack
+      Rarity: '4'
+      RawName: !!python/str 'ザック(茶熊)'
+      SP: '122'
+      Type: Technical
+      TypeId: 4
+    '208': !!python/object:models.Character
+      Attack: '447'
+      Class: Warrior
+      ClassId: 3
+      Crit: '75'
+      Defense: '221'
+      HP: '674'
+      IconUrl: http://s.shironeko.me/img/character/s/208
+      Id: '208'
+      IngestionUrl: /character?id=208
+      Name: Cathy (Shinki released)
+      Passives:
+      - defense +15%
+      - SP + 15%
+      - HP80% or more in the attack defense satisfaction 30% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'キャシー(神気解放)'
+      SP: '149'
+      Type: Technical
+      TypeId: 4
+    '216': !!python/object:models.Character
+      Attack: '403'
+      Class: Warrior
+      ClassId: 3
+      Crit: '63'
+      Defense: '211'
+      HP: '542'
+      IconUrl: http://s.shironeko.me/img/character/s/216
+      Id: '216'
+      IngestionUrl: /character?id=216
+      Name: Trolley wheel
+      Passives:
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'サワワ'
+      SP: '151'
+      Type: Defense
+      TypeId: 2
+    '221': !!python/object:models.Character
+      Attack: '363'
+      Class: Warrior
+      ClassId: 3
+      Crit: '69'
+      Defense: '132'
+      HP: '551'
+      IconUrl: http://s.shironeko.me/img/character/s/221
+      Id: '221'
+      IngestionUrl: /character?id=221
+      Name: Liam (Summer) strengthening attack defense satisfaction 50%
+      Passives:
+      - HP70% more than
+      - action Skills Enhancement +15%
+      - enemy defeated during HP5% recovery
+      Rarity: '4'
+      RawName: !!python/str 'リアム(サマー)'
+      SP: '124'
+      Type: Attacker
+      TypeId: 7
+    '235': !!python/object:models.Character
+      Attack: '480'
+      Class: Warrior
+      ClassId: 3
+      Crit: '60'
+      Defense: '175'
+      HP: '532'
+      IconUrl: http://s.shironeko.me/img/character/s/235
+      Id: '235'
+      IngestionUrl: /character?id=235
+      Name: Kurusha
+      Passives:
+      - +50% damage to the Asmodian system
+      - attack +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'クルーシャ'
+      SP: '148'
+      Type: Balance
+      TypeId: 5
+    '242': !!python/object:models.Character
+      Attack: '510'
+      Class: Warrior
+      ClassId: 3
+      Crit: '23'
+      Defense: '190'
+      HP: '745'
+      IconUrl: http://s.shironeko.me/img/character/s/242
+      Id: '242'
+      IngestionUrl: /character?id=242
+      Name: Dian&#39;nu
+      Passives:
+      - Action Skills Enhancement +15%
+      - the damage -15%
+      - attack +20%
+      Rarity: '4'
+      RawName: !!python/str 'ディアンヌ'
+      SP: '131'
+      Type: Attacker
+      TypeId: 7
+    '246': !!python/object:models.Character
+      Attack: '496'
+      Class: Warrior
+      ClassId: 3
+      Crit: '79'
+      Defense: '205'
+      HP: '814'
+      IconUrl: http://s.shironeko.me/img/character/s/246
+      Id: '246'
+      IngestionUrl: /character?id=246
+      Name: Gull (Shinki released)
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カモメ(神気解放)'
+      SP: '129'
+      Type: Balance
+      TypeId: 5
+    '254': !!python/object:models.Character
+      Attack: '415'
+      Class: Warrior
+      ClassId: 3
+      Crit: '59'
+      Defense: '187'
+      HP: '600'
+      IconUrl: http://s.shironeko.me/img/character/s/254
+      Id: '254'
+      IngestionUrl: /character?id=254
+      Name: Ogre
+      Passives:
+      - the damage at the time SP4 recovery
+      - enemy the damage -6% at the time of defeat
+      - attack speed +50%
+      Rarity: '4'
+      RawName: !!python/str 'オウガ'
+      SP: '139'
+      Type: Defense
+      TypeId: 2
+    '259': !!python/object:models.Character
+      Attack: '410'
+      Class: Warrior
+      ClassId: 3
+      Crit: '60'
+      Defense: '171'
+      HP: '542'
+      IconUrl: http://s.shironeko.me/img/character/s/259
+      Id: '259'
+      IngestionUrl: /character?id=259
+      Name: Aurelia
+      Passives:
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'オレリア'
+      SP: '144'
+      Type: Technical
+      TypeId: 4
+    '267': !!python/object:models.Character
+      Attack: '503'
+      Class: Warrior
+      ClassId: 3
+      Crit: '61'
+      Defense: '172'
+      HP: '578'
+      IconUrl: http://s.shironeko.me/img/character/s/267
+      Id: '267'
+      IngestionUrl: /character?id=267
+      Name: Mare (Douglas 2)
+      Passives:
+      - Action Skills Enhancement +15%
+      - attack +15%
+      - HP absorption +1%
+      Rarity: '4'
+      RawName: !!python/str 'メア(ダグラス2)'
+      SP: '151'
+      Type: Balance
+      TypeId: 5
+    '271': !!python/object:models.Character
+      Attack: '534'
+      Class: Warrior
+      ClassId: 3
+      Crit: '82'
+      Defense: '240'
+      HP: '707'
+      IconUrl: http://s.shironeko.me/img/character/s/271
+      Id: '271'
+      IngestionUrl: /character?id=271
+      Name: Tetra (Shinki released)
+      Passives:
+      - defense +15% +15%
+      - attack
+      - the damage -20%
+      Rarity: '4'
+      RawName: !!python/str 'テトラ(神気解放)'
+      SP: '140'
+      Type: Defense
+      TypeId: 2
+    '284': !!python/object:models.Character
+      Attack: '414'
+      Class: Warrior
+      ClassId: 3
+      Crit: '60'
+      Defense: '201'
+      HP: '555'
+      IconUrl: http://s.shironeko.me/img/character/s/284
+      Id: '284'
+      IngestionUrl: /character?id=284
+      Name: Anna (Revenge)
+      Passives:
+      - SP consumption -15%
+      - Action Skills Enhancement attack at +15%
+      - HP75% or more, the attack rate of 50% Enhanced
+      Rarity: '4'
+      RawName: !!python/str 'アンナ(リベンジ)'
+      SP: '141'
+      Type: Balance
+      TypeId: 5
+    '290': !!python/object:models.Character
+      Attack: '648'
+      Class: Warrior
+      ClassId: 3
+      Crit: '79'
+      Defense: '109'
+      HP: '512'
+      IconUrl: http://s.shironeko.me/img/character/s/290
+      Id: '290'
+      IngestionUrl: /character?id=290
+      Name: Liese Lotte (hot spring)
+      Passives:
+      - attack +15% +15%
+      - attack
+      - enemy defeated during SP5% recovery
+      Rarity: '4'
+      RawName: !!python/str 'リーゼロッテ(温泉)'
+      SP: '150'
+      Type: Attacker
+      TypeId: 7
+    '302': !!python/object:models.Character
+      Attack: '463'
+      Class: Warrior
+      ClassId: 3
+      Crit: '74'
+      Defense: '232'
+      HP: '819'
+      IconUrl: http://s.shironeko.me/img/character/s/302
+      Id: '302'
+      IngestionUrl: /character?id=302
+      Name: Another (Shinki release)
+      Passives:
+      - HP + 15%
+      - the damage during the SP3 recovery
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'アナザー(神気解放)'
+      SP: '139'
+      Type: Defense
+      TypeId: 2
+    '305': !!python/object:models.Character
+      Attack: '443'
+      Class: Warrior
+      ClassId: 3
+      Crit: '72'
+      Defense: '177'
+      HP: '641'
+      IconUrl: http://s.shironeko.me/img/character/s/305
+      Id: '305'
+      IngestionUrl: /character?id=305
+      Name: Lucy (Xmas)
+      Passives:
+      - Action Skills Enhancement +15% +100
+      - '% damage to the Asmodian system'
+      - usually attack at the time of SP recovery amount + 5
+      Rarity: '4'
+      RawName: !!python/str 'ルーシー(Xmas)'
+      SP: '147'
+      Type: Technical
+      TypeId: 4
+    '323': !!python/object:models.Character
+      Attack: '477'
+      Class: Warrior
+      ClassId: 3
+      Crit: '51'
+      Defense: '176'
+      HP: '513'
+      IconUrl: http://s.shironeko.me/img/character/s/323
+      Id: '323'
+      IngestionUrl: /character?id=323
+      Name: Rosalie
+      Passives:
+      - attack speed +30%
+      - SP + 15%
+      - !!python/str '-party technical type × number of attacks 10 percent strengthening'
+      Rarity: '4'
+      RawName: !!python/str 'ロザリー'
+      SP: '166'
+      Type: Technical
+      TypeId: 4
+    '325': !!python/object:models.Character
+      Attack: '595'
+      Class: Warrior
+      ClassId: 3
+      Crit: '57'
+      Defense: '271'
+      HP: '772'
+      IconUrl: http://s.shironeko.me/img/character/s/325
+      Id: '325'
+      IngestionUrl: /character?id=325
+      Name: Tetra (Xmas) (Shinki released)
+      Passives:
+      - defense +15%
+      - attack +15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'テトラ(Xmas)(神気解放)'
+      SP: '143'
+      Type: Support
+      TypeId: 3
+    '336': !!python/object:models.Character
+      Attack: '451'
+      Class: Warrior
+      ClassId: 3
+      Crit: '99'
+      Defense: '180'
+      HP: '589'
+      IconUrl: http://s.shironeko.me/img/character/s/336
+      Id: '336'
+      IngestionUrl: /character?id=336
+      Name: Killala (New Year)
+      Passives:
+      - SP consumption -15%
+      - SP consumption -15%
+      - Action Skills Enhancement +20%
+      Rarity: '4'
+      RawName: !!python/str 'キララ(正月)'
+      SP: '154'
+      Type: Attacker
+      TypeId: 7
+    '344': !!python/object:models.Character
+      Attack: '622'
+      Class: Warrior
+      ClassId: 3
+      Crit: '64'
+      Defense: '186'
+      HP: '792'
+      IconUrl: http://s.shironeko.me/img/character/s/344
+      Id: '344'
+      IngestionUrl: /character?id=344
+      Name: Gull (New Year) (Shinki open)
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カモメ(正月)(神気開放)'
+      SP: '185'
+      Type: Skill
+      TypeId: 6
+    '345': !!python/object:models.Character
+      Attack: '710'
+      Class: Warrior
+      ClassId: 3
+      Crit: '102'
+      Defense: '235'
+      HP: '875'
+      IconUrl: http://s.shironeko.me/img/character/s/345
+      Id: '345'
+      IngestionUrl: /character?id=345
+      Name: Zach (brown bear) (Shinki open)
+      Passives:
+      - attack speed +30%
+      - Action Skills Enhancement +15% +20%
+      - attack
+      Rarity: '4'
+      RawName: !!python/str 'ザック(茶熊)(神気開放)'
+      SP: '159'
+      Type: Technical
+      TypeId: 4
+    '358': !!python/object:models.Character
+      Attack: '586'
+      Class: Warrior
+      ClassId: 3
+      Crit: '89'
+      Defense: '235'
+      HP: '782'
+      IconUrl: http://s.shironeko.me/img/character/s/358
+      Id: '358'
+      IngestionUrl: /character?id=358
+      Name: None
+      Passives:
+      - action Skills Enhancement +15%
+      - SP consumption -15%
+      - attack speed +50%
+      Rarity: '4'
+      RawName: None
+      SP: '162'
+      Type: Attacker
+      TypeId: 7
+    '365': !!python/object:models.Character
+      Attack: '445'
+      Class: Warrior
+      ClassId: 3
+      Crit: '75'
+      Defense: '185'
+      HP: '599'
+      IconUrl: http://s.shironeko.me/img/character/s/365
+      Id: '365'
+      IngestionUrl: /character?id=365
+      Name: None
+      Passives:
+      - movement speed +50%
+      - SP consumption -15%
+      - attack speed +50%
+      Rarity: '4'
+      RawName: None
+      SP: '152'
+      Type: Skill
+      TypeId: 6
+    '51': !!python/object:models.Character
+      Attack: '219'
+      Class: Warrior
+      ClassId: 3
+      Crit: '51'
+      Defense: '110'
+      HP: '374'
+      IconUrl: http://s.shironeko.me/img/character/s/51
+      Id: '51'
+      IngestionUrl: /character?id=51
+      Name: Black steel Soldier
+      Passives:
+      - defense +6%
+      Rarity: '2'
+      RawName: !!python/str '黒鋼兵士'
+      SP: '73'
+      Type: Defense
+      TypeId: 2
+    '53': !!python/object:models.Character
+      Attack: '219'
+      Class: Warrior
+      ClassId: 3
+      Crit: '54'
+      Defense: '104'
+      HP: '374'
+      IconUrl: http://s.shironeko.me/img/character/s/53
+      Id: '53'
+      IngestionUrl: /character?id=53
+      Name: Odyssey
+      Passives:
+      - satisfaction +6%
+      Rarity: '2'
+      RawName: !!python/str 'オデッセイ'
+      SP: '73'
+      Type: Technical
+      TypeId: 4
+    '56': !!python/object:models.Character
+      Attack: '213'
+      Class: Warrior
+      ClassId: 3
+      Crit: '49'
+      Defense: '101'
+      HP: '385'
+      IconUrl: http://s.shironeko.me/img/character/s/56
+      Id: '56'
+      IngestionUrl: /character?id=56
+      Name: Koronaria
+      Passives:
+      - HP + 6%
+      Rarity: '2'
+      RawName: !!python/str 'コロナリア'
+      SP: '71'
+      Type: Defense
+      TypeId: 2
+    '58': !!python/object:models.Character
+      Attack: '275'
+      Class: Warrior
+      ClassId: 3
+      Crit: '57'
+      Defense: '148'
+      HP: '444'
+      IconUrl: http://s.shironeko.me/img/character/s/58
+      Id: '58'
+      IngestionUrl: /character?id=58
+      Name: Wait
+      Passives:
+      - defense +10%
+      - the damage -10%
+      Rarity: '3'
+      RawName: !!python/str 'タイキ'
+      SP: '90'
+      Type: Defense
+      TypeId: 2
+    '59': !!python/object:models.Character
+      Attack: '270'
+      Class: Warrior
+      ClassId: 3
+      Crit: '56'
+      Defense: '146'
+      HP: '435'
+      IconUrl: http://s.shironeko.me/img/character/s/59
+      Id: '59'
+      IngestionUrl: /character?id=59
+      Name: Gries
+      Passives:
+      - defense +10%
+      - Action Skills Enhancement +10%
+      Rarity: '3'
+      RawName: !!python/str 'グリーズ'
+      SP: '88'
+      Type: Balance
+      TypeId: 5
+    '60': !!python/object:models.Character
+      Attack: '304'
+      Class: Warrior
+      ClassId: 3
+      Crit: '58'
+      Defense: '137'
+      HP: '448'
+      IconUrl: http://s.shironeko.me/img/character/s/60
+      Id: '60'
+      IngestionUrl: /character?id=60
+      Name: Alexander
+      Passives:
+      - attack +10%
+      - SP consumption -15%
+      Rarity: '3'
+      RawName: !!python/str 'アレクサンダー'
+      SP: '91'
+      Type: Balance
+      TypeId: 5
+    '61': !!python/object:models.Character
+      Attack: '293'
+      Class: Warrior
+      ClassId: 3
+      Crit: '56'
+      Defense: '131'
+      HP: '431'
+      IconUrl: http://s.shironeko.me/img/character/s/61
+      Id: '61'
+      IngestionUrl: /character?id=61
+      Name: Tetsuya
+      Passives:
+      - attack +10%
+      - Action Skills Enhancement +10%
+      Rarity: '3'
+      RawName: !!python/str 'テツヤ'
+      SP: '88'
+      Type: Attacker
+      TypeId: 7
+    '62': !!python/object:models.Character
+      Attack: '324'
+      Class: Warrior
+      ClassId: 3
+      Crit: '63'
+      Defense: '174'
+      HP: '504'
+      IconUrl: http://s.shironeko.me/img/character/s/62
+      Id: '62'
+      IngestionUrl: /character?id=62
+      Name: Cathy
+      Passives:
+      - defense +15%
+      - SP + 15%
+      - HP80% or more in the attack defense satisfaction 15% strengthening
+      Rarity: '4'
+      RawName: !!python/str 'キャシー'
+      SP: '120'
+      Type: Technical
+      TypeId: 4
+    '63': !!python/object:models.Character
+      Attack: '369'
+      Class: Warrior
+      ClassId: 3
+      Crit: '62'
+      Defense: '151'
+      HP: '573'
+      IconUrl: http://s.shironeko.me/img/character/s/63
+      Id: '63'
+      IngestionUrl: /character?id=63
+      Name: RZ-XV
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: RZ-XV
+      SP: '104'
+      Type: Attacker
+      TypeId: 7
+    '67': !!python/object:models.Character
+      Attack: '354'
+      Class: Warrior
+      ClassId: 3
+      Crit: '66'
+      Defense: '161'
+      HP: '614'
+      IconUrl: http://s.shironeko.me/img/character/s/67
+      Id: '67'
+      IngestionUrl: /character?id=67
+      Name: Seagull
+      Passives:
+      - attack +15%
+      - HP + 15%
+      - SP consumption -20%
+      Rarity: '4'
+      RawName: !!python/str 'カモメ'
+      SP: '100'
+      Type: Balance
+      TypeId: 5
+    '77': !!python/object:models.Character
+      Attack: '391'
+      Class: Warrior
+      ClassId: 3
+      Crit: '68'
+      Defense: '180'
+      HP: '519'
+      IconUrl: http://s.shironeko.me/img/character/s/77
+      Id: '77'
+      IngestionUrl: /character?id=77
+      Name: Tetra
+      Passives:
+      - defense +15% +15%
+      - attack
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'テトラ'
+      SP: '113'
+      Type: Defense
+      TypeId: 2
+    '81': !!python/object:models.Character
+      Attack: '316'
+      Class: Warrior
+      ClassId: 3
+      Crit: '61'
+      Defense: '189'
+      HP: '602'
+      IconUrl: http://s.shironeko.me/img/character/s/81
+      Id: '81'
+      IngestionUrl: /character?id=81
+      Name: Another
+      Passives:
+      - HP + 15%
+      - defense +15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'アナザー'
+      SP: '102'
+      Type: Defense
+      TypeId: 2
+    '84': !!python/object:models.Character
+      Attack: '312'
+      Class: Warrior
+      ClassId: 3
+      Crit: '55'
+      Defense: '138'
+      HP: '439'
+      IconUrl: http://s.shironeko.me/img/character/s/84
+      Id: '84'
+      IngestionUrl: /character?id=84
+      Name: Hearty
+      Passives:
+      - attack +10% +10%
+      - defense
+      Rarity: '1'
+      RawName: !!python/str 'ハーティ'
+      SP: '84'
+      Type: Balance
+      TypeId: 5
+    '89': !!python/object:models.Character
+      Attack: '403'
+      Class: Warrior
+      ClassId: 3
+      Crit: '67'
+      Defense: '154'
+      HP: '525'
+      IconUrl: http://s.shironeko.me/img/character/s/89
+      Id: '89'
+      IngestionUrl: /character?id=89
+      Name: Mare
+      Passives:
+      - attack +15%
+      - SP + 15%
+      - Action Skills Enhancement +15%
+      Rarity: '4'
+      RawName: !!python/str 'メア'
+      SP: '128'
+      Type: Attacker
+      TypeId: 7
+    '97': !!python/object:models.Character
+      Attack: '333'
+      Class: Warrior
+      ClassId: 3
+      Crit: '61'
+      Defense: '194'
+      HP: '531'
+      IconUrl: http://s.shironeko.me/img/character/s/97
+      Id: '97'
+      IngestionUrl: /character?id=97
+      Name: Chimari
+      Passives:
+      - defense +15%
+      - SP + 15%
+      - the damage -15%
+      Rarity: '4'
+      RawName: !!python/str 'チマリ'
+      SP: '129'
+      Type: Defense
+      TypeId: 2
