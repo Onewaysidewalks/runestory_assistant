@@ -116,7 +116,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
 })
 .directive('characterItem', function() { //TODO: Move this to another file!
   return {
-    template: '<img src="{{char.IconUrl}}" style="width:50px; height:50px" ng-click="char.popupCharacter(char)" ng-hide="char.shouldFilter()" />'
+    template: '<img src="{{char.IconUrl}}" style="width:100%px; height:50px" ng-click="char.popupCharacter(char)" ng-hide="char.shouldFilter()" />'
   }
 });
 

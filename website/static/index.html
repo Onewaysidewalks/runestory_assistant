@@ -4,14 +4,17 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.js"></script>
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.2.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-smart-table/2.1.7/smart-table.min.js"></script>
     <script src="/static/app.js"></script>
+
     <link href="//bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet">
+
   </head>
   <!-- Character Popup Modal TODO: Move this to another file! -->
   <script type="text/ng-template" id="popupCharacter.html">
     <div>
       <div class="modal-header">
-          <h3 class="modal-title"><img src="{{char['IconUrl']}}" style="width:100px"/>: <span>{{ char['Name'] }} ({{ char['RawName'] }})</span></h3>
+          <h3 class="modal-title"><img src="{{char.IconUrl}}" style="width:100px"/>: <span>{{ char['Name'] }} ({{ char['RawName'] }})</span></h3>
       </div>
       <div class="modal-body">
           <ul>
@@ -48,24 +51,24 @@
   </script>
 
   <body>
-    <div ng-controller="MainCtrl">
+    <div ng-controller="MainCtrl" class="container">
       <uib-tabset>
-        <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active">
+        <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" style="width:50%">
           <div ng-show="tab.active">
             <div>
-              <input type="text" ng-model="tab.filterText" />
+              Filter Here: <input type="text" ng-model="tab.filterText" />
             </div>
             <div class="row" ng-repeat="(charType, charList) in characters" ng-show="tab.title == 'Characters'">
-              <div>....    {{charType}}</div>
+              <div>{{charType}}</div>
               <hr />
               <div character-item class="col-xs-3"
                    ng-repeat="char in charList" style="width:50px">
               </div>
             </div>
             <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="tab.title == 'Weapons'">
-              <div>....    {{weaponType}}</div>
+              <div>{{weaponType}}</div>
               <hr />
-              <div character-item class="col-xs-3"
+              <div character-item class="col-md-8"
                    ng-repeat="weapon in weaponList" style="width:50px">
               </div>
             </div>
