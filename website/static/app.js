@@ -11,6 +11,9 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     }
   ]
 
+  $scope.characterSearchText = ''
+  $scope.weaponSearchText = ''
+
 
   $scope.shouldShowCharacters = function() {
     for (tab in $scope.tabs) {
@@ -32,6 +35,9 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
 
         for (key in $scope.characters) {
           if ($scope.characters.hasOwnProperty(key)) {
+
+            //We create a list from the map, to use as filters, as well as assign some methods to objects
+            characterList = []
             for (charKey in $scope.characters[key]) {
               if ($scope.characters[key].hasOwnProperty(charKey)) {
                 $scope.characters[key][charKey].popupCharacter = function(char) {
@@ -52,8 +58,13 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
 
                   return false;
                 }
+
+                characterList.push($scope.characters[key][charKey])
               }
             }
+
+            //This is the final reassignment to a list based structure
+            $scope.characters[key] = characterList
           }
         }
       }

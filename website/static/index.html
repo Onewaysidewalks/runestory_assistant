@@ -55,21 +55,29 @@
       <uib-tabset>
         <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" style="width:50%">
           <div ng-show="tab.active">
-            <div>
-              Filter Here: <input type="text" ng-model="tab.filterText" />
-            </div>
+            <form>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-addon"><i class="fa fa-search"></i></div>
+
+                  <input type="text" class="form-control" placeholder="filter here..." ng-model="characterSearchText" ng-show="tab.title == 'Characters'">
+                  <input type="text" class="form-control" placeholder="filter here..." ng-model="weaponSearchText" ng-show="tab.title == 'Weapons'">
+
+                </div>
+              </div>
+            </form>
             <div class="row" ng-repeat="(charType, charList) in characters" ng-show="tab.title == 'Characters'">
               <div>{{charType}}</div>
               <hr />
               <div character-item class="col-xs-3"
-                   ng-repeat="char in charList" style="width:50px">
+                   ng-repeat="char in charList | orderBy:char.Name:false | filter:characterSearchText:strict" style="width:50px">
               </div>
             </div>
             <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="tab.title == 'Weapons'">
               <div>{{weaponType}}</div>
               <hr />
               <div character-item class="col-md-8"
-                   ng-repeat="weapon in weaponList" style="width:50px">
+                   ng-repeat="weapon in weaponList | orderBy:Name " style="width:50px">
               </div>
             </div>
           </div>
