@@ -12,16 +12,16 @@ import yaml
 
 #Poor mans Configuration!
 BASE_URL = 'http://shironeko.me'
-RARITIES = [ '4', '3', '2', '1']
-CHARACTER_TYPES = [1, 2, 3, 4, 5, 6, 7]
-CHARACTER_CLASSES = [1, 2, 3, 4, 5, 6, 7, 8]
+RARITIES = [ '4']#, '3', '2', '1']
+CHARACTER_TYPES = [1]#], 2, 3, 4, 5, 6, 7]
+CHARACTER_CLASSES = [1]#, 2, 3, 4, 5, 6, 7, 8]
 TARGET_LANGUAGE = 'en'
 SOURCE_LANGUAGE = 'ja'
 OUTPUT_LOCATION = 'build/basedata.yaml'
 
 def getCharacters():
     #NOTE: There are several pages of characters for each character class
-    # as such, we will just guess up to 10 pages of characters, and stop iteration
+    # as such, we will just guess up to 10 pages of characters, and stop iteration if no characters exist on a page
     #Similarly, we dont know the rarity of each character without search for the rarity
     #explicity, so we must iterate once for each rarity to pull that information
     #Similarly, we dont know the type of character (AKA Defender), so we must use that as a search term too
@@ -39,9 +39,32 @@ def getCharacters():
                     for charRow in characterRows:
                         character = models.Character(charRow, classId, rarity, characterType)
                         characters.append(character)
+                        break #REMOVE
                     else:
                         break #if there are no character rows, break the iteration early
+
+
+    #now we iterate and apply character specific pages to the models
+    for character in characters:
+            loadMoreCharacterDetail(character)
+
     return characters
+
+def loadMoreCharacterDetail(character):
+    #NOTE: This will load a characters specific page to pull even more information about each character
+    #Using this more detailed information, we will merge the extra detail onto the character object itself
+    #so we have a single full representation of the character
+
+    if not character.IngestionUrl:
+        print "Unable to load character specific detail, %s: %s" % (character.Id, character.IngestionUrl)
+        return
+    parser = beautifulsoup_helper.getParserForUrl(BASE_URL + character.IngestionUrl)
+
+    character.mergeCharacterDetailHtml(parser)
+
+    print "%s" % character
+
+
 
 def saveCharactersToFile(location, characters):
     #First, since we are saving as a yaml file, dilenated by class
