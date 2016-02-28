@@ -1,0 +1,75 @@
+  <div>
+    <div class="modal-header">
+        <h3 class="modal-title"><img src="{{char.IconUrl}}" class="rs_character"/>: <span>{{ char['Name'] }} ({{ char['RawName'] }})</span></h3>
+    </div>
+    <div class="modal-body">
+        <ul>
+            <li>
+              Type: {{char['Type']}}
+            </li>
+            <li>
+              HP: {{char['HP']}}
+            </li>
+            <li>
+              SP: {{char['SP']}}
+            </li>
+            <li>
+              ATK: {{char['Attack']}}
+            </li>
+            <li>
+              DEF: {{char['Defense']}}
+            </li>
+            <li>
+              CRIT: {{char['Crit']}}
+            </li>
+            <li>
+              Passives:
+                <ul>
+                  <li ng-repeat="passive in char['Passives'] track by $index"> {{passive}} </li>
+                </ul>
+            </li>
+            <li>
+              Leader Skills:
+                <div class="leader_skills">
+                  <ul>
+                    <li class="leader_skill" ng-show="char.LeaderSkill1Name">
+                      <div class="leader_skill_name">{{char.LeaderSkill1Name}}</div>
+                      <div class="leader_skill_description">- {{char.LeaderSkill1Description}}</div>
+                    </li>
+
+                    <li class="leader_skill" ng-show="char.LeaderSkill2Name">
+                      <div class="leader_skill_name">{{char.LeaderSkill2Name}}</div>
+                      <div class="leader_skill_description">- {{char.LeaderSkill2Description}}</div>
+                    </li>
+                  </ul>
+                </div>
+            </li>
+            <li>
+              Action Skills:
+                <div class="action_skills">
+                  <ul>
+                    <li class="action_skill">
+                      <span class="action_skill_name">{{char.ActionSkill1Name}}</span>
+                      <span> SP:</span>
+                      <span> {{char.ActionSkill1SPCost}}</span>
+                      <div>
+                        - {{char.ActionSkill1Description}}
+                      </div>
+                    </li>
+                    <li class="action_skill">
+                      <span class="action_skill_name">{{char.ActionSkill2Name}}</span>
+                      <span> SP:</span>
+                      <span> {{char.ActionSkill2SPCost}}</span>
+                      <div>
+                        - {{char.ActionSkill2Description}}
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-warning" type="button" ng-click="close()">close</button>
+    </div>
+  </div>

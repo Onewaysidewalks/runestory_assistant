@@ -86,7 +86,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $scope.openChar = function () {
     var modalInstance = $uibModal.open({
       animation: true,
-      templateUrl: 'popupCharacter.html',
+      templateUrl: '/static/popupCharacter.html',
       controller: 'CharModalInstanceCtrl',
       size: 'lg',
       resolve: {
