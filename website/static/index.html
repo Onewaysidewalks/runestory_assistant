@@ -8,13 +8,14 @@
     <script src="/static/app.js"></script>
 
     <link href="//bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/index.css" rel="stylesheet">
 
   </head>
   <!-- Character Popup Modal TODO: Move this to another file! -->
   <script type="text/ng-template" id="popupCharacter.html">
     <div>
       <div class="modal-header">
-          <h3 class="modal-title"><img src="{{char.IconUrl}}" style="width:100px"/>: <span>{{ char['Name'] }} ({{ char['RawName'] }})</span></h3>
+          <h3 class="modal-title"><img src="{{char.IconUrl}}" class="rs_character"/>: <span>{{ char['Name'] }} ({{ char['RawName'] }})</span></h3>
       </div>
       <div class="modal-body">
           <ul>
@@ -42,6 +43,45 @@
                     <li ng-repeat="passive in char['Passives'] track by $index"> {{passive}} </li>
                   </ul>
               </li>
+              <li>
+                Leader Skills:
+                  <div class="leader_skills">
+                    <ul>
+                      <li class="leader_skill" ng-show="char.LeaderSkill1Name">
+                        <div class="leader_skill_name">{{char.LeaderSkill1Name}}</div>
+                        <div class="leader_skill_description">- {{char.LeaderSkill1Description}}</div>
+                      </li>
+
+                      <li class="leader_skill" ng-show="char.LeaderSkill2Name">
+                        <div class="leader_skill_name">{{char.LeaderSkill2Name}}</div>
+                        <div class="leader_skill_description">- {{char.LeaderSkill2Description}}</div>
+                      </li>
+                    </ul>
+                  </div>
+              </li>
+              <li>
+                Action Skills:
+                  <div class="action_skills">
+                    <ul>
+                      <li class="action_skill">
+                        <span class="action_skill_name">{{char.ActionSkill1Name}}</span>
+                        <span> SP:</span>
+                        <span> {{char.ActionSkill1SPCost}}</span>
+                        <div>
+                          - {{char.ActionSkill1Description}}
+                        </div>
+                      </li>
+                      <li class="action_skill">
+                        <span class="action_skill_name">{{char.ActionSkill2Name}}</span>
+                        <span> SP:</span>
+                        <span> {{char.ActionSkill2SPCost}}</span>
+                        <div>
+                          - {{char.ActionSkill2Description}}
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+              </li>
           </ul>
       </div>
       <div class="modal-footer">
@@ -57,6 +97,17 @@
           <div ng-show="tab.active">
             <form>
               <div class="form-group">
+                <!-- The class filter toggles-->
+                <div class="btn-group">
+                    <label class="btn btn-primary" ng-model="classFilterModel['lancer']" uib-btn-checkbox>Lancer</label>
+                    <label class="btn btn-primary" ng-model="classFilterModel['brawler']" uib-btn-checkbox>Brawler</label>
+                    <label class="btn btn-primary" ng-model="classFilterModel['fencer']" uib-btn-checkbox>Fencer</label>
+                    <label class="btn btn-primary" ng-model="classFilterModel['mage']" uib-btn-checkbox>Mage</label>
+                    <label class="btn btn-primary" ng-model="classFilterModel['sniper']" uib-btn-checkbox>Sniper</label>
+                    <label class="btn btn-primary" ng-model="classFilterModel['dualsaber']" uib-btn-checkbox>Dual Saber</label>
+                    <label class="btn btn-primary" ng-model="classFilterModel['dragonrider']" uib-btn-checkbox>Dragon Rider</label>
+                </div>
+
                 <div class="input-group">
                   <div class="input-group-addon"><i class="fa fa-search"></i></div>
 
@@ -66,11 +117,11 @@
                 </div>
               </div>
             </form>
-            <div class="row" ng-repeat="(charType, charList) in characters" ng-show="tab.title == 'Characters'">
+            <div class="row" ng-repeat="(charType, charList) in characters" ng-show="tab.title == 'Characters' && classFilter(charType)">
               <div>{{charType}}</div>
               <hr />
-              <div character-item class="col-xs-3"
-                   ng-repeat="char in charList | orderBy:char.Name:false | filter:characterSearchText:strict" style="width:50px">
+              <div character-item class="col-xs-3 rs_character"
+                   ng-repeat="char in charList | orderBy:char.Name:false | filter:characterSearchText:strict">
               </div>
             </div>
             <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="tab.title == 'Weapons'">

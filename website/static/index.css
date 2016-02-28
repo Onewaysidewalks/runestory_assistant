@@ -1,0 +1,26 @@
+
+@media (max-width: 600px) {
+  .rs_character {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 601px) {
+  .rs_character {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.leader_skills {
+
+}
+
+.leader_skill_name {
+  font-weight: bold;
+}
+
+.leader_skill_description {
+
+}

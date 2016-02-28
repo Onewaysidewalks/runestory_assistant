@@ -14,6 +14,19 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $scope.characterSearchText = ''
   $scope.weaponSearchText = ''
 
+  $scope.classFilterModel = {}
+  $scope.classFilterModel['lancer'] = false
+  $scope.classFilterModel['brawler'] = false
+  $scope.classFilterModel['sniper'] = false
+  $scope.classFilterModel['fencer'] = false
+  $scope.classFilterModel['mage'] = false
+  $scope.classFilterModel['warrior'] = false
+  $scope.classFilterModel['dualsaber'] = false
+  $scope.classFilterModel['dragonrider'] = false
+
+  $scope.classFilter = function(type) {
+    return $scope.classFilterModel[type.toLowerCase().replace(' ', '')]
+  }
 
   $scope.shouldShowCharacters = function() {
     for (tab in $scope.tabs) {
@@ -31,35 +44,21 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
       $log.info(data)
       if (data.Characters) {
         $log.info('setting scope characters')
-        $scope.characters = data.Characters
+        $scope.characters = {}
 
-        for (key in $scope.characters) {
-          if ($scope.characters.hasOwnProperty(key)) {
+        for (key in data.Characters) {
+          if (data.Characters.hasOwnProperty(key)) {
 
             //We create a list from the map, to use as filters, as well as assign some methods to objects
             characterList = []
-            for (charKey in $scope.characters[key]) {
-              if ($scope.characters[key].hasOwnProperty(charKey)) {
-                $scope.characters[key][charKey].popupCharacter = function(char) {
+            for (charKey in data.Characters[key]) {
+              if (data.Characters[key].hasOwnProperty(charKey)) {
+                data.Characters[key][charKey].popupCharacter = function(char) {
                   $scope.selectedChar = char
                   $scope.openChar()
                 }
 
-                $scope.characters[key][charKey].shouldFilter = function() {
-                  for (tab in $scope.tabs) {
-                    if (tab.title == 'Characters') {
-                      $log.info("iteration tabs...")
-                      if (tab.filterText && $scope.characters[key][charKey].Name.startsWith(tab.filterText)) {
-                        $log.info("filterting by " + tab.filterText)
-                        return true;
-                      }
-                    }
-                  }
-
-                  return false;
-                }
-
-                characterList.push($scope.characters[key][charKey])
+                characterList.push(data.Characters[key][charKey])
               }
             }
 
@@ -67,6 +66,8 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
             $scope.characters[key] = characterList
           }
         }
+
+        alert(key + ' ' + characterList[0].Class)
       }
       if (data.Weapons) {
         $log.info('setting scope weapons')
@@ -100,7 +101,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     modalInstance.result.then(function (selectedChar) {
       $scope.selectedChar = selectedChar;
     }, function () {
-      $log.info('Character Modal close at: ' + new Date());
+      //on close event
     });
   }
 
@@ -120,14 +121,14 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     modalInstance.result.then(function (selectedWep) {
       $scope.selectedWep = selectedWep;
     }, function () {
-      $log.info('Weapon Modal close at: ' + new Date());
+      //on close event
     });
   }
 
 })
 .directive('characterItem', function() { //TODO: Move this to another file!
   return {
-    template: '<img src="{{char.IconUrl}}" style="width:100%px; height:50px" ng-click="char.popupCharacter(char)" ng-hide="char.shouldFilter()" />'
+    template: '<img src="{{char.IconUrl}}" class="rs_character" ng-click="char.popupCharacter(char)" />'
   }
 });
 
