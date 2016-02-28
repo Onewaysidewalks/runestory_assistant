@@ -53,6 +53,7 @@
                    ng-repeat="weapon in weaponList | orderBy:Name " style="width:50px">
               </div>
             </div>
+            <div class="intro_message" ng-show="showIntroMessage()">Click a class filter above to begin!</div>
           </div>
         </uib-tab>
       </uib-tabset>

@@ -24,6 +24,17 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $scope.classFilterModel['dualsaber'] = false
   $scope.classFilterModel['dragonrider'] = false
 
+  $scope.showIntroMessage = function() {
+    return !$scope.classFilterModel['lancer'] ||
+      !$scope.classFilterModel['brawler'] ||
+      !$scope.classFilterModel['sniper'] ||
+      !$scope.classFilterModel['fencer'] ||
+      !$scope.classFilterModel['mage'] ||
+      !$scope.classFilterModel['warrior'] ||
+      !$scope.classFilterModel['dualsaber'] ||
+      !$scope.classFilterModel['dragonrider'];
+  }
+
   $scope.classFilter = function(type) {
     return $scope.classFilterModel[type.toLowerCase().replace(' ', '')]
   }
