@@ -4,7 +4,7 @@ import os
 from api import load_data
 
 app = Flask(__name__)
-app.json_encoder = models.CharacterEncoder
+app.json_encoder = models.JsonEncoder
 @app.route("/")
 def index():
     return app.send_static_file('index.html')

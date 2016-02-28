@@ -9,9 +9,15 @@ class Character(object):
     def __init__(self):
         pass
 
-class CharacterEncoder(JSONEncoder):
+class Weapon(object):
+    def __init__(self):
+        pass
+
+class JsonEncoder(JSONEncoder):
     def default(self, obj):
         if isinstance(obj, Character):
+            return obj.__dict__
+        elif isinstance(obj, Weapon):
             return obj.__dict__
         else:
             return JSONEncoder.default(self, obj)

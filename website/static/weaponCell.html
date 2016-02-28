@@ -1,0 +1,53 @@
+<!-- <div class="col-xs-1 weapon_header"> STRUCTURE FOR TABLE
+  Name
+</div>
+<div class="col-xs-1 weapon_header">
+  Character
+</div>
+<div class="col-xs-1 weapon_header">
+  ATK
+</div>
+<div class="col-xs-1 weapon_header">
+  DEF
+</div>
+<div class="col-xs-1 weapon_header">
+  CRIT
+</div>
+<div class="col-xs-1 weapon_header">
+  Effect
+</div>
+<div class="col-xs-1 weapon_header">
+  Attribute
+</div>
+<div class="col-xs-2 weapon_header">
+  Passives
+</div> -->
+
+<div class="weapon_item col-xs-1" ng-click="weapon.popupWeapon(weapon)" >
+  {{weapon.Name}}
+</div>
+<div class="col-xs-2">
+  <img src="{{weapon.CharacterIconUrl}}" class="rs_character" />
+</div>
+<div class="col-xs-1">
+  {{weapon.Attack}}
+</div>
+<div class="col-xs-1">
+  {{weapon.Defense}}
+</div>
+<div class="col-xs-1">
+  {{weapon.Crit}}
+</div>
+<div class="col-xs-1">
+  {{weapon.Effect}}
+</div>
+<div class="col-xs-1">
+  {{weapon.Attribute}}
+</div>
+<div class="col-xs-4">
+  <ul>
+    <li ng-repeat="passive in weapon.Passives">
+      {{passive}}
+    </li>
+  </ul>
+</div>

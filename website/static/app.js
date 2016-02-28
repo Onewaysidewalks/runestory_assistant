@@ -7,7 +7,8 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     {
       title: 'Characters'
     },
-    { title: 'Weapons'
+    {
+      title: 'Weapons'
     }
   ]
 
@@ -24,19 +25,41 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $scope.classFilterModel['dualsaber'] = false
   $scope.classFilterModel['dragonrider'] = false
 
+  $scope.weaponFilterModel = {}
+  $scope.weaponFilterModel['lancer'] = false
+  $scope.weaponFilterModel['brawler'] = false
+  $scope.weaponFilterModel['sniper'] = false
+  $scope.weaponFilterModel['fencer'] = false
+  $scope.weaponFilterModel['mage'] = false
+  $scope.weaponFilterModel['warrior'] = false
+  $scope.weaponFilterModel['dualsaber'] = false
+  $scope.weaponFilterModel['dragonrider'] = false
+
   $scope.showIntroMessage = function() {
-    return !$scope.classFilterModel['lancer'] ||
-      !$scope.classFilterModel['brawler'] ||
-      !$scope.classFilterModel['sniper'] ||
-      !$scope.classFilterModel['fencer'] ||
-      !$scope.classFilterModel['mage'] ||
-      !$scope.classFilterModel['warrior'] ||
-      !$scope.classFilterModel['dualsaber'] ||
-      !$scope.classFilterModel['dragonrider'];
+    return !$scope.classFilterModel['lancer'] &&
+      !$scope.classFilterModel['brawler'] &&
+      !$scope.classFilterModel['sniper'] &&
+      !$scope.classFilterModel['fencer'] &&
+      !$scope.classFilterModel['mage'] &&
+      !$scope.classFilterModel['warrior'] &&
+      !$scope.classFilterModel['dualsaber'] &&
+      !$scope.classFilterModel['dragonrider'] &&
+      !$scope.weaponFilterModel['lancer'] &&
+      !$scope.weaponFilterModel['brawler'] &&
+      !$scope.weaponFilterModel['sniper'] &&
+      !$scope.weaponFilterModel['fencer'] &&
+      !$scope.weaponFilterModel['mage'] &&
+      !$scope.weaponFilterModel['warrior'] &&
+      !$scope.weaponFilterModel['dualsaber'] &&
+      !$scope.weaponFilterModel['dragonrider'];
   }
 
-  $scope.classFilter = function(type) {
+  $scope.characterClassFilter = function(type) {
     return $scope.classFilterModel[type.toLowerCase().replace(' ', '')]
+  }
+
+  $scope.weaponClassFilter = function(type) {
+    return $scope.weaponFilterModel[type.toLowerCase().replace(' ', '')]
   }
 
   $scope.shouldShowCharacters = function() {
@@ -80,7 +103,25 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
       }
       if (data.Weapons) {
         $log.info('setting scope weapons')
-        $scope.weapons = data.Weapons
+        $scope.weapons = {}
+
+        for (key in data.Weapons) {
+          if (data.Weapons.hasOwnProperty(key)) {
+            weaponList = []
+            for (weaponId in data.Weapons[key]) {
+              if (data.Weapons[key].hasOwnProperty(weaponId)) {
+                data.Weapons[key][weaponId].popupWeapon = function(weapon) {
+                  $scope.selectedWep = weapon
+                  $scope.openWeapon()
+                }
+
+                weaponList.push(data.Weapons[key][weaponId])
+              }
+            }
+
+            $scope.weapons[key] = weaponList
+          }
+        }
       }
     })
     .error(function(data, status, headers, config) {
@@ -117,7 +158,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $scope.openWeapon = function () {
     var modalInstance = $uibModal.open({
       animation: true,
-      templateUrl: 'popupWeapon.html',
+      templateUrl: '/static/popupWeapon.html',
       controller: 'WeaponModalInstanceCtrl',
       size: 'lg',
       resolve: {
@@ -135,9 +176,14 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   }
 
 })
-.directive('characterItem', function() { //TODO: Move this to another file!
+.directive('characterItem', function() { 
   return {
-    template: '<img src="{{char.IconUrl}}" class="rs_character" ng-click="char.popupCharacter(char)" />'
+    templateUrl: '/static/characterCell.html'
+  }
+})
+.directive('weaponItem', function() {
+  return {
+    templateUrl: '/static/weaponCell.html'
   }
 });
 

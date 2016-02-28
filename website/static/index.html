@@ -20,7 +20,7 @@
             <form>
               <div class="form-group">
                 <!-- The class filter toggles-->
-                <div class="btn-group">
+                <div class="btn-group" ng-show="tab.title == 'Characters'">
                     <label class="btn btn-primary" ng-model="classFilterModel['lancer']" uib-btn-checkbox>Lancer</label>
                     <label class="btn btn-primary" ng-model="classFilterModel['brawler']" uib-btn-checkbox>Brawler</label>
                     <label class="btn btn-primary" ng-model="classFilterModel['fencer']" uib-btn-checkbox>Fencer</label>
@@ -28,6 +28,15 @@
                     <label class="btn btn-primary" ng-model="classFilterModel['sniper']" uib-btn-checkbox>Sniper</label>
                     <label class="btn btn-primary" ng-model="classFilterModel['dualsaber']" uib-btn-checkbox>Dual Saber</label>
                     <label class="btn btn-primary" ng-model="classFilterModel['dragonrider']" uib-btn-checkbox>Dragon Rider</label>
+                </div>
+                <div class="btn-group" ng-show="tab.title == 'Weapons'">
+                    <label class="btn btn-primary" ng-model="weaponFilterModel['lancer']" uib-btn-checkbox>Lancer</label>
+                    <label class="btn btn-primary" ng-model="weaponFilterModel['brawler']" uib-btn-checkbox>Brawler</label>
+                    <label class="btn btn-primary" ng-model="weaponFilterModel['fencer']" uib-btn-checkbox>Fencer</label>
+                    <label class="btn btn-primary" ng-model="weaponFilterModel['mage']" uib-btn-checkbox>Mage</label>
+                    <label class="btn btn-primary" ng-model="weaponFilterModel['sniper']" uib-btn-checkbox>Sniper</label>
+                    <label class="btn btn-primary" ng-model="weaponFilterModel['dualsaber']" uib-btn-checkbox>Dual Saber</label>
+                    <label class="btn btn-primary" ng-model="weaponFilterModel['dragonrider']" uib-btn-checkbox>Dragon Rider</label>
                 </div>
 
                 <div class="input-group">
@@ -39,18 +48,47 @@
                 </div>
               </div>
             </form>
-            <div class="row" ng-repeat="(charType, charList) in characters" ng-show="tab.title == 'Characters' && classFilter(charType)">
+            <div class="row" ng-repeat="(charType, charList) in characters" ng-show="tab.title == 'Characters' && characterClassFilter(charType)">
               <div>{{charType}}</div>
               <hr />
               <div character-item class="col-xs-3 rs_character"
                    ng-repeat="char in charList | orderBy:char.Name:false | filter:characterSearchText:strict">
               </div>
             </div>
-            <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="tab.title == 'Weapons'">
+            <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="tab.title == 'Weapons' && weaponClassFilter(weaponType)">
               <div>{{weaponType}}</div>
               <hr />
-              <div character-item class="col-md-8"
-                   ng-repeat="weapon in weaponList | orderBy:Name " style="width:50px">
+              <div class="container">
+                <div class="row weapon_headers">
+                  <div class="col-xs-1 weapon_header">
+                    Name
+                  </div>
+                  <div class="col-xs-2 weapon_header">
+                    Character
+                  </div>
+                  <div class="col-xs-1 weapon_header">
+                    ATK
+                  </div>
+                  <div class="col-xs-1 weapon_header">
+                    DEF
+                  </div>
+                  <div class="col-xs-1 weapon_header">
+                    CRIT
+                  </div>
+                  <div class="col-xs-1 weapon_header">
+                    Effect
+                  </div>
+                  <div class="col-xs-1 weapon_header">
+                    Attribute
+                  </div>
+                  <div class="col-xs-4 weapon_header">
+                    Passives
+                  </div>
+                </div>
+
+                <div weapon-item class="row"
+                     ng-repeat="weapon in weaponList | orderBy:weapon.Name:false | filter:weaponSearchText:strict ">
+                </div>
               </div>
             </div>
             <div class="intro_message" ng-show="showIntroMessage()">Click a class filter above to begin!</div>

@@ -20,6 +20,25 @@ TARGET_LANGUAGE = 'en'
 SOURCE_LANGUAGE = 'ja'
 OUTPUT_LOCATION = 'build/basedata.yaml'
 
+
+def getWeapons():
+    #NOTE: There looks to be a page of weapons for each character class. Iterate them and take as much information
+    #as possible, as it is well formated in a table, where the character specific page is not.
+
+    weapons = []
+    for classId in CHARACTER_CLASSES:
+        parser = beautifulsoup_helper.getParserForUrl(BASE_URL + '/weapon_list?id=%d' % classId)
+
+        weaponRows = parser.find_all(class_='weapon')
+        print 'Found %d weapons' % len(weaponRows)
+        for weaponRow in weaponRows:
+            weapon = models.Weapon(weaponRow, classId)
+
+            weapons.append(weapon)
+
+    print 'Loaded %d weapons total' % len(weapons)
+    return weapons
+
 def getCharacters():
     #NOTE: There are several pages of characters for each character class
     # as such, we will just guess up to 10 pages of characters, and stop iteration if no characters exist on a page
@@ -46,14 +65,8 @@ def getCharacters():
                         loadMoreCharacterDetail(character)
 
                         characters.append(character)
-                        # break # UNCOMMENT THIS FOR TESTING PURPOSES ONLY
                     else:
                         break #if there are no character rows, break the iteration early
-
-                    # break#REMOVE
-                # break #REMOVE
-            # break #REMOVE
-        # break #REMOVE
 
     return characters
 
@@ -69,19 +82,24 @@ def loadMoreCharacterDetail(character):
 
     character.mergeCharacterDetailHtml(parser)
 
-def saveCharactersToFile(location, characters):
+def saveToFile(location, characters, weapons):
     #First, since we are saving as a yaml file, dilenated by class
     #we must group together each character by its class
 
-    characterFileData = dict()
-    characterFileData['Characters'] = dict() #root level for character data
+    fileData = dict()
+    fileData['Characters'] = dict() #root level for character data
+    fileData['Weapons'] = dict() #root level for weapons data
 
     #initialize the data with empty lists for each class
     for classId in CHARACTER_CLASSES:
-        characterFileData['Characters'][models.getClassFromId(classId)] = dict()
+        fileData['Characters'][models.getClassFromId(classId)] = dict()
+        fileData['Weapons'][models.getClassFromId(classId)] = dict()
 
     for character in characters:
-        characterFileData['Characters'][character.Class]['%s' % (character.Id)] = character
+        fileData['Characters'][character.Class]['%s' % (character.Id)] = character
+
+    for weapon in weapons:
+        fileData['Weapons'][weapon.Class]['%s' % (weapon.Id)] = weapon
 
     #Now write the file in all its yamlly glory (first creating the directory if necessary)
     if not os.path.exists(os.path.dirname(location)):
@@ -90,14 +108,11 @@ def saveCharactersToFile(location, characters):
         except OSError as exc: # Guard against race condition
             if exc.errno != errno.EEXIST:
                 raise
-    with open(location, 'w') as yaml_file: #We use safe_dump, to remove the !!python declarations from the file
-        yaml_file.write(yaml.dump(characterFileData, encoding='utf-8', default_flow_style=False, allow_unicode=True))
+    with open(location, 'w') as yaml_file:
+        yaml_file.write(yaml.dump(fileData, encoding='utf-8', default_flow_style=False, allow_unicode=True))
 
 
 def translateCharacters(characters, language):
-
-    translatedCharacters = []
-
     apiKey = os.environ['GOOGLE_TRANSLATE_API_KEY']
 
     service = build('translate', 'v2', developerKey=apiKey)
@@ -195,15 +210,84 @@ def translateCharacters(characters, language):
 
     return characters
 
+def translateWeapons(weapons, language):
+
+    apiKey = os.environ['GOOGLE_TRANSLATE_API_KEY']
+
+    service = build('translate', 'v2', developerKey=apiKey)
+
+    for weapon in weapons:
+
+        print 'performing translations for weapon id:%s' % weapon.Id
+
+        rawPayload = 'n:%s##' % weapon.RawName
+        for passive in weapon.Passives:
+            rawPayload = rawPayload + 'p:%s##' % passive
+
+        if weapon.Effect and weapon.Effect is not '-':
+            rawPayload = rawPayload + 'e:%s##' % weapon.Effect
+
+        if weapon.Attribute:
+            rawPayload = rawPayload + 'a:%s##' % weapon.Attribute
+
+        try:
+            #Query for the translated text (this handles url encoding for us!)
+            result = service.translations().list(source=SOURCE_LANGUAGE, target=TARGET_LANGUAGE,q=rawPayload).execute()
+        except:
+            #rate limited, sleep and try again
+            print 'RATE LIMITED, SLEEPING 100 SECONDS'
+            time.sleep(100)
+            result = service.translations().list(source=SOURCE_LANGUAGE, target=TARGET_LANGUAGE,q=rawPayload).execute()
+
+        translatedResult = result['translations'][0]['translatedText'].encode('utf-8')
+        translatedParts = translatedResult.split('##')
+
+        #Now we have the appropriate text, time to map it back onto the character model
+        translatedPassives = []
+
+        for pos in range(len(translatedParts)):
+            text = ' '.join(translatedParts[pos].strip().splitlines())
+            if text and len(text) > 0:
+
+                if ':' not in text:
+                    print 'ERROR: ":" not in text %s for translation'
+                    continue
+
+                index = text.index(':')
+
+                if index is len(text):
+                    print 'no data found for this entry %s weapon %s' % (text, weapon.Id)
+                    continue #no data, continue
+
+                value = text[text.index(':')+1:].strip().replace('\n', '') #substring starting at the 3 position
+                if text.lower().startswith('n:'): # name
+                    weapon.Name = value
+                elif text.lower().startswith("p:"): #passives
+                    translatedPassives.append(value)
+                elif text.lower().startswith('a:'): #action skill 1 description
+                    weapon.Attribute = value
+                elif text.lower().startswith('e:'): #action skill 1 evaluation
+                    weapon.Effect = value
+
+        weapon.Passives = translatedPassives
+
+    return weapons
+
 def main():
     #First we grab a hold of all the character list
     characters = getCharacters()
 
+    #Then we grab a hold of all the weapons
+    weapons = getWeapons()
+
     #Then we ask googles api for a translation for each character
     characters = translateCharacters(characters, 'en')
 
-    #Save all characters to a data file, for further processing later
-    saveCharactersToFile(OUTPUT_LOCATION, characters)
+    #And similarly for each weapon
+    weapons = translateWeapons(weapons, TARGET_LANGUAGE)
+
+    #Save all data to a file, for further processing later
+    saveToFile(OUTPUT_LOCATION, characters, weapons)
 
 if __name__== '__main__':
     main()

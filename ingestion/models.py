@@ -100,10 +100,8 @@ class Character(object):
                             self.Passives.append(passive.encode('utf-8').strip().replace('\r', '').replace('\n', ''))
             except Exception as ex:
                 print "Could not create base character: %s" % self.Id
-                print ex
-                # print "Offending Html Element %s" % htmlElement
-                # print "Offending tableCell %s" % tableCell
-                return None
+                raise
+
             pos = pos + 1
 
     def mergeCharacterDetailHtml(self, htmlElement):
@@ -231,6 +229,7 @@ class Character(object):
                 if self.MotifWeaponUrl and self.MotifWeaponUrl[0] != '/':
                     self.MotifWeaponUrl = '/%s' % self.MotifWeaponUrl
                 self.MotifWeaponName = baseElement.string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                self.MotifWeaponId = self.MotifWeaponUrl[self.MotifWeaponUrl.index('=') + 1]
             else:
                 print 'No motif details for character %s' % self.Id
                 self.MotifWeaponName = ''
@@ -443,37 +442,76 @@ class Character(object):
 
 
 class Weapon(object):
-    def __init__(self, htmlElement, weaponId, classId, name, ownerName, ownerId):
-        self.Id = weaponId
+    def __init__(self, htmlElement, classId): #Note, we will merge this with the character data later to get english names, owners, etc.
+
         self.ClassId = classId
-        self.Name = name
-        self.OwnerName = ownerName
-        self.OwnerId = ownerId
+        self.Class = getClassFromId(classId)
 
-        #HTML Structue for Weapon
-        #ImageUrl = div/class=frame -> img/src
-        #Rarity = 1st table->2nd tr->1st td -> {value}
-        #Stats = 2nd table->2nd tr->tds=atk/def/crit/effect/element
-        #Passives = 1st ul -> li={value}
-        #Weapon Skill -> span/class=sp-> -1 is name, +1 is cost, +2/+3 is description (or reduced sp, if its a span)
-        #Weapon Evaluation -> skill description + 1 -> 1st tr -> 1st td -> {value}
+        #Most data comes from the weapon list pages, which sits in a nice table structured format
+        weaponCells = htmlElement.find_all('td')
 
-        #First find the wrapping weapon div
-        htmlElement = htmlElement.find('div', {'id':'weapon'})
+        for i in range(len(weaponCells)):
+            weaponCell = weaponCells[i]
+            if i is 0: ##1st td name/id/ingestionUrl
+                anchor =  weaponCell.find('a')
 
-        imageDiv = htmlElement.find('div', {'class':'frame'})
-        if imageDiv:
-            self.ImageUrl = imageDiv.find('img')['src']
-        else:
-            self.ImageUrl = ''
+                if anchor:
+                    self.IngestionUrl = '/%s' % anchor['href']
+                    if self.IngestionUrl:
+                        self.Id = self.IngestionUrl[self.IngestionUrl.index('=') + 1:].encode('utf-8')
+                        print 'Loading Weapon %s' % self.Id
+                    if anchor.string:
+                        self.RawName = anchor.string.encode('utf-8').strip().replace('\r', '').replace('\n', '')
 
-        rarityTableRows = htmlElement.find('table').find_all('tr')
-        if rarityTableRows and len(rarityTableRows) > 1:
-            self.Rarity = rarityTableRows[1].find('td').string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                else:
+                    print 'Unable to find weapon url'
 
+            innerValue = 'UNKNOWN'
+            if i is 7: #this td is of a different format, so we handle it possibly first
+                self.Passives = []
+                for element in weaponCell.contents:
+                    if element.string:
+                        #translate it to text Only
+                        elementText = element.string.encode('utf-8').strip().replace('\r', '').replace('\n', '')
+                        if elementText and '<br>' not in elementText:
+                            self.Passives.append(elementText)
+            else: #otherwise we convert it to the well known value
+                innerValue = weaponCell.string
 
+            if innerValue:
+                innerValue = innerValue.encode('utf-8').strip().replace('\r', '').replace('\n', '')
+                #note that we skip iteration index 1, as it is just a place holder in the site
+                if i is 2:
+                    self.Attack = innerValue
+                if i is 3:
+                    self.Defense = innerValue
+                if i is 4:
+                    self.Crit = innerValue
+                if i is 5:
+                    self.Effect = innerValue
+                if i is 6:
+                    self.Attribute = innerValue
 
-        return
+        # #HTML Structue for Weapon Specific page
+        # #ImageUrl = div/class=frame -> img/src
+        # #Rarity = 1st table->2nd tr->1st td -> {value}
+        # #Stats = 2nd table->2nd tr->tds=atk/def/crit/effect/element
+        # #Passives = 1st ul -> li={value}
+        # #Weapon Skill -> span/class=sp-> -1 is name, +1 is cost, +2/+3 is description (or reduced sp, if its a span)
+        # #Weapon Evaluation -> skill description + 1 -> 1st tr -> 1st td -> {value}
+        #
+        # #First find the wrapping weapon div
+        # htmlElement = htmlElement.find('div', {'id':'weapon'})
+        #
+        # imageDiv = htmlElement.find('div', {'class':'frame'})
+        # if imageDiv:
+        #     self.ImageUrl = imageDiv.find('img')['src']
+        # else:
+        #     self.ImageUrl = ''
+        #
+        # rarityTableRows = htmlElement.find('table').find_all('tr')
+        # if rarityTableRows and len(rarityTableRows) > 1:
+        #     self.Rarity = rarityTableRows[1].find('td').string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
 
     def __str__(self):
         return str(self.__dict__)
