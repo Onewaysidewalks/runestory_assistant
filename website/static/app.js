@@ -66,8 +66,6 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
             $scope.characters[key] = characterList
           }
         }
-
-        alert(key + ' ' + characterList[0].Class)
       }
       if (data.Weapons) {
         $log.info('setting scope weapons')
