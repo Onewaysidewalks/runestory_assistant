@@ -72,6 +72,20 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     return false;
   }
 
+  $scope.popupCharacter = function(charId, charType) {
+    for (key in $scope.characters) {
+      if ($scope.characters.hasOwnProperty(key)) {
+        for (var i=0; i<$scope.characters[key].length;i++) {
+          var char = $scope.characters[key][i]
+          if (char && char.Id == charId) {
+            $scope.selectedChar = char
+            $scope.openChar()
+          }
+        }
+      }
+    }
+  }
+
   $http.get('api/data.json').
     success(function(data, status, headers, config) {
       $log.info('successful pull of data')
@@ -87,10 +101,6 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
             characterList = []
             for (charKey in data.Characters[key]) {
               if (data.Characters[key].hasOwnProperty(charKey)) {
-                data.Characters[key][charKey].popupCharacter = function(char) {
-                  $scope.selectedChar = char
-                  $scope.openChar()
-                }
 
                 characterList.push(data.Characters[key][charKey])
               }
@@ -176,7 +186,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   }
 
 })
-.directive('characterItem', function() { 
+.directive('characterItem', function() {
   return {
     templateUrl: '/static/characterCell.html'
   }

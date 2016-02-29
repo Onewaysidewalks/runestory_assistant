@@ -29,3 +29,13 @@
   font-size: 20px;
   text-align: center;
 }
+
+.weapon_headers {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.weapon_type_header {
+  font-size: 20px;
+  font-weight: bold;
+}

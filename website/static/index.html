@@ -6,7 +6,7 @@
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.1.2.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-smart-table/2.1.7/smart-table.min.js"></script>
     <script src="/static/app.js"></script>
-    <link href="//bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet">
+    <link href="//bootswatch.com/slate/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/static/index.css" rel="stylesheet">
 
@@ -15,7 +15,7 @@
   <body>
     <div ng-controller="MainCtrl" class="container">
       <uib-tabset>
-        <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" style="width:50%">
+        <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disable="tab.disabled" style="width:50%" class="nav nav-pills">
           <div ng-show="tab.active">
             <form>
               <div class="form-group">
@@ -42,8 +42,8 @@
                 <div class="input-group">
                   <div class="input-group-addon"><i class="fa fa-search"></i></div>
 
-                  <input type="text" class="form-control" placeholder="filter here..." ng-model="characterSearchText" ng-show="tab.title == 'Characters'">
-                  <input type="text" class="form-control" placeholder="filter here..." ng-model="weaponSearchText" ng-show="tab.title == 'Weapons'">
+                  <input type="text" class="form-control" placeholder="filter by name here..." ng-model="characterSearchText" ng-show="tab.title == 'Characters'">
+                  <input type="text" class="form-control" placeholder="filter by name here..." ng-model="weaponSearchText" ng-show="tab.title == 'Weapons'">
 
                 </div>
               </div>
@@ -56,11 +56,11 @@
               </div>
             </div>
             <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="tab.title == 'Weapons' && weaponClassFilter(weaponType)">
-              <div>{{weaponType}}</div>
+              <div class="weapon_type_header">{{weaponType}}</div>
               <hr />
               <div class="container">
                 <div class="row weapon_headers">
-                  <div class="col-xs-1 weapon_header">
+                  <div class="col-xs-2 weapon_header">
                     Name
                   </div>
                   <div class="col-xs-2 weapon_header">
@@ -81,11 +81,11 @@
                   <div class="col-xs-1 weapon_header">
                     Attribute
                   </div>
-                  <div class="col-xs-4 weapon_header">
+                  <div class="col-xs-3 weapon_header">
                     Passives
                   </div>
                 </div>
-
+                <hr />
                 <div weapon-item class="row"
                      ng-repeat="weapon in weaponList | orderBy:weapon.Name:false | filter:weaponSearchText:strict ">
                 </div>

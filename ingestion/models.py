@@ -447,6 +447,13 @@ class Weapon(object):
         self.ClassId = classId
         self.Class = getClassFromId(classId)
 
+        #Initialize as EMPTY
+        self.Attack = ''
+        self.Defense = ''
+        self.Crit = ''
+        self.Effect = ''
+        self.Attribute = ''
+
         #Most data comes from the weapon list pages, which sits in a nice table structured format
         weaponCells = htmlElement.find_all('td')
 

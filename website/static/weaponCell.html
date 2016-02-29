@@ -23,11 +23,11 @@
   Passives
 </div> -->
 
-<div class="weapon_item col-xs-1" ng-click="weapon.popupWeapon(weapon)" >
+<div class="weapon_item col-xs-2" ng-click="weapon.popupWeapon(weapon)" >
   {{weapon.Name}}
 </div>
 <div class="col-xs-2">
-  <img src="{{weapon.CharacterIconUrl}}" class="rs_character" />
+  <img src="{{weapon.CharacterIconUrl}}" class="rs_character" ng-click="popupCharacter(weapon.OwnerId)" />
 </div>
 <div class="col-xs-1">
   {{weapon.Attack}}
@@ -44,7 +44,7 @@
 <div class="col-xs-1">
   {{weapon.Attribute}}
 </div>
-<div class="col-xs-4">
+<div class="col-xs-3">
   <ul>
     <li ng-repeat="passive in weapon.Passives">
       {{passive}}

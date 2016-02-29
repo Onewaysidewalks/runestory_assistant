@@ -273,6 +273,14 @@ def translateWeapons(weapons, language):
 
     return weapons
 
+def combineInfo(characters, weapons):
+    for weapon in weapons:
+        for character in characters:
+            if character.MotifWeaponId is weapon.Id:
+                weapon.CharacterIconUrl = character.IconUrl
+                weapon.Owner = character.Name
+                weapon.OwnerId = character.Id
+
 def main():
     #First we grab a hold of all the character list
     characters = getCharacters()
@@ -285,6 +293,8 @@ def main():
 
     #And similarly for each weapon
     weapons = translateWeapons(weapons, TARGET_LANGUAGE)
+
+    combineInfo(characters, weapons)
 
     #Save all data to a file, for further processing later
     saveToFile(OUTPUT_LOCATION, characters, weapons)
