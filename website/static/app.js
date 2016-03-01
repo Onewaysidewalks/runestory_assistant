@@ -1,4 +1,5 @@
 angular.module('app', ['ngAnimate', 'ui.bootstrap']);
+
 angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal, $log) {
 
   $scope.$log = $log
@@ -11,6 +12,29 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
       title: 'Weapons'
     }
   ]
+
+  $scope.characterSortTypes = [
+    { name: "Rarity"},
+    { name: "Name"}
+    // "Waifu" //figure out how to rate this!
+  ]
+
+  $scope.sortOnCharacter = function(sortType) {
+      $scope.selectedCharacterSortName = sortType.name
+  }
+
+  $scope.selectedCharacterSortName = $scope.characterSortTypes[0].name //default sort name
+
+  $scope.weaponSortTypes = [
+    { name: "Rarity"},
+    { name: "Name"}
+  ]
+
+  $scope.sortOnWeapon = function(sortType) {
+      $scope.selectedWeaponSortName = sortType.name
+  }
+
+  $scope.selectedWeaponSortName = $scope.weaponSortTypes[0].name //default sort name
 
   $scope.characterSearchText = ''
   $scope.weaponSearchText = ''

@@ -32,7 +32,14 @@ Tech used for this:
 2. Pyyaml - seems to be a pretty standard way of manipulating yaml files in pythong
 
 ### Website
-God save me
+God save me, its awful, but its there.
+
+Tech:
+
+1. angularjs
+2. angular bootstrap
+3. font awesome
+4. amateur front end skills
 
 - - -
 
@@ -52,7 +59,7 @@ To run the ingestion piece:
   - Once properly configured, this will run and output a file to `build/basedata.yaml`. This file will be the fully translated raw baseline data
 
 ### Overrides
-TODO
+Overrides are simple yaml addtions to the `overrides.yaml`. Simply follow the format prescribed by the `data.yaml` for the website, and you'll be fine!
 
 ### Website
 To deploy the website a few scripts have been provided for convenience:

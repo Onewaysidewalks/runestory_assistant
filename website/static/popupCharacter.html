@@ -5,22 +5,22 @@
     <div class="modal-body">
         <ul>
             <li>
-              Type: {{char['Type']}}
+              Type: {{::char['Type']}}
             </li>
             <li>
-              HP: {{char['HP']}}
+              HP: {{::char['HP']}}
             </li>
             <li>
-              SP: {{char['SP']}}
+              SP: {{::char['SP']}}
             </li>
             <li>
-              ATK: {{char['Attack']}}
+              ATK: {{::char['Attack']}}
             </li>
             <li>
-              DEF: {{char['Defense']}}
+              DEF: {{::char['Defense']}}
             </li>
             <li>
-              CRIT: {{char['Crit']}}
+              CRIT: {{::char['Crit']}}
             </li>
             <li>
               Passives:
@@ -33,13 +33,13 @@
                 <div class="leader_skills">
                   <ul>
                     <li class="leader_skill" ng-show="char.LeaderSkill1Name">
-                      <div class="leader_skill_name">{{char.LeaderSkill1Name}}</div>
-                      <div class="leader_skill_description">- {{char.LeaderSkill1Description}}</div>
+                      <div class="leader_skill_name">{{::char.LeaderSkill1Name}}</div>
+                      <div class="leader_skill_description">- {{::char.LeaderSkill1Description}}</div>
                     </li>
 
                     <li class="leader_skill" ng-show="char.LeaderSkill2Name">
-                      <div class="leader_skill_name">{{char.LeaderSkill2Name}}</div>
-                      <div class="leader_skill_description">- {{char.LeaderSkill2Description}}</div>
+                      <div class="leader_skill_name">{{::char.LeaderSkill2Name}}</div>
+                      <div class="leader_skill_description">- {{::char.LeaderSkill2Description}}</div>
                     </li>
                   </ul>
                 </div>
@@ -49,19 +49,19 @@
                 <div class="action_skills">
                   <ul>
                     <li class="action_skill">
-                      <span class="action_skill_name">{{char.ActionSkill1Name}}</span>
+                      <span class="action_skill_name">{{::char.ActionSkill1Name}}</span>
                       <span> SP:</span>
-                      <span> {{char.ActionSkill1SPCost}}</span>
+                      <span> {{::char.ActionSkill1SPCost}}</span>
                       <div>
-                        - {{char.ActionSkill1Description}}
+                        - {{::char.ActionSkill1Description}}
                       </div>
                     </li>
                     <li class="action_skill">
-                      <span class="action_skill_name">{{char.ActionSkill2Name}}</span>
+                      <span class="action_skill_name">{{::char.ActionSkill2Name}}</span>
                       <span> SP:</span>
-                      <span> {{char.ActionSkill2SPCost}}</span>
+                      <span> {{::char.ActionSkill2SPCost}}</span>
                       <div>
-                        - {{char.ActionSkill2Description}}
+                        - {{::char.ActionSkill2Description}}
                       </div>
                     </li>
                   </ul>

@@ -1,7 +1,7 @@
-<!-- <div class="col-xs-1 weapon_header"> STRUCTURE FOR TABLE
+<!-- <div class="col-xs-2 weapon_header"> STRUCTURE FOR TABLE
   Name
 </div>
-<div class="col-xs-1 weapon_header">
+<div class="col-xs-2 weapon_header">
   Character
 </div>
 <div class="col-xs-1 weapon_header">
@@ -19,35 +19,35 @@
 <div class="col-xs-1 weapon_header">
   Attribute
 </div>
-<div class="col-xs-2 weapon_header">
+<div class="col-xs-3 weapon_header">
   Passives
 </div> -->
 
 <div class="weapon_item col-xs-2" ng-click="weapon.popupWeapon(weapon)" >
-  {{weapon.Name}}
+  {{::weapon.Name}}
 </div>
 <div class="col-xs-2">
   <img src="{{weapon.CharacterIconUrl}}" class="rs_character" ng-click="popupCharacter(weapon.OwnerId)" />
 </div>
 <div class="col-xs-1">
-  {{weapon.Attack}}
+  {{::weapon.Attack}}
 </div>
 <div class="col-xs-1">
-  {{weapon.Defense}}
+  {{::weapon.Defense}}
 </div>
 <div class="col-xs-1">
-  {{weapon.Crit}}
+  {{::weapon.Crit}}
 </div>
 <div class="col-xs-1">
-  {{weapon.Effect}}
+  {{::weapon.Effect}}
 </div>
 <div class="col-xs-1">
-  {{weapon.Attribute}}
+  {{::weapon.Attribute}}
 </div>
 <div class="col-xs-3">
   <ul>
     <li ng-repeat="passive in weapon.Passives">
-      {{passive}}
+      {{::passive}}
     </li>
   </ul>
 </div>
