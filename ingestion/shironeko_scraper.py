@@ -276,7 +276,7 @@ def translateWeapons(weapons, language):
 def combineInfo(characters, weapons):
     for weapon in weapons:
         for character in characters:
-            if character.MotifWeaponId is weapon.Id:
+            if hasattr(character, 'MotifWeaponId') and character.MotifWeaponId == weapon.Id:
                 weapon.CharacterIconUrl = character.IconUrl
                 weapon.Owner = character.Name
                 weapon.OwnerId = character.Id

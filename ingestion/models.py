@@ -229,7 +229,7 @@ class Character(object):
                 if self.MotifWeaponUrl and self.MotifWeaponUrl[0] != '/':
                     self.MotifWeaponUrl = '/%s' % self.MotifWeaponUrl
                 self.MotifWeaponName = baseElement.string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
-                self.MotifWeaponId = self.MotifWeaponUrl[self.MotifWeaponUrl.index('=') + 1]
+                self.MotifWeaponId = self.MotifWeaponUrl[self.MotifWeaponUrl.index('=') + 1:].encode('utf-8')
             else:
                 print 'No motif details for character %s' % self.Id
                 self.MotifWeaponName = ''
