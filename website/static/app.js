@@ -26,7 +26,6 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $scope.selectedCharacterSortName = $scope.characterSortTypes[0].name //default sort name
 
   $scope.weaponSortTypes = [
-    { name: "Rarity"},
     { name: "Name"}
   ]
 
