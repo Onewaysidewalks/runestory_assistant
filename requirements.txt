@@ -6,3 +6,4 @@ flask
 virtualenv
 gunicorn
 pyyaml
+python-resize-image

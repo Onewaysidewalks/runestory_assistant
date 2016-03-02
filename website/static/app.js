@@ -39,24 +39,24 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $scope.weaponSearchText = ''
 
   $scope.classFilterModel = {}
-  $scope.classFilterModel['lancer'] = false
-  $scope.classFilterModel['brawler'] = false
-  $scope.classFilterModel['sniper'] = false
-  $scope.classFilterModel['fencer'] = false
-  $scope.classFilterModel['mage'] = false
-  $scope.classFilterModel['warrior'] = false
-  $scope.classFilterModel['dualsaber'] = false
-  $scope.classFilterModel['dragonrider'] = false
+  $scope.classFilterModel['lancer'] = true
+  $scope.classFilterModel['brawler'] = true
+  $scope.classFilterModel['sniper'] = true
+  $scope.classFilterModel['fencer'] = true
+  $scope.classFilterModel['mage'] = true
+  $scope.classFilterModel['warrior'] = true
+  $scope.classFilterModel['dualsaber'] = true
+  $scope.classFilterModel['dragonrider'] = true
 
   $scope.weaponFilterModel = {}
-  $scope.weaponFilterModel['lancer'] = false
-  $scope.weaponFilterModel['brawler'] = false
-  $scope.weaponFilterModel['sniper'] = false
-  $scope.weaponFilterModel['fencer'] = false
-  $scope.weaponFilterModel['mage'] = false
-  $scope.weaponFilterModel['warrior'] = false
-  $scope.weaponFilterModel['dualsaber'] = false
-  $scope.weaponFilterModel['dragonrider'] = false
+  $scope.weaponFilterModel['lancer'] = true
+  $scope.weaponFilterModel['brawler'] = true
+  $scope.weaponFilterModel['sniper'] = true
+  $scope.weaponFilterModel['fencer'] = true
+  $scope.weaponFilterModel['mage'] = true
+  $scope.weaponFilterModel['warrior'] = true
+  $scope.weaponFilterModel['dualsaber'] = true
+  $scope.weaponFilterModel['dragonrider'] = true
 
   $scope.showIntroMessage = function() {
     return !$scope.classFilterModel['lancer'] &&

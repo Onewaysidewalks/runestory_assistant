@@ -27,7 +27,8 @@
   {{::weapon.Name}}
 </div>
 <div class="col-xs-2">
-  <img src="{{weapon.CharacterIconUrl}}" class="rs_character" ng-click="popupCharacter(weapon.OwnerId)" />
+  <!-- <img src="{{weapon.CharacterIconUrl}}" class="rs_character" ng-click="popupCharacter(weapon.OwnerId)" /> -->
+  <div class="rs_character sprite-images-{{weapon.OwnerId}}" ng-click="popupCharacter(weapon.OwnerId)"></div>
 </div>
 <div class="col-xs-1">
   {{::weapon.Attack}}
