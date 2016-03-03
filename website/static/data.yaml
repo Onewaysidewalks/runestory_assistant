@@ -222,7 +222,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/116
       Id: '116'
       IngestionUrl: /character?id=116
-      JpEvaluation: '6.3'
+      JpEvaluation: '6.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/116'
       LeaderSkill1Description: give the party all the damage is small (5%) up
       LeaderSkill1Name: circle of friends
@@ -554,7 +554,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/158
       Id: '158'
       IngestionUrl: /character?id=158
-      JpEvaluation: '4.3'
+      JpEvaluation: '4.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/158'
       LeaderSkill1Description: down the middle damage received by the party all
       LeaderSkill1Name: forest of breath
@@ -685,7 +685,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/170
       Id: '170'
       IngestionUrl: /character?id=170
-      JpEvaluation: '6.5'
+      JpEvaluation: '6.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/170'
       LeaderSkill1Description: medium is lightning damage the party all up
       LeaderSkill1Name: more Agay Tekoyo!
@@ -752,7 +752,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/172
       Id: '172'
       IngestionUrl: /character?id=172
-      JpEvaluation: '5.6'
+      JpEvaluation: '5.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/172'
       LeaderSkill1Description: Monk of give damage medium up
       LeaderSkill1Name: I&#39;ll play!
@@ -948,7 +948,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/191
       Id: '191'
       IngestionUrl: /character?id=191
-      JpEvaluation: '4.6'
+      JpEvaluation: '4.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/191'
       LeaderSkill1Description: attacker types of receive damage middle down
       LeaderSkill1Name: rock
@@ -1140,7 +1140,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/214
       Id: '214'
       IngestionUrl: /character?id=214
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/214'
       LeaderSkill1Description: balance types of give damage medium up
       LeaderSkill1Name: Rivers dropped
@@ -1206,7 +1206,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/218
       Id: '218'
       IngestionUrl: /character?id=218
-      JpEvaluation: '8.6'
+      JpEvaluation: '8.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/218'
       LeaderSkill1Description: balance type of SP in up
       LeaderSkill1Name: !!python/str 'Wazawai祓 of Horiki'
@@ -1272,7 +1272,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/234
       Id: '234'
       IngestionUrl: /character?id=234
-      JpEvaluation: '6.3'
+      JpEvaluation: '6.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/234'
       LeaderSkill1Description: support type of receive damage middle down
       LeaderSkill1Name: enchanting whisper
@@ -1340,7 +1340,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/241
       Id: '241'
       IngestionUrl: /character?id=241
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/241'
       LeaderSkill1Description: attacker types of give damage medium up
       LeaderSkill1Name: pirates of lawless
@@ -1471,7 +1471,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/257
       Id: '257'
       IngestionUrl: /character?id=257
-      JpEvaluation: '6.3'
+      JpEvaluation: '6.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/257'
       LeaderSkill1Description: technical type of SP is medium up
       LeaderSkill1Name: lawless screaming
@@ -1670,7 +1670,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/277
       Id: '277'
       IngestionUrl: /character?id=277
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/277'
       LeaderSkill1Description: acquisition experience value is large up
       LeaderSkill1Name: Fallen Kyuhi
@@ -2076,7 +2076,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/322
       Id: '322'
       IngestionUrl: /character?id=322
-      JpEvaluation: '7.3'
+      JpEvaluation: '7.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/322'
       LeaderSkill1Description: Medium skill type of SP is up
       LeaderSkill1Name: spirit acorn
@@ -2210,7 +2210,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/337
       Id: '337'
       IngestionUrl: /character?id=337
-      JpEvaluation: '9.0'
+      JpEvaluation: '8.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/337'
       LeaderSkill1Description: skill types of give damage medium up
       LeaderSkill1Name: song writing of fox
@@ -2376,9 +2376,9 @@ Characters:
       Type: Defense
       TypeId: 2
     '357': !!python/object:models.Character
-      ActionSkill1Description: themselves and ally weapon in 20 seconds flame attribute
-        effect of the grant, to recover the HP and the abnormal state of itself and
-        ally. In addition to give the symphony power, to prolong the effect time.
+      ActionSkill1Description: the weapons themselves and ally grant 20 seconds flame
+        attribute effect, to recover the HP and the abnormal state of itself and ally.
+        In addition to give the symphony power, to prolong the effect time.
       ActionSkill1Evaluation: UNKNOWN
       ActionSkill1Magnification: UNKNOWN
       ActionSkill1Name: Shinki-Enerujiko cadenza
@@ -2420,13 +2420,13 @@ Characters:
       MotifWeaponId: '656'
       MotifWeaponName: Shin Toray Kantare
       MotifWeaponUrl: !!python/unicode '/weapon?id=656'
-      Name: None
+      Name: Lease (Shinki release)
       Passives:
       - SP consumption -15%
       - Action Skills Enhancement +15%
-      - HP50% or more in the consumption SP-50%
+      - consumption in HP50% or more SP-50%
       Rarity: '4'
-      RawName: None
+      RawName: !!python/str 'リース(神気解放)'
       SP: '164'
       SP_1: '60'
       SP_100: '164'
@@ -2478,7 +2478,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/362
       Id: '362'
       IngestionUrl: /character?id=362
-      JpEvaluation: '8.9'
+      JpEvaluation: '8.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/362'
       LeaderSkill1Description: given damage (Monk small and middle-balance type) up
       LeaderSkill1Name: black cheer
@@ -2544,7 +2544,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/379
       Id: '379'
       IngestionUrl: /character?id=379
-      JpEvaluation: '8.9'
+      JpEvaluation: '8.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/379'
       LeaderSkill1Description: given damage (Monk Small-attacker type in) up
       LeaderSkill1Name: oath of wings
@@ -3420,7 +3420,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/94
       Id: '94'
       IngestionUrl: /character?id=94
-      JpEvaluation: '3.9'
+      JpEvaluation: '3.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/94'
       LeaderSkill1Description: Monk of resilience is medium up
       LeaderSkill1Name: Kunfu of breathing
@@ -3487,7 +3487,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/225
       Id: '225'
       IngestionUrl: /character?id=225
-      JpEvaluation: '7.0'
+      JpEvaluation: '6.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/225'
       LeaderSkill1Description: give the party all damage is medium up
       LeaderSkill1Name: dragon knight of loyalty
@@ -3557,7 +3557,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/226
       Id: '226'
       IngestionUrl: /character?id=226
-      JpEvaluation: '7.8'
+      JpEvaluation: '7.7'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/226'
       LeaderSkill1Description: party all of the SP is small up
       LeaderSkill1Name: Dragon King woman of pride
@@ -3625,7 +3625,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/262
       Id: '262'
       IngestionUrl: /character?id=262
-      JpEvaluation: '9.7'
+      JpEvaluation: '9.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/262'
       LeaderSkill1Description: small cut consumption SP party all
       LeaderSkill1Name: dragon tactical
@@ -3832,7 +3832,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/288
       Id: '288'
       IngestionUrl: /character?id=288
-      JpEvaluation: '8.1'
+      JpEvaluation: '8.0'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/288'
       LeaderSkill1Description: party all of the attack speed is small up
       LeaderSkill1Name: gourd piece
@@ -3965,7 +3965,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/310
       Id: '310'
       IngestionUrl: /character?id=310
-      JpEvaluation: '9.7'
+      JpEvaluation: '9.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/310'
       LeaderSkill1Description: given damage (in Dragon rider Technical type fairly)
         up
@@ -4103,7 +4103,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/331
       Id: '331'
       IngestionUrl: /character?id=331
-      JpEvaluation: '9.7'
+      JpEvaluation: '9.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/331'
       LeaderSkill1Description: cut small consumption SP party all
       LeaderSkill1Name: Kamitori riding
@@ -4171,7 +4171,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/368
       Id: '368'
       IngestionUrl: /character?id=368
-      JpEvaluation: '9.5'
+      JpEvaluation: '9.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/368'
       LeaderSkill1Description: give the party all damage is medium up
       LeaderSkill1Name: !!python/str 'Al&#39;s cute ♪'
@@ -4242,7 +4242,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/375
       Id: '375'
       IngestionUrl: /character?id=375
-      JpEvaluation: '9.0'
+      JpEvaluation: '9.1'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/375'
       LeaderSkill1Description: Defense type of action skill power in up
       LeaderSkill1Name: is the bulwark of the clouds!
@@ -4503,7 +4503,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/144
       Id: '144'
       IngestionUrl: /character?id=144
-      JpEvaluation: '5.6'
+      JpEvaluation: '5.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/144'
       LeaderSkill1Description: cross Saber of receiving damage middle down
       LeaderSkill1Name: Shinobi Mirage
@@ -4773,7 +4773,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/188
       Id: '188'
       IngestionUrl: /character?id=188
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/188'
       LeaderSkill1Description: attacker types of give damage medium up
       LeaderSkill1Name: !!python/str 'demon 瞰之 epidemic'
@@ -5036,7 +5036,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/215
       Id: '215'
       IngestionUrl: /character?id=215
-      JpEvaluation: '5.8'
+      JpEvaluation: '5.7'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/215'
       LeaderSkill1Description: Technical types of give damage medium up
       LeaderSkill1Name: mantis of ax
@@ -5104,7 +5104,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/223
       Id: '223'
       IngestionUrl: /character?id=223
-      JpEvaluation: '6.7'
+      JpEvaluation: '6.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/223'
       LeaderSkill1Description: skill type of SP in up
       LeaderSkill1Name: summer sky melody
@@ -5626,7 +5626,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/279
       Id: '279'
       IngestionUrl: /character?id=279
-      JpEvaluation: '6.5'
+      JpEvaluation: '6.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/279'
       LeaderSkill1Description: give the party all medium damage up
       LeaderSkill1Name: Taiga drop of
@@ -5695,7 +5695,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/294
       Id: '294'
       IngestionUrl: /character?id=294
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/294'
       LeaderSkill1Description: technical type of action skill power in up
       LeaderSkill1Name: chess player of the game luck
@@ -5764,7 +5764,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/309
       Id: '309'
       IngestionUrl: /character?id=309
-      JpEvaluation: '6.6'
+      JpEvaluation: '6.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/309'
       LeaderSkill1Description: skill types of give lightning damage is large up
       LeaderSkill1Name: Royal dress up
@@ -5834,7 +5834,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/316
       Id: '316'
       IngestionUrl: /character?id=316
-      JpEvaluation: '9.5'
+      JpEvaluation: '9.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/316'
       LeaderSkill1Description: given damage (in cross Saber Small-balance type) up
       LeaderSkill1Name: condemnation of Alma
@@ -5971,7 +5971,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/332
       Id: '332'
       IngestionUrl: /character?id=332
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/332'
       LeaderSkill1Description: support type of movement speed is small up
       LeaderSkill1Name: Shame mode
@@ -6300,7 +6300,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/376
       Id: '376'
       IngestionUrl: /character?id=376
-      JpEvaluation: '9.0'
+      JpEvaluation: '8.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/376'
       LeaderSkill1Description: down the middle is damage of cross Saber
       LeaderSkill1Name: troubled times of learning
@@ -6622,7 +6622,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/117
       Id: '117'
       IngestionUrl: /character?id=117
-      JpEvaluation: '5.7'
+      JpEvaluation: '5.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/117'
       LeaderSkill1Description: party all of resilience is medium up
       LeaderSkill1Name: soft cold
@@ -6812,7 +6812,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/131
       Id: '131'
       IngestionUrl: /character?id=131
-      JpEvaluation: '5.3'
+      JpEvaluation: '5.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/131'
       LeaderSkill1Description: Swordsman of receiving damage middle down
       LeaderSkill1Name: impregnable defensive
@@ -6942,7 +6942,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/145
       Id: '145'
       IngestionUrl: /character?id=145
-      JpEvaluation: '5.9'
+      JpEvaluation: '5.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/145'
       LeaderSkill1Description: medium lightning damage up to give the party all
       LeaderSkill1Name: Fox trot
@@ -7132,7 +7132,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/156
       Id: '156'
       IngestionUrl: /character?id=156
-      JpEvaluation: '5.5'
+      JpEvaluation: '5.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/156'
       LeaderSkill1Description: Swordsman of give damage medium up
       LeaderSkill1Name: Warumote of fashion
@@ -7384,7 +7384,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/171
       Id: '171'
       IngestionUrl: /character?id=171
-      JpEvaluation: '5.9'
+      JpEvaluation: '5.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/171'
       LeaderSkill1Description: give the party all medium damage up
       LeaderSkill1Name: average hitter
@@ -7518,7 +7518,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/189
       Id: '189'
       IngestionUrl: /character?id=189
-      JpEvaluation: '6.0'
+      JpEvaluation: '5.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/189'
       LeaderSkill1Description: Technical types of receiving medium damage down
       LeaderSkill1Name: scales Law and spelled butterfly
@@ -7836,7 +7836,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/211
       Id: '211'
       IngestionUrl: /character?id=211
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/211'
       LeaderSkill1Description: skill types of give water attribute damage is large
         up
@@ -8094,7 +8094,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/233
       Id: '233'
       IngestionUrl: /character?id=233
-      JpEvaluation: '6.5'
+      JpEvaluation: '6.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/233'
       LeaderSkill1Description: attacker type of SP is medium up
       LeaderSkill1Name: night of vampire
@@ -8357,7 +8357,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/253
       Id: '253'
       IngestionUrl: /character?id=253
-      JpEvaluation: '9.7'
+      JpEvaluation: '9.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/253'
       LeaderSkill1Description: given damage (in swordsman Small-technical types) up
       LeaderSkill1Name: prophecy of the Son
@@ -8424,7 +8424,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/255
       Id: '255'
       IngestionUrl: /character?id=255
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/255'
       LeaderSkill1Description: Technical types of give damage medium up
       LeaderSkill1Name: muse whispers
@@ -8491,7 +8491,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/269
       Id: '269'
       IngestionUrl: /character?id=269
-      JpEvaluation: '7.9'
+      JpEvaluation: '7.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/269'
       LeaderSkill1Description: receive damage (in swordsman Small-technical type)
         down
@@ -8689,7 +8689,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/281
       Id: '281'
       IngestionUrl: /character?id=281
-      JpEvaluation: '6.9'
+      JpEvaluation: '6.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/281'
       LeaderSkill1Description: defense type of movement speed is small up
       LeaderSkill1Name: Reaper of breath
@@ -8757,7 +8757,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/293
       Id: '293'
       IngestionUrl: /character?id=293
-      JpEvaluation: '8.0'
+      JpEvaluation: '7.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/293'
       LeaderSkill1Description: attacker types of give damage medium up
       LeaderSkill1Name: Tengu of teaching
@@ -9476,7 +9476,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/354
       Id: '354'
       IngestionUrl: /character?id=354
-      JpEvaluation: '10.0'
+      JpEvaluation: '9.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/354'
       LeaderSkill1Description: cut considerably the consumption SP of swordsman
       LeaderSkill1Name: fine moments
@@ -9510,9 +9510,9 @@ Characters:
       Type: Technical
       TypeId: 4
     '356': !!python/object:models.Character
-      ActionSkill1Description: own the attack and movement speed 20 seconds 50% is
-        up, damage of the fire to an enemy. Further their own normal attacks to strengthen
-        30 seconds.
+      ActionSkill1Description: own attack power the moving speed is up for 20 seconds
+        and 50%, damage of the fire to an enemy. Further their own normal attacks
+        to strengthen 30 seconds.
       ActionSkill1Evaluation: UNKNOWN
       ActionSkill1Magnification: UNKNOWN
       ActionSkill1Name: !!python/str 'Shinki-Seimaen 煌剣'
@@ -9552,13 +9552,13 @@ Characters:
       MotifWeaponId: '645'
       MotifWeaponName: !!python/str 'Shin heaven 煌剣 Taburarasa'
       MotifWeaponUrl: !!python/unicode '/weapon?id=645'
-      Name: None
+      Name: Michaela (Shinki release)
       Passives:
       - Action Skills Enhancement +15%
       - counter slash success at the next action skill damage +50%
       - attack +20%
       Rarity: '4'
-      RawName: None
+      RawName: !!python/str 'ミカエラ(神気解放)'
       SP: '168'
       SP_1: '67'
       SP_100: '168'
@@ -9610,7 +9610,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/363
       Id: '363'
       IngestionUrl: /character?id=363
-      JpEvaluation: '9.7'
+      JpEvaluation: '9.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/363'
       LeaderSkill1Description: balance type of SP is medium up
       LeaderSkill1Name: Mikoto God force of
@@ -9810,7 +9810,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/374
       Id: '374'
       IngestionUrl: /character?id=374
-      JpEvaluation: '8.9'
+      JpEvaluation: '8.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/374'
       LeaderSkill1Description: balance type of attack speed is medium up
       LeaderSkill1Name: refreshing refreshing pause
@@ -10258,7 +10258,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/95
       Id: '95'
       IngestionUrl: /character?id=95
-      JpEvaluation: '5.4'
+      JpEvaluation: '5.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/95'
       LeaderSkill1Description: Swordsman of give medium damage (10%) up
       LeaderSkill1Name: Gekken gust
@@ -10842,7 +10842,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/154
       Id: '154'
       IngestionUrl: /character?id=154
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/154'
       LeaderSkill1Description: down the middle damage received by the party all
       LeaderSkill1Name: Fortis Alma
@@ -10851,7 +10851,7 @@ Characters:
       MotifWeaponId: '689'
       MotifWeaponName: Shin rack injection
       MotifWeaponUrl: !!python/unicode '/weapon?id=689'
-      Name: Galea
+      Name: Gaellea
       Passives:
       - SP + 15%
       - defense +15%
@@ -11171,7 +11171,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/182
       Id: '182'
       IngestionUrl: /character?id=182
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/182'
       LeaderSkill1Description: medium damage given by the technical type up
       LeaderSkill1Name: Batchikoi!
@@ -11565,7 +11565,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/229
       Id: '229'
       IngestionUrl: /character?id=229
-      JpEvaluation: '6.3'
+      JpEvaluation: '6.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/229'
       LeaderSkill1Description: Medium damage received by the balance type down
       LeaderSkill1Name: Hiking King
@@ -11633,7 +11633,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/239
       Id: '239'
       IngestionUrl: /character?id=239
-      JpEvaluation: '8.6'
+      JpEvaluation: '8.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/239'
       LeaderSkill1Description: party all of the SP is small up
       LeaderSkill1Name: KamiTatsuki of guardian
@@ -11762,7 +11762,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/261
       Id: '261'
       IngestionUrl: /character?id=261
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/261'
       LeaderSkill1Description: Technical type medium cut the consumption of SP
       LeaderSkill1Name: Biburapyo
@@ -11831,7 +11831,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/266
       Id: '266'
       IngestionUrl: /character?id=266
-      JpEvaluation: '6.7'
+      JpEvaluation: '6.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/266'
       LeaderSkill1Description: skill types of give damage medium up
       LeaderSkill1Name: falcon eye
@@ -12024,7 +12024,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/285
       Id: '285'
       IngestionUrl: /character?id=285
-      JpEvaluation: '6.2'
+      JpEvaluation: '6.1'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/285'
       LeaderSkill1Description: skill type of SP is medium up
       LeaderSkill1Name: enforcement of Kingship
@@ -12906,9 +12906,9 @@ Characters:
       Type: Skill
       TypeId: 6
     '360': !!python/object:models.Character
-      ActionSkill1Description: itself and the natural system of ally to up the damage
-        to the enemy 100%, damage to the enemy. There is a Toko to further the shock
-        state.
+      ActionSkill1Description: itself and is up 100% damage to the enemy of the natural
+        system of the allies, damage to the enemy. There is a Toko to further the
+        shock state.
       ActionSkill1Evaluation: UNKNOWN
       ActionSkill1Magnification: UNKNOWN
       ActionSkill1Name: Shinki-Shigyaku of screech
@@ -12948,13 +12948,13 @@ Characters:
       MotifWeaponId: '667'
       MotifWeaponName: Shin Hearts of Queen
       MotifWeaponUrl: !!python/unicode '/weapon?id=667'
-      Name: None
+      Name: Riveta (Shinki release)
       Passives:
       - attack +15%
-      - guard charge during the attack speed + 50%, Action Skills Enhancement +50%
+      - in the guard charge attack speed + 50%, Action Skills Enhancement +50%
       - Action Skills Enhancement +20%
       Rarity: '4'
-      RawName: None
+      RawName: !!python/str 'リヴェータ(神気解放)'
       SP: '180'
       SP_1: '63'
       SP_100: '180'
@@ -13006,7 +13006,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/364
       Id: '364'
       IngestionUrl: /character?id=364
-      JpEvaluation: '9.4'
+      JpEvaluation: '9.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/364'
       LeaderSkill1Description: given damage (in the Lancer Small-attacker type) up
       LeaderSkill1Name: destruction of the crossfire
@@ -13642,7 +13642,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/87
       Id: '87'
       IngestionUrl: /character?id=87
-      JpEvaluation: '3.2'
+      JpEvaluation: '3.1'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/87'
       LeaderSkill1Description: !!python/str 'ランサーの受けるダメージが中ダウン'
       LeaderSkill1Name: Bomi vest
@@ -14283,7 +14283,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/130
       Id: '130'
       IngestionUrl: /character?id=130
-      JpEvaluation: '5.1'
+      JpEvaluation: '5.0'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/130'
       LeaderSkill1Description: medium is damage of the Mage (10%) up
       LeaderSkill1Name: noble red demon
@@ -14607,7 +14607,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/155
       Id: '155'
       IngestionUrl: /character?id=155
-      JpEvaluation: '4.7'
+      JpEvaluation: '4.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/155'
       LeaderSkill1Description: party all of resilience is medium up
       LeaderSkill1Name: spring breeze
@@ -14861,7 +14861,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/178
       Id: '178'
       IngestionUrl: /character?id=178
-      JpEvaluation: '3.9'
+      JpEvaluation: '3.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/178'
       LeaderSkill1Description: medium resilience of the party everyone is up
       LeaderSkill1Name: Tutturu over!
@@ -15898,7 +15898,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/258
       Id: '258'
       IngestionUrl: /character?id=258
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/258'
       LeaderSkill1Description: party all of resilience is medium up
       LeaderSkill1Name: magic of Bell
@@ -16031,7 +16031,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/264
       Id: '264'
       IngestionUrl: /character?id=264
-      JpEvaluation: '6.6'
+      JpEvaluation: '6.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/264'
       LeaderSkill1Description: support type medium cut the consumption of SP
       LeaderSkill1Name: warmth of the fire
@@ -16235,7 +16235,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/280
       Id: '280'
       IngestionUrl: /character?id=280
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/280'
       LeaderSkill1Description: balance type of SP is medium up
       LeaderSkill1Name: !!python/str 'timeless 迷曲'
@@ -16434,7 +16434,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/308
       Id: '308'
       IngestionUrl: /character?id=308
-      JpEvaluation: '6.7'
+      JpEvaluation: '6.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/308'
       LeaderSkill1Description: won gold large up
       LeaderSkill1Name: Ten&#39;okami of shine
@@ -16739,7 +16739,7 @@ Characters:
         damage, up damage to the enemy of the Dragon system around the ally It gives
         the effect of. In addition, to act together with Fille until the fall or passes
         a certain period of time. ※ normal attack of Fille gives the water attribute
-        damage, it may be in the frozen state.'
+        damage, freezing'
       ActionSkill2Evaluation: ''
       ActionSkill2Magnification: ''
       ActionSkill2Name: Triad Innocence
@@ -16765,11 +16765,11 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/333
       Id: '333'
       IngestionUrl: /character?id=333
-      JpEvaluation: '9.1'
+      JpEvaluation: '9.0'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/333'
-      LeaderSkill1Description: party all of the SP is small up
-      LeaderSkill1Name: Dragon King woman of rest
-      LeaderSkill2Description: up the middle is SP party all
+      LeaderSkill1Description: SP party everyone small up
+      LeaderSkill1Name: Ryuo woman
+      LeaderSkill2Description: !!python/str 'パーティ全員のSPが中アップ'
       LeaderSkill2Name: Solid Naru Hakuryu ties
       MotifWeaponId: '1397'
       MotifWeaponName: Shin Divine Sphere
@@ -16804,11 +16804,11 @@ Characters:
       ActionSkill1Name: Shinki and purification of prayer
       ActionSkill1SPCost: '50'
       ActionSkill2Description: !!python/str 'damage of attracting water attribute
-        the enemy. Can be further weapon in the water attribute assignment, a certain
-        period of time once only is the cell constant time ally reduce the consumption
-        SP of action skills ally ally is resurrected at the time of non-combat of
-        any of the (※ resurrection 1 Quest once only) bring effect at random.'
-      ActionSkill2Evaluation: UNKNOWN
+        the enemy. In addition it is possible, a certain period of time ally to the
+        weapon of ally reduce the consumption SP of action skills ally only water
+        attribute assignment, a certain period of time once is restored at the time
+        of non-combat (※ resurrection 1 Quest once'
+      ActionSkill2Evaluation: 'UNKNOWN # # 2m: UNKNOWN'
       ActionSkill2Magnification: UNKNOWN
       ActionSkill2Name: Shinki-New Year geyser
       ActionSkill2SPCost: '44'
@@ -16833,8 +16833,8 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/341
       Id: '341'
       IngestionUrl: /character?id=341
-      LeaderSkill1Description: Medium is damage of the Mage (10%) up
-      LeaderSkill1Name: body and soul fee magic
+      LeaderSkill1Description: Mage of give medium damage (10%) up
+      LeaderSkill1Name: body and soul bill magic
       LeaderSkill2Description: ''
       LeaderSkill2Name: ''
       MotifWeaponName: ''
@@ -16932,7 +16932,7 @@ Characters:
       Type: Support
       TypeId: 3
     '355': !!python/object:models.Character
-      ActionSkill1Description: own attack power for 30 seconds 50 % is up, to restore
+      ActionSkill1Description: own attack the force is up for 30 seconds 50%, to restore
         the HP of itself and ally. In addition, to give the lightning effect on the
         weapon of ally for 30 seconds itself.
       ActionSkill1Evaluation: UNKNOWN
@@ -16977,13 +16977,13 @@ Characters:
       MotifWeaponId: '644'
       MotifWeaponName: Shin Eternal Blossom
       MotifWeaponUrl: !!python/unicode '/weapon?id=644'
-      Name: None
+      Name: Pham (Shinki release)
       Passives:
-      - HP50% more than +30% movement speed and attack speed
+      - HP50% or more in the movement speed and attack speed +30%
       - instant death avoided by HP10% more than
       - SP consumption -20%
       Rarity: '4'
-      RawName: None
+      RawName: !!python/str 'ファム(神気解放)'
       SP: '251'
       SP_1: '89'
       SP_100: '251'
@@ -17001,8 +17001,8 @@ Characters:
       Type: Balance
       TypeId: 5
     '361': !!python/object:models.Character
-      ActionSkill1Description: to summon Tianma, restore the HP of himself as ally
-        and, my SP is 60 seconds, gradually recover.
+      ActionSkill1Description: to summon Tianma, and my to restore the HP of the ally,
+        your SP for 60 seconds, gradually recover.
       ActionSkill1Evaluation: rainbow Rune Fragment
       ActionSkill1Magnification: ''
       ActionSkill1Name: Shinki Healing squall
@@ -17043,13 +17043,13 @@ Characters:
       MotifWeaponId: '459'
       MotifWeaponName: cane of Shin supreme wisdom
       MotifWeaponUrl: !!python/unicode '/weapon?id=459'
-      Name: None
+      Name: Wiz (Shinki release)
       Passives:
       - SP + 15%
       - the damage -15%
-      - SP remaining amount is large enough action skill damage up
+      - remaining as the SP a large amount of action skill damage up
       Rarity: '4'
-      RawName: None
+      RawName: !!python/str 'ウィズ(神気解放)'
       SP: '208'
       SP_1: '70'
       SP_100: '208'
@@ -17234,7 +17234,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/377
       Id: '377'
       IngestionUrl: /character?id=377
-      JpEvaluation: '8.9'
+      JpEvaluation: '8.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/377'
       LeaderSkill1Description: Mage of receiving damage middle down
       LeaderSkill1Name: attentive filter
@@ -18074,7 +18074,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/132
       Id: '132'
       IngestionUrl: /character?id=132
-      JpEvaluation: '5.5'
+      JpEvaluation: '5.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/132'
       LeaderSkill1Description: Archer of give medium damage (10%) up
       LeaderSkill1Name: storage of price
@@ -18204,7 +18204,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/146
       Id: '146'
       IngestionUrl: /character?id=146
-      JpEvaluation: '5.5'
+      JpEvaluation: '5.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/146'
       LeaderSkill1Description: up the middle is damage to the party all
       LeaderSkill1Name: alchemy of teaching
@@ -18404,7 +18404,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/175
       Id: '175'
       IngestionUrl: /character?id=175
-      JpEvaluation: '6.6'
+      JpEvaluation: '6.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/175'
       LeaderSkill1Description: give the party all damage is medium up
       LeaderSkill1Name: vermilion-painted goblet
@@ -18471,7 +18471,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/185
       Id: '185'
       IngestionUrl: /character?id=185
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/185'
       LeaderSkill1Description: defense type of give damage medium up
       LeaderSkill1Name: ice sea
@@ -18539,7 +18539,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/187
       Id: '187'
       IngestionUrl: /character?id=187
-      JpEvaluation: '6.5'
+      JpEvaluation: '6.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/187'
       LeaderSkill1Description: attacker types of give damage medium up
       LeaderSkill1Name: !!python/str 'demon 瞰之 epidemic'
@@ -18605,7 +18605,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/193
       Id: '193'
       IngestionUrl: /character?id=193
-      JpEvaluation: '5.2'
+      JpEvaluation: '5.1'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/193'
       LeaderSkill1Description: acquisition Seoul large up
       LeaderSkill1Name: Motemote Tactics
@@ -18803,7 +18803,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/212
       Id: '212'
       IngestionUrl: /character?id=212
-      JpEvaluation: '6.5'
+      JpEvaluation: '6.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/212'
       LeaderSkill1Description: party all of the SP small up
       LeaderSkill1Name: casually example Gechi
@@ -18935,7 +18935,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/230
       Id: '230'
       IngestionUrl: /character?id=230
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/230'
       LeaderSkill1Description: Archer of the moving speed is small up
       LeaderSkill1Name: Gale of painting
@@ -19002,7 +19002,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/238
       Id: '238'
       IngestionUrl: /character?id=238
-      JpEvaluation: '6.5'
+      JpEvaluation: '6.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/238'
       LeaderSkill1Description: Technical type medium cut the consumption of SP
       LeaderSkill1Name: cold look sidelines
@@ -19326,7 +19326,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/265
       Id: '265'
       IngestionUrl: /character?id=265
-      JpEvaluation: '8.5'
+      JpEvaluation: '8.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/265'
       LeaderSkill1Description: skill type of SP is medium up
       LeaderSkill1Name: crazy belief
@@ -19517,7 +19517,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/282
       Id: '282'
       IngestionUrl: /character?id=282
-      JpEvaluation: '9.6'
+      JpEvaluation: '9.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/282'
       LeaderSkill1Description: small cut consumption SP party all
       LeaderSkill1Name: glycidyl-of-daemon
@@ -19912,7 +19912,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/320
       Id: '320'
       IngestionUrl: /character?id=320
-      JpEvaluation: '8.0'
+      JpEvaluation: '7.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/320'
       LeaderSkill1Description: skill type of attack speed is medium up
       LeaderSkill1Name: looming time
@@ -20045,7 +20045,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/334
       Id: '334'
       IngestionUrl: /character?id=334
-      JpEvaluation: '8.6'
+      JpEvaluation: '8.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/334'
       LeaderSkill1Description: attack speed of party everyone small up
       LeaderSkill1Name: Inui would yo ~ N
@@ -20277,8 +20277,8 @@ Characters:
       Type: Skill
       TypeId: 6
     '359': !!python/object:models.Character
-      ActionSkill1Description: to restore the HP of itself and ally itself to the
-        abnormal state a barrier to disable up to 10 times stretch for 30 seconds.
+      ActionSkill1Description: to restore the HP of itself and ally, put a barrier
+        to disable up to 10 times the abnormal state to own for 30 seconds.
       ActionSkill1Evaluation: UNKNOWN
       ActionSkill1Magnification: UNKNOWN
       ActionSkill1Name: Shinki, silver ice on the horizon
@@ -20319,13 +20319,13 @@ Characters:
       MotifWeaponId: '653'
       MotifWeaponName: Shin Snow Meteor
       MotifWeaponUrl: !!python/unicode '/weapon?id=653'
-      Name: None
+      Name: Pinot (Shinki release)
       Passives:
       - instant death avoided by HP10% more than
       - Action Skills Enhancement +15%
       - SP consumption -20%
       Rarity: '4'
-      RawName: None
+      RawName: !!python/str 'ピノ(神気解放)'
       SP: '201'
       SP_1: '78'
       SP_100: '201'
@@ -20440,7 +20440,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/367
       Id: '367'
       IngestionUrl: /character?id=367
-      JpEvaluation: '8.4'
+      JpEvaluation: '8.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/367'
       LeaderSkill1Description: over-friendliness of the abnormal state of the party
         all the small up
@@ -20571,7 +20571,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/378
       Id: '378'
       IngestionUrl: /character?id=378
-      JpEvaluation: '9.0'
+      JpEvaluation: '8.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/378'
       LeaderSkill1Description: small up to strengthen skills time of party
       LeaderSkill1Name: Sound Sensi Willi tea
@@ -21192,7 +21192,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/93
       Id: '93'
       IngestionUrl: /character?id=93
-      JpEvaluation: '3.6'
+      JpEvaluation: '3.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/93'
       LeaderSkill1Description: received by the party all the damage is small down
       LeaderSkill1Name: Utsusemi of the operator
@@ -21258,7 +21258,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/103
       Id: '103'
       IngestionUrl: /character?id=103
-      JpEvaluation: '4.0'
+      JpEvaluation: '3.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/103'
       LeaderSkill1Description: Warrior of the receive damage middle down
       LeaderSkill1Name: walk weather
@@ -21519,7 +21519,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/128
       Id: '128'
       IngestionUrl: /character?id=128
-      JpEvaluation: '4.3'
+      JpEvaluation: '4.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/128'
       LeaderSkill1Description: give the party all medium damage (10%) up
       LeaderSkill1Name: sleep child grow
@@ -21714,7 +21714,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/148
       Id: '148'
       IngestionUrl: /character?id=148
-      JpEvaluation: '4.8'
+      JpEvaluation: '4.7'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/148'
       LeaderSkill1Description: give the party all damage is medium up
       LeaderSkill1Name: tangled in the back drop
@@ -21910,7 +21910,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/174
       Id: '174'
       IngestionUrl: /character?id=174
-      JpEvaluation: '5.5'
+      JpEvaluation: '5.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/174'
       LeaderSkill1Description: Warrior give a medium damage up
       LeaderSkill1Name: absolute class spicy spices
@@ -21977,7 +21977,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/179
       Id: '179'
       IngestionUrl: /character?id=179
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/179'
       LeaderSkill1Description: down the middle damage received by the party all
       LeaderSkill1Name: spores of poison
@@ -22044,7 +22044,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/192
       Id: '192'
       IngestionUrl: /character?id=192
-      JpEvaluation: '6.6'
+      JpEvaluation: '6.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/192'
       LeaderSkill1Description: skill types of give damage medium up
       LeaderSkill1Name: stalemate
@@ -22240,7 +22240,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/216
       Id: '216'
       IngestionUrl: /character?id=216
-      JpEvaluation: '6.3'
+      JpEvaluation: '6.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/216'
       LeaderSkill1Description: defense type of receive damage middle down
       LeaderSkill1Name: Fujin of breeze
@@ -22305,7 +22305,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/221
       Id: '221'
       IngestionUrl: /character?id=221
-      JpEvaluation: '6.3'
+      JpEvaluation: '6.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/221'
       LeaderSkill1Description: give the party all damage is medium up
       LeaderSkill1Name: off the lip
@@ -22372,7 +22372,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/235
       Id: '235'
       IngestionUrl: /character?id=235
-      JpEvaluation: '6.4'
+      JpEvaluation: '6.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/235'
       LeaderSkill1Description: balance types of give damage medium up
       LeaderSkill1Name: salt modest
@@ -22438,7 +22438,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/242
       Id: '242'
       IngestionUrl: /character?id=242
-      JpEvaluation: '6.3'
+      JpEvaluation: '6.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/242'
       LeaderSkill1Description: attacker types of receive damage middle down
       LeaderSkill1Name: giants of steroids
@@ -22636,7 +22636,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/259
       Id: '259'
       IngestionUrl: /character?id=259
-      JpEvaluation: '6.7'
+      JpEvaluation: '6.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/259'
       LeaderSkill1Description: technical type of movement speed is small up
       LeaderSkill1Name: the fight uplifting Hibikioto
@@ -22836,7 +22836,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/284
       Id: '284'
       IngestionUrl: /character?id=284
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/284'
       LeaderSkill1Description: Medium consumption SP of balance type cut
       LeaderSkill1Name: Lady of the Common Practice
@@ -22902,7 +22902,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/290
       Id: '290'
       IngestionUrl: /character?id=290
-      JpEvaluation: '7.0'
+      JpEvaluation: '6.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/290'
       LeaderSkill1Description: attacker types of give damage medium up
       LeaderSkill1Name: Friends of the dish
@@ -23238,7 +23238,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/336
       Id: '336'
       IngestionUrl: /character?id=336
-      JpEvaluation: '6.7'
+      JpEvaluation: '6.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/336'
       LeaderSkill1Description: attacker type medium cut the consumption of SP
       LeaderSkill1Name: fourth wheel batter
@@ -23447,13 +23447,13 @@ Characters:
       MotifWeaponId: '664'
       MotifWeaponName: !!python/str 'Shin pulverizing ☆ Petit basket'
       MotifWeaponUrl: !!python/unicode '/weapon?id=664'
-      Name: None
+      Name: Frey (Shinki release)
       Passives:
       - Action Skills Enhancement +15%
       - SP consumption -15%
       - attack speed +50%
       Rarity: '4'
-      RawName: None
+      RawName: !!python/str 'フレイ(神気解放)'
       SP: '162'
       SP_1: '51'
       SP_100: '162'
@@ -23507,7 +23507,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/365
       Id: '365'
       IngestionUrl: /character?id=365
-      JpEvaluation: '9.5'
+      JpEvaluation: '9.4'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/365'
       LeaderSkill1Description: attack speed of party everyone small up
       LeaderSkill1Name: blow grinding hammer!
@@ -23557,27 +23557,27 @@ Characters:
       ActionSkill2ReducedSPCost: '42'
       ActionSkill2SPCost: '50'
       Attack: '408'
-      Attack_1: UNKNOWN
+      Attack_1: '177'
       Attack_100: '408'
       Attack_100_SS: '444'
       Class: Warrior
       ClassId: 3
       Crit: '63'
-      Crit_1: UNKNOWN
+      Crit_1: '31'
       Crit_100: '63'
       Crit_100_SS: '83'
       Defense: '190'
-      Defense_1: UNKNOWN
+      Defense_1: '84'
       Defense_100: '190'
       Defense_100_SS: '214'
       HP: '539'
-      HP_1: UNKNOWN
+      HP_1: '240'
       HP_100: '539'
       HP_100_SS: '611'
       IconUrl: http://s.shironeko.me/img/character/s/380
       Id: '380'
       IngestionUrl: /character?id=380
-      JpEvaluation: '9.0'
+      JpEvaluation: '8.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/380'
       LeaderSkill1Description: !!python/str 'acquisition BP · acquisition experience
         value is the middle up'
@@ -23595,7 +23595,7 @@ Characters:
       Rarity: '4'
       RawName: None
       SP: '146'
-      SP_1: UNKNOWN
+      SP_1: '46'
       SP_100: '146'
       SP_100_SS: '166'
       SP_Recovery_0_SS: ''
@@ -24456,7 +24456,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/89
       Id: '89'
       IngestionUrl: /character?id=89
-      JpEvaluation: '4.3'
+      JpEvaluation: '4.2'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/89'
       LeaderSkill1Description: Warrior of give medium damage (10%) up
       LeaderSkill1Name: timer mission
@@ -24554,6 +24554,11 @@ Characters:
       SP_Recovery_4_SS_Town: ''
       Type: Defense
       TypeId: 2
+Gacha:
+  Characters:
+  - '154'
+  Weapons:
+  - '810'
 Weapons:
   Brawler:
     '1011': !!python/object:models.Weapon
@@ -25032,7 +25037,7 @@ Weapons:
       Id: '656'
       IngestionUrl: !!python/unicode '/weapon?id=656'
       Name: Shin Toray Kantare
-      Owner: None
+      Owner: Lease (Shinki release)
       OwnerId: '357'
       Passives:
       - Cardo parole
@@ -25633,9 +25638,9 @@ Weapons:
       Effect: electric shock Lv4
       Id: '1335'
       IngestionUrl: !!python/unicode '/weapon?id=1335'
-      Name: flashing dragon
+      Name: a dark dragon
       Passives:
-      - actions Skills Enhancement +5%
+      - Action Skills Enhancement +5%
       - SP consumption -5%
       RawName: !!python/str '真・審判の滅龍'
     '1361': !!python/object:models.Weapon
@@ -26899,7 +26904,7 @@ Weapons:
       Id: '645'
       IngestionUrl: !!python/unicode '/weapon?id=645'
       Name: !!python/str 'Shin heaven 煌剣 Taburarasa'
-      Owner: None
+      Owner: Michaela (Shinki release)
       OwnerId: '356'
       Passives:
       - Radiant Cage
@@ -27201,7 +27206,7 @@ Weapons:
       RawName: !!python/str '真・ダーインスレイヴ'
     '797': !!python/object:models.Weapon
       Attack: '117'
-      Attribute: 'flame 11 # #'
+      Attribute: flame 11
       CharacterIconUrl: http://s.shironeko.me/img/character/s/156
       Class: Fencer
       ClassId: 1
@@ -27215,7 +27220,7 @@ Weapons:
       OwnerId: '156'
       Passives:
       - Burning charge
-      - action Skills Enhancement +5%
+      - Action Skills Enhancement +5%
       - SP consumption -5%
       RawName: !!python/str '真・アロンダイト'
     '827': !!python/object:models.Weapon
@@ -27768,7 +27773,7 @@ Weapons:
       Id: '667'
       IngestionUrl: !!python/unicode '/weapon?id=667'
       Name: Shin Hearts Of Queen
-      Owner: None
+      Owner: Riveta (Shinki release)
       OwnerId: '360'
       Passives:
       - Assault March
@@ -27991,13 +27996,13 @@ Weapons:
       Effect: electric shock Lv3
       Id: '740'
       IngestionUrl: !!python/unicode '/weapon?id=740'
-      Name: True Hornet Stinger
+      Name: Shin Hornet Stinger
       Owner: Julia
       OwnerId: '96'
       Passives:
       - Spiral Assault
       - the damage -10%
-      - shock invalid
+      - electric shock invalid
       RawName: !!python/str '真・ホーネットスティンガー'
     '742': !!python/object:models.Weapon
       Attack: '143'
@@ -28721,7 +28726,7 @@ Weapons:
       Id: '459'
       IngestionUrl: !!python/unicode '/weapon?id=459'
       Name: cane of Shin supreme wisdom
-      Owner: None
+      Owner: Wiz (Shinki release)
       OwnerId: '361'
       Passives:
       - Baron The Lightning
@@ -28797,7 +28802,7 @@ Weapons:
       Id: '644'
       IngestionUrl: !!python/unicode '/weapon?id=644'
       Name: Shin Eternal Blossom
-      Owner: None
+      Owner: Pham (Shinki release)
       OwnerId: '355'
       Passives:
       - everlasting fragrance of
@@ -29796,7 +29801,7 @@ Weapons:
       Id: '653'
       IngestionUrl: !!python/unicode '/weapon?id=653'
       Name: Shin Snow Meteor
-      Owner: None
+      Owner: Pinot (Shinki release)
       OwnerId: '359'
       Passives:
       - silent avalanche
@@ -30721,7 +30726,7 @@ Weapons:
       Id: '664'
       IngestionUrl: !!python/unicode '/weapon?id=664'
       Name: !!python/str 'Shin pulverizing ☆ Petit basket'
-      Owner: None
+      Owner: Frey (Shinki release)
       OwnerId: '358'
       Passives:
       - Fancy catastrophe
@@ -30814,7 +30819,7 @@ Weapons:
       Effect: poison Lv5
       Id: '739'
       IngestionUrl: !!python/unicode '/weapon?id=739'
-      Name: true-gentian Tsumutsuki
+      Name: Shin gentian Tsumutsuki
       Owner: Shaofu
       OwnerId: '103'
       Passives:

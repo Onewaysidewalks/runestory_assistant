@@ -68,7 +68,7 @@ def main():
 
     finalYaml = mergeYaml(ingestionYaml, overridesYaml)
 
-    resizeImages(pullImages(finalYaml))
+    # resizeImages(pullImages(finalYaml))
 
 
 

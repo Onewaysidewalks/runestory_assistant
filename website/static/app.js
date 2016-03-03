@@ -1,6 +1,6 @@
 angular.module('app', ['ngAnimate', 'ui.bootstrap']);
 
-angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal, $log) {
+angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal, $log, $rootScope) {
 
   $scope.$log = $log
 
@@ -12,6 +12,9 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
       title: 'Weapons'
     }
   ]
+
+  //default selected tab
+  $rootScope.selectedTab = $scope.tabs[0].title
 
   $scope.characterSortTypes = [
     { name: "Rarity"},

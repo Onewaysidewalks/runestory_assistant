@@ -3,3 +3,10 @@ Characters:
   Fencer:
     '314':
       RawName: 'アルカ・アトレイア'
+  Lancer:
+    '154':
+      Name: Gaellea
+
+Gacha: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
+  Characters: ['154']
+  Weapons: ['810']

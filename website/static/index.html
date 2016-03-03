@@ -11,122 +11,142 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/static/index.css" rel="stylesheet">
     <link href="/static/images.css" rel="stylesheet">
-    <link href="/static/responsive_csssprite.css" rel="stylesheet">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
   </head>
 
   <body>
     <div ng-controller="MainCtrl" class="container">
-      <uib-tabset>
-        <uib-tab ng-repeat="tab in tabs" heading="{{tab.title}}" active="tab.active" disable="tab.disabled" style="width:50%" class="nav nav-pills">
-          <div ng-show="tab.active">
-            <form>
-              <div class="form-group">
-                <!-- The class filter toggles-->
-                <div class="form-group">
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['lancer']" uib-btn-checkbox>Lancer</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['brawler']" uib-btn-checkbox>Brawler</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['fencer']" uib-btn-checkbox>Fencer</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['mage']" uib-btn-checkbox>Mage</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['sniper']" uib-btn-checkbox>Sniper</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['warrior']" uib-btn-checkbox>Warrior</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['dualsaber']" uib-btn-checkbox>Dual Saber</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Characters'" ng-model="classFilterModel['dragonrider']" uib-btn-checkbox>Dragon Rider</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['lancer']" uib-btn-checkbox>Lancer</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['brawler']" uib-btn-checkbox>Brawler</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['fencer']" uib-btn-checkbox>Fencer</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['mage']" uib-btn-checkbox>Mage</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['sniper']" uib-btn-checkbox>Sniper</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['warrior']" uib-btn-checkbox>Warrior</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['dualsaber']" uib-btn-checkbox>Dual Saber</label>
-                    <label class="btn btn-primary primary-filter" ng-show="tab.title == 'Weapons'" ng-model="weaponFilterModel['dragonrider']" uib-btn-checkbox>Dragon Rider</label>
-                </div>
-                <div class="input-group">
-                  <div class="input-group-addon"><i class="fa fa-search"></i></div>
-
-                  <input type="text" class="form-control" placeholder="filter by name here..." ng-model="characterSearchText" ng-show="tab.title == 'Characters'">
-                  <input type="text" class="form-control" placeholder="filter by name here..." ng-model="weaponSearchText" ng-show="tab.title == 'Weapons'">
-
-                </div>
-                <div ng-show="tab.title == 'Characters'">
-                  <span>Sort: </span>
-                  <div class="btn-group" uib-dropdown>
-
-                    <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
-                      {{selectedCharacterSortName}} <span class="caret"></span>
-                    </button>
-                    <ul uib-dropdown-menu role="menu" aria-labelledby="single-button">
-                      <li role="menuitem" ng-repeat="sortType in characterSortTypes" ng-click="sortOnCharacter(sortType)"><a href="#">{{sortType.name}}</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div ng-show="tab.title == 'Weapons'">
-                  <span>Sort: </span>
-                  <div class="btn-group" uib-dropdown>
-
-                    <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
-                      {{selectedWeaponSortName}} <span class="caret"></span>
-                    </button>
-                    <ul uib-dropdown-menu role="menu" aria-labelledby="single-button">
-                      <li role="menuitem" ng-repeat="sortType in weaponSortTypes" ng-click="sortOnWeapon(sortType)"><a href="#">{{sortType.name}}</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </form>
-            <div class="row" ng-repeat="(charType, charList) in characters" ng-show="tab.title == 'Characters' && characterClassFilter(charType)">
-              <div class="character_type_header">{{charType}}</div>
-              <hr />
-              <div character-item class="col-xs-3 rs_character"
-                   ng-repeat="char in charList | filter:characterSearchText:strict | customSorter:selectedCharacterSortName">
-              </div>
-              <hr />
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- <div class="navbar-header">Runestory Assistant</div> --> <!--TODO: Figure out header -->
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li ng-repeat="tab in tabs" ng-click="$root.selectedTab = tab.title" ng-class="{'active': $root.selectedTab === tab.title}">
+                <a href="#">{{tab.title}}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div ng-show="selectedTab == 'Characters'">
+        <form>
+          <div class="form-group">
+            <!-- The class filter toggles-->
+            <div class="form-group">
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['lancer']" uib-btn-checkbox>Lancer</label>
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['brawler']" uib-btn-checkbox>Brawler</label>
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['fencer']" uib-btn-checkbox>Fencer</label>
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['mage']" uib-btn-checkbox>Mage</label>
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['sniper']" uib-btn-checkbox>Sniper</label>
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['warrior']" uib-btn-checkbox>Warrior</label>
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['dualsaber']" uib-btn-checkbox>Dual Saber</label>
+                <label class="btn btn-primary primary-filter" ng-model="classFilterModel['dragonrider']" uib-btn-checkbox>Dragon Rider</label>
             </div>
-            <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="tab.title == 'Weapons' && weaponClassFilter(weaponType)">
-              <div class="weapon_type_header">{{weaponType}}</div>
-              <hr />
-              <div class="container">
-                <div class="row weapon_headers">
-                  <div class="col-xs-2 weapon_header">
-                    Name
-                  </div>
-                  <div class="col-xs-2 weapon_header">
-                    Character
-                  </div>
-                  <div class="col-xs-1 weapon_header">
-                    ATK
-                  </div>
-                  <div class="col-xs-1 weapon_header">
-                    DEF
-                  </div>
-                  <div class="col-xs-1 weapon_header">
-                    CRIT
-                  </div>
-                  <div class="col-xs-1 weapon_header">
-                    Effect
-                  </div>
-                  <div class="col-xs-1 weapon_header">
-                    Attribute
-                  </div>
-                  <div class="col-xs-3 weapon_header">
-                    Passives
-                  </div>
-                </div>
-                <hr />
-                <div weapon-item class="row"
-                     ng-repeat="weapon in weaponList | filter:weaponSearchText:strict | customSorter:selectedWeaponSortName">
-                </div>
-              </div>
+            <div class="input-group">
+              <div class="input-group-addon"><i class="fa fa-search"></i></div>
+              <input type="text" class="form-control" placeholder="filter by name here..." ng-model="characterSearchText">
             </div>
-            <div class="intro_message" ng-show="showIntroMessage()">
-              <hr />
-              Click a class filter above to begin!
-              <hr />
+            <div ng-show="tab.title == 'Characters'">
+              <span>Sort: </span>
+              <div class="btn-group" uib-dropdown>
+
+                <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
+                  {{selectedCharacterSortName}} <span class="caret"></span>
+                </button>
+                <ul uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                  <li role="menuitem" ng-repeat="sortType in characterSortTypes" ng-click="sortOnCharacter(sortType)"><a href="#">{{sortType.name}}</a></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </uib-tab>
-      </uib-tabset>
+        </form>
+      </div>
 
+      <div ng-show="selectedTab == 'Weapons'">
+        <form>
+          <div class="form-group">
+            <!-- The class filter toggles-->
+            <div class="form-group">
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['lancer']" uib-btn-checkbox>Lancer</label>
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['brawler']" uib-btn-checkbox>Brawler</label>
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['fencer']" uib-btn-checkbox>Fencer</label>
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['mage']" uib-btn-checkbox>Mage</label>
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['sniper']" uib-btn-checkbox>Sniper</label>
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['warrior']" uib-btn-checkbox>Warrior</label>
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['dualsaber']" uib-btn-checkbox>Dual Saber</label>
+                <label class="btn btn-primary primary-filter" ng-model="weaponFilterModel['dragonrider']" uib-btn-checkbox>Dragon Rider</label>
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon"><i class="fa fa-search"></i></div>
+              <input type="text" class="form-control" placeholder="filter by name here..." ng-model="weaponSearchText">
+            </div>
+            <div ng-show="tab.title == 'Weapons'">
+              <span>Sort: </span>
+              <div class="btn-group" uib-dropdown>
+
+                <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
+                  {{selectedWeaponSortName}} <span class="caret"></span>
+                </button>
+                <ul uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                  <li role="menuitem" ng-repeat="sortType in weaponSortTypes" ng-click="sortOnWeapon(sortType)"><a href="#">{{sortType.name}}</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="container">
+        <div class="row" ng-repeat="(charType, charList) in characters" ng-show="selectedTab == 'Characters' && characterClassFilter(charType)">
+          <div class="character_type_header">{{charType}}</div>
+          <hr />
+          <div character-item class="col-xs-3 rs_character"
+               ng-repeat="char in charList | filter:characterSearchText:strict | customSorter:selectedCharacterSortName">
+          </div>
+          <hr />
+        </div>
+        <div class="row" ng-repeat="(weaponType, weaponList) in weapons" ng-show="selectedTab == 'Weapons' && weaponClassFilter(weaponType)">
+          <div class="weapon_type_header">{{weaponType}}</div>
+          <hr />
+          <div class="container">
+            <div class="row weapon_headers">
+              <div class="col-xs-2 weapon_header">
+                Name
+              </div>
+              <div class="col-xs-2 weapon_header">
+                Character
+              </div>
+              <div class="col-xs-1 weapon_header">
+                ATK
+              </div>
+              <div class="col-xs-1 weapon_header">
+                DEF
+              </div>
+              <div class="col-xs-1 weapon_header">
+                CRIT
+              </div>
+              <div class="col-xs-1 weapon_header">
+                Effect
+              </div>
+              <div class="col-xs-1 weapon_header">
+                Attribute
+              </div>
+              <div class="col-xs-3 weapon_header">
+                Passives
+              </div>
+            </div>
+            <hr />
+            <div weapon-item class="row"
+                 ng-repeat="weapon in weaponList | filter:weaponSearchText:strict | customSorter:selectedWeaponSortName">
+            </div>
+          </div>
+        </div>
+        <div class="intro_message" ng-show="showIntroMessage()">
+          <hr />
+          Click a class filter above to begin!
+          <hr />
+        </div>
+      </div>
     </div>
   </body>
 </html>
