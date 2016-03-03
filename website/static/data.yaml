@@ -24554,7 +24554,7 @@ Characters:
       SP_Recovery_4_SS_Town: ''
       Type: Defense
       TypeId: 2
-Gacha:
+Current:
   Characters:
   - '154'
   Weapons:

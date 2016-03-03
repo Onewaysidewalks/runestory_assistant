@@ -28,6 +28,30 @@
           </div>
         </div>
       </nav>
+
+      <div ng-show="selectedTab" == 'Home'>
+        <!-- Current Character Summons -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3" ng-repeat="current.Characters">
+
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Current Weapon Summons -->
+        <div class="container">
+
+        </div>
+
+        <!-- Current Events -->
+        <div class="container">
+
+        </div>
+      </div>
+
       <div ng-show="selectedTab == 'Characters'">
         <form>
           <div class="form-group">
