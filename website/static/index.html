@@ -29,21 +29,99 @@
         </div>
       </nav>
 
-      <div ng-show="selectedTab" == 'Home'>
+      <div ng-show="$root.selectedTab == 'Home'">
         <!-- Current Character Summons -->
         <div class="container">
           <div class="row">
-            <div class="col-xs-3" ng-repeat="current.Characters">
-
+            <div class="col-xs-2" >
+                <div class="home_table_header" style="font-weight: bold; font-size:1.5em">Character Shop</div>
+            </div>
+            <div class="col-xs-1 home_table_header">
+              Character
+            </div>
+            <div class="col-xs-1 stat_hp home_table_header">
+              HP
+            </div>
+            <div class="col-xs-1 stat_sp home_table_header">
+              SP
+            </div>
+            <div class="col-xs-1 stat_atk home_table_header">
+              ATK
+            </div>
+            <div class="col-xs-1 stat_def home_table_header">
+              DEF
+            </div>
+            <div class="col-xs-1 stat_crit home_table_header">
+              CRIT
+            </div>
+            <div class="col-xs-4 home_table_header">
+              Passives
             </div>
           </div>
-
-
+          <hr />
+          <div class="row" ng-repeat="character in current.characters">
+            <div class="col-xs-2" >
+                <div title="c:{{::char.Id}} w:{{char.MotifWeaponId}}" class="sprite-images-{{::character.Id}} rs_character" ng-click="popupCharacter(character.Id)"></div>
+            </div>
+            <div class="col-xs-1">
+              {{character.Name}}
+            </div>
+            <div class="col-xs-1 stat_hp">
+              {{character.HP_100}}
+            </div>
+            <div class="col-xs-1 stat_sp">
+              {{character.SP_100}}
+            </div>
+            <div class="col-xs-1 stat_atk">
+              {{character.Attack_100}}
+            </div>
+            <div class="col-xs-1 stat_def">
+              {{character.Defense_100}}
+            </div>
+            <div class="col-xs-1 stat_crit">
+              {{character.Crit_100}}
+            </div>
+            <div class="col-xs-4">
+              <ul>
+                <li ng-repeat="passive in character.Passives track by $index">{{::passive}}</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <hr />
 
         <!-- Current Weapon Summons -->
         <div class="container">
-
+          <div class="row home_table_header">
+            <div class="col-xs-2 weapon_header">
+              Weapon Forge
+            </div>
+            <div class="col-xs-2 weapon_header">
+              Character
+            </div>
+            <div class="col-xs-1 weapon_header stat_atk">
+              ATK
+            </div>
+            <div class="col-xs-1 weapon_header stat_def">
+              DEF
+            </div>
+            <div class="col-xs-1 weapon_header stat_crit">
+              CRIT
+            </div>
+            <div class="col-xs-1 weapon_header">
+              Effect
+            </div>
+            <div class="col-xs-1 weapon_header">
+              Attribute
+            </div>
+            <div class="col-xs-3 weapon_header">
+              Passives
+            </div>
+          </div>
+          <hr />
+          <div weapon-item class="row"
+               ng-repeat="weapon in current.weapons">
+          </div>
         </div>
 
         <!-- Current Events -->
@@ -70,7 +148,7 @@
               <div class="input-group-addon"><i class="fa fa-search"></i></div>
               <input type="text" class="form-control" placeholder="filter by name here..." ng-model="characterSearchText">
             </div>
-            <div ng-show="tab.title == 'Characters'">
+            <div ng-show="selectedTab == 'Characters'">
               <span>Sort: </span>
               <div class="btn-group" uib-dropdown>
 
@@ -104,7 +182,7 @@
               <div class="input-group-addon"><i class="fa fa-search"></i></div>
               <input type="text" class="form-control" placeholder="filter by name here..." ng-model="weaponSearchText">
             </div>
-            <div ng-show="tab.title == 'Weapons'">
+            <div ng-show="selectedTab == 'Weapons'">
               <span>Sort: </span>
               <div class="btn-group" uib-dropdown>
 
@@ -140,13 +218,13 @@
               <div class="col-xs-2 weapon_header">
                 Character
               </div>
-              <div class="col-xs-1 weapon_header">
+              <div class="col-xs-1 weapon_header stat_atk">
                 ATK
               </div>
-              <div class="col-xs-1 weapon_header">
+              <div class="col-xs-1 weapon_header stat_def">
                 DEF
               </div>
-              <div class="col-xs-1 weapon_header">
+              <div class="col-xs-1 weapon_header stat_crit">
                 CRIT
               </div>
               <div class="col-xs-1 weapon_header">

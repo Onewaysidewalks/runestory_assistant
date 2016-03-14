@@ -6,6 +6,9 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
 
   $scope.tabs = [
     {
+      title: 'Home'
+    },
+    {
       title: 'Characters'
     },
     {
@@ -115,7 +118,13 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   $http.get('api/data.json').
     success(function(data, status, headers, config) {
       $log.info('successful pull of data')
-      $log.info(data)
+
+      $scope.current = {
+        'characters': [],
+        'weapons': [],
+        'events': []
+      }
+
       if (data.Characters) {
         $log.info('setting scope characters')
         $scope.characters = {}
@@ -127,8 +136,13 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
             characterList = []
             for (charKey in data.Characters[key]) {
               if (data.Characters[key].hasOwnProperty(charKey)) {
-
-                characterList.push(data.Characters[key][charKey])
+                character = data.Characters[key][charKey]
+                characterList.push(character) //add to display list
+                //add to current gacha list if applicable
+                if (data.Current.Characters.indexOf(character.Id) > -1) {
+                  $log.info("adding character to current list")
+                  $scope.current.characters.push(character)
+                }
               }
             }
 
@@ -151,7 +165,13 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
                   $scope.openWeapon()
                 }
 
-                weaponList.push(data.Weapons[key][weaponId])
+                weapon = data.Weapons[key][weaponId]
+                weaponList.push(weapon) //add to display list
+                //then add to current gacha if available
+                if (data.Current.Weapons.indexOf(weapon.Id) > -1) {
+                  $log.info("adding weapon to current list")
+                  $scope.current.weapons.push(weapon)
+                }
               }
             }
 

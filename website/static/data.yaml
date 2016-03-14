@@ -7393,7 +7393,7 @@ Characters:
       MotifWeaponId: '827'
       MotifWeaponName: Shin Tony Arzenta Father
       MotifWeaponUrl: !!python/unicode '/weapon?id=827'
-      Name: Killala
+      Name: Kirala
       Passives:
       - SP consumption -15%
       - SP consumption -15%
@@ -10459,7 +10459,7 @@ Characters:
       MotifWeaponId: '744'
       MotifWeaponName: !!python/str 'Shin Brünnhilde'
       MotifWeaponUrl: !!python/unicode '/weapon?id=744'
-      Name: Anna (Xmas)
+      Name: Annabele (Christmas)
       Passives:
       - attack +15%
       - SP + 15%
@@ -10654,7 +10654,7 @@ Characters:
       MotifWeaponId: '673'
       MotifWeaponName: Shin key of The Wonder
       MotifWeaponUrl: !!python/unicode '/weapon?id=673'
-      Name: Eshiria
+      Name: Etheria
       Passives:
       - SP + 15%
       - HP + 15%
@@ -11111,7 +11111,7 @@ Characters:
       MotifWeaponId: '824'
       MotifWeaponName: the mystery of the narrator
       MotifWeaponUrl: !!python/unicode '/weapon?id=824'
-      Name: Furoria
+      Name: Floria
       Passives:
       - defense +15%
       - Action Skills Enhancement +15%
@@ -13740,6 +13740,8 @@ Characters:
       Type: Defense
       TypeId: 2
   Mage:
+    '10000':
+      Name: Crystal Mage Leah
     '106': !!python/object:models.Character
       ActionSkill1Description: to recover the ally (The more close to their resilience
         is high)
@@ -14099,7 +14101,7 @@ Characters:
       MotifWeaponId: '709'
       MotifWeaponName: Shin complete victory large bill
       MotifWeaponUrl: !!python/unicode '/weapon?id=709'
-      Name: Haruka (New Year)
+      Name: Jinxie Lumin (New Years)
       Passives:
       - HP + 15%
       - attack +15%
@@ -14805,7 +14807,7 @@ Characters:
       MotifWeaponId: '839'
       MotifWeaponName: Shin Caduceus
       MotifWeaponUrl: !!python/unicode '/weapon?id=839'
-      Name: Lee Spur
+      Name: Fang
       Passives:
       - attack +15%
       - instant death avoided by HP10% more than
@@ -18280,7 +18282,7 @@ Characters:
       MotifWeaponId: '791'
       MotifWeaponName: Shin curtain call
       MotifWeaponUrl: !!python/unicode '/weapon?id=791'
-      Name: Piresuta
+      Name: Piesta
       Passives:
       - Action Skills Enhancement +15%
       - attack +15%
@@ -21593,7 +21595,7 @@ Characters:
       MotifWeaponId: '666'
       MotifWeaponName: Shin Vital keeper
       MotifWeaponUrl: !!python/unicode '/weapon?id=666'
-      Name: Ririeru
+      Name: Liliel
       Passives:
       - attack +15%
       - SP + 15%
@@ -24556,9 +24558,27 @@ Characters:
       TypeId: 2
 Current:
   Characters:
-  - '154'
+  - '171'
+  - '195'
+  - '173'
+  - '134'
+  - '176'
+  - '172'
+  - '157'
+  - '126'
+  - '122'
+  - '135'
+  - '114'
+  - '109'
+  - '10000'
   Weapons:
-  - '810'
+  - '839'
+  - '830'
+  - '791'
+  - '666'
+  - '824'
+  - '917'
+  - '827'
 Weapons:
   Brawler:
     '1011': !!python/object:models.Weapon

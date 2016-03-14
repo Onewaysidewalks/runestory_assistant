@@ -1,12 +1,53 @@
-# NOTE: Example Entry for an override.
+Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
+  Characters:
+    - '171' #kirala
+    - '195' #renfa
+    - '173' #floria
+    - '134' #liliel
+    - '176' #fang
+    - '172' #Lucy
+    - '157' #Piesta
+    - '126' #xmas illia
+    - '122' #nye jinxie
+    - '135' #etheria
+    - '114' #xmas annabelle
+    - '109' #xmas mira
+    - '10000' #mage leah
+  Weapons:
+    - '839' #fang
+    - '830' #lucy
+    - '791' #piesta
+    - '666' #liliel
+    - '824' #floria
+    - '917' #renfa
+    - '827' #kirala
+
 Characters:
   Fencer:
     '314':
       RawName: 'アルカ・アトレイア'
+    '171':
+      Name: Kirala
   Lancer:
+    '135':
+      Name: Etheria
     '154':
       Name: Gaellea
-
-Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
-  Characters: ['154']
-  Weapons: ['810']
+    '173':
+      Name: Floria
+    '114':
+      Name: Annabele (Christmas)
+  Warrior:
+    '134':
+      Name: Liliel
+  Mage:
+    '10000':
+      Name: Crystal Mage Leah
+      
+    '176':
+      Name: Fang
+    '122':
+      Name: Jinxie Lumin (New Years)
+  Sniper:
+    '157':
+      Name: Piesta

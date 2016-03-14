@@ -1,4 +1,4 @@
-body { padding-top: 70px; } 
+body { padding-top: 70px; }
 
 @media (max-width: 600px) {
   .rs_character {
@@ -31,6 +31,11 @@ body { padding-top: 70px; }
   text-align: center;
 }
 
+.home_table_header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .weapon_headers {
   font-size: 20px;
   font-weight: bold;
@@ -44,6 +49,42 @@ body { padding-top: 70px; }
 .character_type_header {
   font-size: 20px;
   font-weight: bold;
+}
+
+.stat_hp {
+  color: green;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.stat_sp {
+  color: purple;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.stat_atk {
+  color: red;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.stat_def {
+  color: lightblue;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.stat_crit {
+  color: orange;
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .primary-filter {
