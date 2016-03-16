@@ -81,7 +81,7 @@ Characters:
       IconUrl: http://runestory.rocks/static/images/characters/10000.png
       Id: '10000'
       IngestionUrl: '-'
-      LargeImageUrl: 'http://runestory.rocks/static/images/characters/10000.png'
+      LargeImageUrl: 'http://runestory.rocks/static/images/characters/10000.PNG'
       LeaderSkill1Description: Recovery of party members rises slightly
       LeaderSkill1Name: Healing Crystals
       LeaderSkill2Description: Recovery of party members rises markedly

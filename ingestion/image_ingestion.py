@@ -1,3 +1,6 @@
+##This file should be ran AFTER overrides have been ran, to pick up global character information
+##After running this, one will need to run a "GLUE" command to actually generate a sprite sheet, as well as the css file for it
+
 import yaml
 import models
 
@@ -31,7 +34,7 @@ def pullImages(data):
                 fileNames.append(fileName)
                 print 'processing %s' % fileName
                 urllib.urlretrieve(iconUrl, '%s%s' % (RAW_IMAGE_OUTPUT_LOCATION, fileName))
-                
+
     return fileNames
 
 def resizeImages(fileNames):
