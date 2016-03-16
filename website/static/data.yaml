@@ -10587,7 +10587,7 @@ Characters:
       MotifWeaponId: '746'
       MotifWeaponName: Shin flashing-tonbogiri
       MotifWeaponUrl: !!python/unicode '/weapon?id=746'
-      Name: Ilia (New Year)
+      Name: Illia (New Years)
       Passives:
       - attack +15%
       - SP + 15%
@@ -13741,7 +13741,67 @@ Characters:
       TypeId: 2
   Mage:
     '10000':
+      ActionSkill1Description: Restores HP and heals Status Effects
+      ActionSkill1Evaluation: UNKNOWN
+      ActionSkill1Magnification: UNKNOWN
+      ActionSkill1Name: Heal Thyself
+      ActionSkill1SPCost: '50'
+      ActionSkill2Description: Crystal blades fall from the sky
+      ActionSkill2Evaluation: UNKNOWN
+      ActionSkill2Magnification: UNKNOWN
+      ActionSkill2Name: Purple Rain
+      ActionSkill2SPCost: '50'
+      Attack: '240'
+      Attack_1: '240'
+      Attack_100: '240'
+      Attack_100_SS: '240'
+      Class: Mage
+      ClassId: 6
+      Crit: '93'
+      Crit_1: '93'
+      Crit_100: '93'
+      Crit_100_SS: '93'
+      Defense: '107'
+      Defense_1: '107'
+      Defense_100: '107'
+      Defense_100_SS: '107'
+      HP: '372'
+      HP_1: '372'
+      HP_100: '372'
+      HP_100_SS: '372'
+      IconUrl: http://runestory.rocks/static/images/characters/10000.png
+      Id: '10000'
+      IngestionUrl: '-'
+      LargeImageUrl: http://runestory.rocks/static/images/characters/10000.png
+      LeaderSkill1Description: Recovery of party members rises slightly
+      LeaderSkill1Name: Healing Crystals
+      LeaderSkill2Description: Recovery of party members rises markedly
+      LeaderSkill2Name: Sharp Wizardry
+      MotifWeaponId: '10000'
+      MotifWeaponName: Shin Final treatment
+      MotifWeaponUrl: /weapon?id=704
       Name: Crystal Mage Leah
+      Passives:
+      - SP + 15%
+      - No Fatal Blows at HP >10%
+      - Boost Attack Speed + 25%
+      Rarity: '4'
+      SP: '196'
+      SP_1: '196'
+      SP_100: '196'
+      SP_100_SS: '196'
+      SP_Recovery_0_SS: '7'
+      SP_Recovery_0_SS_Town: '7'
+      SP_Recovery_1_SS: '7'
+      SP_Recovery_1_SS_Town: '7'
+      SP_Recovery_2_SS: '7'
+      SP_Recovery_2_SS_Town: '7'
+      SP_Recovery_3_SS: '7'
+      SP_Recovery_3_SS_Town: '7'
+      SP_Recovery_4_SS: '7'
+      SP_Recovery_4_SS_Town: '7'
+      Type: Support
+      TypeId: 3
     '106': !!python/object:models.Character
       ActionSkill1Description: to recover the ally (The more close to their resilience
         is high)
@@ -14515,8 +14575,7 @@ Characters:
       ActionSkill1Magnification: ''
       ActionSkill1Name: lucky heel
       ActionSkill1SPCost: '52'
-      ActionSkill2Description: puppet good luck filling in the world, the damage to
-        the enemy give
+      ActionSkill2Description: puppet good luck filling in the world, the damage to the enemy give
       ActionSkill2Evaluation: ''
       ActionSkill2Magnification: ''
       ActionSkill2Name: Lucky gift
@@ -24572,6 +24631,12 @@ Current:
   - '109'
   - '10000'
   Weapons:
+  - '706'
+  - '744'
+  - '673'
+  - '709'
+  - '746'
+  - '10000'
   - '839'
   - '830'
   - '791'
@@ -28276,6 +28341,22 @@ Weapons:
       - Action Skills Enhancement +10%
       RawName: !!python/str '真・マーメイドクイーン'
   Mage:
+    '10000':
+      Attack: '115'
+      CharacterIconUrl: http://s.shironeko.me/img/character/s/222
+      Class: Mage
+      ClassId: 6
+      Crit: '45'
+      Defense: '0'
+      Effect: Freeze Lv4
+      Id: '10000'
+      Name: Wingedd Wand
+      Owner: Crystal Mage Leah
+      OwnerId: '10000'
+      Passives:
+      - Shared Power - 10% Damage Buff for Party (30 seconds)
+      - ATK +10%
+      - Boost Action Skills +5%
     '1020': !!python/object:models.Weapon
       Attack: '120'
       Attribute: water 5
