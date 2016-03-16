@@ -1,5 +1,5 @@
-##This file should be ran AFTER overrides have been ran, to pick up global character information
-##After running this, one will need to run a "GLUE" command to actually generate a sprite sheet, as well as the css file for it
+##This file should be ran AFTER overrides have been ran, to pick up global character information, OR, manually add the png files for global characters, and change the source data location
+##After running this, one will need to run a "GLUE" command to actually generate a sprite sheet, as well as the css file for it: glue build/images/ build/final_css --png8
 
 import yaml
 import models
@@ -15,7 +15,7 @@ from resizeimage import resizeimage
 #Poor mans configuration!
 IMAGE_OUTPUT_LOCATION = 'build/images/'
 RAW_IMAGE_OUTPUT_LOCATION = 'build/raw_images/'
-INGESTION_DATA_LOCATION = 'build/data.yaml'
+INGESTION_DATA_LOCATION = 'build/basedata.yaml'
 
 #Method that loads and saves all character/weapon images found in the data model in an images/ folder
 def pullImages(data):
@@ -38,6 +38,9 @@ def pullImages(data):
     return fileNames
 
 def resizeImages(fileNames):
+
+    fileNames.append('%s10000.png' % RAW_IMAGE_OUTPUT_LOCATION) #mage leah
+
     for fileName in fileNames:
         with open('%s%s' % (RAW_IMAGE_OUTPUT_LOCATION, fileName), 'r+b') as f:
             with Image.open(f) as image:
