@@ -2,6 +2,8 @@ angular.module('app', ['ngAnimate', 'ui.bootstrap']);
 
 angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal, $log, $rootScope) {
 
+  $rootScope.isLoaded = false
+
   $scope.$log = $log
 
   $scope.tabs = [
@@ -179,6 +181,8 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
           }
         }
       }
+
+      $rootScope.isLoaded = true
     })
     .error(function(data, status, headers, config) {
       $log.error(data);

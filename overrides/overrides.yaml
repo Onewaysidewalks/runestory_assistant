@@ -87,7 +87,7 @@ Characters:
       LeaderSkill2Description: Recovery of party members rises markedly
       LeaderSkill2Name: Sharp Wizardry
       MotifWeaponId: '10000'
-      MotifWeaponName: Shin Final treatment
+      MotifWeaponName: Winged Wand
       MotifWeaponUrl: '/weapon?id=704'
       Name: Crystal Mage Leah
       Passives:
@@ -130,7 +130,7 @@ Weapons:
       Defense: '0'
       Effect: Freeze Lv4
       Id: '10000'
-      Name: Wingedd Wand
+      Name: Winged Wand
       Owner: Crystal Mage Leah
       OwnerId: '10000'
       Passives:

@@ -15,7 +15,13 @@
   </head>
 
   <body>
-    <div ng-controller="MainCtrl" class="container">
+    <img src=/static/images.png ng-hide="true"/> <!-- Cheap dirty trick to get image.png to load as soon as page renders, instead of after API call-->
+    <div class="container" ng-show="$root.isLoaded == false">
+      <div style="text-align:center;font-size:2em">
+        <span>please be patient while we get things ready for you!</span> <i class="fa fa-cog fa-spin"></i>
+      </div>
+    </div>
+    <div ng-controller="MainCtrl" class="container" ng-show="$root.isLoaded">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <!-- <div class="navbar-header">Runestory Assistant</div> --> <!--TODO: Figure out header -->

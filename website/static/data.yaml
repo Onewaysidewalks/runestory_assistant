@@ -13772,13 +13772,13 @@ Characters:
       IconUrl: http://runestory.rocks/static/images/characters/10000.png
       Id: '10000'
       IngestionUrl: '-'
-      LargeImageUrl: http://runestory.rocks/static/images/characters/10000.png
+      LargeImageUrl: http://runestory.rocks/static/images/characters/10000.PNG
       LeaderSkill1Description: Recovery of party members rises slightly
       LeaderSkill1Name: Healing Crystals
       LeaderSkill2Description: Recovery of party members rises markedly
       LeaderSkill2Name: Sharp Wizardry
       MotifWeaponId: '10000'
-      MotifWeaponName: Shin Final treatment
+      MotifWeaponName: Winged Wand
       MotifWeaponUrl: /weapon?id=704
       Name: Crystal Mage Leah
       Passives:
@@ -14575,7 +14575,8 @@ Characters:
       ActionSkill1Magnification: ''
       ActionSkill1Name: lucky heel
       ActionSkill1SPCost: '52'
-      ActionSkill2Description: puppet good luck filling in the world, the damage to the enemy give
+      ActionSkill2Description: puppet good luck filling in the world, the damage to
+        the enemy give
       ActionSkill2Evaluation: ''
       ActionSkill2Magnification: ''
       ActionSkill2Name: Lucky gift
@@ -28350,7 +28351,7 @@ Weapons:
       Defense: '0'
       Effect: Freeze Lv4
       Id: '10000'
-      Name: Wingedd Wand
+      Name: Winged Wand
       Owner: Crystal Mage Leah
       OwnerId: '10000'
       Passives:
