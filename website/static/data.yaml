@@ -957,7 +957,7 @@ Characters:
       MotifWeaponId: '907'
       MotifWeaponName: Shin explosion
       MotifWeaponUrl: !!python/unicode '/weapon?id=907'
-      Name: pinnata
+      Name: Benkei
       Passives:
       - Action Skills Enhancement +15%
       - attack +15%
@@ -15191,7 +15191,7 @@ Characters:
       MotifWeaponId: '914'
       MotifWeaponName: stick
       MotifWeaponUrl: !!python/unicode '/weapon?id=914'
-      Name: Pong
+      Name: Pom
       Passives:
       - SP consumption -15%
       - instant death avoided by HP10% more than
@@ -21982,7 +21982,7 @@ Characters:
       MotifWeaponId: '837'
       MotifWeaponName: Shin gourmet burst
       MotifWeaponUrl: !!python/unicode '/weapon?id=837'
-      Name: Rahway
+      Name: Chi li
       Passives:
       - Osamu Bow Board +70% at the time of combustion
       - Action Skills Enhancement +15%
@@ -24618,13 +24618,13 @@ Characters:
       TypeId: 2
 Current:
   Characters:
-  - '171'
-  - '195'
-  - '173'
-  - '134'
-  - '176'
-  - '172'
-  - '157'
+  - '189'
+  - '194'
+  - '175'
+  - '215'
+  - '190'
+  - '191'
+  - '174'
   - '126'
   - '122'
   - '135'

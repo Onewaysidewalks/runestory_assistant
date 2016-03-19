@@ -1,12 +1,12 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
-    - '171' #kirala
-    - '195' #renfa
-    - '173' #floria
-    - '134' #liliel
-    - '176' #fang
-    - '172' #Lucy
-    - '157' #Piesta
+    - '189' #rinpui
+    - '194' #Pom
+    - '175' #Kasumi
+    - '215' #Dirge
+    - '190' #Yui
+    - '191' #Benkei
+    - '174' #Chi li
     - '126' #xmas illia
     - '122' #nye jinxie
     - '135' #etheria
@@ -29,6 +29,9 @@ Current: #represents whats currently available for summoning. should only be ids
     - '827' #kirala
 
 Characters:
+  Brawler:
+    '191':
+      Name: Benkei
   Fencer:
     '314':
       RawName: 'アルカ・アトレイア'
@@ -48,7 +51,11 @@ Characters:
   Warrior:
     '134':
       Name: Liliel
+    '174':
+      Name: Chi li
   Mage:
+    '194':
+      Name: Pom
     '10000':
       ActionSkill1Description: Restores HP and heals Status Effects
       ActionSkill1Evaluation: UNKNOWN
