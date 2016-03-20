@@ -143,6 +143,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
                 //add to current gacha list if applicable
                 if (data.Current.Characters.indexOf(character.Id) > -1) {
                   $log.info("adding character to current list")
+                  
                   $scope.current.characters.push(character)
                 }
               }
