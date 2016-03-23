@@ -14,19 +14,19 @@ Current: #represents whats currently available for summoning. should only be ids
     - '109' #xmas mira
     - '10000' #mage leah
   Weapons:
+    - '901' #rinpui
+    - '914' #pom
+    - '833' # kasumi
+    - '983' # dirge
+    - '902' # yui
+    - '907' #benkei
+    - '837' #chi li
     - '706' #xmas mira
     - '744' #xmas annabelle
     - '673' #etheria
     - '709' #nye jinxie
     - '746' #xmas illia
     - '10000' #mage leah
-    - '839' #fang
-    - '830' #lucy
-    - '791' #piesta
-    - '666' #liliel
-    - '824' #floria
-    - '917' #renfa
-    - '827' #kirala
 
 Characters:
   Brawler:
