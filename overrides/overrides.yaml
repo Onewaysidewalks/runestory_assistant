@@ -1,5 +1,7 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
+    - '187' #Isami
+    - '188' #shizuku
     - '189' #rinpui
     - '194' #Pom
     - '175' #Kasumi
