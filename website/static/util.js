@@ -1,4 +1,4 @@
-angular.module('app').filter("customSorter", function() { //TODO: move to another file!
+angular.module("app-utils", []).filter("customSorter", function() {
 
   function compare(obj1, obj2, type) {
     if (type === 'Rarity') {
@@ -47,4 +47,32 @@ angular.module('app').filter("customSorter", function() { //TODO: move to anothe
     });
     return filtered;
   };
+})
+
+.filter('characterFilter', function() { //filter based on type, name, etc.
+  return function(characterList, type, searchText) {
+    retList = []
+    for (characterIndex in characterList) {
+
+      character = characterList[characterIndex]
+      typeMatch = true;
+      nameMatch = true;
+
+      if (typeMatch && type != 'All' && type != character.Type) {
+        typeMatch = false;
+      }
+
+      if (nameMatch
+        && character.Name
+        && character.Name.toLowerCase().indexOf(searchText.toLowerCase()) < 0) {
+        nameMatch = false;
+      }
+
+      if (typeMatch && nameMatch) {
+        retList.push(character)
+      }
+    }
+
+    return retList
+  }
 });

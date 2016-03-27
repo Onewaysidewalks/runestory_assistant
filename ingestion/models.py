@@ -104,7 +104,7 @@ class Character(object):
 
             pos = pos + 1
 
-    def mergeCharacterDetailHtml(self, htmlElement):
+    def mergeCharacterDetailFromShironeko(self, htmlElement):
         #Approximate Structure of html Element:
         ###----> <div id="character">
         ###---------> 1st ul is Large Art
@@ -430,6 +430,9 @@ class Character(object):
             print '%s %s' % (len(h3_list), secondSkillDescIndex)
             # print htmlElement.contents
             raise
+
+    def mergeCharacterDetailFromFamitsu(self, htmlElement):
+        return
 
     def __str__(self):
         return str(self.__dict__)

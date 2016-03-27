@@ -12,7 +12,8 @@ import urllib
 import yaml
 
 #Poor mans Configuration!
-BASE_URL = 'http://shironeko.me'
+BASE_URL = 'http://shironeko.me' #one wiki site
+OTHER_BASE_URL = 'http://wiki.famitsu.com/shironeko/' #wiki site with better rankings
 RARITIES = [ '4', '3', '2', '1']
 CHARACTER_TYPES = [1, 2, 3, 4, 5, 6, 7]
 CHARACTER_CLASSES = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -80,7 +81,9 @@ def loadMoreCharacterDetail(character):
         return
     parser = beautifulsoup_helper.getParserForUrl(BASE_URL + character.IngestionUrl)
 
-    character.mergeCharacterDetailHtml(parser)
+    character.mergeCharacterDetailFromShironeko(parser)
+
+    character.mergeCharacterDetailFromFamitsu(parser)
 
 def saveToFile(location, characters, weapons):
     #First, since we are saving as a yaml file, dilenated by class

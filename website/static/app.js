@@ -1,4 +1,4 @@
-angular.module('app', ['ngAnimate', 'ui.bootstrap']);
+angular.module('app', ['ngAnimate', 'ui.bootstrap', 'app-utils']);
 
 angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal, $log, $rootScope) {
 
@@ -32,6 +32,23 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
   }
 
   $scope.selectedCharacterSortName = $scope.characterSortTypes[0].name //default sort name
+
+  $scope.characterFilterTypes = [
+    { name: "All", id: "0"},
+    { name: "Hero", id: "1"},
+    { name: "Defense", id: "2"},
+    { name: "Support", id: "3"},
+    { name: "Technical", id: "4"},
+    { name: "Balance", id: "5"},
+    { name: "Skill", id: "6"},
+    { name: "Attacker", id: "7"}
+  ]
+
+  $scope.selectedCharacterFilterTypeName = $scope.characterFilterTypes[0].name //default character type filter (all/no filter)
+
+  $scope.filterOnCharacterType = function(characterFilterType) {
+    $scope.selectedCharacterFilterTypeName = characterFilterType.name
+  }
 
   $scope.weaponSortTypes = [
     { name: "Name"}
@@ -143,7 +160,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
                 //add to current gacha list if applicable
                 if (data.Current.Characters.indexOf(character.Id) > -1) {
                   $log.info("adding character to current list")
-                  
+
                   $scope.current.characters.push(character)
                 }
               }
