@@ -16,6 +16,8 @@ Current: #represents whats currently available for summoning. should only be ids
     - '109' #xmas mira
     - '10000' #mage leah
   Weapons:
+    - '885' #shizuku
+    - '889' #isami
     - '901' #rinpui
     - '914' #pom
     - '833' # kasumi
