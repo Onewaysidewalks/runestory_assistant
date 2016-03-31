@@ -15,6 +15,7 @@
   </head>
 
   <body>
+
     <img src=/static/images.png ng-hide="true"/> <!-- Cheap dirty trick to get image.png to load as soon as page renders, instead of after API call-->
     <div class="container" ng-show="$root.isLoaded == false">
       <div style="text-align:center;font-size:2em">
@@ -208,6 +209,17 @@
                 <ul uib-dropdown-menu role="menu" aria-labelledby="single-button">
                   <li role="menuitem" ng-repeat="sortType in weaponSortTypes" ng-click="sortOnWeapon(sortType)"><a href="#">{{sortType.name}}</a></li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div ng-show="selectedTab == 'Competitive'">
+        <form>
+          <div class="form-group">
+            <div ng-show="selectedTab == 'Competitive'">
+              <div competitive-item ng-repeat="(compKey, comp) in competitiveRankings | orderBy:key">
               </div>
             </div>
           </div>

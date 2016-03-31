@@ -7,3 +7,6 @@ virtualenv
 gunicorn
 pyyaml
 python-resize-image
+json
+autopy
+pyscreenshot

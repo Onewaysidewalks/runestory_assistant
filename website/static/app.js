@@ -1,6 +1,6 @@
 angular.module('app', ['ngAnimate', 'ui.bootstrap', 'app-utils']);
 
-angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal, $log, $rootScope) {
+angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal, $log, $rootScope, $timeout) {
 
   $rootScope.isLoaded = false
 
@@ -15,6 +15,9 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     },
     {
       title: 'Weapons'
+    },
+    {
+      title: 'Competitive'
     }
   ]
 
@@ -209,6 +212,28 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
       $log.error(config);
     })
 
+  var poll = function() {
+      $timeout(function() {
+        $http.get('api/competitive_standings.json').
+          success(function(data, status, headers, config) {
+            $log.info('successful pull of competitive_standings')
+
+            $scope.competitiveRankings = data
+          })
+          .error(function(data, status, headers, config) {
+            $log.error(data);
+            $log.error(status);
+            $log.error(headers);
+            $log.error(config);
+          })
+          poll();
+      }, 5000);
+  };
+
+  poll(); //start the polling event for competitiveRankings
+
+
+
   $scope.model = {
     name: 'Main'
   }
@@ -257,6 +282,11 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
 .directive('characterItem', function() {
   return {
     templateUrl: '/static/characterCell.html'
+  }
+})
+.directive('competitiveItem', function() {
+  return {
+    templateUrl: '/static/competitive.html'
   }
 })
 .directive('weaponItem', function() {
