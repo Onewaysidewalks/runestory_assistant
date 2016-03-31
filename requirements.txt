@@ -7,5 +7,4 @@ virtualenv
 gunicorn
 pyyaml
 python-resize-image
-autopy
 pyscreenshot
