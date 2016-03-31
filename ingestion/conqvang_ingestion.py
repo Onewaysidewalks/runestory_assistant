@@ -83,33 +83,33 @@ def saveResults(personalFirst, personalSecond, guildFirst, guildSecond, server):
 
 def run():
     print "starting job..."
-    # moveMouse(MY_GUILD_TAB)
-    # moveMouse(RANKING_TAB)
-    # leftClick()
-    # time.sleep(4)
+    moveMouse(MY_GUILD_TAB)
+    moveMouse(RANKING_TAB)
+    leftClick()
+    time.sleep(4)
     personalRankingImageFirst = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
 
-    # moveMouse(SCROLL_START)
-    # leftClickStart()
-    # moveMouse(SCROLL_END)
-    # leftClickEnd()
-    # time.sleep(1)
-    # moveMouse(GUILD_BUTTON)
+    moveMouse(SCROLL_START)
+    leftClickStart()
+    moveMouse(SCROLL_END)
+    leftClickEnd()
+    time.sleep(1)
+    moveMouse(GUILD_BUTTON)
     personalRankingImageSecond = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
 
-    # leftClick()
-    # time.sleep(4)
+    leftClick()
+    time.sleep(4)
     guildRankingImageFirst = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
 
-    # moveMouse(SCROLL_START)
-    # leftClickStart()
-    # moveMouse(SCROLL_END)
-    # leftClickEnd()
-    #
-    # moveMouse(MY_GUILD_TAB)
-    # time.sleep(1)
+    moveMouse(SCROLL_START)
+    leftClickStart()
+    moveMouse(SCROLL_END)
+    leftClickEnd()
+
+    moveMouse(MY_GUILD_TAB)
+    time.sleep(1)
     guildRankingImageSecond = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
-    # leftClick()
+    leftClick()
     saveResults(personalRankingImageFirst, personalRankingImageSecond, guildRankingImageFirst, guildRankingImageSecond, RS_SERVER)
 
 if __name__ == '__main__':
