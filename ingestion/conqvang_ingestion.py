@@ -30,6 +30,7 @@ import json
 import pyscreenshot as ImageGrab
 import cStringIO
 import base64
+from autopy import screen
 
 #Poor mans configuration: This is based on a resolution of 1920x1028 monitor, with bluestacks fullscreen
 MY_GUILD_TAB = (809, 244) #in pixels, x,y
@@ -42,7 +43,7 @@ IMAGE_BR = (1202, 925) #in pixels, x,y, represents bottom right of image rectang
 
 POST_DATA_ENDPOINT = "%s/api/competitive_standings.json" % os.environ["RUNESTORY_ASSISTANT_API"]
 
-TIME_BETWEEN_RUNS = 5 #interval at which the process will run, in seconds
+TIME_BETWEEN_RUNS = 120 #interval at which the process will run, in seconds
 
 RS_SERVER = "WEST" #The game server(s) which are being monitored
 
@@ -59,6 +60,7 @@ def leftClick():
     return
 
 def moveMouse(point):
+    print 'moving to %s, %s' % (point[0], point[1])
     mouse.smooth_move(point[0], point[1])
 
 def captureImageAsBase64Str(tl, br):
@@ -80,6 +82,8 @@ def saveResults(personalFirst, personalSecond, guildFirst, guildSecond, server):
             }
 
     r = requests.post(POST_DATA_ENDPOINT, json=payload)
+
+    print r
 
 def run():
     print "starting job..."
@@ -116,6 +120,7 @@ if __name__ == '__main__':
     while True: #poor mans scheduling
         run()
         # saveResults("1", "2", "3", "4", RS_SERVER)
+        print screen.get_size()
         print "sleeping..."
         time.sleep(TIME_BETWEEN_RUNS)
         # print mouse.get_pos() #for testing cursor position
