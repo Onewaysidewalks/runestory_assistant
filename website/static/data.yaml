@@ -1149,7 +1149,7 @@ Characters:
       MotifWeaponId: '984'
       MotifWeaponName: !!python/str 'Shin Tatena EXⅡ'
       MotifWeaponUrl: !!python/unicode '/weapon?id=984'
-      Name: Shanaou
+      Name: Shanao
       Passives:
       - attack +15%
       - SP + 15%
@@ -7847,7 +7847,7 @@ Characters:
       MotifWeaponId: '975'
       MotifWeaponName: the oath Shin Ken &lt;Akatsuki&gt;
       MotifWeaponUrl: !!python/unicode '/weapon?id=975'
-      Name: Dine
+      Name: Diana
       Passives:
       - attack +15%
       - Action Skills Enhancement +15%
@@ -11439,7 +11439,7 @@ Characters:
       MotifWeaponId: '963'
       MotifWeaponName: Shin Kids Guardian
       MotifWeaponUrl: !!python/unicode '/weapon?id=963'
-      Name: Risuri
+      Name: Risley
       Passives:
       - Action Skills Enhancement +15%
       - SP + 15%
@@ -15449,7 +15449,7 @@ Characters:
       MotifWeaponId: '973'
       MotifWeaponName: Shin Rainmaker
       MotifWeaponUrl: !!python/unicode '/weapon?id=973'
-      Name: Tsuyuha
+      Name: April
       Passives:
       - instant death avoided by HP10% more than
       - attack +15%
@@ -18676,7 +18676,7 @@ Characters:
       MotifWeaponId: '908'
       MotifWeaponName: Shin charisma Heaven
       MotifWeaponUrl: !!python/unicode '/weapon?id=908'
-      Name: Zerokisu
+      Name: Zerokiss
       Passives:
       - HP + 15%
       - SP + 15%
@@ -22138,6 +22138,8 @@ Characters:
       SP_Recovery_4_SS_Town: ''
       Type: Skill
       TypeId: 6
+    '193':
+      Name: Carol
     '200': !!python/object:models.Character
       ActionSkill1Description: be electric shock given the lightning damage to the
         enemy in the guitar playing is there, attack speed for a certain period of
@@ -24618,6 +24620,12 @@ Characters:
       TypeId: 2
 Current:
   Characters:
+  - '214'
+  - '211'
+  - '210'
+  - '213'
+  - '193'
+  - '192'
   - '187'
   - '188'
   - '189'
@@ -24627,12 +24635,6 @@ Current:
   - '190'
   - '191'
   - '174'
-  - '126'
-  - '122'
-  - '135'
-  - '114'
-  - '109'
-  - '10000'
   Weapons:
   - '885'
   - '889'

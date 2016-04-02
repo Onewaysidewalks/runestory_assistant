@@ -1,5 +1,11 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
+    - '214' #Shanao
+    - '211' #Diana
+    - '210' #Risley
+    - '213' #April
+    - '193' #Zerokiss
+    - '192' #Carol
     - '187' #Isami
     - '188' #shizuku
     - '189' #rinpui
@@ -9,12 +15,6 @@ Current: #represents whats currently available for summoning. should only be ids
     - '190' #Yui
     - '191' #Benkei
     - '174' #Chi li
-    - '126' #xmas illia
-    - '122' #nye jinxie
-    - '135' #etheria
-    - '114' #xmas annabelle
-    - '109' #xmas mira
-    - '10000' #mage leah
   Weapons:
     - '885' #shizuku
     - '889' #isami
@@ -34,14 +34,20 @@ Current: #represents whats currently available for summoning. should only be ids
 
 Characters:
   Brawler:
+    '214':
+      Name: Shanao
     '191':
       Name: Benkei
   Fencer:
+    '211':
+      Name: 'Diana'
     '314':
       RawName: 'アルカ・アトレイア'
     '171':
       Name: Kirala
   Lancer:
+    '210':
+      Name: Risley
     '126':
       Name: Illia (New Years)
     '135':
@@ -53,11 +59,15 @@ Characters:
     '114':
       Name: Annabele (Christmas)
   Warrior:
+    '193':
+      Name: Carol
     '134':
       Name: Liliel
     '174':
       Name: Chi li
   Mage:
+    '213':
+      Name: April
     '194':
       Name: Pom
     '10000':
@@ -127,6 +137,8 @@ Characters:
     '122':
       Name: Jinxie Lumin (New Years)
   Sniper:
+    '193':
+      Name: Zerokiss
     '157':
       Name: Piesta
 
