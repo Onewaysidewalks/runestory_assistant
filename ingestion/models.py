@@ -395,7 +395,6 @@ class Character(object):
                 else:
                     self.ActionSkill1Evaluation = ''
             else:
-                print 'No Skill evaluation/magnifications found, character %s' % self.Id
                 self.ActionSkill1Magnification = "UNKNOWN"
                 self.ActionSkill1Evaluation = "UNKNOWN"
 
@@ -432,6 +431,42 @@ class Character(object):
             raise
 
     def mergeCharacterDetailFromFamitsu(self, htmlElement):
+        #We pull the following data out of the famitsu site:
+        #1) skill images
+        #2) rankings
+
+        #search for all images, then filter by src/alt of image
+        skillImages = []
+        imageElements = htmlElement.find_all('img')
+        for imageElement in imageElements:
+            src = imageElement['src']
+            if imageElement.has_attr('alt'): #gifs are hidden with an altTag of NameAS1.gif
+                alt = imageElement['alt'].encode('utf-8')
+                if 'AS1' in alt or 'AS2' in alt:
+                    skillImages.append(src)
+            elif 'ref_upload' in src:
+                skillImages.append(src)
+        if len(skillImages) == 0:
+            print 'No images found for character: %s' % self.Id
+        else:
+            print 'Found %d images for skills: %s' % (len(skillImages), skillImages)
+
+        if len(skillImages) > 0:
+            self.ActionSkill1Image = skillImages[0]
+        if len(skillImages) > 1:
+            self.ActionSkill2Image = skillImages[1]
+
+
+        #search for all spans (ouch), then find the first one that has this EXACT style
+        #god i hate this, is there something more precise AND flexible?
+        spans = htmlElement.find_all('span', {'style': 'font-size:16px;display:inline-block;line-height:130%;text-indent:0px'})
+
+        if spans and len(spans) > 0:
+            self.JpRanking = spans[0].text
+        else:
+            print 'No ranking found for id: %s' % self.Id
+
+
         return
 
     def __str__(self):

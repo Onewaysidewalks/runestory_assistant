@@ -83,7 +83,9 @@ def loadMoreCharacterDetail(character):
 
     character.mergeCharacterDetailFromShironeko(parser)
 
-    character.mergeCharacterDetailFromFamitsu(parser)
+    if character.RawName:
+        parser = beautifulsoup_helper.getParserForUrl(OTHER_BASE_URL + '%s' % character.RawName)
+        character.mergeCharacterDetailFromFamitsu(parser)
 
 def saveToFile(location, characters, weapons):
     #First, since we are saving as a yaml file, dilenated by class
@@ -113,7 +115,6 @@ def saveToFile(location, characters, weapons):
                 raise
     with open(location, 'w') as yaml_file:
         yaml_file.write(yaml.dump(fileData, encoding='utf-8', default_flow_style=False, allow_unicode=True))
-
 
 def translateCharacters(characters, language):
     apiKey = os.environ['GOOGLE_TRANSLATE_API_KEY']
