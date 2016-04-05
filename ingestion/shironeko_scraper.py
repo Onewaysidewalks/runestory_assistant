@@ -293,10 +293,10 @@ def main():
     weapons = getWeapons()
 
     #Then we ask googles api for a translation for each character
-    # characters = translateCharacters(characters, 'en')
+    characters = translateCharacters(characters, 'en')
 
     #And similarly for each weapon
-    # weapons = translateWeapons(weapons, TARGET_LANGUAGE)
+    weapons = translateWeapons(weapons, TARGET_LANGUAGE)
 
     combineInfo(characters, weapons)
 
