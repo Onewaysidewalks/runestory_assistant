@@ -29,7 +29,8 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li ng-repeat="tab in tabs" ng-click="$root.selectedTab = tab.title" ng-class="{'active': $root.selectedTab === tab.title}">
-                <a href="#">{{tab.title}}</a>
+                <a href="#" ng-show="tab.title != 'Runestory Forums'">{{tab.title}}</a>
+                <a target="_blank" href="http://forums.runestorygame.com/" ng-show="tab.title == 'Runestory Forums'">{{tab.title}}</a>
               </li>
             </ul>
           </div>

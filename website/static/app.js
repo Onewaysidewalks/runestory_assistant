@@ -18,6 +18,9 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     },
     {
       title: 'Competitive'
+    },
+    {
+      title: 'Runestory Forums'
     }
   ]
 
