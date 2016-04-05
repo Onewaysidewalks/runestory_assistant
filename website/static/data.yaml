@@ -421,7 +421,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/136
       Id: '136'
       IngestionUrl: /character?id=136
-      JpRanking: ▶リース（神気解放）のスキル、評価check!!
+      JpRanking: !!python/unicode 'A'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: song of Solas
       LeaderSkill2Description: up the middle resilience of the party everyone
@@ -1157,7 +1157,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/214
       Id: '214'
       IngestionUrl: /character?id=214
-      JpEvaluation: '5.8'
+      JpEvaluation: '5.7'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/214'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -1362,7 +1362,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/241
       Id: '241'
       IngestionUrl: /character?id=241
-      JpEvaluation: '5.8'
+      JpEvaluation: '5.7'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/241'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -1701,7 +1701,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/277
       Id: '277'
       IngestionUrl: /character?id=277
-      JpEvaluation: '7.0'
+      JpEvaluation: '6.9'
       JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/277'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -2509,7 +2509,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/362
       Id: '362'
       IngestionUrl: /character?id=362
-      JpEvaluation: '8.2'
+      JpEvaluation: '8.1'
       JpRanking: !!python/unicode 'S+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/362'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -2613,17 +2613,17 @@ Characters:
       ActionSkill1Description: its own attack power up 30 seconds 50%, attract the
         enemy. In addition, the enemy along with the fire attribute damage give the
         expansion damage (maximum five bodies).
-      ActionSkill1Evaluation: UNKNOWN
-      ActionSkill1Magnification: UNKNOWN
+      ActionSkill1Evaluation: ''
+      ActionSkill1Magnification: about 62.0 times
       ActionSkill1Name: Lore-Unleashed
       ActionSkill1SPCost: ''
       ActionSkill2Description: attract the enemy, damage to the enemy with which it
-        may be in the combustion state attack, deprive the enemy of physical fitness.
-        In addition, tension 5% protection barrier of the upper limit value of 50
+        may be in the combustion state attack, deprive the enemy of physical fitness
+        . In addition, tension 5% protection barrier of the upper limit value of 50
         of the 20 seconds defense force, damage to the enemy of around 20 seconds,
         which may be in the unconscious.
-      ActionSkill2Evaluation: UNKNOWN
-      ActionSkill2Magnification: UNKNOWN
+      ActionSkill2Evaluation: ''
+      ActionSkill2Magnification: ''
       ActionSkill2Name: Ogre Extreme
       ActionSkill2SPCost: ''
       Attack: '236'
@@ -2647,11 +2647,11 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/388
       Id: '388'
       IngestionUrl: /character?id=388
-      JpEvaluation: '9.1'
+      JpEvaluation: '9.0'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/388'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: sturdy spirit Naru AraKen
-      LeaderSkill2Description: given damage There (Monk small-in defense type) up
+      LeaderSkill2Description: is given damage ( Monk small-defense in type) up
       LeaderSkill2Name: gold lion flow quarrel killing method
       MotifWeaponId: '1478'
       MotifWeaponName: Shin lion Fang Grand Slam
@@ -3605,7 +3605,7 @@ Characters:
       Id: '225'
       IngestionUrl: /character?id=225
       JpEvaluation: '6.3'
-      JpRanking: ▶ゲオルグ（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/225'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -3677,7 +3677,7 @@ Characters:
       Id: '226'
       IngestionUrl: /character?id=226
       JpEvaluation: '7.2'
-      JpRanking: ▶エクセリア（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/226'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Dragon King woman of pride
@@ -3812,7 +3812,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/286
       Id: '286'
       IngestionUrl: /character?id=286
-      JpEvaluation: '5.9'
+      JpEvaluation: '5.8'
       JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/286'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -3882,7 +3882,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/287
       Id: '287'
       IngestionUrl: /character?id=287
-      JpEvaluation: '4.9'
+      JpEvaluation: '4.8'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/287'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -4849,7 +4849,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/161
       Id: '161'
       IngestionUrl: /character?id=161
-      JpEvaluation: '5.0'
+      JpEvaluation: '4.9'
       JpRanking: !!python/unicode 'A'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/161'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -4987,7 +4987,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/180
       Id: '180'
       IngestionUrl: /character?id=180
-      JpEvaluation: '5.6'
+      JpEvaluation: '5.5'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/180'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -5060,7 +5060,7 @@ Characters:
       Id: '188'
       IngestionUrl: /character?id=188
       JpEvaluation: '7.0'
-      JpRanking: ▶シズク（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/188'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: !!python/str 'demon 瞰之 epidemic'
@@ -5129,7 +5129,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/195
       Id: '195'
       IngestionUrl: /character?id=195
-      JpEvaluation: '5.8'
+      JpEvaluation: '5.7'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/195'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -5538,7 +5538,6 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/227
       Id: '227'
       IngestionUrl: /character?id=227
-      JpRanking: ▶カグラ（神気解放）のスキル、評価
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Ouka gorgeous
       LeaderSkill2Description: ''
@@ -5666,7 +5665,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/232
       Id: '232'
       IngestionUrl: /character?id=232
-      JpEvaluation: '5.3'
+      JpEvaluation: '5.2'
       JpRanking: !!python/unicode 'A'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/232'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -5877,7 +5876,7 @@ Characters:
       Id: '263'
       IngestionUrl: /character?id=263
       JpEvaluation: '7.2'
-      JpRanking: ▶バイパー（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/263'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Carpet Viper
@@ -6088,7 +6087,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/309
       Id: '309'
       IngestionUrl: /character?id=309
-      JpEvaluation: '6.0'
+      JpEvaluation: '5.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/309'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -6233,7 +6232,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/318
       Id: '318'
       IngestionUrl: /character?id=318
-      JpEvaluation: '7.8'
+      JpEvaluation: '7.7'
       JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/318'
       LeaderSkill1Description: !!python/str '※ orange character value'
@@ -6303,7 +6302,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/332
       Id: '332'
       IngestionUrl: /character?id=332
-      JpEvaluation: '6.9'
+      JpEvaluation: '6.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/332'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Shame mode
@@ -6500,7 +6499,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/369
       Id: '369'
       IngestionUrl: /character?id=369
-      JpEvaluation: '8.8'
+      JpEvaluation: '8.7'
       JpRanking: !!python/unicode 'S+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/369'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -6637,7 +6636,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/376
       Id: '376'
       IngestionUrl: /character?id=376
-      JpEvaluation: '8.3'
+      JpEvaluation: '8.2'
       JpRanking: !!python/unicode 'S+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/376'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -7299,7 +7298,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/137
       Id: '137'
       IngestionUrl: /character?id=137
-      JpRanking: ▶ミカエラ（神気解放）のスキル、評価check!!
+      JpRanking: !!python/unicode 'A'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
       LeaderSkill1Name: !!python/str '煌天 smile'
@@ -7563,7 +7562,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/156
       Id: '156'
       IngestionUrl: /character?id=156
-      JpEvaluation: '5.0'
+      JpEvaluation: '4.9'
       JpRanking: !!python/unicode 'A'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/156'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -8277,7 +8276,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/211
       Id: '211'
       IngestionUrl: /character?id=211
-      JpEvaluation: '5.8'
+      JpEvaluation: '5.7'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/211'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -8344,7 +8343,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/217
       Id: '217'
       IngestionUrl: /character?id=217
-      JpEvaluation: '5.1'
+      JpEvaluation: '5.0'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/217'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -8411,7 +8410,6 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/22
       Id: '22'
       IngestionUrl: /character?id=22
-      JpRanking: ▶アヤメ（神気解放）のスキル、評価
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Empire expression defense swordsmanship
       LeaderSkill2Description: ''
@@ -8808,7 +8806,7 @@ Characters:
       Id: '253'
       IngestionUrl: /character?id=253
       JpEvaluation: '9.3'
-      JpRanking: ▶シャルロット（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'S+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/253'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -8950,7 +8948,7 @@ Characters:
       Id: '269'
       IngestionUrl: /character?id=269
       JpEvaluation: '7.1'
-      JpRanking: ▶ヨシュア（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/269'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -10315,16 +10313,16 @@ Characters:
       ActionSkill1Description: launch a tennis ball to be tailing the enemy , it gives
         the lightning damage to the enemy. In addition, to itself to the spirit unified
         state.
-      ActionSkill1Evaluation: UNKNOWN
-      ActionSkill1Magnification: UNKNOWN
+      ActionSkill1Evaluation: ''
+      ActionSkill1Magnification: ''
       ActionSkill1Name: Magnum drive
       ActionSkill1SPCost: ''
       ActionSkill2Description: its own attack power up 30 seconds 50%, to reduce the
         damage to receive 30 seconds 50%. In addition, damage to the enemy strike
         a tennis ball. Then, damage depending on the number of times that the tennis
         ball has bounced.
-      ActionSkill2Evaluation: UNKNOWN
-      ActionSkill2Magnification: UNKNOWN
+      ActionSkill2Evaluation: ''
+      ActionSkill2Magnification: ''
       ActionSkill2Name: burst Smash
       ActionSkill2SPCost: ''
       Attack: '231'
@@ -10350,9 +10348,10 @@ Characters:
       IngestionUrl: /character?id=387
       JpEvaluation: '8.9'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/387'
-      LeaderSkill1Description: !!python/str '※ orange characters value'
+      LeaderSkill1Description: !!python/str '※ orange character value is obtained
+        by adding the effect of the auto skill'
       LeaderSkill1Name: sportsmanship
-      LeaderSkill2Description: party all SP is a small up
+      LeaderSkill2Description: party all the SP small up
       LeaderSkill2Name: youth drop
       MotifWeaponId: '1476'
       MotifWeaponName: Shin winning Glory
@@ -11190,7 +11189,7 @@ Characters:
       Id: '135'
       IngestionUrl: /character?id=135
       JpEvaluation: '5.6'
-      JpRanking: ▶エシリア（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/135'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -11260,7 +11259,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/139
       Id: '139'
       IngestionUrl: /character?id=139
-      JpRanking: ▶リヴェータ（神気解放）のスキル、評価check!!
+      JpRanking: !!python/unicode 'A+'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
       LeaderSkill1Name: combat square Tercio
@@ -11395,8 +11394,8 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/154
       Id: '154'
       IngestionUrl: /character?id=154
-      JpEvaluation: '5.9'
-      JpRanking: ▶ガレア（茶熊）の評価とスキルはこちら
+      JpEvaluation: '5.8'
+      JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/154'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Fortis Alma
@@ -11997,7 +11996,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/210
       Id: '210'
       IngestionUrl: /character?id=210
-      JpEvaluation: '5.4'
+      JpEvaluation: '5.3'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/210'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -13449,7 +13448,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/353
       Id: '353'
       IngestionUrl: /character?id=353
-      JpEvaluation: '10.0'
+      JpEvaluation: '9.9'
       JpRanking: !!python/unicode 'SS'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/353'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -13585,7 +13584,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/364
       Id: '364'
       IngestionUrl: /character?id=364
-      JpEvaluation: '8.7'
+      JpEvaluation: '8.6'
       JpRanking: !!python/unicode 'S+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/364'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -13755,15 +13754,15 @@ Characters:
     '390': !!python/object:models.Character
       ActionSkill1Description: flame attribute damage on the enemy give. In addition,
         its damage to the relief for 30 seconds 50% receive.
-      ActionSkill1Evaluation: UNKNOWN
-      ActionSkill1Magnification: UNKNOWN
+      ActionSkill1Evaluation: ''
+      ActionSkill1Magnification: ''
       ActionSkill1Name: Shadow Wriggle
       ActionSkill1SPCost: ''
       ActionSkill2Description: !!python/str 'damage to the enemy. In addition, to
         strengthen the normal attack combo of their own for 45 seconds. ※ attack in
         strengthening rob the physical strength of the enemy.'
-      ActionSkill2Evaluation: UNKNOWN
-      ActionSkill2Magnification: UNKNOWN
+      ActionSkill2Evaluation: ''
+      ActionSkill2Magnification: ''
       ActionSkill2Name: Vaio rent-Ein
       ActionSkill2SPCost: ''
       Attack: '329'
@@ -13791,8 +13790,7 @@ Characters:
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/390'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: insatiable challenge
-      LeaderSkill2Description: given damage (in the Lancer small-technical types)
-        up
+      LeaderSkill2Description: given damage (in Lancer small-technical types) up
       LeaderSkill2Name: to free will
       MotifWeaponId: '1482'
       MotifWeaponName: Shin Ani fin Writer edge
@@ -14749,7 +14747,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/120
       Id: '120'
       IngestionUrl: /character?id=120
-      JpEvaluation: '2.8'
+      JpEvaluation: '2.7'
       JpRanking: !!python/unicode 'B+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/120'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -15076,7 +15074,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/138
       Id: '138'
       IngestionUrl: /character?id=138
-      JpRanking: ▶ファム（神気解放）のスキル、評価check!!
+      JpRanking: !!python/unicode 'A'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Lightning colon
       LeaderSkill2Description: Mage lightning damage of a large (50%) up
@@ -15274,7 +15272,7 @@ Characters:
       Id: '153'
       IngestionUrl: /character?id=153
       JpEvaluation: '5.4'
-      JpRanking: ▶マール（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'A'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/153'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: windfall Hamming
@@ -15408,7 +15406,6 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/16
       Id: '16'
       IngestionUrl: /character?id=16
-      JpRanking: ▶モモ（神気解放）のスキル、評価
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/16'
       LeaderSkill1Description: !!python/str '※ orange character is the sum of the
         effect of the auto skill value'
@@ -16126,7 +16123,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/213
       Id: '213'
       IngestionUrl: /character?id=213
-      JpEvaluation: '8.4'
+      JpEvaluation: '8.3'
       JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/213'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -16783,7 +16780,7 @@ Characters:
       Id: '264'
       IngestionUrl: /character?id=264
       JpEvaluation: '5.9'
-      JpRanking: ▶ミレイユ（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/264'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: warmth of the fire
@@ -16916,8 +16913,8 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/278
       Id: '278'
       IngestionUrl: /character?id=278
-      JpEvaluation: '9.6'
-      JpRanking: ▶ツキミ（茶熊）の評価とスキルはこちら
+      JpEvaluation: '9.5'
+      JpRanking: !!python/unicode 'SS'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/278'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -16987,7 +16984,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/280
       Id: '280'
       IngestionUrl: /character?id=280
-      JpEvaluation: '5.8'
+      JpEvaluation: '5.7'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/280'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: !!python/str 'timeless 迷曲'
@@ -17187,7 +17184,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/308
       Id: '308'
       IngestionUrl: /character?id=308
-      JpEvaluation: '6.1'
+      JpEvaluation: '6.0'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/308'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -17385,7 +17382,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/319
       Id: '319'
       IngestionUrl: /character?id=319
-      JpEvaluation: '7.2'
+      JpEvaluation: '7.1'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/319'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -17854,7 +17851,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/366
       Id: '366'
       IngestionUrl: /character?id=366
-      JpEvaluation: '8.7'
+      JpEvaluation: '8.6'
       JpRanking: !!python/unicode 'S+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/366'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -18252,7 +18249,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/78
       Id: '78'
       IngestionUrl: /character?id=78
-      JpRanking: ▶ハルカ（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'A'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: best magic
       LeaderSkill2Description: Mage of give medium damage (10%) up
@@ -18514,7 +18511,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/100
       Id: '100'
       IngestionUrl: /character?id=100
-      JpEvaluation: '3.9'
+      JpEvaluation: '3.8'
       JpRanking: !!python/unicode 'B'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/100'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -18712,7 +18709,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/115
       Id: '115'
       IngestionUrl: /character?id=115
-      JpRanking: ▶ロッカ（神気解放）のスキル、評価
+      JpRanking: !!python/unicode 'B+'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: subzero warmth
       LeaderSkill2Description: Archer of resilience is medium up
@@ -18972,7 +18969,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/140
       Id: '140'
       IngestionUrl: /character?id=140
-      JpRanking: ▶ピノ（神気解放）のスキル、評価check!!
+      JpRanking: !!python/unicode 'A'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: deeply to fall Rokka
       LeaderSkill2Description: up the middle resilience of the party everyone
@@ -19240,8 +19237,8 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/175
       Id: '175'
       IngestionUrl: /character?id=175
-      JpEvaluation: '6.1'
-      JpRanking: ▶カスミ（茶熊）の評価とスキルはこちら
+      JpEvaluation: '6.0'
+      JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/175'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: vermilion-painted goblet
@@ -19310,7 +19307,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/185
       Id: '185'
       IngestionUrl: /character?id=185
-      JpEvaluation: '5.8'
+      JpEvaluation: '5.7'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/185'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
@@ -19383,7 +19380,7 @@ Characters:
       Id: '187'
       IngestionUrl: /character?id=187
       JpEvaluation: '5.8'
-      JpRanking: ▶イサミ（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/187'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: !!python/str 'demon 瞰之 epidemic'
@@ -20110,7 +20107,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/260
       Id: '260'
       IngestionUrl: /character?id=260
-      JpEvaluation: '7.3'
+      JpEvaluation: '7.2'
       JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/260'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -20177,7 +20174,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/265
       Id: '265'
       IngestionUrl: /character?id=265
-      JpEvaluation: '7.9'
+      JpEvaluation: '7.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/265'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -20370,7 +20367,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/282
       Id: '282'
       IngestionUrl: /character?id=282
-      JpEvaluation: '9.4'
+      JpEvaluation: '9.3'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/282'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: glycidyl-of-daemon
@@ -21288,7 +21285,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/367
       Id: '367'
       IngestionUrl: /character?id=367
-      JpEvaluation: '7.6'
+      JpEvaluation: '7.5'
       JpRanking: !!python/unicode 'S'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/367'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -21614,7 +21611,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/391
       Id: '391'
       IngestionUrl: /character?id=391
-      JpEvaluation: '9.7'
+      JpEvaluation: '9.8'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/391'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: Healing of flame
@@ -22583,7 +22580,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/141
       Id: '141'
       IngestionUrl: /character?id=141
-      JpRanking: ▶フレイ（神気解放）のスキル、評価check!!
+      JpRanking: !!python/unicode 'A'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: wavering Marea
       LeaderSkill2Description: water attribute damage of Warrior is large (50%) up
@@ -22917,7 +22914,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/179
       Id: '179'
       IngestionUrl: /character?id=179
-      JpEvaluation: '5.9'
+      JpEvaluation: '5.8'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/179'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -22985,7 +22982,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/192
       Id: '192'
       IngestionUrl: /character?id=192
-      JpEvaluation: '6.0'
+      JpEvaluation: '5.9'
       JpRanking: !!python/unicode 'A+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/192'
       LeaderSkill1Description: !!python/str '※ orange characters value'
@@ -23254,7 +23251,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/221
       Id: '221'
       IngestionUrl: /character?id=221
-      JpEvaluation: '5.7'
+      JpEvaluation: '5.6'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/221'
       LeaderSkill1Description: !!python/str '※ orange characters value'
       LeaderSkill1Name: off the lip
@@ -23524,8 +23521,8 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/254
       Id: '254'
       IngestionUrl: /character?id=254
-      JpEvaluation: '8.4'
-      JpRanking: ▶オウガ（茶熊）の評価とスキルはこちら
+      JpEvaluation: '8.3'
+      JpRanking: !!python/unicode 'S+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/254'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -23993,7 +23990,7 @@ Characters:
       IconUrl: http://s.shironeko.me/img/character/s/305
       Id: '305'
       IngestionUrl: /character?id=305
-      JpEvaluation: '6.1'
+      JpEvaluation: '6.0'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/305'
       LeaderSkill1Description: !!python/str '※ orange character value is obtained
         by adding the effect of the auto skill'
@@ -24642,15 +24639,15 @@ Characters:
       ActionSkill1Description: given the lightning damage to the enemy take out the
         door, around the door the charge time of the allies to reduce for 5 seconds
         30%. In addition, the door is damage of lightning on the enemy for 15 seconds.
-      ActionSkill1Evaluation: UNKNOWN
-      ActionSkill1Magnification: UNKNOWN
+      ActionSkill1Evaluation: ''
+      ActionSkill1Magnification: about 85.0 times
       ActionSkill1Name: open-the-door
       ActionSkill1SPCost: ''
       ActionSkill2Description: the enemy to give the lightning damage, up 30 seconds
         50% attack speed of the surrounding ally. In addition, damage to the enemy,
         the area that may be to slow state to install 20 seconds.
-      ActionSkill2Evaluation: UNKNOWN
-      ActionSkill2Magnification: UNKNOWN
+      ActionSkill2Evaluation: ''
+      ActionSkill2Magnification: ''
       ActionSkill2Name: clock trick delay
       ActionSkill2SPCost: ''
       Attack: '441'
@@ -24710,11 +24707,11 @@ Characters:
     '395': !!python/object:models.Character
       ActionSkill1Description: !!python/str 'the enemy damage. If the enemy is a species
         tea bear ※, power is up 100%.'
-      ActionSkill1Evaluation: UNKNOWN
-      ActionSkill1Magnification: UNKNOWN
+      ActionSkill1Evaluation: ''
+      ActionSkill1Magnification: about 47.5 times
       ActionSkill1Name: spiral trial
       ActionSkill1SPCost: ''
-      ActionSkill2Description: !!python/str 'give the lightning damage to the enemy.
+      ActionSkill2Description: !!python/str 'the enemy to give the lightning damage.
         In addition, its damage to the relief for 30 seconds 30% receive. If the enemy
         is a species tea bear ※, power is up 100%.'
       ActionSkill2Evaluation: UNKNOWN
@@ -25631,7 +25628,7 @@ Characters:
       Id: '89'
       IngestionUrl: /character?id=89
       JpEvaluation: '3.8'
-      JpRanking: ▶メア（茶熊）の評価とスキルはこちら
+      JpRanking: !!python/unicode 'B+'
       LargeImageUrl: !!python/unicode 'http://s.shironeko.me/img/character/m/89'
       LeaderSkill1Description: !!python/str '※ orange characters the value obtained
         by adding the effect of the auto skill'

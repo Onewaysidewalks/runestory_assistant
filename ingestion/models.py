@@ -464,7 +464,8 @@ class Character(object):
         if spans and len(spans) > 0:
             for span in spans:
                 if len(span.text) <= 3:
-                    self.JpRanking = spans[0].text
+                    print 'Setting rank %s' % span.text
+                    self.JpRanking = span.text
                     break
 
         if not hasattr(self, 'JpRanking'):
