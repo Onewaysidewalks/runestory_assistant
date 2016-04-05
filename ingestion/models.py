@@ -462,10 +462,13 @@ class Character(object):
         spans = htmlElement.find_all('span', {'style': 'font-size:16px;display:inline-block;line-height:130%;text-indent:0px'})
 
         if spans and len(spans) > 0:
-            self.JpRanking = spans[0].text
-        else:
-            print 'No ranking found for id: %s' % self.Id
+            for span in spans:
+                if len(span.text) <= 3:
+                    self.JpRanking = spans[0].text
+                    break
 
+        if not hasattr(self, 'JpRanking'):
+            print 'No ranking found for id: %s' % self.Id
 
         return
 

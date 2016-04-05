@@ -26,7 +26,8 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
 
   $scope.characterSortTypes = [
     { name: "Rarity"},
-    { name: "Name"}
+    { name: "Name"},
+    { name: "Ranking (JP)"},
     // "Waifu" //figure out how to rate this!
   ]
 

@@ -8,6 +8,9 @@
     <div class="modal-body">
         <ul>
             <li>
+              Rank: {{::char['JpRanking']}}
+            </li>
+            <li>
               Type: {{::char['Type']}}
             </li>
             <li>
@@ -58,6 +61,9 @@
                       <div>
                         - {{::char.ActionSkill1Description}}
                       </div>
+                      <div>
+                        <img src="{{::char.ActionSkill1Image}}" />
+                      </div>
                     </li>
                     <li class="action_skill">
                       <span class="action_skill_name">{{::char.ActionSkill2Name}}</span>
@@ -65,6 +71,9 @@
                       <span> {{::char.ActionSkill2SPCost}}</span>
                       <div>
                         - {{::char.ActionSkill2Description}}
+                      </div>
+                      <div>
+                        <img src="{{::char.ActionSkill2Image}}" />
                       </div>
                     </li>
                   </ul>
