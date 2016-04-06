@@ -16,6 +16,12 @@ Current: #represents whats currently available for summoning. should only be ids
     - '191' #Benkei
     - '174' #Chi li
   Weapons:
+    - '984' #Shanao
+    - '975' #Diana
+    - '963' #Risley
+    - '973' #April
+    - '908' #Zerokiss
+    - '911' #Carol
     - '885' #shizuku
     - '889' #isami
     - '901' #rinpui
@@ -25,12 +31,6 @@ Current: #represents whats currently available for summoning. should only be ids
     - '902' # yui
     - '907' #benkei
     - '837' #chi li
-    - '706' #xmas mira
-    - '744' #xmas annabelle
-    - '673' #etheria
-    - '709' #nye jinxie
-    - '746' #xmas illia
-    - '10000' #mage leah
 
 Characters:
   Brawler:
