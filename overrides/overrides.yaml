@@ -6,15 +6,10 @@ Current: #represents whats currently available for summoning. should only be ids
     - '213' #April
     - '193' #Zerokiss
     - '192' #Carol
-    - '187' #Isami
-    - '188' #shizuku
-    - '189' #rinpui
-    - '194' #Pom
-    - '175' #Kasumi
-    - '215' #Dirge
-    - '190' #Yui
-    - '191' #Benkei
-    - '174' #Chi li
+    - '110' #xmas Spica
+    - '132' #Raven
+    - '125' #NYE Larus
+    - '121' #Wilfried
   Weapons:
     - '984' #Shanao
     - '975' #Diana
@@ -59,6 +54,8 @@ Characters:
     '114':
       Name: Annabele (Christmas)
   Warrior:
+    '125':
+      Name: New Years Larus
     '193':
       Name: Carol
     '134':
