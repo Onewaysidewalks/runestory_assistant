@@ -22390,7 +22390,7 @@ Characters:
       MotifWeaponId: '736'
       MotifWeaponName: Shin Seagull Aegis
       MotifWeaponUrl: !!python/unicode '/weapon?id=736'
-      Name: gull (New Year)
+      Name: New Years Larus
       Passives:
       - attack +15%
       - SP + 15%
@@ -25736,15 +25736,10 @@ Current:
   - '213'
   - '193'
   - '192'
-  - '187'
-  - '188'
-  - '189'
-  - '194'
-  - '175'
-  - '215'
-  - '190'
-  - '191'
-  - '174'
+  - '110'
+  - '132'
+  - '125'
+  - '121'
   Weapons:
   - '984'
   - '975'
