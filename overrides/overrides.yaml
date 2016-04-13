@@ -11,21 +11,16 @@ Current: #represents whats currently available for summoning. should only be ids
     - '125' #NYE Larus
     - '121' #Wilfried
   Weapons:
+    - '724' #xmas spica
+    - '660' #Raven
+    - '736' #Wilfried
+    - '668' #NYE Larus
     - '984' #Shanao
     - '975' #Diana
     - '963' #Risley
     - '973' #April
     - '908' #Zerokiss
     - '911' #Carol
-    - '885' #shizuku
-    - '889' #isami
-    - '901' #rinpui
-    - '914' #pom
-    - '833' # kasumi
-    - '983' # dirge
-    - '902' # yui
-    - '907' #benkei
-    - '837' #chi li
 
 Characters:
   Brawler:
