@@ -3686,7 +3686,7 @@ Characters:
       MotifWeaponId: '1027'
       MotifWeaponName: Shin Holy Lance Seraphic tier
       MotifWeaponUrl: !!python/unicode '/weapon?id=1027'
-      Name: Ekuseria
+      Name: Excellia
       Passives:
       - attack +15%
       - SP consumption -15%
@@ -25730,6 +25730,8 @@ Characters:
       TypeId: 2
 Current:
   Characters:
+  - '226'
+  - '225'
   - '214'
   - '211'
   - '210'

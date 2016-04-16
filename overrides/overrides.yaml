@@ -1,5 +1,7 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
+    - '226' #Excellia
+    - '225' #Georg
     - '214' #Shanao
     - '211' #Diana
     - '210' #Risley
@@ -133,6 +135,9 @@ Characters:
       Name: Zerokiss
     '157':
       Name: Piesta
+  Dragon Rider:
+    '226':
+      Name: Excellia
 
 Weapons:
   Mage:
