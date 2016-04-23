@@ -1,13 +1,13 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
+    - '229' #eberhart
+    - '234' #pavane
+    - '212' #lavi
+    - '216' #sawa
+    - '233' #mercurio
+    - '232' #rairai
     - '226' #Excellia
     - '225' #Georg
-    - '214' #Shanao
-    - '211' #Diana
-    - '210' #Risley
-    - '213' #April
-    - '193' #Zerokiss
-    - '192' #Carol
     - '110' #xmas Spica
     - '132' #Raven
     - '125' #NYE Larus
@@ -26,11 +26,15 @@ Current: #represents whats currently available for summoning. should only be ids
 
 Characters:
   Brawler:
+    '234':
+      Name: Pavane
     '214':
       Name: Shanao
     '191':
       Name: Benkei
   Fencer:
+    '233':
+      Name: Mercurio
     '211':
       Name: 'Diana'
     '314':
@@ -38,6 +42,8 @@ Characters:
     '171':
       Name: Kirala
   Lancer:
+    '229':
+      Name: Eberhart
     '210':
       Name: Risley
     '126':
@@ -51,6 +57,8 @@ Characters:
     '114':
       Name: Annabele (Christmas)
   Warrior:
+    '216':
+      Name: Sawa
     '125':
       Name: New Years Larus
     '193':
@@ -131,6 +139,8 @@ Characters:
     '122':
       Name: Jinxie Lumin (New Years)
   Sniper:
+    '212':
+      Name: Lavi
     '193':
       Name: Zerokiss
     '157':

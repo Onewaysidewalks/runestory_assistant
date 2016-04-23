@@ -1302,7 +1302,7 @@ Characters:
       MotifWeaponId: '1062'
       MotifWeaponName: Shin Farasha Noor
       MotifWeaponUrl: !!python/unicode '/weapon?id=1062'
-      Name: Paruvane
+      Name: Pavane
       Passives:
       - SP + 15%
       - Action Skills Enhancement +15%
@@ -8549,7 +8549,7 @@ Characters:
       MotifWeaponId: '1077'
       MotifWeaponName: Shin darkness sword Nokutusu Wealth
       MotifWeaponUrl: !!python/unicode '/weapon?id=1077'
-      Name: Merukurio
+      Name: Mercurio
       Passives:
       - attack +15%
       - SP consumption -15%
@@ -12143,7 +12143,7 @@ Characters:
       MotifWeaponId: '1083'
       MotifWeaponName: Shin Grand Slam emblem
       MotifWeaponUrl: !!python/unicode '/weapon?id=1083'
-      Name: Eberhard
+      Name: Eberhart
       Passives:
       - shield during SP recovery amount + 2
       - attack +15%
@@ -19654,7 +19654,7 @@ Characters:
       MotifWeaponId: '967'
       MotifWeaponName: Shin Bomusheru Beauty
       MotifWeaponUrl: !!python/unicode '/weapon?id=967'
-      Name: Ravi
+      Name: Lavi
       Passives:
       - Action Skills Enhancement +15%
       - SP consumption -15%
@@ -23195,7 +23195,7 @@ Characters:
       MotifWeaponId: '988'
       MotifWeaponName: Shin Basho fan
       MotifWeaponUrl: !!python/unicode '/weapon?id=988'
-      Name: trolley wheel
+      Name: Sawa
       Passives:
       - SP + 15%
       - Action Skills Enhancement +15%
@@ -25730,14 +25730,14 @@ Characters:
       TypeId: 2
 Current:
   Characters:
+  - '229'
+  - '234'
+  - '212'
+  - '216'
+  - '233'
+  - '232'
   - '226'
   - '225'
-  - '214'
-  - '211'
-  - '210'
-  - '213'
-  - '193'
-  - '192'
   - '110'
   - '132'
   - '125'
