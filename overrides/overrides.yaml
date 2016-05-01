@@ -6,23 +6,25 @@ Current: #represents whats currently available for summoning. should only be ids
     - '216' #sawa
     - '233' #mercurio
     - '232' #rairai
-    - '226' #Excellia
-    - '225' #Georg
-    - '110' #xmas Spica
-    - '132' #Raven
-    - '125' #NYE Larus
-    - '121' #Wilfried
+    - '213' #april
+    - '195' #renfa
+    - '144' #fran
+    - '215' #dirge
+    - '143' #zack
+    - '161' #gabbi
+
   Weapons:
     - '724' #xmas spica
     - '660' #Raven
     - '736' #Wilfried
     - '668' #NYE Larus
-    - '984' #Shanao
-    - '975' #Diana
-    - '963' #Risley
-    - '973' #April
-    - '908' #Zerokiss
-    - '911' #Carol
+    - '229' #eberhart
+    - '1062' #pavane
+    - '967' #lavi
+    - '988' #sawa
+    - '1077' #mercurio
+    - '1068' #rairai
+    - '973' #april
 
 Characters:
   Brawler:
@@ -148,6 +150,13 @@ Characters:
   Dragon Rider:
     '226':
       Name: Excellia
+  Dual Saber:
+    '143':
+      Name: Zack
+    '161':
+      Name: Gabbi
+    '232':
+      Name: Rai Rai
 
 Weapons:
   Mage:

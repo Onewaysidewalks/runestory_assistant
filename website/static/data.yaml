@@ -4723,7 +4723,7 @@ Characters:
       MotifWeaponId: '670'
       MotifWeaponName: Shin jet blade Sky
       MotifWeaponUrl: !!python/unicode '/weapon?id=670'
-      Name: Zach
+      Name: Zack
       Passives:
       - attack +15%
       - HP + 15%
@@ -4859,7 +4859,7 @@ Characters:
       MotifWeaponId: '806'
       MotifWeaponName: Shin main dish supper
       MotifWeaponUrl: !!python/unicode '/weapon?id=806'
-      Name: Gabry
+      Name: Gabbi
       Passives:
       - SP consumption -15%
       - SP + 15%
@@ -5675,7 +5675,7 @@ Characters:
       MotifWeaponId: '1068'
       MotifWeaponName: Shin thunder twin sword &lt;Raitei&gt;
       MotifWeaponUrl: !!python/unicode '/weapon?id=1068'
-      Name: Lai Lai
+      Name: Rai Rai
       Passives:
       - counter edge hit during the SP recovery amount + 2
       - SP + 15%
@@ -25736,23 +25736,24 @@ Current:
   - '216'
   - '233'
   - '232'
-  - '226'
-  - '225'
-  - '110'
-  - '132'
-  - '125'
-  - '121'
+  - '213'
+  - '195'
+  - '144'
+  - '215'
+  - '143'
+  - '161'
   Weapons:
   - '724'
   - '660'
   - '736'
   - '668'
-  - '984'
-  - '975'
-  - '963'
+  - '229'
+  - '1062'
+  - '967'
+  - '988'
+  - '1077'
+  - '1068'
   - '973'
-  - '908'
-  - '911'
 Weapons:
   Brawler:
     '1011': !!python/object:models.Weapon
