@@ -1035,7 +1035,7 @@ Characters:
       MotifWeaponId: '947'
       MotifWeaponName: Shin Platinum shake Eve
       MotifWeaponUrl: !!python/unicode '/weapon?id=947'
-      Name: Clive (brown bear)
+      Name: Brown Bear Clive
       Passives:
       - defense +15%
       - the damage -15%
@@ -5273,7 +5273,7 @@ Characters:
       MotifWeaponId: '956'
       MotifWeaponName: Shin zwei shrug
       MotifWeaponUrl: !!python/unicode '/weapon?id=956'
-      Name: Wilfried (brown bear)
+      Name: Brown Bear Wilfried
       Passives:
       - attack +15%
       - attack +15%
@@ -8154,7 +8154,7 @@ Characters:
       MotifWeaponId: '939'
       MotifWeaponName: Shin Ashutaroto
       MotifWeaponUrl: !!python/unicode '/weapon?id=939'
-      Name: Mira (brown bear)
+      Name: Brown Bear Mira
       Passives:
       - SP + 15%
       - instant death avoided by HP10% more than
@@ -11876,7 +11876,7 @@ Characters:
       MotifWeaponId: '934'
       MotifWeaponName: Shin Rosuvaise
       MotifWeaponUrl: !!python/unicode '/weapon?id=934'
-      Name: Sophie (brown bear)
+      Name: Brown Bear Sophie
       Passives:
       - HP70% or more in the attack defense satisfaction 50% strengthening
       - SP + 15%
@@ -15939,7 +15939,7 @@ Characters:
       MotifWeaponId: '948'
       MotifWeaponName: Shin rafale-Marishiten
       MotifWeaponUrl: !!python/unicode '/weapon?id=948'
-      Name: Fran (brown bear)
+      Name: Brown Bear Fran
       Passives:
       - SP consumption -15%
       - instant death avoided by HP10% more than
@@ -19522,7 +19522,7 @@ Characters:
       MotifWeaponId: '941'
       MotifWeaponName: Shin Petit Queen Vanguard
       MotifWeaponUrl: !!python/unicode '/weapon?id=941'
-      Name: gull (brown bear)
+      Name: Brown Bear Larus
       Passives:
       - attack +15%
       - SP + 15%
@@ -23060,7 +23060,7 @@ Characters:
       MotifWeaponId: '952'
       MotifWeaponName: !!python/str 'true Lightning · V'
       MotifWeaponUrl: !!python/unicode '/weapon?id=952'
-      Name: Zach (brown bear)
+      Name: Brown Bear Zack
       Passives:
       - HP + 15%
       - Action Skills Enhancement +15%
@@ -25730,6 +25730,13 @@ Characters:
       TypeId: 2
 Current:
   Characters:
+  - '199'
+  - '200'
+  - '203'
+  - '202'
+  - '198'
+  - '197'
+  - '201'
   - '229'
   - '234'
   - '212'

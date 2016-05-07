@@ -1,5 +1,12 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
+    - '199' #sophie BB
+    - '200' #zack BB
+    - '203' #wilfried BB
+    - '202' #mira BB
+    - '198' #larus BB
+    - '197' #fran BB
+    - '201' #Clive BB
     - '229' #eberhart
     - '234' #pavane
     - '212' #lavi
@@ -29,6 +36,8 @@ Current: #represents whats currently available for summoning. should only be ids
 
 Characters:
   Brawler:
+    '201':
+      Name: Brown Bear Clive
     '234':
       Name: Pavane
     '214':
@@ -36,6 +45,8 @@ Characters:
     '191':
       Name: Benkei
   Fencer:
+    '202':
+      Name: Brown Bear Mira
     '233':
       Name: Mercurio
     '211':
@@ -45,6 +56,8 @@ Characters:
     '171':
       Name: Kirala
   Lancer:
+    '199':
+      Name: Brown Bear Sophie
     '229':
       Name: Eberhart
     '210':
@@ -60,6 +73,8 @@ Characters:
     '114':
       Name: Annabele (Christmas)
   Warrior:
+    '200':
+      Name: Brown Bear Zack
     '216':
       Name: Sawa
     '125':
@@ -71,6 +86,8 @@ Characters:
     '174':
       Name: Chi li
   Mage:
+    '197':
+      Name: Brown Bear Fran
     '213':
       Name: April
     '194':
@@ -142,6 +159,8 @@ Characters:
     '122':
       Name: Jinxie Lumin (New Years)
   Sniper:
+    '198':
+      Name: Brown Bear Larus
     '212':
       Name: Lavi
     '193':
@@ -152,6 +171,8 @@ Characters:
     '226':
       Name: Excellia
   Dual Saber:
+    '203':
+      Name: Brown Bear Wilfried
     '143':
       Name: Zack
     '161':
