@@ -14,18 +14,15 @@ Current: #represents whats currently available for summoning. should only be ids
     - '233' #mercurio
     - '232' #rairai
     - '213' #april
-    - '195' #renfa
-    - '144' #fran
-    - '215' #dirge
-    - '143' #zack
-    - '161' #gabbi
 
   Weapons:
-    - '917' #renfa
-    - '672' #fran
-    - '983' #dirge
-    - '670' #zack
-    - '806' #gabbi
+    - '934' #sophie BB
+    - '952' #zack BB
+    - '956' #wilfried BB
+    - '939' #mira BB
+    - '941' #larus BB
+    - '948' #fran BB
+    - '947' #Clive BB
     - '1083' #eberhart
     - '1062' #pavane
     - '967' #lavi
