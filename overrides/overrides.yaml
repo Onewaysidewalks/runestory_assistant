@@ -1,5 +1,11 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
+    - '253' # charlotte
+    - '254' # Ogre
+    - '671' # andrew
+    - '157' #Piesta
+    - '80' #alzahan
+    - '130' #kisaragi
     - '199' #sophie BB
     - '200' #zack BB
     - '203' #wilfried BB
