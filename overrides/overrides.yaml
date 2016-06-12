@@ -1,44 +1,41 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters:
-    - '253' # charlotte
-    - '254' # Ogre
-    - '671' # andrew
-    - '157' #Piesta
-    - '80' #alzahan
-    - '130' #kisaragi
-    - '199' #sophie BB
-    - '200' #zack BB
-    - '203' #wilfried BB
-    - '202' #mira BB
-    - '198' #larus BB
-    - '197' #fran BB
-    - '201' #Clive BB
-    - '229' #eberhart
-    - '234' #pavane
-    - '212' #lavi
-    - '216' #sawa
-    - '233' #mercurio
-    - '232' #rairai
-    - '213' #april
-
+    - '261' # Hina
+    - '219' #Summer Inhelmina
+    - '257' #Daryl
+    - '218' #summer kasumi
+    - '255' #arturo
+    - '217' #Summer Raven
+    - '258' #Linbelle
+    - '222' #Summer Koyomi
+    - '220' #Summer Edgardo
+    - '260' #Theresa
+    - '259' #Aurelia
+    - '221' #Summer Liam
+    - '223' #Summer Selina
+    - '256' #Decora and Bokora
   Weapons:
-    - '934' #sophie BB
-    - '952' #zack BB
-    - '956' #wilfried BB
-    - '939' #mira BB
-    - '941' #larus BB
-    - '948' #fran BB
-    - '947' #Clive BB
-    - '1083' #eberhart
-    - '1062' #pavane
-    - '967' #lavi
-    - '988' #sawa
-    - '1077' #mercurio
-    - '1068' #rairai
-    - '973' #april
+    - '1184' # Hina Wep
+    - '999' #Summer Inhelmina Wep
+    - '1190' #daryl wep
+    - '1011' #summer kasumi
+    - '1175' #arturo
+    - '1008' #Summer Raven
+    - '1180' #Linbelle
+    - '1020' #Summer Koyomi
+    - '1017' #Summer Edgardo
+    - '1172' #Theresa
+    - '1181' #Aurelia
+    - '1014' #Summer Liam
+    - '1023' #Summer Selina
+    - '1187' #Decora and Bokora
 
 Characters:
   Brawler:
+    '218':
+      Name: Summer Kasumi
+    '257':
+      Name: Daryl
     '201':
       Name: Brown Bear Clive
     '234':
@@ -48,6 +45,10 @@ Characters:
     '191':
       Name: Benkei
   Fencer:
+    '217':
+      Name: Summer Raven
+    '255':
+      Name: Arturo
     '202':
       Name: Brown Bear Mira
     '233':
@@ -59,6 +60,10 @@ Characters:
     '171':
       Name: Kirala
   Lancer:
+    '261':
+      Name: Hina
+    '219':
+      Name: Summer Inhelmina
     '199':
       Name: Brown Bear Sophie
     '229':
@@ -76,6 +81,10 @@ Characters:
     '114':
       Name: Annabele (Christmas)
   Warrior:
+    '221':
+      Name: Summer Liam
+    '259':
+      Name: Aurelia
     '200':
       Name: Brown Bear Zack
     '216':
@@ -89,6 +98,10 @@ Characters:
     '174':
       Name: Chi li
   Mage:
+    '222':
+      Name: Summer Koyomi
+    '258':
+      Name: Linbelle
     '197':
       Name: Brown Bear Fran
     '213':
@@ -162,6 +175,10 @@ Characters:
     '122':
       Name: Jinxie Lumin (New Years)
   Sniper:
+    '260':
+      Name: Theresa
+    '220':
+      Name: Summer Edgardo
     '198':
       Name: Brown Bear Larus
     '212':
@@ -174,6 +191,10 @@ Characters:
     '226':
       Name: Excellia
   Dual Saber:
+    '256':
+      Name: Decora and Bokora
+    '223':
+      Name: Summer Selina
     '203':
       Name: Brown Bear Wilfried
     '143':

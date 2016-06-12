@@ -1233,7 +1233,7 @@ Characters:
       MotifWeaponId: '1011'
       MotifWeaponName: Shin vajra &lt;Sange&gt;
       MotifWeaponUrl: !!python/unicode '/weapon?id=1011'
-      Name: Kasumi (Summer)
+      Name: Summer Kasumi
       Passives:
       - Action Skills Enhancement +15%
       - SP + 15%
@@ -5413,7 +5413,7 @@ Characters:
       MotifWeaponId: '1023'
       MotifWeaponName: Shin Shining twin
       MotifWeaponUrl: !!python/unicode '/weapon?id=1023'
-      Name: Serina (Summer)
+      Name: Summer Selina
       Passives:
       - SP + 15%
       - attack +15%
@@ -8353,7 +8353,7 @@ Characters:
       MotifWeaponId: '1008'
       MotifWeaponName: Shin Never Again
       MotifWeaponUrl: !!python/unicode '/weapon?id=1008'
-      Name: Raven (Summer)
+      Name: Summer Raven
       Passives:
       - attack +15%
       - attack +15%
@@ -8887,7 +8887,7 @@ Characters:
       MotifWeaponId: '1175'
       MotifWeaponName: Shin Sword lute Epic
       MotifWeaponUrl: !!python/unicode '/weapon?id=1175'
-      Name: Artur
+      Name: Arturo
       Passives:
       - attack +15%
       - Action Skills Enhancement +15%
@@ -12073,7 +12073,7 @@ Characters:
       MotifWeaponId: '999'
       MotifWeaponName: Shin Mermaid Queen
       MotifWeaponUrl: !!python/unicode '/weapon?id=999'
-      Name: Inherumina (Summer)
+      Name: Summer Inhelmina
       Passives:
       - the damage -15%
       - attack +15%
@@ -16200,7 +16200,7 @@ Characters:
       MotifWeaponId: '1020'
       MotifWeaponName: Shin Summer Dream Apple
       MotifWeaponUrl: !!python/unicode '/weapon?id=1020'
-      Name: calendar (Summer)
+      Name: Summer Koyomi
       Passives:
       - Action Skills Enhancement +15%
       - attack +15%
@@ -16654,7 +16654,7 @@ Characters:
       MotifWeaponId: '1180'
       MotifWeaponName: Shin ring the miracle
       MotifWeaponUrl: !!python/unicode '/weapon?id=1180'
-      Name: Rinberu
+      Name: Linbelle
       Passives:
       - Action Skills Enhancement +15%
       - Action Skills Enhancement +15%
@@ -19721,7 +19721,7 @@ Characters:
       MotifWeaponId: '1017'
       MotifWeaponName: Shin Twilight Inferno
       MotifWeaponUrl: !!python/unicode '/weapon?id=1017'
-      Name: Edgardo (Summer)
+      Name: Summer Edgardo
       Passives:
       - attack +15%
       - instant death avoided by HP10% more than
@@ -20117,7 +20117,7 @@ Characters:
       MotifWeaponId: '1172'
       MotifWeaponName: true Rune Flugel
       MotifWeaponUrl: !!python/unicode '/weapon?id=1172'
-      Name: Telese
+      Name: Theresa
       Passives:
       - Action Skills Enhancement +15%
       - SP consumption -15%
@@ -23260,7 +23260,7 @@ Characters:
       MotifWeaponId: '1014'
       MotifWeaponName: Shin Crimson Orca
       MotifWeaponUrl: !!python/unicode '/weapon?id=1014'
-      Name: Liam (Summer)
+      Name: Summer Liam
       Passives:
       - attack defense in the HP70% or more satisfaction 50% strengthening
       - Action Skills Enhancement +15%
@@ -25730,41 +25730,35 @@ Characters:
       TypeId: 2
 Current:
   Characters:
-  - '253'
-  - '254'
-  - '671'
-  - '157'
-  - '80'
-  - '130'
-  - '199'
-  - '200'
-  - '203'
-  - '202'
-  - '198'
-  - '197'
-  - '201'
-  - '229'
-  - '234'
-  - '212'
-  - '216'
-  - '233'
-  - '232'
-  - '213'
+  - '261'
+  - '219'
+  - '257'
+  - '218'
+  - '255'
+  - '217'
+  - '258'
+  - '222'
+  - '220'
+  - '260'
+  - '259'
+  - '221'
+  - '223'
+  - '256'
   Weapons:
-  - '934'
-  - '952'
-  - '956'
-  - '939'
-  - '941'
-  - '948'
-  - '947'
-  - '1083'
-  - '1062'
-  - '967'
-  - '988'
-  - '1077'
-  - '1068'
-  - '973'
+  - '1184'
+  - '999'
+  - '1190'
+  - '1011'
+  - '1175'
+  - '1008'
+  - '1180'
+  - '1020'
+  - '1017'
+  - '1172'
+  - '1181'
+  - '1014'
+  - '1023'
+  - '1187'
 Weapons:
   Brawler:
     '1011': !!python/object:models.Weapon
