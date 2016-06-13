@@ -23,7 +23,7 @@
 
 import time
 import ctypes
-from autopy import mouse
+from autopy import mouse, key
 import requests
 import os
 import json
@@ -43,7 +43,7 @@ IMAGE_BR = (1202, 925) #in pixels, x,y, represents bottom right of image rectang
 
 POST_DATA_ENDPOINT = "%s/api/competitive_standings.json" % os.environ["RUNESTORY_ASSISTANT_API"]
 
-TIME_BETWEEN_RUNS = 120 #interval at which the process will run, in seconds
+TIME_BETWEEN_RUNS = 120  #interval at which the process will run, in seconds
 
 RS_SERVER = "WEST" #The game server(s) which are being monitored
 
@@ -86,11 +86,11 @@ def saveResults(personalFirst, personalSecond, guildFirst, guildSecond, server):
     print r
 
 def run():
-    print "starting job..."
+    print "starting job... WEST"
     moveMouse(MY_GUILD_TAB)
     moveMouse(RANKING_TAB)
     leftClick()
-    time.sleep(4)
+    time.sleep(10)
     personalRankingImageFirst = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
 
     moveMouse(SCROLL_START)
@@ -102,7 +102,7 @@ def run():
     personalRankingImageSecond = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
 
     leftClick()
-    time.sleep(4)
+    time.sleep(10)
     guildRankingImageFirst = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
 
     moveMouse(SCROLL_START)
@@ -114,15 +114,58 @@ def run():
     time.sleep(1)
     guildRankingImageSecond = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
     leftClick()
-    saveResults(personalRankingImageFirst, personalRankingImageSecond, guildRankingImageFirst, guildRankingImageSecond, RS_SERVER)
+    saveResults(personalRankingImageFirst, personalRankingImageSecond, guildRankingImageFirst, guildRankingImageSecond, "WEST")
+
+    print "starting job... EAST"
+
+    key.tap("\t", key.MOD_ALT)
+
+    moveMouse(MY_GUILD_TAB)
+    moveMouse(RANKING_TAB)
+    leftClick()
+    time.sleep(10)
+    personalRankingImageFirst = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
+
+    moveMouse(SCROLL_START)
+    leftClickStart()
+    moveMouse(SCROLL_END)
+    leftClickEnd()
+    time.sleep(1)
+    moveMouse(GUILD_BUTTON)
+    personalRankingImageSecond = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
+
+    leftClick()
+    time.sleep(10)
+    guildRankingImageFirst = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
+
+    moveMouse(SCROLL_START)
+    leftClickStart()
+    moveMouse(SCROLL_END)
+    leftClickEnd()
+
+    moveMouse(MY_GUILD_TAB)
+    time.sleep(1)
+    guildRankingImageSecond = captureImageAsBase64Str(IMAGE_TL, IMAGE_BR)
+    leftClick()
+    saveResults(personalRankingImageFirst, personalRankingImageSecond, guildRankingImageFirst, guildRankingImageSecond, "EAST")
+
+    key.tap("\t", key.MOD_ALT)
 
 if __name__ == '__main__':
+
+    wait = True
     while True: #poor mans scheduling
-        run()
+        try:
+            run()
+            wait = True
+        except Exception as e:
+            print "failed, retrying immediately:", e
+            wait = False
         # saveResults("1", "2", "3", "4", RS_SERVER)
-        print screen.get_size()
-        print "sleeping..."
-        time.sleep(TIME_BETWEEN_RUNS)
+
+        if wait:
+            print "sleeping..."
+            time.sleep(TIME_BETWEEN_RUNS)
         # print mouse.get_pos() #for testing cursor position
         # time.sleep(.1)
 
