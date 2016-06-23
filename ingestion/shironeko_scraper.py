@@ -1,7 +1,7 @@
 import beautifulsoup_helper
 import models
 from bs4 import BeautifulSoup
-
+import sys
 #Stuff needed for google translate api
 import os
 import time
@@ -22,7 +22,7 @@ SOURCE_LANGUAGE = 'ja'
 OUTPUT_LOCATION = 'build/basedata.yaml'
 
 
-def getWeapons():
+def getWeapons(filterList):
     #NOTE: There looks to be a page of weapons for each character class. Iterate them and take as much information
     #as possible, as it is well formated in a table, where the character specific page is not.
 
@@ -35,12 +35,18 @@ def getWeapons():
         for weaponRow in weaponRows:
             weapon = models.Weapon(weaponRow, classId)
 
+            if filterList and len(filterList) > 0 and weapon.Id not in filterList:
+                print "Skipping due to not being in filter list %s" % filterList
+                continue
+
+            loadMoreWeaponDetail(weapon)
+
             weapons.append(weapon)
 
     print 'Loaded %d weapons total' % len(weapons)
     return weapons
 
-def getCharacters():
+def getCharacters(filterList):
     #NOTE: There are several pages of characters for each character class
     # as such, we will just guess up to 10 pages of characters, and stop iteration if no characters exist on a page
     #Similarly, we dont know the rarity of each character without search for the rarity
@@ -62,14 +68,32 @@ def getCharacters():
                     for charRow in characterRows:
                         character = models.Character(charRow, classId, rarity, characterType)
 
+                        if filterList and len(filterList) > 0 and character.Id not in filterList:
+                            print "Skipping due to not being in filter list %s" % filterList
+                            continue
+
                         print 'merging character specific details %s' % character.Id
                         loadMoreCharacterDetail(character)
 
                         characters.append(character)
+
+                        if len(filterList) > 0:
+                            break; #filter list has stuff in it, no need to process any more than one record
                     else:
                         break #if there are no character rows, break the iteration early
 
     return characters
+
+def loadMoreWeaponDetail(weapon):
+    #NOTE: This will load a weapon specific page to pull even more information about each weapon
+    #Using this more detailed information, we will merge the extra detail onto the weapon object itself
+    #so we have a single full representation of the weapon
+    if not weapon.IngestionUrl:
+        print "Unable to load weapon specific detail, %s: %s" % (weapon.Id, weapon.IngestionUrl)
+        return
+    parser = beautifulsoup_helper.getParserForUrl(BASE_URL + weapon.IngestionUrl)
+
+    weapon.mergeWeaponDetailFromShironeko(parser)
 
 def loadMoreCharacterDetail(character):
     #NOTE: This will load a characters specific page to pull even more information about each character
@@ -224,16 +248,32 @@ def translateWeapons(weapons, language):
 
         print 'performing translations for weapon id:%s' % weapon.Id
 
-        rawPayload = 'n:%s##' % weapon.RawName
+        rawPayload = 'n^%s^^' % weapon.RawName
         for passive in weapon.Passives:
-            rawPayload = rawPayload + 'p:%s##' % passive
+            rawPayload = rawPayload + 'p^%s^^' % passive
 
         if weapon.Effect and weapon.Effect is not '-':
-            rawPayload = rawPayload + 'e:%s##' % weapon.Effect
+            rawPayload = rawPayload + 'e^%s^^' % weapon.Effect
 
         if weapon.Attribute:
-            rawPayload = rawPayload + 'a:%s##' % weapon.Attribute
+            rawPayload = rawPayload + 'a^%s^^' % weapon.Attribute
 
+        if weapon.WeaponSkillBaseMagnification:
+            rawPayload = rawPayload + 'b^%s^^' % weapon.WeaponSkillBaseMagnification
+
+        if weapon.WeaponSkillElementMagnification:
+            rawPayload = rawPayload + 'em^%s^^' % weapon.WeaponSkillElementMagnification
+
+        if weapon.WeaponSkillDescription:
+            rawPayload = rawPayload + 'd^%s^^' % weapon.WeaponSkillDescription
+
+        if weapon.WeaponSkillSummary:
+            rawPayload = rawPayload + 's^%s^^' % weapon.WeaponSkillSummary
+
+        if weapon.WeaponSkillRawName:
+            rawPayload = rawPayload + 'sn^%s^^' % weapon.WeaponSkillRawName #last entry cant end in ##
+
+        print rawPayload
         try:
             #Query for the translated text (this handles url encoding for us!)
             result = service.translations().list(source=SOURCE_LANGUAGE, target=TARGET_LANGUAGE,q=rawPayload).execute()
@@ -243,8 +283,10 @@ def translateWeapons(weapons, language):
             time.sleep(100)
             result = service.translations().list(source=SOURCE_LANGUAGE, target=TARGET_LANGUAGE,q=rawPayload).execute()
 
+
         translatedResult = result['translations'][0]['translatedText'].encode('utf-8')
-        translatedParts = translatedResult.split('##')
+        print translatedResult
+        translatedParts = translatedResult.replace(' ^^ ', '^^').replace(' ^ ', '^').split('^^') #we have to remove spaces that the api injects in
 
         #Now we have the appropriate text, time to map it back onto the character model
         translatedPassives = []
@@ -253,25 +295,35 @@ def translateWeapons(weapons, language):
             text = ' '.join(translatedParts[pos].strip().splitlines())
             if text and len(text) > 0:
 
-                if ':' not in text:
-                    print 'ERROR: ":" not in text %s for translation'
+                if '^' not in text:
+                    print 'ERROR: "^" not in text %s for translation' % text
                     continue
 
-                index = text.index(':')
+                index = text.index('^')
 
                 if index is len(text):
                     print 'no data found for this entry %s weapon %s' % (text, weapon.Id)
                     continue #no data, continue
 
-                value = text[text.index(':')+1:].strip().replace('\n', '') #substring starting at the 3 position
-                if text.lower().startswith('n:'): # name
+                value = text[text.index('^')+1:].strip().replace('\n', '') #substring starting at the 3 position
+                if text.lower().startswith('n^'): # name
                     weapon.Name = value
-                elif text.lower().startswith("p:"): #passives
+                elif text.lower().startswith("p^"): #passives
                     translatedPassives.append(value)
-                elif text.lower().startswith('a:'): #action skill 1 description
+                elif text.lower().startswith('a^'): #action skill 1 description
                     weapon.Attribute = value
-                elif text.lower().startswith('e:'): #action skill 1 evaluation
+                elif text.lower().startswith('e^'): #action skill 1 evaluation
                     weapon.Effect = value
+                elif text.lower().startswith('b^'): #weapon skill base damage
+                    weapon.WeaponSkillBaseMagnification = value
+                elif text.lower().startswith('em^'): #weapon skill elemental damage
+                    weapon.WeaponSkillElementMagnification = value
+                elif text.lower().startswith('d^'): #weapon skill description
+                    weapon.WeaponSkillDescription = value
+                elif text.lower().startswith('s^'): #weapon skill summary
+                    weapon.WeaponSkillSummary = value
+                elif text.lower().startswith('sn^'): #weapon skill name
+                    weapon.WeaponSkillName = value
 
         weapon.Passives = translatedPassives
 
@@ -286,22 +338,31 @@ def combineInfo(characters, weapons):
                 weapon.OwnerId = character.Id
 
 def main():
+    filterList = []
+    characters = []
+    weapons = []
+    if len(sys.argv) > 1: #only one arg is the file name, and should run ingestion normally, otherwise the format is {file} {type} {id}
+        print(sys.argv)
+        filterList = sys.argv
+
     #First we grab a hold of all the character list
-    characters = getCharacters()
+    characters = getCharacters(filterList)
 
     #Then we grab a hold of all the weapons
-    weapons = getWeapons()
+    weapons = getWeapons(filterList)
 
     #Then we ask googles api for a translation for each character
-    characters = translateCharacters(characters, 'en')
+    characters = translateCharacters(characters, TARGET_LANGUAGE)
 
     #And similarly for each weapon
     weapons = translateWeapons(weapons, TARGET_LANGUAGE)
 
+    #link weapons and characters by id
     combineInfo(characters, weapons)
 
     #Save all data to a file, for further processing later
     saveToFile(OUTPUT_LOCATION, characters, weapons)
 
 if __name__== '__main__':
+    #Example usage: python -u ingestion/shironeko_scraper.py {character integer id}
     main()

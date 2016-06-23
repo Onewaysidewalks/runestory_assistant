@@ -131,6 +131,8 @@ class Character(object):
 
         ##Note: not all characters have 2 leader skills (minimum 1), so we have to account for that as well
         #This will affect both skill and leader skill names, as well as descriptions
+        firstLeaderSkillNameIndex = 1
+        firstLeaderSkillDescIndex = 0
         secondLeaderSkillNameIndex = 2
         secondLeaderSkillDescIndex = 1
         firstSkillNameIndex = 3
@@ -164,6 +166,11 @@ class Character(object):
                 firstSkillTableIndex = None
                 secondSkillTableIndex = None
 
+            if p_list[0].has_attr('class'): #we know leader skill p tags dont have classes, this must mean there is an offset needed
+                print 'false <P> tag found, adjusting leader skill description indices'
+                firstLeaderSkillDescIndex = 1
+                secondLeaderSkillDescIndex = 2
+
             if len(h3_list) < 7: #not enough to have two leader skills
                 secondLeaderSkillNameIndex = None
                 secondLeaderSkillDescIndex = None
@@ -174,10 +181,17 @@ class Character(object):
 
             #set the skill indexes based on their adjacent SP-classed span
             foundFirst = False
+            firstWrappingSpCostElementIndex = None
+            secondWrappingSpCostElementIndex = None
             for elementIndex in range(len(htmlElement.contents)):
                 if 'class="sp"' in '%s' % htmlElement.contents[elementIndex]:
-                    print 'sp class found at %s' % elementIndex
+                    print 'sp class found at %s. element: %s' % (elementIndex, str(htmlElement.contents[elementIndex]))
                     if foundFirst:
+                        if '<p>' in str(htmlElement.contents[elementIndex]):
+                            #The sp bits are wrapped in a <p> tag. when they are, there are at MOST 3 elements in the tag. the SP marker,
+                            #the unaltered cost, and the reduced cost. no additional indicies are needed
+                            secondWrappingSpCostElementIndex = elementIndex
+
                         secondSkillSpIndex = elementIndex + 1
 
                         secondSkillDescIndex = elementIndex + 2
@@ -189,6 +203,11 @@ class Character(object):
 
                         secondSkillNameIndex = elementIndex - 2
                     else:
+                        if '<p>' in str(htmlElement.contents[elementIndex]):
+                            #The sp bits are wrapped in a <p> tag. when they are, there are at MOST 3 elements in the tag. the SP marker,
+                            #the unaltered cost, and the reduced cost. no additional indicies are needed
+                            firstWrappingSpCostElementIndex = elementIndex
+
                         firstSkillSpIndex = elementIndex + 1
                         firstSkillDescIndex = elementIndex + 2
 
@@ -329,18 +348,18 @@ class Character(object):
             ## 2nd Leader Skill: 3rd h3 -> {value}
             ## 2nd Leader Skill Description: 2nd p -> {value}
             if h3_list[1].string:
-                self.LeaderSkill1Name = h3_list[1].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
+                self.LeaderSkill1Name = h3_list[firstLeaderSkillNameIndex].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
             elif len(h3_list[1].contents) > 1:
-                self.LeaderSkill1Name = h3_list[1].contents[0].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                self.LeaderSkill1Name = h3_list[firstLeaderSkillNameIndex].contents[0].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
             else:
                 self.LeaderSkill1Name = ''
-                print 'No leader skill 1 name, character %s, element:%s' % (self.Id, h3_list[1])
+                print 'No leader skill 1 name, character %s, element:%s' % (self.Id, h3_list[firstLeaderSkillNameIndex])
 
-            if p_list[0].string:
-                self.LeaderSkill1Description = p_list[0].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+            if p_list[firstLeaderSkillDescIndex].string:
+                self.LeaderSkill1Description = p_list[firstLeaderSkillDescIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
             else:
                 self.LeaderSkill1Description = ''
-                print 'No leader skill 1 description, character %s, element %s' % (self.Id, p_list[0].string)
+                print 'No leader skill 1 description, character %s, element %s' % (self.Id, p_list[firstLeaderSkillDescIndex])
 
             if secondLeaderSkillNameIndex: #if there is a second leader skill, pull it
                 if h3_list[secondLeaderSkillNameIndex].string:
@@ -355,7 +374,7 @@ class Character(object):
                     self.LeaderSkill2Description = p_list[secondLeaderSkillDescIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
                 else:
                     self.LeaderSkill2Description = ''
-                    print 'No leader skill 2 descriptioni, character %s, element %s' % (self.Id, p_list[secondLeaderSkillDescIndex].string).replace('\n', '').replace('\r', '')
+                    print 'No leader skill 2 descriptioni, character %s, element %s' % (self.Id, p_list[secondLeaderSkillDescIndex])
             else:
                 self.LeaderSkill2Description = ''
                 self.LeaderSkill2Name = ''
@@ -373,12 +392,25 @@ class Character(object):
             ## 2nd skill stats: 5th table -> tbody -> 2 tr's -> td -> {value}
 
             self.ActionSkill1Name = htmlElement.contents[firstSkillNameIndex].contents[0].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
-            self.ActionSkill1SPCost = htmlElement.contents[firstSkillSpIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
 
-            if firstSkillSpReducedIndex:
-                self.ActionSkill1ReducedSPCost = htmlElement.contents[firstSkillSpReducedIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '').replace('(', '').replace(')', '')
+            if firstWrappingSpCostElementIndex:
+                #a wrapping <P> was found for the sp bits, which is in a well known format of <P><span>SP</span>{value}<span>{reduced value}</span>
+                self.ActionSkill1SPCost = htmlElement.contents[firstWrappingSpCostElementIndex].contents[1].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                if len(htmlElement.contents[firstWrappingSpCostElementIndex]) > 2:
+                    self.ActionSkill1ReducedSPCost = htmlElement.contents[firstWrappingSpCostElementIndex].contents[2].string.encode('utf-8').strip().replace('\n', '').replace('\r', '').replace('(', '').replace(')', '')
+            else:
+                self.ActionSkill1SPCost = htmlElement.contents[firstSkillSpIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                if firstSkillSpReducedIndex:
+                    self.ActionSkill1ReducedSPCost = htmlElement.contents[firstSkillSpReducedIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '').replace('(', '').replace(')', '')
 
-            self.ActionSkill1Description = htmlElement.contents[firstSkillDescIndex].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
+            if htmlElement.contents[firstSkillDescIndex].string: #if the inner contents isnt html, than simply represent as a string
+                self.ActionSkill1Description = htmlElement.contents[firstSkillDescIndex].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
+            else:
+                print 'found html based skill description, parsing...'
+                self.ActionSkill1Description = ''
+                for content in htmlElement.contents[firstSkillDescIndex]:
+                    if content.string and '<br' not in content.string.encode('utf8'):
+                        self.ActionSkill1Description = '%s %s' % (self.ActionSkill1Description, content.string.encode('utf8').strip().replace('\n', '').replace('\r', ''))
 
             if firstSkillTableIndex: #Not all characters have a magnification/evaluation block
                 rows = table_list[firstSkillTableIndex].find('tbody').find_all('tr')
@@ -398,16 +430,27 @@ class Character(object):
                 self.ActionSkill1Magnification = "UNKNOWN"
                 self.ActionSkill1Evaluation = "UNKNOWN"
 
-
-
+            #Parse second action skill...
             self.ActionSkill2Name = htmlElement.contents[secondSkillNameIndex].contents[0].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
-            self.ActionSkill2SPCost = htmlElement.contents[secondSkillSpIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
 
-            if secondSkillSpReducedIndex:
-                self.ActionSkill2ReducedSPCost = htmlElement.contents[secondSkillSpReducedIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '').replace('(', '').replace(')', '')
+            if secondWrappingSpCostElementIndex and htmlElement.contents[secondWrappingSpCostElementIndex].contents and len(htmlElement.contents[secondWrappingSpCostElementIndex].contents) > 1:
+                #a wrapping <P> was found for the sp bits, which is in a well known format of <P><span>SP</span>{value}<span>{reduced value}</span>
+                self.ActionSkill2SPCost = htmlElement.contents[secondWrappingSpCostElementIndex].contents[1].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                if len(htmlElement.contents[secondWrappingSpCostElementIndex]) > 2:
+                    self.ActionSkill2ReducedSPCost = htmlElement.contents[secondWrappingSpCostElementIndex].contents[2].string.encode('utf-8').strip().replace('\n', '').replace('\r', '').replace('(', '').replace(')', '')
+            else:
+                self.ActionSkill2SPCost = htmlElement.contents[secondSkillSpIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                if secondSkillSpReducedIndex:
+                    self.ActionSkill2ReducedSPCost = htmlElement.contents[secondSkillSpReducedIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '').replace('(', '').replace(')', '')
 
-
-            self.ActionSkill2Description = htmlElement.contents[secondSkillDescIndex].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
+            if htmlElement.contents[secondSkillDescIndex].string: #if the inner contents isnt html, than simply represent as a string
+                self.ActionSkill2Description = htmlElement.contents[secondSkillDescIndex].string.encode('utf8').strip().replace('\n', '').replace('\r', '')
+            else:
+                print 'found html based skill description, parsing...'
+                self.ActionSkill2Description = ''
+                for content in htmlElement.contents[secondSkillDescIndex]:
+                    if content.string and '<br' not in content.string.encode('utf8'):
+                        self.ActionSkill2Description = '%s %s' % (self.ActionSkill2Description, content.string.encode('utf8').strip().replace('\n', '').replace('\r', ''))
 
             if secondSkillTableIndex:
                 rows = table_list[secondSkillTableIndex].find('tbody').find_all('tr')
@@ -540,27 +583,97 @@ class Weapon(object):
                     self.Effect = innerValue
                 if i is 6:
                     self.Attribute = innerValue
-
+    def mergeWeaponDetailFromShironeko(self, htmlElement):
         # #HTML Structue for Weapon Specific page
         # #ImageUrl = div/class=frame -> img/src
         # #Rarity = 1st table->2nd tr->1st td -> {value}
         # #Stats = 2nd table->2nd tr->tds=atk/def/crit/effect/element
         # #Passives = 1st ul -> li={value}
-        # #Weapon Skill -> span/class=sp-> -1 is name, +1 is cost, +2/+3 is description (or reduced sp, if its a span)
+        # #Weapon Skill -> span/class=sp-> -2 is name, +1 is cost, +2/+3 is description (or reduced sp, if its a span)
         # #Weapon Evaluation -> skill description + 1 -> 1st tr -> 1st td -> {value}
-        #
-        # #First find the wrapping weapon div
-        # htmlElement = htmlElement.find('div', {'id':'weapon'})
-        #
-        # imageDiv = htmlElement.find('div', {'class':'frame'})
-        # if imageDiv:
-        #     self.ImageUrl = imageDiv.find('img')['src']
-        # else:
-        #     self.ImageUrl = ''
-        #
-        # rarityTableRows = htmlElement.find('table').find_all('tr')
-        # if rarityTableRows and len(rarityTableRows) > 1:
-        #     self.Rarity = rarityTableRows[1].find('td').string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+
+        #First find the wrapping weapon div
+        htmlElement = htmlElement.find('div', {'id':'weapon'})
+
+        tables = htmlElement.find_all('table', recursive=False)
+
+        #Pull image Url
+        imageDiv = htmlElement.find('div', {'class':'frame'})
+        if imageDiv:
+            self.ImageUrl = imageDiv.find('img')['src']
+        else:
+            self.ImageUrl = ''
+
+        #Pull Rarity
+        rarityTableRows = tables[0].find_all('tr') #first table always contains rarity
+        if rarityTableRows and len(rarityTableRows) > 1:
+            self.Rarity = rarityTableRows[1].find('td').string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+
+        #Pull Weapon Skill SP, skill, name
+        for elementIndex in range(len(htmlElement.contents)):
+            if 'class="sp"' in '%s' % htmlElement.contents[elementIndex]:
+                print 'found weapon action skill sp cost'
+                #this element should be a span, as such, you know the following value is a cost
+                self.WeaponSkillRawName = htmlElement.contents[elementIndex - 2].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                self.WeaponSkillSpCost = htmlElement.contents[elementIndex + 1].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+
+                weaponSkillSummaryIndex = elementIndex + 2
+                if 'span' in str(htmlElement.contents[elementIndex + 2]): #this is a reduced sp cost
+                    weaponSkillSummaryIndex = elementIndex + 3
+
+                self.WeaponSkillSummary = htmlElement.contents[weaponSkillSummaryIndex].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+
+        if len(tables) > 3: #there are at least 4 tables, the third contains skill magnifications
+            magnificationAndEvaluationTable = tables[2]
+
+            if len(magnificationAndEvaluationTable.find_all('td')) > 1: #if there are 2 cells, then it has both an evaluation and a magnification
+                #the magnification/evaluation table is strucutred in two cells. the first cell is the magnification, the second is the description
+                magnificationCell = magnificationAndEvaluationTable.find_all('td')[0]
+
+                self.WeaponSkillBaseMagnification = magnificationCell.contents[0].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+                if len(magnificationCell.contents) > 1 and magnificationCell.contents[1].string:
+                    self.WeaponSkillElementMagnification = magnificationCell.contents[1].string.encode('utf-8').strip().replace('\n', '').replace('\r', '')
+
+                descriptionCell = magnificationAndEvaluationTable.find_all('td')[1]
+
+                self.WeaponSkillDescription = ''
+                for content in descriptionCell.contents:
+                    if content.string:
+                        self.WeaponSkillDescription = '%s %s' % (self.WeaponSkillDescription, content.string.encode('utf-8').strip().replace('\n', '').replace('\r', ''))
+            else:
+                #only one cell available, only an evaluation
+                descriptionCell = magnificationAndEvaluationTable.find_all('td')[0]
+
+                self.WeaponSkillDescription = ''
+                for content in descriptionCell.contents:
+                    if content.string:
+                        self.WeaponSkillDescription = '%s %s' % (self.WeaponSkillDescription, content.string.encode('utf-8').strip().replace('\n', '').replace('\r', ''))
+
+        if not hasattr(self, 'WeaponSkillRawName'):
+            self.WeaponSkillRawName = None
+
+        if not hasattr(self, 'WeaponSkillSpCost'):
+            self.WeaponSkillSpCost = None
+
+        if not hasattr(self, 'WeaponSkillSummary'):
+            self.WeaponSkillSummary = None
+
+        if not hasattr(self, 'WeaponSkillBaseMagnification'):
+            self.WeaponSkillBaseMagnification = None
+
+        if not hasattr(self, 'WeaponSkillElementMagnification'):
+            self.WeaponSkillElementMagnification = None
+
+        if not hasattr(self, 'WeaponSkillDescription'):
+            self.WeaponSkillDescription = None
+
+        #we remove the passive that is the weapon skill, as that will have its own section dedicated to it
+        if self.WeaponSkillRawName in self.Passives:
+            self.Passives.remove(self.WeaponSkillRawName)
+
+
+
+        return
 
     def __str__(self):
         return str(self.__dict__)
