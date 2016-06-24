@@ -16,7 +16,7 @@ BASE_URL = 'http://shironeko.me' #one wiki site
 OTHER_BASE_URL = 'http://wiki.famitsu.com/shironeko/' #wiki site with better rankings
 RARITIES = [ '4', '3', '2', '1']
 CHARACTER_TYPES = [1, 2, 3, 4, 5, 6, 7]
-CHARACTER_CLASSES = [1, 2, 3, 4, 5, 6, 7, 8]
+CHARACTER_CLASSES = [ 1, 2, 3, 4, 5, 6, 7, 8]
 TARGET_LANGUAGE = 'en'
 SOURCE_LANGUAGE = 'ja'
 OUTPUT_LOCATION = 'build/basedata.yaml'
@@ -108,6 +108,7 @@ def loadMoreCharacterDetail(character):
     character.mergeCharacterDetailFromShironeko(parser)
 
     if character.RawName:
+        print 'Pulling ranking/skill images for %s' % character.RawName
         parser = beautifulsoup_helper.getParserForUrl(OTHER_BASE_URL + '%s' % character.RawName)
         character.mergeCharacterDetailFromFamitsu(parser)
 
@@ -179,7 +180,7 @@ def translateCharacters(characters, language):
             result = service.translations().list(source=SOURCE_LANGUAGE, target=TARGET_LANGUAGE,q=rawPayload).execute()
 
         translatedResult = result['translations'][0]['translatedText'].encode('utf-8')
-        translatedParts = translatedResult.split('##')
+        translatedParts = translatedResult.replace(' # # ', '##').replace(' # #','##').replace('# # ', '##').replace('# #', '##').split('##')
 
         #Now we have the appropriate text, time to map it back onto the character model
         translatedPassives = []

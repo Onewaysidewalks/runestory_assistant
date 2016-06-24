@@ -478,6 +478,11 @@ class Character(object):
         #1) skill images
         #2) rankings
 
+        #First we check for a 404 like page. This is known by the title of the page being "Pages"
+        if htmlElement.find('title').text and 'Pages' in htmlElement.find('title').text:
+            print "unable to find famitsu page for %s: %s" % (self.Id, str(self.RawName))
+            return
+
         #search for all images, then filter by src/alt of image
         skillImages = []
         imageElements = htmlElement.find_all('img')
@@ -500,19 +505,45 @@ class Character(object):
             self.ActionSkill2Image = skillImages[1]
 
 
-        #search for all spans (ouch), then find the first one that has this EXACT style
-        #god i hate this, is there something more precise AND flexible?
-        spans = htmlElement.find_all('span', {'style': 'font-size:16px;display:inline-block;line-height:130%;text-indent:0px'})
+        #to get ranking, we find all divs with class ie5, and iterate their tables looking for a small enough cell
+        divs = htmlElement.find_all('div', {'class': 'ie5'})
 
-        if spans and len(spans) > 0:
-            for span in spans:
-                if len(span.text) <= 3:
-                    print 'Setting rank %s' % span.text
-                    self.JpRanking = span.text
-                    break
+        for characterRankDiv in divs:
+            foundRank = False
+            #now that we have the div, we iterate its tables looking for a 3 or less character table cell. Should one exist, we assume thats the rank!
+            for tableCell in characterRankDiv.find_all('td'):
+                if tableCell.text and len(tableCell.text) <= 3 and any(rank in tableCell.text for rank in [ 'S', 'A', 'B', 'C', 'D']):
+                    self.JpRanking = tableCell.text
+                    print 'Setting rank %s' % self.JpRanking
+                    foundRank = True
+                    break #we assum that the first td of that length is the only one that could have a grade, so we stop at that point
+            if foundRank:
+                break; #we are done
+
+
+        # h3s = htmlElement.find_all('h3')
+        #
+        # for h3 in h3s:
+        #     if h3.string and "App" in h3.string:
+        #         print 'found app header, pulling rank from subsequent div'
+        #         h3Index = htmlElement.findAll().index(h3)
+        #         print 'h3 index %s' % h3Index
+        #         containingDiv = htmlElement.findAll()[h3Index + 1]
+        #
+        #         if containingDiv:
+        #             print 'found containing div, pulling rank from first td in div'
+        #             possibleRank = containingDiv.find('td').text
+        #
+        #             if len(possibleRank) > 3: #we assume in this case, that there is no ranking for the character
+        #                 print 'Invalid ranking found for id:%s, raw name: %s' % (self.Id, str(self.RawName))
+        #             else:
+        #                 self.JpRanking = possibleRank
+        #                 print 'Setting rank %s' % self.JpRanking
+        #
+        #             break #we know that the first app is the only one that could have a grade, so we stop at that point
 
         if not hasattr(self, 'JpRanking'):
-            print 'No ranking found for id: %s' % self.Id
+            print 'No ranking found for id: %s, raw name: %s' % (self.Id, str(self.RawName))
 
         return
 
