@@ -39,7 +39,7 @@ def pullImages(data):
 
 def resizeImages(fileNames):
 
-    fileNames.append('%s10000.png' % RAW_IMAGE_OUTPUT_LOCATION) #mage leah
+    fileNames.append('10000.png') #mage leah
 
     for fileName in fileNames:
         with open('%s%s' % (RAW_IMAGE_OUTPUT_LOCATION, fileName), 'r+b') as f:
