@@ -1,1 +1,38 @@
-<div>TODO</div>
+<div>
+  <div class="modal-header" style="text-align:center">
+      <h3 class="modal-title"><img src="{{::weapon.ImageUrl != null ? weapon.ImageUrl : 'http://s.shironeko.me/img/weapon/s/' + weapon.Id}}"/>
+  </div>
+  <div class="modal-header">
+      <h3 class="modal-title"><span>{{::weapon['Name']}} ({{::weapon['RawName']}} {{::weapon['Id']}})</span></h3>
+  </div>
+  <div class="modal-body">
+      <ul>
+          <li>
+            ATK: {{::weapon['Attack']}}
+          </li>
+          <li>
+            DEF: {{::weapon['Defense']}}
+          </li>
+          <li>
+            CRIT: {{::weapon['Crit']}}
+          </li>
+          <li>
+            Passives:
+              <ul>
+                <li ng-repeat="passive in weapon['Passives'] track by $index"> {{passive}} </li>
+              </ul>
+          </li>
+          <li ng-show="weapon.WeaponSkillName">
+            <div>Skill: {{::weapon['WeaponSkillName']}}  {{::weapon['WeaponSkillRawName']}}</div>
+            <div ng-show="weapon.WeaponSkillSummary">Summary: {{::weapon['WeaponSkillSummary']}}</div>
+            <div ng-show="weapon.WeaponSkillSpCost">SP Cost: {{::weapon['WeaponSkillSpCost']}}</div>
+            <div ng-show="weapon.WeaponSkillDescription">Description: {{::weapon['WeaponSkillDescription']}}</div>
+            <div ng-show="weapon.WeaponSkillBaseMagnification">Damage magnification: {{::weapon['WeaponSkillBaseMagnification']}}</div>
+            <div ng-show="weapon.WeaponSkillElementMagnification">Addtional magnification: {{::weapon['WeaponSkillElementMagnification']}}</div>
+          </li>
+      </ul>
+  </div>
+  <div class="modal-footer">
+      <button class="btn btn-warning" type="button" ng-click="close()">close</button>
+  </div>
+</div>

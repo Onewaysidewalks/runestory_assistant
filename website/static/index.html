@@ -17,13 +17,13 @@
   <body>
 
     <img src=/static/images.png ng-hide="true"/> <!-- Cheap dirty trick to get image.png to load as soon as page renders, instead of after API call-->
-    <div class="container" ng-show="$root.isLoaded == false">
+    <div class="container" ng-show="$root.isLoaded == false"> <!--Simple Loading Message -->
       <div style="text-align:center;font-size:2em">
         <span>please be patient while we get things ready for you!</span> <i class="fa fa-cog fa-spin"></i>
       </div>
     </div>
     <div ng-controller="MainCtrl" class="container" ng-show="$root.isLoaded">
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-fixed-top"> <!-- Navigation Bar (tab view) -->
         <div class="container">
           <!-- <div class="navbar-header">Runestory Assistant</div> --> <!--TODO: Figure out header -->
           <div id="navbar" class="navbar-collapse collapse">
@@ -101,26 +101,33 @@
         <!-- Current Weapon Summons -->
         <div class="container">
           <div class="row home_table_header">
-            <div class="col-xs-2 weapon_header">
-              Weapon Forge
+            <div class="col-xs-1 weapon_header">
+              Name
             </div>
-            <div class="col-xs-2 weapon_header">
+            <div class="col-xs-1 weapon_header">
               Character
             </div>
-            <div class="col-xs-1 weapon_header stat_atk">
-              ATK
+            <div class="col-xs-1 weapon_header">
             </div>
-            <div class="col-xs-1 weapon_header stat_def">
-              DEF
-            </div>
-            <div class="col-xs-1 weapon_header stat_crit">
-              CRIT
+            <div class="col-xs-2 weapon_header">
+              <div class="stat_atk" style="display: inline">
+                ATK/
+              </div>
+              <div class="stat_def" style="display: inline">
+                DEF/
+              </div>
+              <div class="stat_crit" style="display: inline">
+                CRIT
+              </div>
             </div>
             <div class="col-xs-1 weapon_header">
               Effect
             </div>
             <div class="col-xs-1 weapon_header">
               Attribute
+            </div>
+            <div class="col-xs-1 weapon_header">
+              Skill
             </div>
             <div class="col-xs-3 weapon_header">
               Passives
@@ -241,26 +248,33 @@
           <hr />
           <div class="container">
             <div class="row weapon_headers">
-              <div class="col-xs-2 weapon_header">
+              <div class="col-xs-1 weapon_header">
                 Name
               </div>
-              <div class="col-xs-2 weapon_header">
+              <div class="col-xs-1 weapon_header">
                 Character
               </div>
-              <div class="col-xs-1 weapon_header stat_atk">
-                ATK
+              <div class="col-xs-1 weapon_header">
               </div>
-              <div class="col-xs-1 weapon_header stat_def">
-                DEF
-              </div>
-              <div class="col-xs-1 weapon_header stat_crit">
-                CRIT
+              <div class="col-xs-2 weapon_header">
+                <span class="stat_atk" style="display: inline">
+                  ATK/
+                </span>
+                <span class="stat_def" style="display: inline">
+                  DEF/
+                </span>
+                <span class="stat_crit" style="display: inline">
+                  CRIT
+                </span>
               </div>
               <div class="col-xs-1 weapon_header">
                 Effect
               </div>
               <div class="col-xs-1 weapon_header">
                 Attribute
+              </div>
+              <div class="col-xs-1 weapon_header">
+                Skill
               </div>
               <div class="col-xs-3 weapon_header">
                 Passives

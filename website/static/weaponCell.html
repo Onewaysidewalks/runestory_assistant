@@ -1,24 +1,34 @@
-<div title="c:{{::weapon.OwnerId}} w:{{::weapon.Id}}" class="weapon_item col-xs-2" ng-click="weapon.popupWeapon(weapon)" >
+<div title="c:{{::weapon.OwnerId}} w:{{::weapon.Id}}" class="weapon_item col-xs-1" ng-click="popupWeapon(weapon)" >
   {{::weapon.Name}}
 </div>
-<div class="col-xs-2">
+<div class="col-xs-1">
   <!-- <img src="{{weapon.CharacterIconUrl}}" class="rs_character" ng-click="popupCharacter(weapon.OwnerId)" /> -->
   <div class="rs_character sprite-images-{{weapon.OwnerId}}" ng-click="popupCharacter(weapon.OwnerId)"></div>
 </div>
-<div class="col-xs-1 stat_atk">
-  {{::weapon.Attack}}
+<div class="col-xs-1">
+  <img src="{{weapon.ImageUrl}}" class="rs_character" ng-click="popupWeapon(weapon.Id)" />
 </div>
-<div class="col-xs-1 stat_def">
-  {{::weapon.Defense}}
-</div>
-<div class="col-xs-1 stat_crit">
-  {{::weapon.Crit}}
+<div class="col-xs-2 stats" style="text-align: center">
+  <div class="stat_atk" style="display: inline">
+    {{::weapon.Attack}}/
+  </div>
+  <div class="stat_def" style="display: inline">
+    {{::weapon.Defense}}/
+  </div>
+  <div class="stat_crit" style="display: inline">
+    {{::weapon.Crit}}
+  </div>
 </div>
 <div class="col-xs-1">
   {{::weapon.Effect}}
 </div>
 <div class="col-xs-1">
   {{::weapon.Attribute}}
+</div>
+<div class="col-xs-1">
+  <div> <!-- Weapon Skill-->
+    <a href="#" ng-show="weapon.WeaponSkillName">{{::weapon.WeaponSkillName}}</a>
+  </div>
 </div>
 <div class="col-xs-3">
   <ul>

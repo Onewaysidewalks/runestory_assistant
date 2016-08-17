@@ -141,6 +141,20 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
     }
   }
 
+  $scope.popupWeapon = function(weaponId) {
+    for (key in $scope.weapons) {
+      if ($scope.weapons.hasOwnProperty(key)) {
+        for (var i=0; i<$scope.weapons[key].length;i++) {
+          var weapon = $scope.weapons[key][i]
+          if (weapon && weapon.Id == weaponId) {
+            $scope.selectedWep = weapon
+            $scope.openWeapon()
+          }
+        }
+      }
+    }
+  }
+
   $http.get('api/data.json').
     success(function(data, status, headers, config) {
       $log.info('successful pull of data')
@@ -269,7 +283,7 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
       controller: 'WeaponModalInstanceCtrl',
       size: 'lg',
       resolve: {
-        character: function () {
+        weapon: function () {
           return $scope.selectedWep;
         }
       }
@@ -281,7 +295,6 @@ angular.module('app').controller('MainCtrl', function ($scope, $http, $uibModal,
       //on close event
     });
   }
-
 })
 .directive('characterItem', function() {
   return {
