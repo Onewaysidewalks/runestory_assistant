@@ -25,11 +25,6 @@
 <div class="col-xs-1">
   {{::weapon.Attribute}}
 </div>
-<div class="col-xs-1">
-  <div> <!-- Weapon Skill-->
-    <a href="#" ng-show="weapon.WeaponSkillName">{{::weapon.WeaponSkillName}}</a>
-  </div>
-</div>
 <div class="col-xs-3">
   <ul>
     <li ng-repeat="passive in weapon.Passives track by $index">
