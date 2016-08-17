@@ -1856,7 +1856,7 @@ Characters:
       MotifWeaponId: '1328'
       MotifWeaponName: Shin Shining Whisper
       MotifWeaponUrl: !!python/unicode '/weapon?id=1328'
-      Name: Zerokisu (hot spring)
+      Name: Zerokiss (Hot Spring)
       Passives:
       - attack speed +30%
       - HP10% or more in the immediate death avoided
@@ -4671,7 +4671,7 @@ Characters:
       MotifWeaponId: '1313'
       MotifWeaponName: Shin Happy Lucky Chance
       MotifWeaponUrl: !!python/unicode '/weapon?id=1313'
-      Name: Onsen Mar
+      Name: Maire (Hot Spring)
       Passives:
       - SP consumption -15%
       - HP50% or more in the attack, the attack rate of 30% Enhanced
@@ -6948,7 +6948,7 @@ Characters:
       MotifWeaponId: '1316'
       MotifWeaponName: Shin HanaSoken &lt;five light&gt;
       MotifWeaponUrl: !!python/unicode '/weapon?id=1316'
-      Name: Carolyn (hot spring)
+      Name: Carol (Hot Spring)
       Passives:
       - attack +15%
       - SP + 15%
@@ -10501,7 +10501,7 @@ Characters:
       MotifWeaponId: '1320'
       MotifWeaponName: Shin slash of DOUJI
       MotifWeaponUrl: !!python/unicode '/weapon?id=1320'
-      Name: Shanaou (hot spring)
+      Name: Shanao (Hot Spring)
       Passives:
       - attack +15%
       - enemy when defeated in HP5% recovery
@@ -14513,7 +14513,7 @@ Characters:
       MotifWeaponId: '1334'
       MotifWeaponName: Shin Mugen Awakage
       MotifWeaponUrl: !!python/unicode '/weapon?id=1334'
-      Name: Kisaragi (hot spring)
+      Name: Kisaragi (Hot Spring)
       Passives:
       - SP + 15%
       - attack +15%
@@ -19262,7 +19262,7 @@ Characters:
       MotifWeaponId: '1321'
       MotifWeaponName: Shin Mine La ring Grace
       MotifWeaponUrl: !!python/unicode '/weapon?id=1321'
-      Name: Kurusha (hot spring)
+      Name: Crucia (Hot Spring)
       Passives:
       - instant death avoided by HP10% more than
       - attack speed +30%
@@ -23145,7 +23145,7 @@ Characters:
       MotifWeaponId: '1325'
       MotifWeaponName: Shin Jigami conceived Shi Mikohana
       MotifWeaponUrl: !!python/unicode '/weapon?id=1325'
-      Name: Furoria (hot spring)
+      Name: Floria (Hot Spring)
       Passives:
       - Action Skills Enhancement +15%
       - instant death avoided by HP10% more than
@@ -27054,7 +27054,7 @@ Characters:
       MotifWeaponId: '1331'
       MotifWeaponName: Shin rock-paper-scissors ball Ron
       MotifWeaponUrl: !!python/unicode '/weapon?id=1331'
-      Name: Liese Lotte (hot spring)
+      Name: Liselotte (Hot Spring)
       Passives:
       - attack +15%
       - attack +15%
@@ -29327,35 +29327,23 @@ Characters:
       TypeId: 2
 Current:
   Characters:
-  - '261'
-  - '219'
-  - '257'
-  - '218'
-  - '255'
-  - '217'
-  - '258'
-  - '222'
-  - '220'
-  - '260'
-  - '259'
-  - '221'
-  - '223'
-  - '256'
+  - '288'
+  - '291'
+  - '294'
+  - '289'
+  - '293'
+  - '295'
+  - '292'
+  - '290'
   Weapons:
-  - '1184'
-  - '999'
-  - '1190'
-  - '1011'
-  - '1175'
-  - '1008'
-  - '1180'
-  - '1020'
-  - '1017'
-  - '1172'
-  - '1181'
-  - '1014'
-  - '1023'
-  - '1187'
+  - '1313'
+  - '1328'
+  - '1316'
+  - '1325'
+  - '1320'
+  - '1334'
+  - '1321'
+  - '1331'
 Weapons:
   Brawler:
     '1011': !!python/object:models.Weapon

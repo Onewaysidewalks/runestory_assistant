@@ -1,37 +1,27 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
-  Characters:
-    - '261' # Hina
-    - '219' #Summer Inhelmina
-    - '257' #Daryl
-    - '218' #summer kasumi
-    - '255' #arturo
-    - '217' #Summer Raven
-    - '258' #Linbelle
-    - '222' #Summer Koyomi
-    - '220' #Summer Edgardo
-    - '260' #Theresa
-    - '259' #Aurelia
-    - '221' #Summer Liam
-    - '223' #Summer Selina
-    - '256' #Decora and Bokora
+  Characters: #DR Maire, Brawler Zerokiss, DB Carol, Floria Archer, Fencer Shanao, Lancer Kisaragi, Crucia mage, Warrior Liselotte
+    - '288'
+    - '291'
+    - '294'
+    - '289'
+    - '293'
+    - '295'
+    - '292'
+    - '290'
   Weapons:
-    - '1184' # Hina Wep
-    - '999' #Summer Inhelmina Wep
-    - '1190' #daryl wep
-    - '1011' #summer kasumi
-    - '1175' #arturo
-    - '1008' #Summer Raven
-    - '1180' #Linbelle
-    - '1020' #Summer Koyomi
-    - '1017' #Summer Edgardo
-    - '1172' #Theresa
-    - '1181' #Aurelia
-    - '1014' #Summer Liam
-    - '1023' #Summer Selina
-    - '1187' #Decora and Bokora
+    - '1313'
+    - '1328'
+    - '1316'
+    - '1325'
+    - '1320'
+    - '1334'
+    - '1321'
+    - '1331'
 
 Characters:
   Brawler:
+    '291':
+      Name: Zerokiss (Hot Spring)
     '218':
       Name: Summer Kasumi
     '257':
@@ -45,6 +35,8 @@ Characters:
     '191':
       Name: Benkei
   Fencer:
+    '293':
+      Name: Shanao (Hot Spring)
     '217':
       Name: Summer Raven
     '255':
@@ -60,6 +52,8 @@ Characters:
     '171':
       Name: Kirala
   Lancer:
+    '295':
+      Name: Kisaragi (Hot Spring)
     '261':
       Name: Hina
     '219':
@@ -81,6 +75,8 @@ Characters:
     '114':
       Name: Annabele (Christmas)
   Warrior:
+    '290':
+      Name: Liselotte (Hot Spring)
     '221':
       Name: Summer Liam
     '259':
@@ -98,6 +94,8 @@ Characters:
     '174':
       Name: Chi li
   Mage:
+    '292':
+      Name: Crucia (Hot Spring)
     '222':
       Name: Summer Koyomi
     '258':
@@ -175,6 +173,8 @@ Characters:
     '122':
       Name: Jinxie Lumin (New Years)
   Sniper:
+    '289':
+      Name: Floria (Hot Spring)
     '260':
       Name: Theresa
     '220':
@@ -188,9 +188,13 @@ Characters:
     '157':
       Name: Piesta
   Dragon Rider:
+    '288':
+      Name: Maire (Hot Spring)
     '226':
       Name: Excellia
   Dual Saber:
+    '294':
+      Name: Carol (Hot Spring)
     '256':
       Name: Decora and Bokora
     '223':
