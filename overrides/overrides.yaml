@@ -17,6 +17,14 @@ Current: #represents whats currently available for summoning. should only be ids
     - '1334'
     - '1321'
     - '1331'
+    - '1339' #obsidian weapons
+    - '1341'
+    - '1336'
+    - '1337'
+    - '1342'
+    - '1340'
+    - '1338'
+    - '1335'
 
 Characters:
   Brawler:
@@ -209,7 +217,37 @@ Characters:
       Name: Rai Rai
 
 Weapons:
+  Lancer:
+    '1339':
+      Name: Rising Trident
+      WeaponSkillName: 'Bonds of Belief'
+      Passives:
+        - 'Speed +15%'
+        - '3% SP per class type in party'
+        - '+2sp when taking damage'
+  Brawler:
+    '1341':
+      Name: Obsidian Fists
+      WeaponSkillName: Extreme Hell Fire
+      Passives:
+        - 'Atk + 100% while burned'
+        - 'Boost Action Skills +5%'
+  Fencer:
+    '1336':
+      Name: Obsidian Sword
+      WeaponSkillName: Brand Of Chaos
+      Passives:
+        - 'Counter Rush Health Drain'
+        - 'Boost Action Skills +5%'
+        - 'Resist Freeze'
   Mage:
+    '1337':
+      Name: Obsidian Sceptre
+      WeaponSkillName: Demon Vanguard
+      Passives:
+        - 'Buff Extend +5 seconds'
+        - 'SP Cost -5%'
+        - 'Resist Burn'
     '10000':
       Attack: '115'
       CharacterIconUrl: http://s.shironeko.me/img/character/s/222
@@ -226,3 +264,32 @@ Weapons:
       - 'Shared Power - 10% Damage Buff for Party (30 seconds)'
       - ATK +10%
       - Boost Action Skills +5%
+  Sniper:
+    '1342':
+      Name: Obsidian Hellhound
+      WeaponSkillName: Black Fang
+      Passives:
+        - 'Charged Skill Boost + 20%'
+        - 'No Fatal Blows at HP > 30%'
+      WeaponSkillName: Black Fang
+  Warrior:
+    '1340':
+      Name: Obsidian Warhammer
+      WeaponSkillName: Dark Mirage
+      Passives:
+        - 'Attack + 100% when Weakened'
+        - 'Resist Damage -5%'
+  Dual Saber:
+    '1338':
+      Name: Obsidian Scissors
+      Passives:
+        - 'Slow Buster 50%'
+        - 'Dark Buster 50%'
+      WeaponSkillName: Shadow Grudge
+  Dragon Rider:
+    '1335':
+      Name: Obsidian Dragon Spear
+      WeaponSkillName: Thunderclap Wave
+      Passives:
+        - 'Boost Action Skills +5%'
+        - 'SP Cost -5%'

@@ -29344,6 +29344,14 @@ Current:
   - '1334'
   - '1321'
   - '1331'
+  - '1339'
+  - '1341'
+  - '1336'
+  - '1337'
+  - '1342'
+  - '1340'
+  - '1338'
+  - '1335'
 Weapons:
   Brawler:
     '1011': !!python/object:models.Weapon
@@ -29676,17 +29684,17 @@ Weapons:
       Id: '1341'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1341'
       IngestionUrl: !!python/unicode '/weapon?id=1341'
-      Name: Shin Shutsuki of Makobushi
+      Name: Obsidian Fists
       Passives:
-      - attack 100% strengthening at the time of combustion
-      - action Skills Enhancement +5%
+      - Atk + 100% while burned
+      - Boost Action Skills +5%
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・朱月の真拳'
       WeaponSkillBaseMagnification: null
       WeaponSkillDescription: itself in combustion (3 seconds 3% damage of HP, 30
         seconds)
       WeaponSkillElementMagnification: null
-      WeaponSkillName: Fire
+      WeaponSkillName: Extreme Hell Fire
       WeaponSkillRawName: !!python/str '業火の極'
       WeaponSkillSpCost: '1'
       WeaponSkillSummary: itself to the combustion state in each. Very
@@ -31115,17 +31123,17 @@ Weapons:
       Id: '1335'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1335'
       IngestionUrl: !!python/unicode '/weapon?id=1335'
-      Name: dark dragon
+      Name: Obsidian Dragon Spear
       Passives:
-      - action Skills Enhancement +5% of Shin referee
-      - SP consumption -5%
+      - Boost Action Skills +5%
+      - SP Cost -5%
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・審判の滅龍'
       WeaponSkillBaseMagnification: about 1.1 times
       WeaponSkillDescription: around attack 1hit + action skill damage 50% UP buff
         (30 seconds)
       WeaponSkillElementMagnification: null
-      WeaponSkillName: !!python/str 'thunderclap 咬波'
+      WeaponSkillName: Thunderclap Wave
       WeaponSkillRawName: !!python/str '迅雷咬波'
       WeaponSkillSpCost: '19'
       WeaponSkillSummary: ''
@@ -31742,16 +31750,16 @@ Weapons:
       Id: '1338'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1338'
       IngestionUrl: !!python/unicode '/weapon?id=1338'
-      Name: !!python/str 'Shin Ryuri of Ma鋏'
+      Name: Obsidian Scissors
       Passives:
-      - Empower +50% of the enemy of the slow state
-      - Empower +50% of the enemy of darkness state
+      - Slow Buster 50%
+      - Dark Buster 50%
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・流離の魔鋏'
       WeaponSkillBaseMagnification: about 4.0 times
       WeaponSkillDescription: tracking ghost bullets x2 (slow, dark) damage to
       WeaponSkillElementMagnification: null
-      WeaponSkillName: !!python/str 'shadow of Kyo怨'
+      WeaponSkillName: Shadow Grudge
       WeaponSkillRawName: !!python/str '狂怨の影'
       WeaponSkillSpCost: '24'
       WeaponSkillSummary: enemy, there be further to slow state and the dark state.
@@ -32894,18 +32902,18 @@ Weapons:
       Id: '1336'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1336'
       IngestionUrl: !!python/unicode '/weapon?id=1336'
-      Name: 15 of Shin scourge of consideration
+      Name: Obsidian Sword
       Passives:
-      - +5% strength absorption
-      - action Skills Enhancement at the counter slash
-      - freeze invalid
+      - Counter Rush Health Drain
+      - Boost Action Skills +5%
+      - Resist Freeze
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・惨劇の対価'
       WeaponSkillBaseMagnification: null
       WeaponSkillDescription: itself to damage (maximum HP %) + attack 50% uP buff
         (25 seconds) damage to
       WeaponSkillElementMagnification: null
-      WeaponSkillName: chaos of stigma
+      WeaponSkillName: Brand Of Chaos
       WeaponSkillRawName: !!python/str '混沌の烙印'
       WeaponSkillSpCost: '1'
       WeaponSkillSummary: own, a certain period of time attacking force is pretty
@@ -34553,17 +34561,18 @@ Weapons:
       Id: '1339'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1339'
       IngestionUrl: !!python/unicode '/weapon?id=1339'
-      Name: trigeminal
+      Name: Rising Trident
       Passives:
-      - !!python/str 'party of different weapons species × SP3% strengthening'
-      - the damage at the time SP2 recovery
+      - Speed +15%
+      - 3% SP per class type in party
+      - +2sp when taking damage
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・心塊の三叉'
       WeaponSkillBaseMagnification: null
       WeaponSkillDescription: !!python/str 'attack speed 50% uP field (buff 15 seconds,
         field 15 seconds) ※ the other attack speed buff overwrite'
       WeaponSkillElementMagnification: null
-      WeaponSkillName: ties of belief
+      WeaponSkillName: Bonds of Belief
       WeaponSkillRawName: !!python/str '信念の絆'
       WeaponSkillSpCost: '29'
       WeaponSkillSummary: up the attack rate for a certain period of time myself and
@@ -36253,11 +36262,11 @@ Weapons:
       Id: '1337'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1337'
       IngestionUrl: !!python/unicode '/weapon?id=1337'
-      Name: Shin Togachi upheavals
+      Name: Obsidian Sceptre
       Passives:
-      - strengthening skills extension +5 seconds
-      - SP consumption -5% of
-      - combustion invalid
+      - Buff Extend +5 seconds
+      - SP Cost -5%
+      - Resist Burn
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・咎血の動乱'
       WeaponSkillBaseMagnification: null
@@ -36265,7 +36274,7 @@ Weapons:
         itself to poison (20 damage, every 2 seconds / 30 times) ※ buff time can be
         deactivated the poison in the auto skills of AS included ※ poison invalid'
       WeaponSkillElementMagnification: null
-      WeaponSkillName: Maen of leader
+      WeaponSkillName: Demon Vanguard
       WeaponSkillRawName: !!python/str '魔宴の先導者'
       WeaponSkillSpCost: '28'
       WeaponSkillSummary: ''
@@ -37940,17 +37949,17 @@ Weapons:
       Id: '1342'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1342'
       IngestionUrl: !!python/unicode '/weapon?id=1342'
-      Name: work of God Shin Yokoshimasurudo installed (dog bow)
+      Name: Obsidian Hellhound
       Passives:
-      - killed instantly avoid
-      - HP30% or more (HP30 recovery, 3 seconds each / 30 seconds)
+      - Charged Skill Boost + 20%
+      - No Fatal Blows at HP > 30%
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・邪鋭の業神(犬弓)'
       WeaponSkillBaseMagnification: null
       WeaponSkillDescription: HP recovery field in charge at the time the action Skills
         Enhancement +20%
       WeaponSkillElementMagnification: null
-      WeaponSkillName: Black Sunday
+      WeaponSkillName: Black Fang
       WeaponSkillRawName: !!python/str '黒曜の牙'
       WeaponSkillSpCost: '34'
       WeaponSkillSummary: to recover hit points and are close to the dog. Fang
@@ -39516,10 +39525,10 @@ Weapons:
       Id: '1340'
       ImageUrl: !!python/unicode 'http://s.shironeko.me/img/weapon/s/1340'
       IngestionUrl: !!python/unicode '/weapon?id=1340'
-      Name: Shin Hades of Kamitsuchi
+      Name: Obsidian Warhammer
       Passives:
-      - attack 100% strengthening
-      - the damage -5% at the time of weakness
+      - Attack + 100% when Weakened
+      - Resist Damage -5%
       Rarity: !!python/str '★5'
       RawName: !!python/str '真・冥王の神鎚'
       WeaponSkillBaseMagnification: about 3.0 times
@@ -39527,7 +39536,7 @@ Weapons:
         total damage, 15 seconds) + debilitating state (SP-8,30 seconds every 2 seconds)
         damage to
       WeaponSkillElementMagnification: null
-      WeaponSkillName: darkness of the mirage
+      WeaponSkillName: Dark Mirage
       WeaponSkillRawName: !!python/str '闇の蜃気楼'
       WeaponSkillSpCost: '15'
       WeaponSkillSummary: enemy, but give the effect of depriving the physical strength
