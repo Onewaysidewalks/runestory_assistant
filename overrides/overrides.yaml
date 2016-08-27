@@ -1,13 +1,15 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters: #DR Maire, Brawler Zerokiss, DB Carol, Floria Archer, Fencer Shanao, Lancer Kisaragi, Crucia mage, Warrior Liselotte
-    - '288'
-    - '291'
-    - '294'
-    - '289'
-    - '293'
-    - '295'
-    - '292'
-    - '290'
+    - '304'
+    - '310'
+    - '309'
+    - '303'
+    - '306'
+    - '308'
+    - '307'
+    - '305'
+    - '315'
+    - '316'
   Weapons:
     - '1313'
     - '1328'
@@ -28,6 +30,10 @@ Current: #represents whats currently available for summoning. should only be ids
 
 Characters:
   Brawler:
+    '315':
+      Name: Loussier
+    '304':
+      Name: Xmas Fran
     '291':
       Name: Zerokiss (Hot Spring)
     '218':
@@ -60,6 +66,8 @@ Characters:
     '171':
       Name: Kirala
   Lancer:
+    '306':
+      Name: Xmas Mercurio
     '295':
       Name: Kisaragi (Hot Spring)
     '261':
@@ -201,6 +209,8 @@ Characters:
     '226':
       Name: Excellia
   Dual Saber:
+    '309':
+      Name: Xmas Etheria
     '294':
       Name: Carol (Hot Spring)
     '256':
