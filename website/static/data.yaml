@@ -1990,7 +1990,7 @@ Characters:
       MotifWeaponId: '1372'
       MotifWeaponName: Shin Elegant Shirayuki
       MotifWeaponUrl: !!python/unicode '/weapon?id=1372'
-      Name: Xmas franc
+      Name: Xmas Fran
       Passives:
       - movement speed +50%
       - SP consumption -15%
@@ -2061,7 +2061,7 @@ Characters:
       MotifWeaponId: '1375'
       MotifWeaponName: Shin Genie device &lt;Alastor&gt;
       MotifWeaponUrl: !!python/unicode '/weapon?id=1375'
-      Name: Ruushe
+      Name: Loussier
       Passives:
       - +50% movement speed
       - the damage -15%
@@ -7018,7 +7018,7 @@ Characters:
       MotifWeaponId: '1362'
       MotifWeaponName: Shin Royal emblem
       MotifWeaponUrl: !!python/unicode '/weapon?id=1362'
-      Name: Xmas Eshiria
+      Name: Xmas Etheria
       Passives:
       - SP consumption -15%
       - grant a lightning weapon counter edge success at the next fixed time
@@ -14649,7 +14649,7 @@ Characters:
       MotifWeaponId: '1369'
       MotifWeaponName: Shin Yokoshimayari Sanguisu-Telos
       MotifWeaponUrl: !!python/unicode '/weapon?id=1369'
-      Name: Xmas Merukurio
+      Name: Xmas Mercurio
       Passives:
       - Empower +100%
       - Action Skills Enhancement +20%
@@ -29327,14 +29327,16 @@ Characters:
       TypeId: 2
 Current:
   Characters:
-  - '288'
-  - '291'
-  - '294'
-  - '289'
-  - '293'
-  - '295'
-  - '292'
-  - '290'
+  - '304'
+  - '310'
+  - '309'
+  - '303'
+  - '306'
+  - '308'
+  - '307'
+  - '305'
+  - '315'
+  - '316'
   Weapons:
   - '1313'
   - '1328'
