@@ -11,22 +11,14 @@ Current: #represents whats currently available for summoning. should only be ids
     - '315'
     - '316'
   Weapons:
-    - '1313'
-    - '1328'
-    - '1316'
-    - '1325'
-    - '1320'
-    - '1334'
-    - '1321'
-    - '1331'
-    - '1339' #obsidian weapons
-    - '1341'
-    - '1336'
-    - '1337'
-    - '1342'
-    - '1340'
-    - '1338'
-    - '1335'
+    - '1372'
+    - '1361'
+    - '1362'
+    - '1371'
+    - '1369'
+    - '1363'
+    - '1364'
+    - '1370'
 
 Characters:
   Brawler:
