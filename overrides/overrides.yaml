@@ -1,24 +1,20 @@
 Current: #represents whats currently available for summoning. should only be ids of the weapons and characters involved
   Characters: #DR Maire, Brawler Zerokiss, DB Carol, Floria Archer, Fencer Shanao, Lancer Kisaragi, Crucia mage, Warrior Liselotte
-    - '304'
-    - '310'
-    - '309'
-    - '303'
-    - '306'
-    - '308'
-    - '307'
-    - '305'
-    - '315'
-    - '316'
+    - '322'
+    - '317'
+    - '318'
+    - '321'
+    - '324'
+    - '320'
+    - '323'
   Weapons:
-    - '1372'
-    - '1361'
-    - '1362'
-    - '1371'
-    - '1369'
-    - '1363'
-    - '1364'
-    - '1370'
+    - '1387'
+    - '1390'
+    - '1391'
+    - '1388'
+    - '1385'
+    - '1389'
+    - '1386'
 
 Characters:
   Brawler:
